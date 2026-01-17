@@ -62,7 +62,8 @@ class _TestTokenImagesBase {
 
 						const implicitTokenPath = `${this._PATH_BASE}/${ent.source}/${Parser.nameToTokenName(ent.name)}.${this._EXT}`;
 
-						if (ent.hasToken) this._expectedFromHashToken[implicitTokenPath] = true;
+						// Custom tokens don't have files in the standard token directory
+						if (ent.hasToken && !ent.tokenCustom) this._expectedFromHashToken[implicitTokenPath] = true;
 
 						if (ent.token) {
 							const explicitTokenUrl = Renderer[this._PROP].getTokenUrl(ent);
