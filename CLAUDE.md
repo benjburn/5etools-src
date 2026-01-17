@@ -155,6 +155,18 @@ This project uses **bd** (beads) for issue tracking. See `AGENTS.md` for details
 - `bd show <id>` - View issue details
 - `bd close <id>` - Complete work
 
+## Technical Documentation
+
+Detailed technical documentation for core systems is available in the `docs/` directory:
+- **[docs/tags.md](docs/tags.md)** - Tag processing and rendering system
+- **[docs/coordination.md](docs/coordination.md)** - Main coordination architecture
+- **[docs/data-validation.md](docs/data-validation.md)** - Data integrity validation
+- **[docs/cross-source.md](docs/cross-source.md)** - Cross-source references
+- **[docs/images.md](docs/images.md)** - Image reference system
+- **[docs/fluff.md](docs/fluff.md)** - Fluff/narrative content
+
+See [docs/README.md](docs/README.md) for the full documentation index.
+
 ## Python tooling policy
 
 For all Python work in this repository:
