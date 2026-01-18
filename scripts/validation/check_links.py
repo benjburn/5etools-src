@@ -49,16 +49,66 @@ class LinkChecker:
         self.cross_source_links: List[Dict[str, Any]] = []
         self.total_links_checked = 0
 
+    def _is_source_based_structure(self) -> bool:
+        """Определяет, является ли структура source-based (data_rework) или content-based (data)."""
+        # Проверяем наличие source-based индикаторов
+        # data_rework/PHB/data/*.json
+        has_source_subdirs = False
+
+        for entry in self.data_dir.iterdir():
+            if not entry.is_dir():
+                continue
+
+            # Пропускаем служебные директории
+            if entry.name.startswith('.') or entry.name in ['__pycache__', 'generated']:
+                continue
+
+            # Проверяем наличие data/ поддиректории
+            data_subdir = entry / "data"
+            if data_subdir.exists() and data_subdir.is_dir():
+                has_source_subdirs = True
+                break
+
+        return has_source_subdirs
+
     def load_all_data(self) -> None:
-        """Загружает все JSON файлы из директории data/."""
+        """Загружает все JSON файлы из директории data/ или data_rework/."""
         print("Загрузка JSON данных...", file=sys.stderr)
 
-        # Загружаем основные файлы (не из generated/)
-        json_files = list(self.data_dir.glob("*.json"))
-        json_files.extend(self.data_dir.glob("*/*.json"))
+        # Определяем структуру: source-based (data_rework) или content-based (data)
+        is_source_based = self._is_source_based_structure()
 
-        # Исключаем generated директорию
-        json_files = [f for f in json_files if "generated" not in str(f)]
+        json_files = []
+
+        if is_source_based:
+            # Source-based структура: data_rework/PHB/data/*.json
+            print("Обнаружена source-based структура (data_rework/)", file=sys.stderr)
+            for source_dir in self.data_dir.iterdir():
+                if not source_dir.is_dir():
+                    continue
+
+                data_subdir = source_dir / "data"
+                if not data_subdir.exists():
+                    continue
+
+                # Основные JSON файлы
+                json_files.extend(data_subdir.glob("*.json"))
+
+                # Поддиректории (bestiary/, class/, adventure/, book/)
+                json_files.extend(data_subdir.glob("bestiary/*.json"))
+                json_files.extend(data_subdir.glob("class/*.json"))
+                json_files.extend(data_subdir.glob("adventure/*.json"))
+                json_files.extend(data_subdir.glob("book/*.json"))
+        else:
+            # Content-based структура: data/*.json, data/*/*.json
+            print("Обнаружена content-based структура (data/)", file=sys.stderr)
+            json_files = list(self.data_dir.glob("*.json"))
+            json_files.extend(self.data_dir.glob("*/*.json"))
+
+            # Исключаем generated директорию
+            json_files = [f for f in json_files if "generated" not in str(f)]
+
+        print(f"Найдено {len(json_files)} JSON файлов для обработки", file=sys.stderr)
 
         for json_file in json_files:
             try:

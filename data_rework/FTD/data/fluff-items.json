@@ -1,0 +1,24 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Dragonlance",
+			"source": "FTD",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/FTD/Dragonlance.webp"
+					},
+					"title": "By Paladine's might, a dragonlance is restored",
+					"credit": "Irina Nordsol"
+				}
+			]
+		}
+	]
+}

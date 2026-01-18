@@ -1,0 +1,23 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"objectFluff"
+		]
+	},
+	"objectFluff": [
+		{
+			"name": "Unborn Palanquin",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "objects/BMT/Unborn Palanquin.webp"
+					},
+					"credit": "Katerina Ladon"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"backgroundFluff"
+		]
+	},
+	"backgroundFluff": [
+		{
+			"name": "Gate Warden",
+			"source": "SatO",
+			"entries": [
+				"You spent a significant amount of time somewhere influenced by intense planar forces or a portal to another plane of existence, such as one of the gatetowns in the Outlands. You're accustomed to experiences that would leave others reeling in terror or enraptured by otherworldly beauty, and you're as comfortable dealing with Celestials and Fiends as you are with the vendors in town (who might be one and the same)."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "backgrounds/SatO/Planar Philosopher.webp"
+					},
+					"credit": "Robson Michel",
+					"width": 750,
+					"height": 2167
+				}
+			]
+		},
+		{
+			"name": "Planar Philosopher",
+			"source": "SatO",
+			"entries": [
+				"You subscribe to a philosophy that seeks to understand the nature of the planes or some hidden truth of the multiverse. You draw strength from your conviction and, perhaps, a network of like-minded thinkers, such as the factions of Sigil (summarized below). In your travels, you explore the depths of your understanding and spread your philosophy wherever you go."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "backgrounds/SatO/Planar Philosopher.webp"
+					},
+					"credit": "Robson Michel",
+					"width": 750,
+					"height": 2167
+				}
+			]
+		}
+	]
+}

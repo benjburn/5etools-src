@@ -26,6 +26,7 @@ from scripts.reorganize.image_copier import copy_all_images
 from scripts.reorganize.json_processor import (
     process_all_json_files,
     process_bestiary_files,
+    process_book_files,
     process_class_files,
 )
 from scripts.reorganize.pdf_copier import copy_all_pdfs
@@ -238,6 +239,14 @@ def main():
             )
             if class_counts:
                 stats.add_json_stats("class", class_counts)
+
+        book_dir = args.data_dir / "book"
+        if book_dir.exists():
+            book_counts = process_book_files(
+                book_dir, sources, args.output_dir, stats, log
+            )
+            if book_counts:
+                stats.add_json_stats("book", book_counts)
 
         # Step 2: Copy images
         log.info("=" * 60)

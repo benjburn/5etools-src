@@ -1,0 +1,3350 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"deity"
+		]
+	},
+	"deity": [
+		{
+			"name": "Aegir",
+			"source": "PHB",
+			"page": 299,
+			"pantheon": "Norse",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"title": "God of the sea and storms",
+			"domains": [
+				"Tempest"
+			],
+			"symbol": "Rough ocean waves"
+		},
+		{
+			"name": "Anubis",
+			"source": "PHB",
+			"page": 299,
+			"srd": true,
+			"additionalSources": [
+				{
+					"source": "XGE",
+					"page": 19
+				}
+			],
+			"pantheon": "Egyptian",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"title": "God of judgment and death",
+			"domains": [
+				"Death",
+				"Grave",
+				"Order"
+			],
+			"symbol": "Black jackal"
+		},
+		{
+			"name": "Apep",
+			"source": "PHB",
+			"page": 299,
+			"srd": true,
+			"pantheon": "Egyptian",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"title": "God of evil, fire, and serpents",
+			"domains": [
+				"Trickery"
+			],
+			"symbol": "Flaming snake"
+		},
+		{
+			"name": "Aphrodite",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Greek",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"title": "Goddess of love and beauty",
+			"domains": [
+				"Light"
+			],
+			"symbol": "Sea shell"
+		},
+		{
+			"name": "Apollo",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Greek",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"title": "God of light, music, and healing",
+			"domains": [
+				"Knowledge",
+				"Life",
+				"Light"
+			],
+			"symbol": "Lyre"
+		},
+		{
+			"name": "Arawai",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Eberron",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "Goddess of fertility",
+			"category": "The Sovereign Host",
+			"domains": [
+				"Life",
+				"Nature"
+			],
+			"symbol": "Sheaf of wheat tied with green ribbon"
+		},
+		{
+			"name": "Arawn",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Celtic",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"title": "God of life and death",
+			"domains": [
+				"Life",
+				"Death"
+			],
+			"symbol": "Black star on gray background"
+		},
+		{
+			"name": "Ares",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Greek",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"title": "God of war and strife",
+			"domains": [
+				"War"
+			],
+			"symbol": "Spear"
+		},
+		{
+			"name": "Artemis",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Greek",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "Goddess of hunting and childbirth",
+			"domains": [
+				"Life",
+				"Nature"
+			],
+			"symbol": "Bow and arrow on lunar disk"
+		},
+		{
+			"name": "Athena",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Greek",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "Goddess of wisdom and civilization",
+			"domains": [
+				"Knowledge",
+				"War",
+				"Order"
+			],
+			"symbol": "Owl"
+		},
+		{
+			"name": "Aureon",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Eberron",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"title": "God of law and knowledge",
+			"category": "The Sovereign Host",
+			"domains": [
+				"Knowledge",
+				"Order"
+			],
+			"symbol": "Open tome"
+		},
+		{
+			"name": "Auril",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"title": "Goddess of winter",
+			"domains": [
+				"Nature",
+				"Tempest"
+			],
+			"symbol": "Six-pointed snowflake"
+		},
+		{
+			"name": "Azuth",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"additionalSources": [
+				{
+					"source": "SCAG",
+					"page": 125
+				}
+			],
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"title": "God of wizards",
+			"domains": [
+				"Knowledge",
+				"Arcana"
+			],
+			"symbol": "Left hand pointing upward, outlined in fire"
+		},
+		{
+			"name": "Bahamut",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Nonhuman",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "Dragon god of good",
+			"domains": [
+				"Life",
+				"War"
+			],
+			"symbol": "Dragon's head in profile"
+		},
+		{
+			"name": "Balder",
+			"source": "PHB",
+			"page": 299,
+			"pantheon": "Norse",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "God of beauty and poetry",
+			"domains": [
+				"Life",
+				"Light"
+			],
+			"symbol": "Gem-encrusted silver chalice"
+		},
+		{
+			"name": "Balinor",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Eberron",
+			"alignment": [
+				"N"
+			],
+			"title": "God of beasts and the hunt",
+			"category": "The Sovereign Host",
+			"domains": [
+				"Life",
+				"Nature"
+			],
+			"symbol": "Pair of antlers"
+		},
+		{
+			"name": "Bane",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"title": "God of tyranny",
+			"domains": [
+				"War",
+				"Order"
+			],
+			"symbol": "Upright black right hand, thumb and fingers together"
+		},
+		{
+			"name": "Bast",
+			"source": "PHB",
+			"page": 299,
+			"srd": true,
+			"pantheon": "Egyptian",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"title": "Goddess of cats and vengeance",
+			"domains": [
+				"War"
+			],
+			"symbol": "Cat"
+		},
+		{
+			"name": "Belenus",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Celtic",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "God of sun, light, and warmth",
+			"domains": [
+				"Light"
+			],
+			"symbol": "Solar disk and standing stones"
+		},
+		{
+			"name": "Beory",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Greyhawk",
+			"alignment": [
+				"N"
+			],
+			"title": "Goddess of nature",
+			"domains": [
+				"Nature"
+			],
+			"symbol": "Green disk"
+		},
+		{
+			"name": "Bes",
+			"source": "PHB",
+			"page": 299,
+			"srd": true,
+			"pantheon": "Egyptian",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"title": "God of luck and music",
+			"domains": [
+				"Trickery"
+			],
+			"symbol": "Image of the misshapen deity"
+		},
+		{
+			"name": "Beshaba",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"title": "Goddess of misfortune",
+			"domains": [
+				"Trickery"
+			],
+			"symbol": "Black antlers"
+		},
+		{
+			"name": "Bhaal",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"title": "God of murder",
+			"domains": [
+				"Death"
+			],
+			"symbol": "Skull surrounded by a ring of blood droplets"
+		},
+		{
+			"name": "Blibdoolpoolp",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Nonhuman",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"title": "Kuo-toa goddess",
+			"domains": [
+				"Death"
+			],
+			"symbol": "Lobster head or black pearl"
+		},
+		{
+			"name": "Boccob",
+			"source": "PHB",
+			"page": 295,
+			"additionalSources": [
+				{
+					"source": "SCAG",
+					"page": 125
+				}
+			],
+			"pantheon": "Greyhawk",
+			"alignment": [
+				"N"
+			],
+			"title": "God of magic",
+			"domains": [
+				"Knowledge",
+				"Arcana"
+			],
+			"symbol": "Eye within a pentagram"
+		},
+		{
+			"name": "Boldrei",
+			"source": "PHB",
+			"page": 296,
+			"additionalSources": [
+				{
+					"source": "TCE",
+					"page": 33
+				},
+				{
+					"source": "TCE",
+					"page": 34
+				}
+			],
+			"pantheon": "Eberron",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "Goddess of community and home",
+			"category": "The Sovereign Host",
+			"domains": [
+				"Life",
+				"Peace",
+				"Twilight"
+			],
+			"symbol": "Fire in a stone hearth"
+		},
+		{
+			"name": "Branchala",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Dragonlance",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "God of music",
+			"category": "The Gods of Good",
+			"domains": [
+				"Light"
+			],
+			"symbol": "Bard's harp"
+		},
+		{
+			"name": "Brigantia",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Celtic",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "Goddess of rivers and livestock",
+			"domains": [
+				"Life"
+			],
+			"symbol": "Footbridge"
+		},
+		{
+			"name": "Celestian",
+			"source": "PHB",
+			"page": 295,
+			"additionalSources": [
+				{
+					"source": "TCE",
+					"page": 34
+				}
+			],
+			"pantheon": "Greyhawk",
+			"alignment": [
+				"N"
+			],
+			"title": "God of stars and wanderers",
+			"domains": [
+				"Knowledge",
+				"Twilight"
+			],
+			"symbol": "Arc of seven stars inside a circle"
+		},
+		{
+			"name": "Chauntea",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "Goddess of agriculture",
+			"domains": [
+				"Life"
+			],
+			"symbol": "Sheaf of grain or a blooming rose over grain"
+		},
+		{
+			"name": "Chemosh",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Dragonlance",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"title": "God of the undead",
+			"category": "The Gods of Evil",
+			"domains": [
+				"Death"
+			],
+			"symbol": "Yellow skull"
+		},
+		{
+			"name": "Chislev",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Dragonlance",
+			"alignment": [
+				"N"
+			],
+			"title": "Goddess of nature",
+			"category": "The Gods of Neutrality",
+			"domains": [
+				"Nature"
+			],
+			"symbol": "Feather"
+		},
+		{
+			"name": "Corellon Larethian",
+			"source": "PHB",
+			"page": 296,
+			"additionalSources": [
+				{
+					"source": "SCAG",
+					"page": 125
+				}
+			],
+			"pantheon": "Nonhuman",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"title": "Elf deity of art and magic",
+			"domains": [
+				"Light",
+				"Arcana"
+			],
+			"symbol": "Quarter moon or starburst"
+		},
+		{
+			"name": "Cults of the Dragon Below",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Eberron",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"title": "Deities of madness",
+			"category": "Other Faiths of Eberron",
+			"domains": [
+				"Trickery"
+			],
+			"symbol": "Varies"
+		},
+		{
+			"name": "Cyric",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"title": "God of lies",
+			"domains": [
+				"Trickery"
+			],
+			"symbol": "White jawless skull on black or purple sunburst"
+		},
+		{
+			"name": "Deep Sashelas",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Nonhuman",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"title": "Elf god of the sea",
+			"domains": [
+				"Nature",
+				"Tempest"
+			],
+			"symbol": "Dolphin"
+		},
+		{
+			"name": "Demeter",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Greek",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "Goddess of agriculture",
+			"domains": [
+				"Life"
+			],
+			"symbol": "Mare's head"
+		},
+		{
+			"name": "Deneir",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "God of writing",
+			"domains": [
+				"Knowledge"
+			],
+			"symbol": "Lit candle above an open eye"
+		},
+		{
+			"name": "Diancecht",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Celtic",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "God of medicine and healing",
+			"domains": [
+				"Life"
+			],
+			"symbol": "Crossed oak and mistletoe branches"
+		},
+		{
+			"name": "Dionysus",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Greek",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"title": "God of mirth and wine",
+			"domains": [
+				"Life"
+			],
+			"symbol": "Thyrsus (staff tipped with pine cone)"
+		},
+		{
+			"name": "Dol Arrah",
+			"source": "PHB",
+			"page": 296,
+			"additionalSources": [
+				{
+					"source": "TCE",
+					"page": 34
+				}
+			],
+			"pantheon": "Eberron",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "Goddess of sunlight and honor",
+			"category": "The Sovereign Host",
+			"domains": [
+				"Light",
+				"War",
+				"Twilight"
+			],
+			"symbol": "Rising sun"
+		},
+		{
+			"name": "Dol Dorn",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Eberron",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"title": "God of strength at arms",
+			"category": "The Sovereign Host",
+			"domains": [
+				"War"
+			],
+			"symbol": "Longsword crossed over a shield"
+		},
+		{
+			"name": "Dunatis",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Celtic",
+			"alignment": [
+				"N"
+			],
+			"title": "God of mountains and peaks",
+			"domains": [
+				"Nature"
+			],
+			"symbol": "Red sun-capped mountain peak"
+		},
+		{
+			"name": "Eadro",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Nonhuman",
+			"alignment": [
+				"N"
+			],
+			"title": "Merfolk deity of the sea",
+			"domains": [
+				"Nature",
+				"Tempest"
+			],
+			"symbol": "Spiral design"
+		},
+		{
+			"name": "Ehlonna",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Greyhawk",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "Goddess of woodlands",
+			"domains": [
+				"Life",
+				"Nature"
+			],
+			"symbol": "Unicorn horn"
+		},
+		{
+			"name": "Eldath",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"additionalSources": [
+				{
+					"source": "TCE",
+					"page": 33
+				}
+			],
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "Goddess of peace",
+			"domains": [
+				"Life",
+				"Nature",
+				"Peace"
+			],
+			"symbol": "Waterfall plunging into still pool"
+		},
+		{
+			"name": "Erythnul",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Greyhawk",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"title": "God of envy and slaughter",
+			"domains": [
+				"War"
+			],
+			"symbol": "Blood drop"
+		},
+		{
+			"name": "Fharlanghn",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Greyhawk",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "God of horizons and travel",
+			"domains": [
+				"Knowledge",
+				"Trickery"
+			],
+			"symbol": "Circle crossed by a curved horizon line"
+		},
+		{
+			"name": "Forseti",
+			"source": "PHB",
+			"page": 299,
+			"pantheon": "Norse",
+			"alignment": [
+				"N"
+			],
+			"title": "God of justice and law",
+			"domains": [
+				"Light",
+				"Order"
+			],
+			"symbol": "Head of a bearded man"
+		},
+		{
+			"name": "Frey",
+			"source": "PHB",
+			"page": 299,
+			"pantheon": "Norse",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "God of fertility and the sun",
+			"domains": [
+				"Life",
+				"Light"
+			],
+			"symbol": "Ice-blue greatsword"
+		},
+		{
+			"name": "Freya",
+			"source": "PHB",
+			"page": 299,
+			"pantheon": "Norse",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "Goddess of fertility and love",
+			"domains": [
+				"Life"
+			],
+			"symbol": "Falcon"
+		},
+		{
+			"name": "Frigga",
+			"source": "PHB",
+			"page": 299,
+			"pantheon": "Norse",
+			"alignment": [
+				"N"
+			],
+			"title": "Goddess of birth and fertility",
+			"domains": [
+				"Life",
+				"Light"
+			],
+			"symbol": "Cat"
+		},
+		{
+			"name": "Garl Glittergold",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Nonhuman",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "Gnome god of trickery and wiles",
+			"domains": [
+				"Trickery"
+			],
+			"symbol": "Gold nugget"
+		},
+		{
+			"name": "Gilean",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Dragonlance",
+			"alignment": [
+				"N"
+			],
+			"title": "God of knowledge",
+			"category": "The Gods of Neutrality",
+			"domains": [
+				"Knowledge"
+			],
+			"symbol": "Open book"
+		},
+		{
+			"name": "Goibhniu",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"additionalSources": [
+				{
+					"source": "XGE",
+					"page": 18
+				}
+			],
+			"pantheon": "Celtic",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "God of smiths and healing",
+			"domains": [
+				"Forge",
+				"Knowledge",
+				"Life"
+			],
+			"symbol": "Giant mallet over sword"
+		},
+		{
+			"name": "Gond",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"additionalSources": [
+				{
+					"source": "XGE",
+					"page": 18
+				}
+			],
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"N"
+			],
+			"title": "God of craft",
+			"domains": [
+				"Forge",
+				"Knowledge"
+			],
+			"symbol": "Toothed cog with four spokes"
+		},
+		{
+			"name": "Grolantor",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Nonhuman",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"title": "Hill giant god of war",
+			"domains": [
+				"War"
+			],
+			"symbol": "Wooden club"
+		},
+		{
+			"name": "Gruumsh",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Nonhuman",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"title": "Orc god of storms and war",
+			"domains": [
+				"Tempest",
+				"War"
+			],
+			"symbol": "Unblinking eye"
+		},
+		{
+			"name": "Habbakuk",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Dragonlance",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "God of animal life and the sea",
+			"category": "The Gods of Good",
+			"domains": [
+				"Nature",
+				"Tempest"
+			],
+			"symbol": "Blue bird"
+		},
+		{
+			"name": "Hades",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"additionalSources": [
+				{
+					"source": "XGE",
+					"page": 19
+				}
+			],
+			"pantheon": "Greek",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"title": "God of the underworld",
+			"domains": [
+				"Death",
+				"Grave"
+			],
+			"symbol": "Black ram"
+		},
+		{
+			"name": "Hathor",
+			"source": "PHB",
+			"page": 299,
+			"srd": true,
+			"pantheon": "Egyptian",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "Goddess of love, music, and motherhood",
+			"domains": [
+				"Life",
+				"Light"
+			],
+			"symbol": "Horned cow's head with lunar disk"
+		},
+		{
+			"name": "Hecate",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"additionalSources": [
+				{
+					"source": "SCAG",
+					"page": 125
+				}
+			],
+			"pantheon": "Greek",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"title": "Goddess of magic and the moon",
+			"domains": [
+				"Knowledge",
+				"Trickery",
+				"Arcana"
+			],
+			"symbol": "Setting moon"
+		},
+		{
+			"name": "Heimdall",
+			"source": "PHB",
+			"page": 299,
+			"pantheon": "Norse",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "God of watchfulness and loyalty",
+			"domains": [
+				"Light",
+				"War"
+			],
+			"symbol": "Curling musical horn"
+		},
+		{
+			"name": "Heironeous",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Greyhawk",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "God of chivalry and valor",
+			"domains": [
+				"War"
+			],
+			"symbol": "Lightning bolt"
+		},
+		{
+			"name": "Hel",
+			"source": "PHB",
+			"page": 299,
+			"pantheon": "Norse",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"title": "Goddess of the underworld",
+			"domains": [
+				"Death"
+			],
+			"symbol": "Woman's face, rotting on one side"
+		},
+		{
+			"name": "Helm",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"additionalSources": [
+				{
+					"source": "TCE",
+					"page": 34
+				}
+			],
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"title": "God of protection",
+			"domains": [
+				"Life",
+				"Light",
+				"Twilight"
+			],
+			"symbol": "Staring eye on upright left gauntlet"
+		},
+		{
+			"name": "Hephaestus",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"additionalSources": [
+				{
+					"source": "XGE",
+					"page": 18
+				}
+			],
+			"pantheon": "Greek",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "God of smithing and craft",
+			"domains": [
+				"Forge",
+				"Knowledge"
+			],
+			"symbol": "Hammer and anvil"
+		},
+		{
+			"name": "Hera",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Greek",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"title": "Goddess of marriage and intrigue",
+			"domains": [
+				"Trickery"
+			],
+			"symbol": "Fan of peacock feathers"
+		},
+		{
+			"name": "Hercules",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Greek",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"title": "God of strength and adventure",
+			"domains": [
+				"Tempest",
+				"War"
+			],
+			"symbol": "Lion's head"
+		},
+		{
+			"name": "Hermes",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Greek",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"title": "God of travel and commerce",
+			"domains": [
+				"Trickery"
+			],
+			"symbol": "Caduceus (winged staff and serpents)"
+		},
+		{
+			"name": "Hermod",
+			"source": "PHB",
+			"page": 299,
+			"pantheon": "Norse",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"title": "God of luck",
+			"domains": [
+				"Trickery"
+			],
+			"symbol": "Winged scroll"
+		},
+		{
+			"name": "Hestia",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Greek",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "Goddess of home and family",
+			"domains": [
+				"Life"
+			],
+			"symbol": "Hearth"
+		},
+		{
+			"name": "Hextor",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Greyhawk",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"title": "God of war and discord",
+			"domains": [
+				"War"
+			],
+			"symbol": "Six arrows facing downward in a fan"
+		},
+		{
+			"name": "Hiddukel",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Dragonlance",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"title": "God of lies and greed",
+			"category": "The Gods of Evil",
+			"domains": [
+				"Trickery"
+			],
+			"symbol": "Broken merchant's scales"
+		},
+		{
+			"name": "Hruggek",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Nonhuman",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"title": "Bugbear god of violence",
+			"domains": [
+				"War"
+			],
+			"symbol": "Morningstar"
+		},
+		{
+			"name": "Ilmater",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"additionalSources": [
+				{
+					"source": "TCE",
+					"page": 34
+				}
+			],
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "God of endurance",
+			"domains": [
+				"Life",
+				"Twilight"
+			],
+			"symbol": "Hands bound at the wrist with red cord"
+		},
+		{
+			"name": "Imhotep",
+			"source": "PHB",
+			"page": 299,
+			"srd": true,
+			"pantheon": "Egyptian",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "God of crafts and medicine",
+			"domains": [
+				"Knowledge"
+			],
+			"symbol": "Step pyramid"
+		},
+		{
+			"name": "Incabulos",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Greyhawk",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"title": "God of plague and famine",
+			"domains": [
+				"Death"
+			],
+			"symbol": "Reptilian eye with a horizontal diamond"
+		},
+		{
+			"name": "Isis",
+			"source": "PHB",
+			"page": 299,
+			"srd": true,
+			"additionalSources": [
+				{
+					"source": "SCAG",
+					"page": 125
+				}
+			],
+			"pantheon": "Egyptian",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "Goddess of fertility and magic",
+			"domains": [
+				"Knowledge",
+				"Life",
+				"Arcana"
+			],
+			"symbol": "Ankh and star"
+		},
+		{
+			"name": "Istus",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Greyhawk",
+			"alignment": [
+				"N"
+			],
+			"title": "Goddess of fate and destiny",
+			"domains": [
+				"Knowledge"
+			],
+			"symbol": "Weaver's spindle with three strands"
+		},
+		{
+			"name": "Iuz",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Greyhawk",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"title": "God of pain and oppression",
+			"domains": [
+				"Death"
+			],
+			"symbol": "Grinning human skull"
+		},
+		{
+			"name": "Kelemvor",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"additionalSources": [
+				{
+					"source": "XGE",
+					"page": 19
+				}
+			],
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"title": "God of the dead",
+			"domains": [
+				"Death",
+				"Grave"
+			],
+			"symbol": "Upright skeletal arm holding balanced scales"
+		},
+		{
+			"name": "Kiri-Jolith",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Dragonlance",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "God of honor and war",
+			"category": "The Gods of Good",
+			"domains": [
+				"War"
+			],
+			"symbol": "Bison's horns"
+		},
+		{
+			"name": "Kol Korran",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Eberron",
+			"alignment": [
+				"N"
+			],
+			"title": "God of trade and wealth",
+			"category": "The Sovereign Host",
+			"domains": [
+				"Trickery"
+			],
+			"symbol": "Nine-sided gold coin"
+		},
+		{
+			"name": "Kord",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Greyhawk",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"title": "God of athletics and sport",
+			"domains": [
+				"Tempest",
+				"War"
+			],
+			"symbol": "Four spears and four maces radiating out from a central point"
+		},
+		{
+			"name": "Kurtulmak",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Nonhuman",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"title": "Kobold god of war and mining",
+			"domains": [
+				"War"
+			],
+			"symbol": "Gnome skull"
+		},
+		{
+			"name": "Laogzed",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Nonhuman",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"title": "Troglodyte god of hunger",
+			"domains": [
+				"Death"
+			],
+			"symbol": "Image of the lizard/toad god"
+		},
+		{
+			"name": "Lathander",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "God of birth and renewal",
+			"domains": [
+				"Life",
+				"Light"
+			],
+			"symbol": "Road traveling into a sunrise"
+		},
+		{
+			"name": "Leira",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"title": "Goddess of illusion",
+			"domains": [
+				"Trickery"
+			],
+			"symbol": "Point-down triangle containing a swirl of mist"
+		},
+		{
+			"name": "Lliira",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"title": "Goddess of joy",
+			"domains": [
+				"Life"
+			],
+			"symbol": "Triangle of three six-pointed stars"
+		},
+		{
+			"name": "Loki",
+			"source": "PHB",
+			"page": 299,
+			"pantheon": "Norse",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"title": "God of thieves and trickery",
+			"domains": [
+				"Trickery"
+			],
+			"symbol": "Flame"
+		},
+		{
+			"name": "Lolth",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Nonhuman",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"title": "Drow goddess of spiders",
+			"domains": [
+				"Trickery"
+			],
+			"symbol": "Spider"
+		},
+		{
+			"name": "Loviatar",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"title": "Goddess of pain",
+			"domains": [
+				"Death"
+			],
+			"symbol": "Nine-tailed barbed scourge"
+		},
+		{
+			"name": "Lugh",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Celtic",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"title": "God of arts, travel, and commerce",
+			"domains": [
+				"Knowledge",
+				"Life"
+			],
+			"symbol": "Pair of long hands"
+		},
+		{
+			"name": "Lunitari",
+			"source": "PHB",
+			"page": 295,
+			"additionalSources": [
+				{
+					"source": "SCAG",
+					"page": 125
+				}
+			],
+			"pantheon": "Dragonlance",
+			"alignment": [
+				"N"
+			],
+			"title": "Goddess of neutral magic",
+			"category": "The Gods of Neutrality",
+			"domains": [
+				"Arcana"
+			],
+			"symbol": "Red circle or sphere"
+		},
+		{
+			"name": "Maglubiyet",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Nonhuman",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"title": "Goblinoid god of war",
+			"domains": [
+				"War",
+				"Order"
+			],
+			"symbol": "Bloody axe"
+		},
+		{
+			"name": "Majere",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Dragonlance",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "God of meditation and order",
+			"category": "The Gods of Good",
+			"domains": [
+				"Knowledge",
+				"Order"
+			],
+			"symbol": "Copper spider"
+		},
+		{
+			"name": "Malar",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"title": "God of the hunt",
+			"domains": [
+				"Nature"
+			],
+			"symbol": "Clawed paw"
+		},
+		{
+			"name": "Manannan mac Lir",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Celtic",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"title": "God of oceans and sea creatures",
+			"domains": [
+				"Nature",
+				"Tempest"
+			],
+			"symbol": "Wave of white water on green"
+		},
+		{
+			"name": "Mask",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"title": "God of thieves",
+			"domains": [
+				"Trickery"
+			],
+			"symbol": "Black mask"
+		},
+		{
+			"name": "Math Mathonwy",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"additionalSources": [
+				{
+					"source": "SCAG",
+					"page": 125
+				}
+			],
+			"pantheon": "Celtic",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"title": "God of magic",
+			"domains": [
+				"Knowledge",
+				"Arcana"
+			],
+			"symbol": "Staff"
+		},
+		{
+			"name": "Mielikki",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "Goddess of forests",
+			"domains": [
+				"Nature"
+			],
+			"symbol": "Unicorn's head"
+		},
+		{
+			"name": "Milil",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "God of poetry and song",
+			"domains": [
+				"Light"
+			],
+			"symbol": "Five-stringed harp made of leaves"
+		},
+		{
+			"name": "Mishakal",
+			"source": "PHB",
+			"page": 295,
+			"additionalSources": [
+				{
+					"source": "TCE",
+					"page": 34
+				}
+			],
+			"pantheon": "Dragonlance",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "Goddess of healing",
+			"category": "The Gods of Good",
+			"domains": [
+				"Knowledge",
+				"Life",
+				"Twilight"
+			],
+			"symbol": "Blue infinity sign"
+		},
+		{
+			"name": "Moradin",
+			"source": "PHB",
+			"page": 296,
+			"additionalSources": [
+				{
+					"source": "XGE",
+					"page": 18
+				}
+			],
+			"pantheon": "Nonhuman",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "Dwarf god of creation",
+			"domains": [
+				"Forge",
+				"Knowledge"
+			],
+			"symbol": "Hammer and anvil"
+		},
+		{
+			"name": "Morgion",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Dragonlance",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"title": "God of disease and secrecy",
+			"category": "The Gods of Evil",
+			"domains": [
+				"Death"
+			],
+			"symbol": "Hood with two red eyes"
+		},
+		{
+			"name": "Morrigan",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Celtic",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"title": "Goddess of battle",
+			"domains": [
+				"War"
+			],
+			"symbol": "Two crossed spears"
+		},
+		{
+			"name": "Myrkul",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"title": "God of death",
+			"domains": [
+				"Death"
+			],
+			"symbol": "White human skull"
+		},
+		{
+			"name": "Mystra",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"additionalSources": [
+				{
+					"source": "SCAG",
+					"page": 125
+				}
+			],
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "Goddess of magic",
+			"domains": [
+				"Knowledge",
+				"Arcana"
+			],
+			"symbol": "Circle of seven stars, or nine stars encircling a flowing red mist, or a single star"
+		},
+		{
+			"name": "Nephthys",
+			"source": "PHB",
+			"page": 299,
+			"srd": true,
+			"pantheon": "Egyptian",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"title": "Goddess of death and grief",
+			"domains": [
+				"Death"
+			],
+			"symbol": "Horns around a lunar disk"
+		},
+		{
+			"name": "Nerull",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Greyhawk",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"title": "God of death",
+			"domains": [
+				"Death"
+			],
+			"symbol": "Skull with either a sickle or a scythe"
+		},
+		{
+			"name": "Nike",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Greek",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"title": "Goddess of victory",
+			"domains": [
+				"War"
+			],
+			"symbol": "Winged woman"
+		},
+		{
+			"name": "Njord",
+			"source": "PHB",
+			"page": 299,
+			"pantheon": "Norse",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "God of sea and wind",
+			"domains": [
+				"Nature",
+				"Tempest"
+			],
+			"symbol": "Gold coin"
+		},
+		{
+			"name": "Nuada",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Celtic",
+			"alignment": [
+				"N"
+			],
+			"title": "God of war and warriors",
+			"domains": [
+				"War",
+				"Order"
+			],
+			"symbol": "Silver hand on black background"
+		},
+		{
+			"name": "Nuitari",
+			"source": "PHB",
+			"page": 295,
+			"additionalSources": [
+				{
+					"source": "SCAG",
+					"page": 125
+				}
+			],
+			"pantheon": "Dragonlance",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"title": "God of evil magic",
+			"category": "The Gods of Evil",
+			"domains": [
+				"Arcana"
+			],
+			"symbol": "Black circle or sphere"
+		},
+		{
+			"name": "Obad-Hai",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Greyhawk",
+			"alignment": [
+				"N"
+			],
+			"title": "god of nature",
+			"domains": [
+				"Nature"
+			],
+			"symbol": "Oak leaf and acorn"
+		},
+		{
+			"name": "Odin",
+			"source": "PHB",
+			"page": 299,
+			"pantheon": "Norse",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "God of knowledge and war",
+			"domains": [
+				"Knowledge",
+				"War"
+			],
+			"symbol": "Watching blue eye"
+		},
+		{
+			"name": "Odur",
+			"source": "PHB",
+			"page": 299,
+			"pantheon": "Norse",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"title": "God of light and the sun",
+			"domains": [
+				"Light"
+			],
+			"symbol": "Solar disk"
+		},
+		{
+			"name": "Oghma",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Celtic",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "God of speech and writing",
+			"domains": [
+				"Knowledge"
+			],
+			"symbol": "Unfurled scroll"
+		},
+		{
+			"name": "Oghma",
+			"source": "PHB",
+			"page": 294,
+			"srd": true,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"N"
+			],
+			"title": "God of knowledge",
+			"domains": [
+				"Knowledge"
+			],
+			"symbol": "Blank scroll"
+		},
+		{
+			"name": "Olidammara",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Greyhawk",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"title": "God of revelry",
+			"domains": [
+				"Trickery"
+			],
+			"symbol": "Laughing mask"
+		},
+		{
+			"name": "Olladra",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Eberron",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "Goddess of good fortune",
+			"category": "The Sovereign Host",
+			"domains": [
+				"Life",
+				"Trickery"
+			],
+			"symbol": "Domino"
+		},
+		{
+			"name": "Onatar",
+			"source": "PHB",
+			"page": 296,
+			"additionalSources": [
+				{
+					"source": "XGE",
+					"page": 18
+				}
+			],
+			"pantheon": "Eberron",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "God of craft",
+			"category": "The Sovereign Host",
+			"domains": [
+				"Forge",
+				"Knowledge"
+			],
+			"symbol": "Crossed hammer and tongs"
+		},
+		{
+			"name": "Osiris",
+			"source": "PHB",
+			"page": 299,
+			"srd": true,
+			"additionalSources": [
+				{
+					"source": "XGE",
+					"page": 19
+				}
+			],
+			"pantheon": "Egyptian",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "God of nature and the underworld",
+			"domains": [
+				"Grave",
+				"Life",
+				"Nature"
+			],
+			"symbol": "Crook and flail"
+		},
+		{
+			"name": "Paladine",
+			"source": "PHB",
+			"page": 295,
+			"additionalSources": [
+				{
+					"source": "TCE",
+					"page": 33
+				}
+			],
+			"pantheon": "Dragonlance",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "God of rulers and guardians",
+			"category": "The Gods of Good",
+			"domains": [
+				"War",
+				"Peace"
+			],
+			"symbol": "Silver triangle"
+		},
+		{
+			"name": "Pan",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Greek",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"title": "God of nature",
+			"domains": [
+				"Nature"
+			],
+			"symbol": "Syrinx (pan pipes)"
+		},
+		{
+			"name": "Pelor",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Greyhawk",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "God of the sun and healing",
+			"domains": [
+				"Life",
+				"Light"
+			],
+			"symbol": "Sun"
+		},
+		{
+			"name": "Pholtus",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Greyhawk",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "God of light and law",
+			"domains": [
+				"Light",
+				"Order"
+			],
+			"symbol": "Silver sun or full moon partially eclipsed by a smaller crescent moon"
+		},
+		{
+			"name": "Poseidon",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Greek",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"title": "God of the sea and earthquakes",
+			"domains": [
+				"Tempest"
+			],
+			"symbol": "Trident"
+		},
+		{
+			"name": "Ptah",
+			"source": "PHB",
+			"page": 299,
+			"srd": true,
+			"pantheon": "Egyptian",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"title": "God of crafts, knowledge, and secrets",
+			"domains": [
+				"Knowledge"
+			],
+			"symbol": "Bull"
+		},
+		{
+			"name": "Ralishaz",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Greyhawk",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"title": "God of ill luck and insanity",
+			"domains": [
+				"Trickery"
+			],
+			"symbol": "Three bone fate-casting sticks"
+		},
+		{
+			"name": "Rao",
+			"source": "PHB",
+			"page": 295,
+			"additionalSources": [
+				{
+					"source": "TCE",
+					"page": 33
+				}
+			],
+			"pantheon": "Greyhawk",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "God of peace and reason",
+			"domains": [
+				"Knowledge",
+				"Peace"
+			],
+			"symbol": "White heart"
+		},
+		{
+			"name": "Re-Horakhty",
+			"source": "PHB",
+			"page": 299,
+			"srd": true,
+			"pantheon": "Egyptian",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "God of the sun, ruler of the gods",
+			"domains": [
+				"Life",
+				"Light"
+			],
+			"symbol": "Solar disk encircled by serpent"
+		},
+		{
+			"name": "Reorx",
+			"source": "PHB",
+			"page": 295,
+			"additionalSources": [
+				{
+					"source": "XGE",
+					"page": 18
+				}
+			],
+			"pantheon": "Dragonlance",
+			"alignment": [
+				"N"
+			],
+			"title": "God of craft",
+			"category": "The Gods of Neutrality",
+			"domains": [
+				"Forge",
+				"Knowledge"
+			],
+			"symbol": "Forging hammer"
+		},
+		{
+			"name": "Rillifane Rallathil",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Nonhuman",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"title": "Wood elf god of nature",
+			"domains": [
+				"Nature"
+			],
+			"symbol": "Oak"
+		},
+		{
+			"name": "Sargonnas",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Dragonlance",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"title": "God of vengeance and fire",
+			"category": "The Gods of Evil",
+			"domains": [
+				"War"
+			],
+			"symbol": "Stylized red condor"
+		},
+		{
+			"name": "Savras",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"title": "God of divination and fate",
+			"domains": [
+				"Knowledge"
+			],
+			"symbol": "Crystal ball containing many kinds of eyes"
+		},
+		{
+			"name": "Sehanine Moonbow",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Nonhuman",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"title": "Elf goddess of the moon",
+			"domains": [
+				"Knowledge"
+			],
+			"symbol": "Crescent moon"
+		},
+		{
+			"name": "Sekolah",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Nonhuman",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"title": "Sahuagin god of the hunt",
+			"domains": [
+				"Nature",
+				"Tempest"
+			],
+			"symbol": "Shark"
+		},
+		{
+			"name": "Selûne",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"additionalSources": [
+				{
+					"source": "TCE",
+					"page": 34
+				}
+			],
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"title": "Goddess of the moon",
+			"domains": [
+				"Knowledge",
+				"Life",
+				"Twilight"
+			],
+			"symbol": "Pair of eyes surrounded by seven stars"
+		},
+		{
+			"name": "Semuanya",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Nonhuman",
+			"alignment": [
+				"N"
+			],
+			"title": "Lizardfolk deity of survival",
+			"domains": [
+				"Life"
+			],
+			"symbol": "Egg"
+		},
+		{
+			"name": "Set",
+			"source": "PHB",
+			"page": 299,
+			"srd": true,
+			"pantheon": "Egyptian",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"title": "God of darkness and desert storms",
+			"domains": [
+				"Death",
+				"Tempest",
+				"Trickery"
+			],
+			"symbol": "Coiled cobra"
+		},
+		{
+			"name": "Shar",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"title": "Goddess of darkness and loss",
+			"domains": [
+				"Death",
+				"Trickery"
+			],
+			"symbol": "Black disk encircled with a border"
+		},
+		{
+			"name": "Shinare",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Dragonlance",
+			"alignment": [
+				"N"
+			],
+			"title": "Goddess of wealth and trade",
+			"category": "The Gods of Neutrality",
+			"domains": [
+				"Knowledge",
+				"Trickery"
+			],
+			"symbol": "Griffon's wing"
+		},
+		{
+			"name": "Sif",
+			"source": "PHB",
+			"page": 299,
+			"pantheon": "Norse",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"title": "Goddess of war",
+			"domains": [
+				"War"
+			],
+			"symbol": "Upraised sword"
+		},
+		{
+			"name": "Silvanus",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Celtic",
+			"alignment": [
+				"N"
+			],
+			"title": "God of nature and forests",
+			"domains": [
+				"Nature"
+			],
+			"symbol": "Summer oak tree"
+		},
+		{
+			"name": "Silvanus",
+			"source": "PHB",
+			"page": 294,
+			"srd": true,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"N"
+			],
+			"title": "God of wild nature",
+			"domains": [
+				"Nature"
+			],
+			"symbol": "Oak leaf"
+		},
+		{
+			"name": "Sirrion",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Dragonlance",
+			"alignment": [
+				"N"
+			],
+			"title": "God of fire and change",
+			"category": "The Gods of Neutrality",
+			"domains": [
+				"Nature"
+			],
+			"symbol": "Multi-colored fire"
+		},
+		{
+			"name": "Skadi",
+			"source": "PHB",
+			"page": 299,
+			"pantheon": "Norse",
+			"alignment": [
+				"N"
+			],
+			"title": "God of earth and mountains",
+			"domains": [
+				"Nature"
+			],
+			"symbol": "Mountain peak"
+		},
+		{
+			"name": "Skerrit",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Nonhuman",
+			"alignment": [
+				"N"
+			],
+			"title": "Centaur and satyr god of nature",
+			"domains": [
+				"Nature"
+			],
+			"symbol": "Oak growing from acorn"
+		},
+		{
+			"name": "Skoraeus Stonebones",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Nonhuman",
+			"alignment": [
+				"N"
+			],
+			"title": "God of stone giants and art",
+			"domains": [
+				"Knowledge"
+			],
+			"symbol": "Stalactite"
+		},
+		{
+			"name": "Sobek",
+			"source": "PHB",
+			"page": 299,
+			"srd": true,
+			"pantheon": "Egyptian",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"title": "God of water and crocodiles",
+			"domains": [
+				"Nature",
+				"Tempest"
+			],
+			"symbol": "Crocodile head with horns and plumes"
+		},
+		{
+			"name": "Solinari",
+			"source": "PHB",
+			"page": 295,
+			"additionalSources": [
+				{
+					"source": "SCAG",
+					"page": 125
+				}
+			],
+			"pantheon": "Dragonlance",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "God of good magic",
+			"category": "The Gods of Good",
+			"domains": [
+				"Arcana"
+			],
+			"symbol": "White circle or sphere"
+		},
+		{
+			"name": "St. Cuthbert",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Greyhawk",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"title": "God of common sense and zeal",
+			"domains": [
+				"Knowledge"
+			],
+			"symbol": "Circle at the center of a starburst of lines"
+		},
+		{
+			"name": "Sune",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"title": "Goddess of love and beauty",
+			"domains": [
+				"Life",
+				"Light"
+			],
+			"symbol": "Face of a beautiful red-haired woman"
+		},
+		{
+			"name": "Surtur",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Nonhuman",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"title": "God of fire giants and craft",
+			"domains": [
+				"Knowledge",
+				"War"
+			],
+			"symbol": "Flaming sword"
+		},
+		{
+			"name": "Surtur",
+			"source": "PHB",
+			"page": 299,
+			"pantheon": "Norse",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"title": "God of fire giants and war",
+			"domains": [
+				"War"
+			],
+			"symbol": "Flaming sword"
+		},
+		{
+			"name": "Takhisis",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Dragonlance",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"title": "Goddess of night and hatred",
+			"category": "The Gods of Evil",
+			"domains": [
+				"Death"
+			],
+			"symbol": "Black crescent"
+		},
+		{
+			"name": "Talona",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"title": "Goddess of disease and poison",
+			"domains": [
+				"Death"
+			],
+			"symbol": "Three teardrops on a triangle"
+		},
+		{
+			"name": "Talos",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"title": "God of storms",
+			"domains": [
+				"Tempest"
+			],
+			"symbol": "Three lightning bolts radiating from a central point"
+		},
+		{
+			"name": "Tempus",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"N"
+			],
+			"title": "God of war",
+			"domains": [
+				"War"
+			],
+			"symbol": "Upright flaming sword"
+		},
+		{
+			"name": "Tharizdun",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Greyhawk",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"title": "God of eternal darkness",
+			"domains": [
+				"Trickery"
+			],
+			"symbol": "Dark spiral or inverted ziggurat"
+		},
+		{
+			"name": "The Blood of Vol",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Eberron",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"title": "Philosophy of immortality and undeath",
+			"category": "Other Faiths of Eberron",
+			"domains": [
+				"Death",
+				"Life"
+			],
+			"symbol": "Stylized dragon skull on red teardrop gem"
+		},
+		{
+			"name": "The Daghdha",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Celtic",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"title": "God of weather and crops",
+			"domains": [
+				"Nature",
+				"Trickery"
+			],
+			"symbol": "Bubbling cauldron or shield"
+		},
+		{
+			"name": "The Devourer",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Eberron",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"title": "God of nature's wrath",
+			"category": "The Dark Six",
+			"domains": [
+				"Tempest"
+			],
+			"symbol": "Bundle of five sharpened bones"
+		},
+		{
+			"name": "The Fury",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Eberron",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"title": "Goddess of wrath and madness",
+			"category": "The Dark Six",
+			"domains": [
+				"War"
+			],
+			"symbol": "Winged wyrm with woman's head and upper body"
+		},
+		{
+			"name": "The Keeper",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Eberron",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"title": "God of greed and death",
+			"category": "The Dark Six",
+			"domains": [
+				"Death"
+			],
+			"symbol": "Dragonshard stone in the shape of a fang"
+		},
+		{
+			"name": "The Mockery",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Eberron",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"title": "God of violence and treachery",
+			"category": "The Dark Six",
+			"domains": [
+				"War"
+			],
+			"symbol": "Five blood-spattered tools"
+		},
+		{
+			"name": "The Path of Light",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Eberron",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"title": "Philosophy of light and self-improvement",
+			"category": "Other Faiths of Eberron",
+			"domains": [
+				"Life",
+				"Light"
+			],
+			"symbol": "Brilliant crystal"
+		},
+		{
+			"name": "The Shadow",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Eberron",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"title": "God of dark magic",
+			"category": "The Dark Six",
+			"domains": [
+				"Knowledge"
+			],
+			"symbol": "Obsidian tower"
+		},
+		{
+			"name": "The Silver Flame",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Eberron",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "Deity of protection and good",
+			"category": "Other Faiths of Eberron",
+			"domains": [
+				"Life",
+				"Light",
+				"War"
+			],
+			"symbol": "Flame drawn on silver or molded from silver"
+		},
+		{
+			"name": "The Spirits of the Past",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Eberron",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"title": "Elven ancestors",
+			"category": "Other Faiths of Eberron",
+			"domains": [
+				"War"
+			],
+			"symbol": "Varies"
+		},
+		{
+			"name": "The Traveler",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Eberron",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"title": "Deity of chaos and change",
+			"category": "The Dark Six",
+			"domains": [
+				"Knowledge",
+				"Trickery"
+			],
+			"symbol": "Four crossed, rune-inscribed bones"
+		},
+		{
+			"name": "The Undying Court",
+			"source": "PHB",
+			"page": 296,
+			"additionalSources": [
+				{
+					"source": "XGE",
+					"page": 19
+				}
+			],
+			"pantheon": "Eberron",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "Elven ancestors",
+			"category": "Other Faiths of Eberron",
+			"domains": [
+				"Grave",
+				"Knowledge",
+				"Life"
+			],
+			"symbol": "Varies"
+		},
+		{
+			"name": "Thor",
+			"source": "PHB",
+			"page": 299,
+			"pantheon": "Norse",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"title": "God of storms and thunder",
+			"domains": [
+				"Tempest",
+				"War"
+			],
+			"symbol": "Hammer"
+		},
+		{
+			"name": "Thoth",
+			"source": "PHB",
+			"page": 299,
+			"srd": true,
+			"pantheon": "Egyptian",
+			"alignment": [
+				"N"
+			],
+			"title": "God of knowledge and wisdom",
+			"domains": [
+				"Knowledge"
+			],
+			"symbol": "Ibis"
+		},
+		{
+			"name": "Thrym",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Nonhuman",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"title": "God of frost giants and strength",
+			"domains": [
+				"War"
+			],
+			"symbol": "White double-bladed axe"
+		},
+		{
+			"name": "Thrym",
+			"source": "PHB",
+			"page": 299,
+			"pantheon": "Norse",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"title": "God of frost giants and cold",
+			"domains": [
+				"War"
+			],
+			"symbol": "White double-bladed axe"
+		},
+		{
+			"name": "Tiamat",
+			"source": "PHB",
+			"page": 296,
+			"pantheon": "Nonhuman",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"title": "Dragon goddess of evil",
+			"domains": [
+				"Trickery"
+			],
+			"symbol": "Dragon head with five claw marks"
+		},
+		{
+			"name": "Torm",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "God of courage and self-sacrifice",
+			"domains": [
+				"War"
+			],
+			"symbol": "White right gauntlet"
+		},
+		{
+			"name": "Trithereon",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Greyhawk",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"title": "God of liberty and retribution",
+			"domains": [
+				"War"
+			],
+			"symbol": "Triskelion"
+		},
+		{
+			"name": "Tyche",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Greek",
+			"alignment": [
+				"N"
+			],
+			"title": "Goddess of good fortune",
+			"domains": [
+				"Trickery"
+			],
+			"symbol": "Red pentagram"
+		},
+		{
+			"name": "Tymora",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"title": "Goddess of good fortune",
+			"domains": [
+				"Trickery"
+			],
+			"symbol": "Face-up coin"
+		},
+		{
+			"name": "Tyr",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "God of justice",
+			"domains": [
+				"War",
+				"Order"
+			],
+			"symbol": "Balanced scales resting on a warhammer"
+		},
+		{
+			"name": "Tyr",
+			"source": "PHB",
+			"page": 299,
+			"pantheon": "Norse",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"title": "God of courage and strategy",
+			"domains": [
+				"Knowledge",
+				"War",
+				"Order"
+			],
+			"symbol": "Sword"
+		},
+		{
+			"name": "Ulaa",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Greyhawk",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "Goddess of hills and mountains",
+			"domains": [
+				"Life",
+				"War"
+			],
+			"symbol": "Mountain with a circle at its heart"
+		},
+		{
+			"name": "Uller",
+			"source": "PHB",
+			"page": 299,
+			"pantheon": "Norse",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"title": "God of hunting and winter",
+			"domains": [
+				"Nature"
+			],
+			"symbol": "Longbow"
+		},
+		{
+			"name": "Umberlee",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"title": "Goddess of the sea",
+			"domains": [
+				"Tempest"
+			],
+			"symbol": "Wave curling left and right"
+		},
+		{
+			"name": "Vecna",
+			"source": "PHB",
+			"page": 295,
+			"additionalSources": [
+				{
+					"source": "SCAG",
+					"page": 125
+				}
+			],
+			"pantheon": "Greyhawk",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"title": "God of evil secrets",
+			"domains": [
+				"Knowledge",
+				"Arcana"
+			],
+			"symbol": "Hand with eye in the palm"
+		},
+		{
+			"name": "Waukeen",
+			"source": "PHB",
+			"page": 294,
+			"basicRules": true,
+			"pantheon": "Forgotten Realms",
+			"alignment": [
+				"N"
+			],
+			"title": "Goddess of trade",
+			"domains": [
+				"Knowledge",
+				"Trickery"
+			],
+			"symbol": "Upright coin with Waukeen's profile facing left"
+		},
+		{
+			"name": "Wee Jas",
+			"source": "PHB",
+			"page": 295,
+			"additionalSources": [
+				{
+					"source": "XGE",
+					"page": 19
+				},
+				{
+					"source": "SCAG",
+					"page": 125
+				},
+				{
+					"source": "TCE",
+					"page": 31
+				}
+			],
+			"pantheon": "Greyhawk",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"title": "Goddess of magic and death",
+			"domains": [
+				"Death",
+				"Grave",
+				"Knowledge",
+				"Order",
+				"Arcana"
+			],
+			"symbol": "Red skull in front of fireball"
+		},
+		{
+			"name": "Yondalla",
+			"source": "PHB",
+			"page": 296,
+			"additionalSources": [
+				{
+					"source": "TCE",
+					"page": 34
+				}
+			],
+			"pantheon": "Nonhuman",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "Halfling goddess of fertility and protection",
+			"domains": [
+				"Life",
+				"Twilight"
+			],
+			"symbol": "Shield"
+		},
+		{
+			"name": "Zeboim",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Dragonlance",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"title": "Goddess of the sea and storms",
+			"category": "The Gods of Evil",
+			"domains": [
+				"Tempest"
+			],
+			"symbol": "Turtle shell"
+		},
+		{
+			"name": "Zeus",
+			"source": "PHB",
+			"page": 298,
+			"srd": true,
+			"pantheon": "Greek",
+			"alignment": [
+				"N"
+			],
+			"title": "God of the sky, ruler of the gods",
+			"domains": [
+				"Tempest"
+			],
+			"symbol": "Fist full of lightning bolts"
+		},
+		{
+			"name": "Zivilyn",
+			"source": "PHB",
+			"page": 295,
+			"pantheon": "Dragonlance",
+			"alignment": [
+				"N"
+			],
+			"title": "God of wisdom",
+			"category": "The Gods of Neutrality",
+			"domains": [
+				"Knowledge"
+			],
+			"symbol": "Great green or gold tree"
+		}
+	]
+}

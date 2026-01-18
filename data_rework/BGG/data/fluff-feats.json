@@ -1,0 +1,22 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"featFluff"
+		]
+	},
+	"featFluff": [
+		{
+			"name": "Fury of the Frost Giant",
+			"source": "BGG",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "feats/BGG/Fury of the Frost Giant.webp"
+					}
+				}
+			]
+		}
+	]
+}

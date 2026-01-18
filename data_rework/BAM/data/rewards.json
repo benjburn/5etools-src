@@ -1,0 +1,37 @@
+{
+	"reward": [
+		{
+			"name": "Charm of Air Bubbles",
+			"source": "BAM",
+			"page": 17,
+			"type": "Charm",
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"limited": {
+								"3": [
+									"air bubble|aag"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"{@note This charm can be bestowed by a {@creature chwinga astronaut|BAM} using their Magical Gift action.}",
+				"This charm allows you to cast the {@spell Air Bubble|AAG} spell (see the Astral Adventurer's Guide) as an action. Once used three times, this charm goes away."
+			]
+		},
+		{
+			"name": "Charm of Instant Tools",
+			"source": "BAM",
+			"page": 17,
+			"type": "Charm",
+			"entries": [
+				"{@note This charm can be bestowed by a {@creature chwinga astronaut|BAM} using their Magical Gift action.}",
+				"This charm allows you to magically conjure a set of artisan's tools, navigator's tools, or thieves' tools. The conjured tools appear either in your hand or somewhere else in your space (your choice). Once used, this charm goes away, but the tools remain."
+			]
+		}
+	]
+}

@@ -77,6 +77,47 @@ IMAGE_CATEGORIES = {
 }
 
 # =============================================================================
+# Image Path Validation
+# =============================================================================
+
+# Special mappings for image paths (source_id -> path component)
+# These are DESIGN DECISIONS, not bugs - the paths are intentionally different
+IMAGE_PATH_SPECIAL_MAPPINGS = {
+    # Plane Shift sources use abbreviated forms in image paths
+    # Folder: PS-A, but image paths use book/PSA/
+    "PS-A": "PSA",
+    "PS-I": "PSI",
+    "PS-D": "PSD",
+    "PS-K": "PSK",
+    "PS-X": "PSX",
+    "PS-Z": "PSZ",
+
+    # HAT-TG uses TG in image paths (historical naming convention)
+    "HAT-TG": "TG",
+}
+
+# Sources that are known to use cross-source image references
+# These are intentional and should not be flagged as errors
+CROSS_SOURCE_IMAGE_SOURCES = {
+    "HFFotM",  # References DMG, AAG, DoD images
+    # Add more as discovered during audits
+}
+
+# Image categories to validate
+IMAGE_PATH_CATEGORIES = {
+    "bestiary",
+    "book",
+    "adventure",
+    "items",
+    "backgrounds",
+    "classes",
+    "races",
+    "spells",
+    "deities",
+    "decks",  # For TD source
+}
+
+# =============================================================================
 # JSON Entity Types
 # =============================================================================
 
@@ -131,6 +172,7 @@ FLUFF_ENTITY_PREFIX = "fluff"
 SPECIAL_DATA_SUBDIRS = {
     "bestiary",   # Monster data files
     "class",      # Class data files
+    "book",       # Book data files (content, sections, etc.)
     "adventure",  # Adventure data files
 }
 

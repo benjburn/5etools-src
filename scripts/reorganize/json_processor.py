@@ -322,6 +322,102 @@ def process_class_files(
     return counts_per_source
 
 
+def process_book_files(
+    book_dir: Path,
+    sources: Dict[str, Dict[str, Any]],
+    output_dir: Path,
+    stats: Statistics,
+    logger_instance: Optional[logging.Logger] = None,
+) -> Dict[str, int]:
+    """
+    Process book JSON files and split by source.
+
+    Args:
+        book_dir: Path to /data/book/ directory
+        sources: Dict of sources from books.json
+        output_dir: Path to /data_rework/ directory
+        stats: Statistics object to track results
+        logger_instance: Optional logger instance
+
+    Returns:
+        Dict with counts per source (count of data entries)
+    """
+    log = logger_instance or logger
+    log.info("Processing book files...")
+
+    if not book_dir.exists():
+        log.error(f"Book directory not found: {book_dir}")
+        stats.add_error(f"Book directory not found: {book_dir}")
+        return {}
+
+    # Find all book JSON files
+    json_files = list(book_dir.glob("book-*.json"))
+
+    if not json_files:
+        log.warning(f"No book files found in {book_dir}")
+        return {}
+
+    log.info(f"Found {len(json_files)} book files")
+
+    counts_per_source = {}
+
+    # Build a mapping from uppercase filename IDs to actual source IDs
+    filename_to_source = {
+        source_id.upper(): source_id
+        for source_id in sources.keys()
+    }
+
+    for json_file in create_progress_iterator(
+        json_files,
+        desc="Processing book files",
+    ):
+        # Extract source ID from filename (book-phb.json -> phb -> PHB)
+        filename_id = json_file.stem.replace("book-", "").upper()
+
+        # Look up the actual source ID
+        source_id = filename_to_source.get(filename_id)
+
+        if not source_id:
+            log.warning(f"Unknown source '{filename_id}' from {json_file.name}, skipping")
+            stats.add_warning(f"Unknown source '{filename_id}' from {json_file.name}")
+            continue
+
+        log.debug(f"Processing {json_file.name} for source '{source_id}'...")
+
+        # Load book data
+        data = load_json(json_file, log)
+        if not data:
+            stats.add_error(f"Failed to load {json_file}")
+            continue
+
+        # Create output directory
+        source_output_dir = output_dir / source_id / "data"
+        source_output_dir.mkdir(parents=True, exist_ok=True)
+
+        # Save to book.json in the source directory
+        output_file = source_output_dir / "book.json"
+        if save_json(data, output_file, log):
+            # Count data entries if present
+            entry_count = 0
+            if "data" in data and isinstance(data["data"], list):
+                entry_count = len(data["data"])
+
+            counts_per_source[source_id] = entry_count
+            log.debug(
+                f"  Saved {entry_count} entries to "
+                f"{output_file.relative_to(output_dir)}"
+            )
+        else:
+            stats.add_error(f"Failed to save {output_file}")
+
+    log.info(
+        f"Processed books: {sum(counts_per_source.values())} entries "
+        f"from {len(counts_per_source)} sources"
+    )
+
+    return counts_per_source
+
+
 def process_fluff_files(
     data_dir: Path,
     sources: Dict[str, Dict[str, Any]],

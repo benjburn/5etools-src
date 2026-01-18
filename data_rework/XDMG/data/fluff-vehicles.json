@@ -1,0 +1,18 @@
+{
+	"vehicleFluff": [
+		{
+			"name": "Apparatus of Kwalish",
+			"source": "XDMG",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/XDMG/Apparatus of Kwalish.webp"
+					},
+					"credit": "Conceptopolis"
+				}
+			]
+		}
+	]
+}

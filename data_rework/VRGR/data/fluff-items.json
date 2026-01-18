@@ -1,0 +1,22 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Nepenthe",
+			"source": "VRGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/VRGR/Nepenthe.webp"
+					}
+				}
+			]
+		}
+	]
+}

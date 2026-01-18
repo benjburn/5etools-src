@@ -1,0 +1,84 @@
+{
+	"language": [
+		{
+			"name": "Celestial",
+			"source": "MOT",
+			"page": 9,
+			"typicalSpeakers": [
+				"Gods"
+			],
+			"script": "Celestial"
+		},
+		{
+			"name": "Common",
+			"source": "MOT",
+			"page": 9,
+			"typicalSpeakers": [
+				"Humans"
+			],
+			"script": "Common"
+		},
+		{
+			"name": "Draconic",
+			"source": "MOT",
+			"page": 9,
+			"typicalSpeakers": [
+				"Dragons"
+			],
+			"script": "Draconic"
+		},
+		{
+			"name": "Giant",
+			"source": "MOT",
+			"page": 9,
+			"typicalSpeakers": [
+				"Cyclopes, giants"
+			],
+			"script": "Minotaur"
+		},
+		{
+			"name": "Leonin",
+			"source": "MOT",
+			"page": 9,
+			"typicalSpeakers": [
+				"Leonin"
+			],
+			"script": "Common"
+		},
+		{
+			"name": "Minotaur",
+			"source": "MOT",
+			"page": 9,
+			"typicalSpeakers": [
+				"Minotaurs"
+			],
+			"script": "Minotaur"
+		},
+		{
+			"name": "Primordial",
+			"source": "MOT",
+			"page": 9,
+			"typicalSpeakers": [
+				"Tritons"
+			],
+			"script": "Common"
+		},
+		{
+			"name": "Sphinx",
+			"source": "MOT",
+			"page": 9,
+			"typicalSpeakers": [
+				"Sphinxes"
+			]
+		},
+		{
+			"name": "Sylvan",
+			"source": "MOT",
+			"page": 9,
+			"typicalSpeakers": [
+				"Centaurs, {@filter satyrs|bestiary|source=MOT|search=satyr}"
+			],
+			"script": "Elvish"
+		}
+	]
+}

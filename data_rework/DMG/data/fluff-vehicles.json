@@ -1,0 +1,18 @@
+{
+	"vehicleFluff": [
+		{
+			"name": "Apparatus of Kwalish",
+			"source": "DMG",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/DMG/Apparatus of Kwalish.webp"
+					},
+					"credit": "Aaron Hübrich"
+				}
+			]
+		}
+	]
+}
