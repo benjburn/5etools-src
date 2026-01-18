@@ -131,7 +131,7 @@ def _copy_category_images(
     Copy images for a specific category and source.
 
     Args:
-        source_id: Source ID
+        source_id: Source ID (e.g., "PHB", "PS-A")
         category: Image category (e.g., "bestiary", "book")
         img_dir: Path to /img/ directory
         output_dir: Path to /data_rework/ directory
@@ -140,17 +140,23 @@ def _copy_category_images(
 
     Returns:
         Number of images copied
+
+    Note:
+        Uses IMAGE_PATH_SPECIAL_MAPPINGS to map source IDs to image directory names
+        (e.g., "PS-A" -> "PSA" for img/book/PSA/)
     """
-    source_img_dir = img_dir / category / source_id
+    # Use special mapping if available (e.g., PS-A -> PSA)
+    path_component = config.IMAGE_PATH_SPECIAL_MAPPINGS.get(source_id, source_id)
+    source_img_dir = img_dir / category / path_component
 
     if not source_img_dir.exists():
         return 0
 
-    # Output path
+    # Output path - use path_component for the image subdirectory
     output_category_dir = output_dir / source_id / "img" / category
     output_category_dir.mkdir(parents=True, exist_ok=True)
 
-    output_source_dir = output_category_dir / source_id
+    output_source_dir = output_category_dir / path_component
     output_source_dir.mkdir(parents=True, exist_ok=True)
 
     # Copy all files recursively
