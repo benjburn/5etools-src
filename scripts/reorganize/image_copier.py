@@ -48,8 +48,9 @@ def copy_images_for_source(
     Strategy:
         1. Copy cover image: img/covers/{SOURCE}.webp -> data_rework/{SOURCE}/img/covers/{SOURCE}.webp
         2. Copy category images: img/{category}/{SOURCE}/**/* -> data_rework/{SOURCE}/img/{category}/{SOURCE}/**/*
-        3. Categories to process: bestiary, book, items, backgrounds, classes, races, spells, deities, adventure, etc.
-        4. Skip cross-source images (image path != entity source)
+        3. Copy bestiary tokens: img/bestiary/tokens/{SOURCE}/**/* -> data_rework/{SOURCE}/img/bestiary/tokens/{SOURCE}/**/*
+        4. Categories to process: bestiary, book, items, backgrounds, classes, races, spells, deities, adventure, etc.
+        5. Skip cross-source images (image path != entity source)
     """
     log = logger_instance or logger
     log.debug(f"Copying images for {source_id}...")
@@ -68,6 +69,11 @@ def copy_images_for_source(
         )
         if count > 0:
             category_counts[category] = count
+
+    # 3. Copy bestiary tokens (special case - tokens are under bestiary/)
+    token_count = _copy_tokens_for_source(source_id, img_dir, output_dir, stats, log)
+    if token_count > 0:
+        category_counts["tokens"] = token_count
 
     total = sum(category_counts.values())
     log.info(f"  Copied {total} images for {source_id} from {len(category_counts)} categories")
@@ -183,6 +189,74 @@ def _copy_category_images(
 
     except Exception as e:
         error_msg = f"Failed to copy {category} images for {source_id}: {e}"
+        log.error(error_msg)
+        stats.add_error(error_msg)
+
+    return count
+
+
+def _copy_tokens_for_source(
+    source_id: str,
+    img_dir: Path,
+    output_dir: Path,
+    stats: Statistics,
+    log: logging.Logger,
+) -> int:
+    """
+    Copy token images for a specific source.
+
+    Args:
+        source_id: Source ID (e.g., "PHB", "PS-K")
+        img_dir: Path to /img/ directory
+        output_dir: Path to /data_rework/ directory
+        stats: Statistics object
+        log: Logger instance
+
+    Returns:
+        Number of token images copied
+
+    Note:
+        Tokens are stored at img/bestiary/tokens/{path_component}/
+        Uses IMAGE_PATH_SPECIAL_MAPPINGS for directory name mapping
+        (e.g., "PS-K" -> "PSK" for img/bestiary/tokens/PSK/)
+    """
+    # Use special mapping if available (e.g., PS-K -> PSK)
+    path_component = config.IMAGE_PATH_SPECIAL_MAPPINGS.get(source_id, source_id)
+    source_tokens_dir = img_dir / "bestiary" / "tokens" / path_component
+
+    if not source_tokens_dir.exists():
+        return 0
+
+    # Output path: data_rework/{source_id}/img/bestiary/tokens/{path_component}/
+    output_tokens_dir = (
+        output_dir / source_id / "img" / "bestiary" / "tokens" / path_component
+    )
+    output_tokens_dir.mkdir(parents=True, exist_ok=True)
+
+    # Copy all files recursively
+    count = 0
+
+    try:
+        for item in source_tokens_dir.rglob("*"):
+            if item.is_file():
+                # Calculate relative path from source_tokens_dir
+                rel_path = item.relative_to(source_tokens_dir)
+
+                # Output file path
+                output_file = output_tokens_dir / rel_path
+
+                # Create parent directories if needed
+                output_file.parent.mkdir(parents=True, exist_ok=True)
+
+                # Copy file
+                shutil.copy2(item, output_file)
+                count += 1
+
+        if count > 0:
+            log.debug(f"    Copied {count} token images")
+
+    except Exception as e:
+        error_msg = f"Failed to copy tokens for {source_id}: {e}"
         log.error(error_msg)
         stats.add_error(error_msg)
 
