@@ -1,0 +1,20 @@
+# 5etools Python Dependencies
+# Python 3.12+ required
+
+# Core dependencies
+# Add your dependencies here as they are needed
+
+# Example dependencies (uncomment when needed):
+# requests>=2.31.0           # For web requests
+# pillow>=10.0.0            # For image processing
+# pyyaml>=6.0.0             # For YAML parsing
+# click>=8.1.0              # For CLI interfaces
+# rich>=13.0.0              # For beautiful terminal output
+# jsonschema>=4.20.0        # For JSON schema validation
+
+# Development dependencies (optional)
+# pytest>=7.4.0             # For testing
+# pytest-cov>=4.1.0         # For coverage reports
+# black>=23.0.0             # For code formatting
+# pylint>=3.0.0             # For linting
+# mypy>=1.5.0               # For type checking

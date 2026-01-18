@@ -42,6 +42,16 @@ This directory contains detailed technical documentation for the 5etools codebas
   - Migration from current /data structure
   - Examples and validation requirements
 
+### Python Scripts
+
+- **[Python Validation Scripts](python-scripts.md)** - Python validation scripts guide
+  - Environment setup with `uv`
+  - Running validation scripts
+  - PDF validation (check_pdf.py)
+  - Links validation (check_links.py)
+  - Troubleshooting and development
+  - Complete guide for all Python tools
+
 ### Content Systems
 
 - **[Image References](images.md)** - Image reference system
