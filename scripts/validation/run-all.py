@@ -18,6 +18,7 @@ from typing import Any, Dict, List
 VALIDATION_SCRIPTS = [
     "check_pdf.py",
     "check_links.py",
+    "check_source_purity.py",  # Проверка чистоты источников в data_rework/
     # "check_images.py",  # Uncomment when implemented
     # "check_cross_source.py",  # Uncomment when implemented
     # "check_fluff.py",  # Uncomment when implemented

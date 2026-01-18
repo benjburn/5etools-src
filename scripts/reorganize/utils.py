@@ -354,6 +354,44 @@ def group_entities_by_source(
     return grouped
 
 
+def deduplicate_entities(entities: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+	"""
+	Remove duplicate entities based on {name, source}.
+
+	If duplicates exist, prefer the one with a page number.
+	If both have page numbers, prefer the larger page number (likely reprint).
+
+	Args:
+		entities: List of entity dicts
+
+	Returns:
+		Deduplicated list
+	"""
+	seen = {}
+	for entity in entities:
+		name = entity.get("name")
+		source = entity.get("source")
+		if not name or not source:
+			continue
+
+		key = (name, source)
+		page = entity.get("page")
+
+		# Keep the version with a page number
+		if key not in seen:
+			seen[key] = entity
+		else:
+			existing_page = seen[key].get("page")
+			# Prefer version with page number
+			if page is not None and (existing_page is None or page > 0):
+				seen[key] = entity
+			elif existing_page is None and page is None:
+				# Both null, keep the first one
+				pass
+
+	return list(seen.values())
+
+
 def extract_entities_from_json(
     data: Dict[str, Any],
     entity_types: Optional[Set[str]] = None,

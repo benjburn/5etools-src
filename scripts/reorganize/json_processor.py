@@ -13,6 +13,7 @@ from scripts.reorganize import config
 from scripts.reorganize.utils import (
     Statistics,
     create_progress_iterator,
+    deduplicate_entities,
     extract_entities_from_json,
     get_entity_source,
     group_entities_by_source,
@@ -214,112 +215,150 @@ def process_bestiary_files(
 
 
 def process_class_files(
-    class_dir: Path,
-    sources: Dict[str, Dict[str, Any]],
-    output_dir: Path,
-    stats: Statistics,
-    logger_instance: Optional[logging.Logger] = None,
+	class_dir: Path,
+	sources: Dict[str, Dict[str, Any]],
+	output_dir: Path,
+	stats: Statistics,
+	logger_instance: Optional[logging.Logger] = None,
 ) -> Dict[str, int]:
-    """
-    Process class JSON files and split by source.
+	"""
+	Process class JSON files and split by source.
 
-    Args:
-        class_dir: Path to /data/class/ directory
-        sources: Dict of sources from books.json
-        output_dir: Path to /data_rework/ directory
-        stats: Statistics object to track results
-        logger_instance: Optional logger instance
+	Links subclasses to classes based on className field.
 
-    Returns:
-        Dict with counts per source
-    """
-    log = logger_instance or logger
-    log.info("Processing class files...")
+	Args:
+		class_dir: Path to /data/class/ directory
+		sources: Dict of sources from books.json
+		output_dir: Path to /data_rework/ directory
+		stats: Statistics object to track results
+		logger_instance: Optional logger instance
 
-    if not class_dir.exists():
-        log.error(f"Class directory not found: {class_dir}")
-        stats.add_error(f"Class directory not found: {class_dir}")
-        return {}
+	Returns:
+		Dict with counts per source
+	"""
+	log = logger_instance or logger
+	log.info("Processing class files...")
 
-    # Find all class JSON files
-    json_files = list(class_dir.glob("class-*.json"))
+	if not class_dir.exists():
+		log.error(f"Class directory not found: {class_dir}")
+		stats.add_error(f"Class directory not found: {class_dir}")
+		return {}
 
-    if not json_files:
-        log.warning(f"No class files found in {class_dir}")
-        return {}
+	# Find all class JSON files
+	json_files = list(class_dir.glob("class-*.json"))
 
-    log.info(f"Found {len(json_files)} class files")
+	if not json_files:
+		log.warning(f"No class files found in {class_dir}")
+		return {}
 
-    # Collect all class data from all files
-    all_class_data = {}
+	log.info(f"Found {len(json_files)} class files")
 
-    for json_file in create_progress_iterator(
-        json_files,
-        desc="Loading class files",
-    ):
-        data = load_json(json_file, log)
-        if not data:
-            stats.add_error(f"Failed to load {json_file}")
-            continue
+	# Collect all class data from all files
+	all_class_data = {}
 
-        # Merge all keys from this file
-        for key, value in data.items():
-            if key == "_meta":
-                continue
+	for json_file in create_progress_iterator(
+		json_files,
+		desc="Loading class files",
+	):
+		data = load_json(json_file, log)
+		if not data:
+			stats.add_error(f"Failed to load {json_file}")
+			continue
 
-            if key not in all_class_data:
-                all_class_data[key] = []
+		# Merge all keys from this file
+		for key, value in data.items():
+			if key == "_meta":
+				continue
 
-            if isinstance(value, list):
-                all_class_data[key].extend(value)
+			if key not in all_class_data:
+				all_class_data[key] = []
 
-    # Group each entity type by source
-    counts_per_source = {}
+			if isinstance(value, list):
+				all_class_data[key].extend(value)
 
-    for entity_type, entities in all_class_data.items():
-        if not isinstance(entities, list) or not entities:
-            continue
+	# Step 1: Deduplicate and group each entity type by source
+	grouped_by_type_and_source = {}
+	for entity_type, entities in all_class_data.items():
+		if not isinstance(entities, list) or not entities:
+			continue
 
-        log.debug(f"Processing {len(entities)} {entity_type} entries...")
+		log.debug(f"Processing {len(entities)} {entity_type} entries...")
 
-        grouped = group_entities_by_source(entities, entity_type, log)
+		# Deduplicate first!
+		entities = deduplicate_entities(entities)
+		log.debug(f"  After deduplication: {len(entities)} {entity_type} entries")
 
-        for source_id, source_entities in grouped.items():
-            if source_id not in sources:
-                log.warning(f"Unknown source '{source_id}' in class files, skipping")
-                continue
+		grouped = group_entities_by_source(entities, entity_type, log)
+		grouped_by_type_and_source[entity_type] = grouped
 
-            # Create output directory
-            source_output_dir = output_dir / source_id / "data"
-            source_output_dir.mkdir(parents=True, exist_ok=True)
+	# Step 2: Link subclasses to classes for each source
+	counts_per_source = {}
 
-            # Load existing classes.json or create new
-            output_file = source_output_dir / "classes.json"
-            if output_file.exists():
-                output_data = load_json(output_file, log)
-                if not output_data:
-                    output_data = {}
-            else:
-                output_data = {}
+	for source_id in sources.keys():
+		# Get entities for this source
+		classes = grouped_by_type_and_source.get("class", {}).get(source_id, [])
+		subclasses = grouped_by_type_and_source.get("subclass", {}).get(source_id, [])
+		subclass_features = grouped_by_type_and_source.get("subclassFeature", {}).get(source_id, [])
 
-            # Add entities
-            if entity_type not in output_data:
-                output_data[entity_type] = []
+		if not classes and not subclasses and not subclass_features:
+			continue
 
-            output_data[entity_type].extend(source_entities)
+		log.debug(f"Processing {source_id}: {len(classes)} classes, {len(subclasses)} subclasses, {len(subclass_features)} features")
 
-            # Save
-            if save_json(output_data, output_file, log):
-                if source_id not in counts_per_source:
-                    counts_per_source[source_id] = 0
-                counts_per_source[source_id] += len(source_entities)
+		# Build feature map: {subclassShortName: [features]}
+		feature_map = {}
+		for sf in subclass_features:
+			subclass_short_name = sf.get("subclassShortName")
+			if subclass_short_name:
+				if subclass_short_name not in feature_map:
+					feature_map[subclass_short_name] = []
+				feature_map[subclass_short_name].append(sf)
 
-    log.info(
-        f"Processed classes: {sum(counts_per_source.values())} entries "
-        f"from {len(counts_per_source)} sources"
-    )
+		# Build subclass map and link features
+		subclass_map = {}
+		for sc in subclasses:
+			sc_short_name = sc.get("shortName")
+			sc_name = sc.get("name")
+			if sc_short_name:
+				# Add features to subclass using shortName
+				if sc_short_name in feature_map:
+					sc["features"] = feature_map[sc_short_name]
+				subclass_map[sc_short_name] = sc
+			elif sc_name:
+				# Fallback to name if no shortName
+				subclass_map[sc_name] = sc
 
-    return counts_per_source
+		# Link subclasses to classes
+		for cls in classes:
+			class_name = cls.get("name")
+			if not class_name:
+				continue
+
+			# Find subclasses for this class
+			class_subclasses = []
+			for sc in subclasses:
+				if sc.get("className") == class_name:
+					class_subclasses.append(sc)
+
+			cls["subclasses"] = class_subclasses if class_subclasses else None
+
+		# Save to file
+		source_output_dir = output_dir / source_id / "data"
+		source_output_dir.mkdir(parents=True, exist_ok=True)
+
+		output_file = source_output_dir / "classes.json"
+		output_data = {"class": classes}
+
+		if save_json(output_data, output_file, log):
+			# Count classes
+			counts_per_source[source_id] = len(classes)
+
+	log.info(
+		f"Processed classes: {sum(counts_per_source.values())} classes "
+		f"from {len(counts_per_source)} sources"
+	)
+
+	return counts_per_source
 
 
 def process_book_files(
