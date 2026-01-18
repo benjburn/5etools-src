@@ -14,7 +14,9 @@ bd sync               # Sync with git
 
 ## Creating Issues with Context
 
-**CRITICAL:** Always include context when creating issues. This preserves information between sessions and prevents loss of important details after context compaction.
+**CRITICAL:** Always include context when creating NEW issues. This preserves information between sessions and prevents loss of important details after context compaction.
+
+**Note:** Existing issues (44/45) remain unchanged - only apply this template to new issues.
 
 ### Using the Template
 
