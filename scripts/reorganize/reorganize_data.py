@@ -9,6 +9,7 @@ Usage:
     python scripts/reorganize/reorganize_data.py
     python scripts/reorganize/reorganize_data.py --sources PHB XPHB
     python scripts/reorganize/reorganize_data.py --skip-validation
+    python scripts/reorganize/reorganize_data.py --clean
     python scripts/reorganize/reorganize_data.py --verbose
 """
 
@@ -134,6 +135,12 @@ def main():
     )
 
     parser.add_argument(
+        "--clean",
+        action="store_true",
+        help="Delete output directory before reorganization (useful when script changes require full rebuild)",
+    )
+
+    parser.add_argument(
         "-v",
         "--verbose",
         action="store_true",
@@ -157,6 +164,26 @@ def main():
 
     # Setup logging
     log = setup_logging(verbose=args.verbose, quiet=args.quiet)
+
+    # Check if output directory exists
+    if args.output_dir.exists():
+        import shutil
+
+        if args.clean:
+            log.warning(f"⚠️  Deleting existing output directory: {args.output_dir}")
+            try:
+                shutil.rmtree(args.output_dir)
+                log.info(f"✅ Deleted {args.output_dir}")
+            except Exception as e:
+                log.error(f"❌ Failed to delete {args.output_dir}: {e}")
+                return 1
+        else:
+            log.warning(
+                f"⚠️  Output directory already exists: {args.output_dir}\n"
+                f"   Script changes may not apply to existing files!\n"
+                f"   Use --clean flag to delete and rebuild from scratch:\n"
+                f"   python {Path(__file__).name} --clean"
+            )
 
     log.info("=" * 60)
     log.info("5etools Data Reorganization")

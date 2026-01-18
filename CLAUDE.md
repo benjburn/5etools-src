@@ -41,6 +41,28 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `npm run test:tags` - Validate tag references in data
 - `npm run spellcheck:check-data-quick` - Spellcheck only changed data files
 
+### Data Reorganization
+When modifying scripts in `scripts/reorganize/`:
+
+1. **Clean existing data:**
+   ```bash
+   rm -rf data_rework/
+   # OR use the --clean flag (recommended)
+   python scripts/reorganize/reorganize_data.py --clean
+   ```
+
+2. **Re-run reorganization:**
+   ```bash
+   python scripts/reorganize/reorganize_data.py
+   ```
+
+3. **Validate:**
+   ```bash
+   python scripts/validation/run-all.py
+   ```
+
+**Important:** Reorganization scripts are incremental and skip existing files. Always delete `data_rework/` (or use `--clean`) after script changes to ensure your changes take effect.
+
 ## Code Architecture
 
 ### Data Structure (`data/`)

@@ -107,3 +107,38 @@ See `docs/beads-templates/README.md` for detailed instructions and examples.
 - NEVER stop before pushing - that leaves work stranded locally
 - NEVER say "ready to push when you are" - YOU must push
 - If push fails, resolve and retry until it succeeds
+
+## Data Reorganization Workflow
+
+**CRITICAL:** When working with data reorganization scripts in `scripts/reorganize/`:
+
+After making ANY changes to reorganization scripts, you MUST:
+1. Delete the `data_rework/` directory completely
+2. Re-run the reorganization from scratch
+3. Validate the results
+
+**Why?**
+Reorganization scripts work incrementally - they skip existing files for performance. Changes to processing logic will NOT apply to existing files.
+
+**Complete workflow:**
+```bash
+# After changing scripts in scripts/reorganize/
+rm -rf data_rework/
+python scripts/reorganize/reorganize_data.py
+
+# Validate results
+python scripts/validation/check_source_purity.py
+python scripts/validation/run-all.py
+```
+
+**Common mistake:**
+❌ Editing `json_processor.py` → running `reorganize_data.py` → expecting changes in output
+✅ Editing `json_processor.py` → deleting `data_rework/` → running `reorganize_data.py` → changes applied
+
+**Using --clean flag:**
+```bash
+# Alternative to manual deletion
+python scripts/reorganize/reorganize_data.py --clean
+```
+
+The `--clean` flag automatically deletes `data_rework/` before reorganization. This is the RECOMMENDED approach when working on reorganization scripts.
