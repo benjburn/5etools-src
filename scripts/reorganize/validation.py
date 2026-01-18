@@ -16,6 +16,9 @@ from typing import Any, Dict, List, Optional
 from scripts.reorganize import config
 from scripts.reorganize.utils import (
     Statistics,
+    create_progress_iterator,
+    find_image_references,
+    load_json,
     create_report,
     save_json,
     setup_logging,
@@ -371,3 +374,75 @@ def create_baseline(
     except Exception as e:
         log.error(f"Failed to save baseline: {e}")
         return False
+
+
+# =============================================================================
+# Image Reference Checking
+# =============================================================================
+
+def check_image_references_in_reorganized_data(
+    data_rework_dir: Path,
+    img_dir: Path,
+    stats: Statistics,
+    logger_instance: Optional[logging.Logger] = None,
+) -> None:
+    """
+    Check all image references in reorganized JSON data.
+
+    This function was moved from image_copier.py to preserve functionality.
+
+    Args:
+        data_rework_dir: Path to /data_rework/ directory
+        img_dir: Path to /img/ directory
+        stats: Statistics object to track results
+        logger_instance: Optional logger instance
+    """
+    log = logger_instance or logger
+    log.info("Checking image references in reorganized data...")
+
+    # Find all JSON files in reorganized data
+    json_files = list(data_rework_dir.rglob("data/*.json"))
+
+    if not json_files:
+        log.warning("No JSON files found in reorganized data")
+        return
+
+    log.info(f"Found {len(json_files)} JSON files to check")
+
+    # Check each file
+    for json_file in create_progress_iterator(
+        json_files,
+        desc="Checking image references",
+    ):
+        data = load_json(json_file, log)
+        if not data:
+            continue
+
+        # Extract source ID from path (e.g., data_rework/PHB/data/...)
+        path_parts = json_file.relative_to(data_rework_dir).parts
+        if len(path_parts) < 2:
+            continue
+
+        source_id = path_parts[0]
+
+        # Find image references
+        references = find_image_references(data, source_id)
+
+        for ref in references:
+            image_path = img_dir / ref["path"]
+
+            # Check if image exists
+            if not image_path.exists():
+                error_msg = f"Image not found: {ref['path']} (referenced in {json_file.relative_to(data_rework_dir)})"
+                stats.add_error(error_msg)
+
+            # Track cross-source references
+            if ref["is_cross_source"]:
+                stats.add_cross_source_reference({
+                    "entity_source": source_id,
+                    "image_path": ref["path"],
+                    "image_source": ref.get("image_source"),
+                    "referenced_in": str(json_file.relative_to(data_rework_dir)),
+                })
+
+    log.info("Image reference check complete")

@@ -61,6 +61,7 @@ IMAGE_CATEGORIES = {
     "rewards",
     "recipes",
     "trapshazards",
+    "traps",
     "variantrules",
     "psionics",
     "skills",
@@ -275,10 +276,34 @@ SOURCE_GROUPS = {
     ],
     "setting": [
         "SCAG", "GGR", "ERLW", "EGW", "MOT", "VRGR", "SCC",
-        "AAG", "BAM", "MPP", "SatO", "FRAiF", "FRHoF", "CoS"
+        "AAG", "BAM", "MPP", "SatO", "FRAiF", "FRHoF"
     ],
     "setting-alt": [
         "PS-Z", "PS-I", "PS-K", "PS-A", "PS-X", "PS-D", "NF", "LFL"
+    ],
+    "adventure": [
+        # Major adventures
+        "LMoP", "HotDQ", "RoT", "PotA", "OotA", "SKT",
+        "CoS", "ToA", "WDH", "WDMM", "IDRotF", "WBtW",
+        "GoS", "TftYP",
+        # TftYP submodules
+        "TftYP-AtG", "TftYP-DiT", "TftYP-TFoF", "TftYP-THSoT",
+        "TftYP-TSC", "TftYP-ToH", "TftYP-WPM",
+        # Other adventures
+        "CoA", "CM", "CRCotN", "DIP", "DSotDQ", "DitLCoT", "DoSI",
+        "DrDe", "EFR", "ESK", "BGDIA", "JttRC", "KftGV", "LLK",
+        "LR", "LRDT", "LoX", "OoW", "PaBTSO", "QftIS", "RMBRE",
+        "ToFW", "VEoR", "WttHC",
+        # AitFR series
+        "AitFR-AVT", "AitFR-DN", "AitFR-FCD", "AitFR-ISF", "AitFR-THP",
+        # NRH series
+        "NRH-ASS", "NRH-AT", "NRH-AVitW", "NRH-AWoL", "NRH-CoI",
+        "NRH-TCMC", "NRH-TLT",
+        # Misc adventures
+        "AZfyT", "BQGT", "DC", "FFotR", "GHLoE", "GotSF", "HBTD",
+        "HftT", "HotB", "IMR", "KKW", "LK", "MCV1SC", "MCV2DC",
+        "MCV3MC", "MFF", "MisMV1", "PiP", "RtG", "SDW", "SLW",
+        "ScoEE", "SjA", "TLK", "TTP", "UtHftLH", "VD", "VNotEE", "XMtS",
     ],
     "screen": ["Screen", "ScreenDungeonKit", "ScreenWildernessKit", "ScreenSpelljammer", "XScreen"],
     "recipe": ["HF", "HFFotM", "PaF"],

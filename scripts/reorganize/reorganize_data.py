@@ -22,7 +22,7 @@ project_root = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(project_root))
 
 from scripts.reorganize import config
-from scripts.reorganize.image_copier import copy_all_images
+from scripts.reorganize.file_copier import get_copier
 from scripts.reorganize.json_processor import (
     process_all_json_files,
     process_bestiary_files,
@@ -30,7 +30,6 @@ from scripts.reorganize.json_processor import (
     process_class_files,
     process_spells_files,
 )
-from scripts.reorganize.pdf_copier import copy_all_pdfs
 from scripts.reorganize.utils import (
     Statistics,
     create_report,
@@ -263,14 +262,16 @@ def main():
         log.info("Step 2: Copying images...")
         log.info("=" * 60)
 
-        copy_all_images(sources, args.img_dir, args.output_dir, stats, log)
+        image_copier = get_copier("image")
+        image_copier.copy_all(sources, args.img_dir, args.output_dir, stats, log)
 
         # Step 3: Copy PDFs
         log.info("=" * 60)
         log.info("Step 3: Copying PDFs...")
         log.info("=" * 60)
 
-        copy_all_pdfs(sources, args.img_dir, args.output_dir, stats, log)
+        pdf_copier = get_copier("pdf")
+        pdf_copier.copy_all(sources, args.img_dir, args.output_dir, stats, log)
 
         # Step 4: Quick integrity check
         log.info("=" * 60)
