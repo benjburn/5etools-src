@@ -35,6 +35,13 @@ This directory contains detailed technical documentation for the 5etools codebas
   - Redirect lookup
   - 431 lines
 
+- **[Data Rework Structure](data-rework-structure.md)** - Planned /data_rework directory structure
+  - Source-based organization (60 sources)
+  - Folder structure by source
+  - File format specifications
+  - Migration from current /data structure
+  - Examples and validation requirements
+
 ### Content Systems
 
 - **[Image References](images.md)** - Image reference system
