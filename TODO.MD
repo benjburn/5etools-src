@@ -27,7 +27,7 @@
 - [ ] **4.2** - Проверка cross-source тегов (Python)
 - [ ] **4.3** - Проверка image references (Python)
 - [ ] **4.4** - Проверка fluff (Python)
-- [ ] **4.5** - Проверка PDF (Python)
+- ✅ **4.5** - Проверка PDF (Python) - **ВЫПОЛНЕНО** (скрипт: `scripts/validation/check_pdf.py`)
 - [ ] **4.6** - Проверка ссылок (Python)
 
 ### Новая секция 6
