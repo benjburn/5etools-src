@@ -4,6 +4,7 @@
 desktop.ini
 node_modules
 img
+data_rework/**/img/
 
 # IntelliJ project files
 .idea/

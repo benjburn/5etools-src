@@ -1,0 +1,25 @@
+{
+	"timestamp": "2026-01-18T12:48:52.574003Z",
+	"data_dir": "data",
+	"data_rework_dir": "data_rework",
+	"validations": [
+		{
+			"script": "scripts/validation/check_data_integrity.py",
+			"status": "skipped",
+			"message": "Script not found: scripts/validation/check_data_integrity.py"
+		},
+		{
+			"script": "scripts/validation/check_images.py",
+			"status": "skipped",
+			"message": "Script not found: scripts/validation/check_images.py"
+		},
+		{
+			"script": "scripts/validation/check_cross_source.py",
+			"status": "skipped",
+			"message": "Script not found: scripts/validation/check_cross_source.py"
+		}
+	],
+	"overall_status": "passed",
+	"failed_count": 0,
+	"total_count": 3
+}

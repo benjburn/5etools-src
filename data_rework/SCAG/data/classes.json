@@ -1455,9 +1455,2637 @@
 				"Undying Nature|Warlock||Undying|SCAG|10",
 				"Indestructible Life|Warlock||Undying|SCAG|14"
 			]
+		},
+		{
+			"name": "Way of the Long Death",
+			"shortName": "Long Death",
+			"source": "SCAG",
+			"className": "Monk",
+			"classSource": "PHB",
+			"page": 130,
+			"edition": "classic",
+			"subclassFeatures": [
+				"Way of the Long Death|Monk||Long Death|SCAG|3",
+				"Hour of Reaping|Monk||Long Death|SCAG|6",
+				"Mastery of Death|Monk||Long Death|SCAG|11",
+				"Touch of the Long Death|Monk||Long Death|SCAG|17"
+			]
+		},
+		{
+			"name": "Way of the Long Death",
+			"shortName": "Long Death",
+			"source": "SCAG",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Way of the Long Death",
+				"source": "SCAG",
+				"shortName": "Long Death",
+				"className": "Monk",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			}
+		},
+		{
+			"name": "Purple Dragon Knight (Banneret)",
+			"shortName": "Purple Dragon Knight (Banneret)",
+			"source": "SCAG",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"page": 128,
+			"reprintedAs": [
+				"Banneret|Fighter|XPHB|FRHoF"
+			],
+			"edition": "classic",
+			"subclassFeatures": [
+				"Purple Dragon Knight (Banneret)|Fighter||Purple Dragon Knight (Banneret)|SCAG|3",
+				"Royal Envoy|Fighter||Purple Dragon Knight (Banneret)|SCAG|7",
+				"Inspiring Surge|Fighter||Purple Dragon Knight (Banneret)|SCAG|10",
+				"Bulwark|Fighter||Purple Dragon Knight (Banneret)|SCAG|15",
+				"Inspiring Surge|Fighter||Purple Dragon Knight (Banneret)|SCAG|18"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Purple Dragon Knight (Banneret)",
+			"shortName": "Purple Dragon Knight (Banneret)",
+			"source": "SCAG",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"reprintedAs": [
+				"Banneret|Fighter|XPHB|FRHoF"
+			],
+			"_copy": {
+				"name": "Purple Dragon Knight (Banneret)",
+				"source": "SCAG",
+				"shortName": "Purple Dragon Knight (Banneret)",
+				"className": "Fighter",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
+			"fluff": {
+				"_subclassFluff": {
+					"name": "Purple Dragon Knight (Banneret)",
+					"source": "SCAG",
+					"shortName": "Purple Dragon Knight (Banneret)",
+					"className": "Fighter",
+					"classSource": "PHB"
+				}
+			}
+		},
+		{
+			"name": "Arcana Domain",
+			"shortName": "Arcana",
+			"source": "SCAG",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 125,
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Wizard",
+									"count": 2
+								}
+							]
+						}
+					},
+					"prepared": {
+						"1": [
+							"detect magic",
+							"magic missile"
+						],
+						"3": [
+							"magic weapon",
+							"Nystul's magic aura"
+						],
+						"5": [
+							"dispel magic",
+							"magic circle"
+						],
+						"7": [
+							"arcane eye",
+							"Leomund's secret chest"
+						],
+						"9": [
+							"planar binding",
+							"teleportation circle"
+						],
+						"17": [
+							{
+								"choose": "level=6|class=Wizard"
+							},
+							{
+								"choose": "level=7|class=Wizard"
+							},
+							{
+								"choose": "level=8|class=Wizard"
+							},
+							{
+								"choose": "level=9|class=Wizard"
+							}
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Arcana Domain|Cleric||Arcana|SCAG|1",
+				"Channel Divinity: Arcane Abjuration|Cleric||Arcana|SCAG|2",
+				"Spell Breaker|Cleric||Arcana|SCAG|6",
+				"Potent Spellcasting|Cleric||Arcana|SCAG|8",
+				"Blessed Strikes|Cleric||Arcana|SCAG|8|TCE",
+				"Arcane Mastery|Cleric||Arcana|SCAG|17"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Arcana Domain",
+			"shortName": "Arcana",
+			"source": "SCAG",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Arcana Domain",
+				"source": "SCAG",
+				"shortName": "Arcana",
+				"className": "Cleric",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
+			"subclassFeatures": [
+				"Arcana Domain|Cleric|XPHB|Arcana|SCAG|3",
+				"Channel Divinity: Arcane Abjuration|Cleric|XPHB|Arcana|SCAG|3",
+				"Spell Breaker|Cleric||Arcana|SCAG|6",
+				"Arcane Mastery|Cleric||Arcana|SCAG|17"
+			],
+			"fluff": {
+				"_subclassFluff": {
+					"name": "Arcana Domain",
+					"source": "SCAG",
+					"shortName": "Arcana",
+					"className": "Cleric",
+					"classSource": "PHB"
+				}
+			}
+		},
+		{
+			"name": "Path of the Battlerager",
+			"shortName": "Battlerager",
+			"source": "SCAG",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"page": 121,
+			"edition": "classic",
+			"subclassFeatures": [
+				"Path of the Battlerager|Barbarian||Battlerager|SCAG|3",
+				"Reckless Abandon|Barbarian||Battlerager|SCAG|6",
+				"Battlerager Charge|Barbarian||Battlerager|SCAG|10",
+				"Spiked Retribution|Barbarian||Battlerager|SCAG|14"
+			]
+		},
+		{
+			"name": "Path of the Battlerager",
+			"shortName": "Battlerager",
+			"source": "SCAG",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Path of the Battlerager",
+				"source": "SCAG",
+				"shortName": "Battlerager",
+				"className": "Barbarian",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			}
+		},
+		{
+			"name": "Oath of the Crown",
+			"shortName": "Crown",
+			"source": "SCAG",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"page": 132,
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"command",
+							"compelled duel"
+						],
+						"5": [
+							"warding bond",
+							"zone of truth"
+						],
+						"9": [
+							"aura of vitality",
+							"spirit guardians"
+						],
+						"13": [
+							"banishment",
+							"guardian of faith"
+						],
+						"17": [
+							"circle of power",
+							"geas"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Oath of the Crown|Paladin||Crown|SCAG|3",
+				"Divine Allegiance|Paladin||Crown|SCAG|7",
+				"Unyielding Spirit|Paladin||Crown|SCAG|15",
+				"Exalted Champion|Paladin||Crown|SCAG|20"
+			]
+		},
+		{
+			"name": "Oath of the Crown",
+			"shortName": "Crown",
+			"source": "SCAG",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Oath of the Crown",
+				"source": "SCAG",
+				"shortName": "Crown",
+				"className": "Paladin",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			}
+		},
+		{
+			"name": "The Undying",
+			"shortName": "Undying",
+			"source": "SCAG",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"page": 139,
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"spare the dying#c"
+						]
+					},
+					"expanded": {
+						"s1": [
+							"false life",
+							"ray of sickness"
+						],
+						"s2": [
+							"blindness/deafness",
+							"silence"
+						],
+						"s3": [
+							"feign death",
+							"speak with dead"
+						],
+						"s4": [
+							"aura of life",
+							"death ward"
+						],
+						"s5": [
+							"contagion",
+							"legend lore"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"The Undying|Warlock||Undying|SCAG|1",
+				"Defy Death|Warlock||Undying|SCAG|6",
+				"Undying Nature|Warlock||Undying|SCAG|10",
+				"Indestructible Life|Warlock||Undying|SCAG|14"
+			]
+		},
+		{
+			"name": "The Undying",
+			"shortName": "Undying",
+			"source": "SCAG",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "The Undying",
+				"source": "SCAG",
+				"shortName": "Undying",
+				"className": "Warlock",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
+			"subclassFeatures": [
+				"The Undying|Warlock|XPHB|Undying|SCAG|3",
+				"Defy Death|Warlock||Undying|SCAG|6",
+				"Undying Nature|Warlock||Undying|SCAG|10",
+				"Indestructible Life|Warlock||Undying|SCAG|14"
+			]
+		},
+		{
+			"name": "Way of the Long Death",
+			"shortName": "Long Death",
+			"source": "SCAG",
+			"className": "Monk",
+			"classSource": "PHB",
+			"page": 130,
+			"edition": "classic",
+			"subclassFeatures": [
+				"Way of the Long Death|Monk||Long Death|SCAG|3",
+				"Hour of Reaping|Monk||Long Death|SCAG|6",
+				"Mastery of Death|Monk||Long Death|SCAG|11",
+				"Touch of the Long Death|Monk||Long Death|SCAG|17"
+			]
+		},
+		{
+			"name": "Way of the Long Death",
+			"shortName": "Long Death",
+			"source": "SCAG",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Way of the Long Death",
+				"source": "SCAG",
+				"shortName": "Long Death",
+				"className": "Monk",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			}
+		},
+		{
+			"name": "Purple Dragon Knight (Banneret)",
+			"shortName": "Purple Dragon Knight (Banneret)",
+			"source": "SCAG",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"page": 128,
+			"reprintedAs": [
+				"Banneret|Fighter|XPHB|FRHoF"
+			],
+			"edition": "classic",
+			"subclassFeatures": [
+				"Purple Dragon Knight (Banneret)|Fighter||Purple Dragon Knight (Banneret)|SCAG|3",
+				"Royal Envoy|Fighter||Purple Dragon Knight (Banneret)|SCAG|7",
+				"Inspiring Surge|Fighter||Purple Dragon Knight (Banneret)|SCAG|10",
+				"Bulwark|Fighter||Purple Dragon Knight (Banneret)|SCAG|15",
+				"Inspiring Surge|Fighter||Purple Dragon Knight (Banneret)|SCAG|18"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Purple Dragon Knight (Banneret)",
+			"shortName": "Purple Dragon Knight (Banneret)",
+			"source": "SCAG",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"reprintedAs": [
+				"Banneret|Fighter|XPHB|FRHoF"
+			],
+			"_copy": {
+				"name": "Purple Dragon Knight (Banneret)",
+				"source": "SCAG",
+				"shortName": "Purple Dragon Knight (Banneret)",
+				"className": "Fighter",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
+			"fluff": {
+				"_subclassFluff": {
+					"name": "Purple Dragon Knight (Banneret)",
+					"source": "SCAG",
+					"shortName": "Purple Dragon Knight (Banneret)",
+					"className": "Fighter",
+					"classSource": "PHB"
+				}
+			}
+		},
+		{
+			"name": "Arcana Domain",
+			"shortName": "Arcana",
+			"source": "SCAG",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 125,
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Wizard",
+									"count": 2
+								}
+							]
+						}
+					},
+					"prepared": {
+						"1": [
+							"detect magic",
+							"magic missile"
+						],
+						"3": [
+							"magic weapon",
+							"Nystul's magic aura"
+						],
+						"5": [
+							"dispel magic",
+							"magic circle"
+						],
+						"7": [
+							"arcane eye",
+							"Leomund's secret chest"
+						],
+						"9": [
+							"planar binding",
+							"teleportation circle"
+						],
+						"17": [
+							{
+								"choose": "level=6|class=Wizard"
+							},
+							{
+								"choose": "level=7|class=Wizard"
+							},
+							{
+								"choose": "level=8|class=Wizard"
+							},
+							{
+								"choose": "level=9|class=Wizard"
+							}
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Arcana Domain|Cleric||Arcana|SCAG|1",
+				"Channel Divinity: Arcane Abjuration|Cleric||Arcana|SCAG|2",
+				"Spell Breaker|Cleric||Arcana|SCAG|6",
+				"Potent Spellcasting|Cleric||Arcana|SCAG|8",
+				"Blessed Strikes|Cleric||Arcana|SCAG|8|TCE",
+				"Arcane Mastery|Cleric||Arcana|SCAG|17"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Arcana Domain",
+			"shortName": "Arcana",
+			"source": "SCAG",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Arcana Domain",
+				"source": "SCAG",
+				"shortName": "Arcana",
+				"className": "Cleric",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
+			"subclassFeatures": [
+				"Arcana Domain|Cleric|XPHB|Arcana|SCAG|3",
+				"Channel Divinity: Arcane Abjuration|Cleric|XPHB|Arcana|SCAG|3",
+				"Spell Breaker|Cleric||Arcana|SCAG|6",
+				"Arcane Mastery|Cleric||Arcana|SCAG|17"
+			],
+			"fluff": {
+				"_subclassFluff": {
+					"name": "Arcana Domain",
+					"source": "SCAG",
+					"shortName": "Arcana",
+					"className": "Cleric",
+					"classSource": "PHB"
+				}
+			}
+		},
+		{
+			"name": "Path of the Battlerager",
+			"shortName": "Battlerager",
+			"source": "SCAG",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"page": 121,
+			"edition": "classic",
+			"subclassFeatures": [
+				"Path of the Battlerager|Barbarian||Battlerager|SCAG|3",
+				"Reckless Abandon|Barbarian||Battlerager|SCAG|6",
+				"Battlerager Charge|Barbarian||Battlerager|SCAG|10",
+				"Spiked Retribution|Barbarian||Battlerager|SCAG|14"
+			]
+		},
+		{
+			"name": "Path of the Battlerager",
+			"shortName": "Battlerager",
+			"source": "SCAG",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Path of the Battlerager",
+				"source": "SCAG",
+				"shortName": "Battlerager",
+				"className": "Barbarian",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			}
+		},
+		{
+			"name": "Oath of the Crown",
+			"shortName": "Crown",
+			"source": "SCAG",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"page": 132,
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"command",
+							"compelled duel"
+						],
+						"5": [
+							"warding bond",
+							"zone of truth"
+						],
+						"9": [
+							"aura of vitality",
+							"spirit guardians"
+						],
+						"13": [
+							"banishment",
+							"guardian of faith"
+						],
+						"17": [
+							"circle of power",
+							"geas"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Oath of the Crown|Paladin||Crown|SCAG|3",
+				"Divine Allegiance|Paladin||Crown|SCAG|7",
+				"Unyielding Spirit|Paladin||Crown|SCAG|15",
+				"Exalted Champion|Paladin||Crown|SCAG|20"
+			]
+		},
+		{
+			"name": "Oath of the Crown",
+			"shortName": "Crown",
+			"source": "SCAG",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Oath of the Crown",
+				"source": "SCAG",
+				"shortName": "Crown",
+				"className": "Paladin",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			}
+		},
+		{
+			"name": "The Undying",
+			"shortName": "Undying",
+			"source": "SCAG",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"page": 139,
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"spare the dying#c"
+						]
+					},
+					"expanded": {
+						"s1": [
+							"false life",
+							"ray of sickness"
+						],
+						"s2": [
+							"blindness/deafness",
+							"silence"
+						],
+						"s3": [
+							"feign death",
+							"speak with dead"
+						],
+						"s4": [
+							"aura of life",
+							"death ward"
+						],
+						"s5": [
+							"contagion",
+							"legend lore"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"The Undying|Warlock||Undying|SCAG|1",
+				"Defy Death|Warlock||Undying|SCAG|6",
+				"Undying Nature|Warlock||Undying|SCAG|10",
+				"Indestructible Life|Warlock||Undying|SCAG|14"
+			]
+		},
+		{
+			"name": "The Undying",
+			"shortName": "Undying",
+			"source": "SCAG",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "The Undying",
+				"source": "SCAG",
+				"shortName": "Undying",
+				"className": "Warlock",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
+			"subclassFeatures": [
+				"The Undying|Warlock|XPHB|Undying|SCAG|3",
+				"Defy Death|Warlock||Undying|SCAG|6",
+				"Undying Nature|Warlock||Undying|SCAG|10",
+				"Indestructible Life|Warlock||Undying|SCAG|14"
+			]
 		}
 	],
 	"subclassFeature": [
+		{
+			"name": "Way of the Long Death",
+			"source": "SCAG",
+			"page": 130,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Long Death",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"entries": [
+				"Monks of the Way of the Long Death are obsessed with the meaning and mechanics of dying. They capture creatures and prepare elaborate experiments to capture, record, and understand the moments of their demise. They use this knowledge to guide their understanding of martial arts, yielding a deadly fighting style.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Touch of Death|Monk||Long Death|SCAG|3"
+				}
+			]
+		},
+		{
+			"name": "Touch of Death",
+			"source": "SCAG",
+			"page": 130,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Long Death",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting when you choose this tradition at 3rd level, your study of death allows you to extract vitality from another creature as it nears its demise. When you reduce a creature within 5 feet of you to 0 hit points, you gain temporary hit points equal to your Wisdom modifier + your monk level (minimum of 1 temporary hit point)."
+			]
+		},
+		{
+			"name": "Hour of Reaping",
+			"source": "SCAG",
+			"page": 130,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Long Death",
+			"subclassSource": "SCAG",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you gain the ability to unsettle or terrify those around you as an action, for your soul has been touched by the shadow of death. When you take this action, each creature within 30 feet of you that can see you must succeed on a Wisdom saving throw or be {@condition frightened} of you until the end of your next turn."
+			]
+		},
+		{
+			"name": "Mastery of Death",
+			"source": "SCAG",
+			"page": 130,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Long Death",
+			"subclassSource": "SCAG",
+			"level": 11,
+			"header": 2,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"Beginning at 11th level, you use your familiarity with death to escape its grasp. When you are reduced to 0 hit points, you can expend 1 ki point (no action required) to have 1 hit point instead."
+			]
+		},
+		{
+			"name": "Touch of the Long Death",
+			"source": "SCAG",
+			"page": 130,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Long Death",
+			"subclassSource": "SCAG",
+			"level": 17,
+			"header": 2,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"Starting at 17th level, your touch can channel the energy of death into a creature. As an action, you touch one creature within 5 feet of you, and you expend 1 to 10 ki points. The target must make a Constitution saving throw, and it takes {@damage 2d10} necrotic damage per ki point spent on a failed save, or half as much damage on a successful one."
+			]
+		},
+		{
+			"name": "Purple Dragon Knight (Banneret)",
+			"source": "SCAG",
+			"page": 128,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Purple Dragon Knight (Banneret)",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"entries": [
+				"Purple Dragon Knights are warriors who hail from the kingdom of Cormyr. Pledged to protect the crown, they take the fight against evil beyond the kingdom's borders. They are tasked with wandering the land as knights errant, relying on their judgment, bravery, and fidelity to guide them in defeating evildoers.",
+				"A Purple Dragon Knight inspires greatness in others by committing brave deeds in battle. The mere presence of a knight in a hamlet is enough to cause some orcs and bandits to seek easier prey. A lone knight is a skilled warrior, but a knight leading a band of allies can transform even the most poorly equipped militia into a ferocious war band.",
+				"A knight prefers to lead through deeds, not words. As a knight spearheads an attack, the knight's actions can awaken reserves of courage and conviction in allies that they never suspected they had.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Restriction: Knighthood|Fighter||Purple Dragon Knight (Banneret)|SCAG|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Rallying Cry|Fighter||Purple Dragon Knight (Banneret)|SCAG|3"
+				}
+			]
+		},
+		{
+			"name": "Rallying Cry",
+			"source": "SCAG",
+			"page": 128,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Purple Dragon Knight (Banneret)",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you choose this archetype at 3rd level, you learn how to inspire your allies to fight on past their injuries.",
+				"When you use your Second Wind feature, you can choose up to three creatures within 60 feet of you that are allied with you. Each one regains hit points equal to your fighter level, provided that the creature can see or hear you."
+			]
+		},
+		{
+			"name": "Restriction: Knighthood",
+			"source": "SCAG",
+			"page": 128,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Purple Dragon Knight (Banneret)",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Purple Dragon Knights are tied to a specific order of Cormyrean knighthood.",
+				"Banneret serves as the generic name for this archetype if you use it in other campaign settings or to model warlords other than the Purple Dragon Knights."
+			]
+		},
+		{
+			"name": "Royal Envoy",
+			"source": "SCAG",
+			"page": 128,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Purple Dragon Knight (Banneret)",
+			"subclassSource": "SCAG",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"A Purple Dragon Knight serves as an envoy of the Cormyrean crown. Knights of high standing are expected to conduct themselves with grace.",
+				"At 7th level, you gain proficiency in the {@skill Persuasion} skill. If you are already proficient in it, you gain proficiency in one of the following skills of your choice: {@skill Animal Handling}, {@skill Insight}, {@skill Intimidation}, or {@skill Performance}.",
+				"Your proficiency bonus is doubled for any ability check you make that uses {@skill Persuasion}. You receive this benefit regardless of the skill proficiency you gain from this feature."
+			]
+		},
+		{
+			"name": "Inspiring Surge",
+			"source": "SCAG",
+			"page": 128,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Purple Dragon Knight (Banneret)",
+			"subclassSource": "SCAG",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, when you use your Action Surge feature, you can choose one creature within 60 feet of you that is allied with you. That creature can make one melee or ranged weapon attack with its reaction, provided that it can see or hear you.",
+				"Starting at 18th level, you can choose two allies within 60 feet of you, rather than one."
+			]
+		},
+		{
+			"name": "Bulwark",
+			"source": "SCAG",
+			"page": 128,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Purple Dragon Knight (Banneret)",
+			"subclassSource": "SCAG",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Beginning at 15th level, you can extend the benefit of your Indomitable feature to an ally. When you decide to use Indomitable to reroll an Intelligence, a Wisdom, or a Charisma saving throw and you aren't {@condition incapacitated}, you can choose one ally within 60 feet of you that also failed its saving throw against the same effect. If that creature can see or hear you, it can reroll its saving throw and must use the new roll."
+			]
+		},
+		{
+			"name": "Inspiring Surge",
+			"source": "SCAG",
+			"page": 128,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Purple Dragon Knight (Banneret)",
+			"subclassSource": "SCAG",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Starting at 18th level, you can choose two allies within 60 feet of you, rather than one."
+			]
+		},
+		{
+			"name": "Arcana Domain",
+			"source": "SCAG",
+			"page": 125,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Arcana",
+			"subclassSource": "SCAG",
+			"level": 1,
+			"entries": [
+				"Magic is an energy that suffuses the multiverse and that fuels both destruction and creation. Gods of the Arcana domain know the secrets and potential of magic intimately. For some of these gods, magical knowledge is a great responsibility that comes with a special understanding of the nature of reality. Other gods of Arcana see magic as pure power, to be used as its wielder sees fit.",
+				"The gods of this domain are often associated with knowledge, as learning and arcane power tend to go hand-in-hand. In the Realms, deities of this domain include {@deity Azuth|Faerûnian|SCAG} and {@deity Mystra|Faerûnian|SCAG}, as well as {@deity Corellon Larethian|Elven|SCAG} of the elven pantheon. In other worlds, this domain includes {@deity Hecate|Greek}, {@deity Math Mathonwy|Celtic}, and {@deity Isis|Egyptian}; the triple moon gods of {@deity Solinari|Dragonlance}, {@deity Lunitari|Dragonlance}, and {@deity Nuitari|Dragonlance} of Krynn; and {@deity Boccob|Greyhawk}, {@deity Vecna|Greyhawk}, and {@deity Wee Jas|Greyhawk} of Greyhawk.",
+				"At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.",
+				{
+					"type": "table",
+					"caption": "Arcana Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell detect magic}, {@spell magic missile}"
+						],
+						[
+							"3rd",
+							"{@spell magic weapon}, {@spell Nystul's magic aura}"
+						],
+						[
+							"5th",
+							"{@spell dispel magic}, {@spell magic circle}"
+						],
+						[
+							"7th",
+							"{@spell arcane eye}, {@spell Leomund's secret chest}"
+						],
+						[
+							"9th",
+							"{@spell planar binding}, {@spell teleportation circle}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Initiate|Cleric||Arcana|SCAG|1"
+				}
+			]
+		},
+		{
+			"name": "Arcane Initiate",
+			"source": "SCAG",
+			"page": 125,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Arcana",
+			"subclassSource": "SCAG",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"When you choose this domain at 1st level, you gain proficiency in the {@skill Arcana} skill, and you gain two cantrips of your choice from the {@filter wizard spell list|spells|class=wizard|level=0}. For you, these cantrips count as cleric cantrips."
+			]
+		},
+		{
+			"name": "Channel Divinity: Arcane Abjuration",
+			"source": "SCAG",
+			"page": 125,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Arcana",
+			"subclassSource": "SCAG",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to abjure otherworldly creatures.",
+				"As an action, you present your holy symbol, and one celestial, elemental, fey, or fiend of your choice that is within 30 feet of you must make a Wisdom saving throw, provided that the creature can see or hear you. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.",
+				"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly end its move in a space within 30 feet of you. It also can't take reactions. For its action, it can use only the {@action Dash} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, then the creature can use the {@action Dodge} action.",
+				"After you reach 5th level, when a creature fails its saving throw against your Arcane Abjuration feature, the creature is banished for 1 minute (as in the {@spell banishment} spell, no {@status concentration} required) if it isn't on its plane of origin, and its challenge rating is at or below a certain threshold, as shown below.",
+				{
+					"type": "table",
+					"caption": "Arcane Banishment",
+					"colLabels": [
+						"Cleric level",
+						"Banishes Creatures of CR..."
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"5th",
+							"1/2 or lower"
+						],
+						[
+							"8th",
+							"1 or lower"
+						],
+						[
+							"11th",
+							"2 or lower"
+						],
+						[
+							"14th",
+							"3 or lower"
+						],
+						[
+							"17th",
+							"4 or lower"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Spell Breaker",
+			"source": "SCAG",
+			"page": 125,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Arcana",
+			"subclassSource": "SCAG",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, when you restore hit points to an ally with a spell of 1st level or higher, you can also end one spell of your choice on that creature. The level of the spell you end must be equal to or lower than the level of the spell slot you use to cast the healing spell."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "SCAG",
+			"page": 125,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Arcana",
+			"subclassSource": "SCAG",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+			]
+		},
+		{
+			"name": "Arcane Mastery",
+			"source": "SCAG",
+			"page": 125,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Arcana",
+			"subclassSource": "SCAG",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you choose four spells from the Wizard spell list, one from each of the following levels: 6th, 7th, 8th, and 9th. You add them to your list of domain spells. Like your other domain spells, they are always prepared and count as cleric spells for you."
+			]
+		},
+		{
+			"name": "Arcana Domain",
+			"source": "SCAG",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcana",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"_copy": {
+				"name": "Arcana Domain",
+				"source": "SCAG",
+				"className": "Cleric",
+				"classSource": "PHB",
+				"subclassShortName": "Arcana",
+				"subclassSource": "SCAG",
+				"level": 1,
+				"_preserve": {
+					"page": true
+				}
+			}
+		},
+		{
+			"name": "Channel Divinity: Arcane Abjuration",
+			"source": "SCAG",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcana",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"_copy": {
+				"name": "Channel Divinity: Arcane Abjuration",
+				"source": "SCAG",
+				"className": "Cleric",
+				"classSource": "PHB",
+				"subclassShortName": "Arcana",
+				"subclassSource": "SCAG",
+				"level": 2,
+				"_preserve": {
+					"page": true
+				}
+			}
+		},
+		{
+			"name": "Elk",
+			"source": "SCAG",
+			"page": 122,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 3,
+			"entries": [
+				"While you're raging and aren't wearing heavy armor, your walking speed increases by 15 feet. The spirit of the elk makes you extraordinarily swift."
+			]
+		},
+		{
+			"name": "Tiger",
+			"source": "SCAG",
+			"page": 122,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 3,
+			"entries": [
+				"While raging, you can add 10 feet to your long jump distance and 3 feet to your high jump distance. The spirit of the tiger empowers your leaps."
+			]
+		},
+		{
+			"name": "Elk",
+			"source": "SCAG",
+			"page": 122,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 6,
+			"entries": [
+				"Whether mounted or on foot, your travel pace is doubled, as is the travel pace of up to ten companions while they're within 60 feet of you and you're not {@condition incapacitated}. The elk spirit helps you roam far and fast."
+			]
+		},
+		{
+			"name": "Tiger",
+			"source": "SCAG",
+			"page": 122,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 6,
+			"entries": [
+				"You gain proficiency in two skills from the following list: {@skill Athletics}, {@skill Acrobatics}, {@skill Stealth}, and {@skill Survival}. The cat spirit hones your survival instincts."
+			]
+		},
+		{
+			"name": "Elk",
+			"source": "SCAG",
+			"page": 122,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 14,
+			"entries": [
+				"While raging, you can use a bonus action during your move to pass through the space of a Large or smaller creature. That creature must succeed on a Strength saving throw ({@dc 8} + your Strength bonus + your proficiency bonus) or be knocked {@condition prone} and take bludgeoning damage equal to {@damage 1d12} + your Strength modifier."
+			]
+		},
+		{
+			"name": "Tiger",
+			"source": "SCAG",
+			"page": 122,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 14,
+			"entries": [
+				"While you're raging, if you move at least 20 feet in a straight line toward a Large or smaller target right before making a melee weapon attack against it, you can use a bonus action to make an additional melee weapon attack against it."
+			]
+		},
+		{
+			"name": "Path of the Battlerager",
+			"source": "SCAG",
+			"page": 121,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Battlerager",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"entries": [
+				"Known as Kuldjargh (literally \"axe idiot\") in Dwarvish, battleragers are dwarf followers of the gods of war and take the Path of the Battlerager. They specialize in wearing bulky, {@item spiked armor|scag} and throwing themselves into combat, striking with their body itself and giving themselves over to the fury of battle.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Restriction—Dwarves Only|Barbarian||Battlerager|SCAG|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Battlerager Armor|Barbarian||Battlerager|SCAG|3"
+				}
+			]
+		},
+		{
+			"name": "Battlerager Armor",
+			"source": "SCAG",
+			"page": 121,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Battlerager",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you choose this path at 3rd level, you gain the ability to use {@item spiked armor|scag} as a weapon.",
+				"While you are wearing {@item spiked armor|scag} and are raging, you can use a bonus action to make one melee weapon attack with your armor spikes at a target within 5 feet of you. If the attack hits, the spikes deal {@damage 1d4} piercing damage. You use your Strength modifier for the attack and damage rolls.",
+				"Additionally, when you use the {@action Attack} action to grapple a creature, the target takes 3 piercing damage if your grapple check succeeds."
+			]
+		},
+		{
+			"name": "Restriction—Dwarves Only",
+			"source": "SCAG",
+			"page": 121,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Battlerager",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Only dwarves can follow the Path of the Battlerager. The battlerager fills a particular niche in dwarven society and culture.",
+				"Your DM can lift this restriction to better suit the campaign. The restriction exists for the Forgotten Realms. It might not apply to your DM's setting or your DM's version of the Realms."
+			]
+		},
+		{
+			"name": "Reckless Abandon",
+			"source": "SCAG",
+			"page": 121,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Battlerager",
+			"subclassSource": "SCAG",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Beginning at 6th level, when you use Reckless Attack while raging, you also gain temporary hit points equal to your Constitution modifier (minimum of 1). They vanish if any of them are left when your rage ends."
+			]
+		},
+		{
+			"name": "Battlerager Charge",
+			"source": "SCAG",
+			"page": 121,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Battlerager",
+			"subclassSource": "SCAG",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Beginning at 10th level, you can take the {@action Dash} action as a bonus action while you are raging."
+			]
+		},
+		{
+			"name": "Spiked Retribution",
+			"source": "SCAG",
+			"page": 121,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Battlerager",
+			"subclassSource": "SCAG",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, when a creature within 5 feet of you hits you with a melee attack, the attacker takes 3 piercing damage if you are raging, aren't {@condition incapacitated}, and are wearing {@item spiked armor|scag}."
+			]
+		},
+		{
+			"name": "Oath of the Crown",
+			"source": "SCAG",
+			"page": 132,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Crown",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"entries": [
+				"The Oath of the Crown is sworn to the ideals of civilization, be it the spirit of a nation, fealty to a sovereign, or service to a deity of law and rulership. The paladins who swear this oath dedicate themselves to serving society and, in particular, the laws that hold society together. These paladins are the watchful guardians on the walls, standing against the chaotic tides of barbarism that threaten to tear down all that civilization has built, and are commonly known as guardians, exemplars, or sentinels. Often, paladins who swear this oath are members of an order of knighthood in service to a nation or sovereign, and undergo their oath as part of their admission to the order's ranks.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tenets of the Crown|Paladin||Crown|SCAG|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oath Spells|Paladin||Crown|SCAG|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity|Paladin||Crown|SCAG|3"
+				}
+			]
+		},
+		{
+			"name": "Champion Challenge",
+			"source": "SCAG",
+			"page": 132,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Crown",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"header": 1,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"As a bonus action, you issue a challenge that compels other creatures to do battle with you. Each creature of your choice that you can see within 30 feet of you must make a Wisdom saving throw. On a failed save, a creature can't willingly move more than 30 feet away from you. This effect ends on the creature if you are {@condition incapacitated} or die or if the creature is more than 30 feet away from you."
+			]
+		},
+		{
+			"name": "Channel Divinity",
+			"source": "SCAG",
+			"page": 132,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Crown",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you take this oath at 3rd level, you gain the following two Channel Divinity options.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Champion Challenge|Paladin||Crown|SCAG|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Turn the Tide|Paladin||Crown|SCAG|3"
+				}
+			]
+		},
+		{
+			"name": "Oath Spells",
+			"source": "SCAG",
+			"page": 132,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Crown",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You gain oath spells at the paladin levels listed.",
+				{
+					"type": "table",
+					"caption": "Oath of the Crown Spells",
+					"colLabels": [
+						"Paladin Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell command}, {@spell compelled duel}"
+						],
+						[
+							"5th",
+							"{@spell warding bond}, {@spell zone of truth}"
+						],
+						[
+							"9th",
+							"{@spell aura of vitality}, {@spell spirit guardians}"
+						],
+						[
+							"13th",
+							"{@spell banishment}, {@spell guardian of faith}"
+						],
+						[
+							"17th",
+							"{@spell circle of power}, {@spell geas}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Tenets of the Crown",
+			"source": "SCAG",
+			"page": 132,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Crown",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"The tenets of the Oath of the Crown are often set by the sovereign to which their oath is sworn, but generally emphasize the following tenets.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Law",
+							"entries": [
+								"The law is paramount. It is the mortar that holds the stones of civilization together, and it must be respected."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Loyalty",
+							"entries": [
+								"Your word is your bond. Without loyalty, oaths and laws are meaningless."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Courage",
+							"entries": [
+								"You must be willing to do what needs to be done for the sake of order, even in the face of overwhelming odds. If you don't act, then who will?"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Responsibility",
+							"entries": [
+								"You must deal with the consequences of your actions, and you are responsible for fulfilling your duties and obligations."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Turn the Tide",
+			"source": "SCAG",
+			"page": 132,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Crown",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"header": 1,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"As a bonus action, you can bolster injured creatures with your Channel Divinity. Each creature of your choice that can hear you within 30 feet of you regains hit points equal to {@dice 1d6} + your Charisma modifier (minimum of 1) if it has no more than half of its hit points."
+			]
+		},
+		{
+			"name": "Divine Allegiance",
+			"source": "SCAG",
+			"page": 132,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Crown",
+			"subclassSource": "SCAG",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, when a creature within 5 feet of you takes damage, you can use your reaction to magically substitute your own health for that of the target creature, causing that creature not to take the damage. Instead, you take the damage. This damage to you can't be reduced or prevented in any way."
+			]
+		},
+		{
+			"name": "Unyielding Spirit",
+			"source": "SCAG",
+			"page": 132,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Crown",
+			"subclassSource": "SCAG",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, you have advantage on saving throws to avoid becoming {@condition paralyzed} or {@condition stunned}."
+			]
+		},
+		{
+			"name": "Exalted Champion",
+			"source": "SCAG",
+			"page": 132,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Crown",
+			"subclassSource": "SCAG",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"At 20th level, your presence on the field of battle is an inspiration to those dedicated to your cause. You can use your action to gain the following benefits for 1 hour:",
+				{
+					"type": "list",
+					"items": [
+						"You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.",
+						"Your allies have advantage on death saving throws while within 30 feet of you.",
+						"You have advantage on Wisdom saving throws, as do your allies within 30 feet of you."
+					]
+				},
+				"This effect ends early if you are {@condition incapacitated} or die. Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "The Undying",
+			"source": "SCAG",
+			"page": 139,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Undying",
+			"subclassSource": "SCAG",
+			"level": 1,
+			"entries": [
+				"Death holds no sway over your patron, who has unlocked the secrets of everlasting life, although such a prize—like all power—comes at a price. Once mortal, the Undying has seen mortal lifetimes pass like the seasons, like the flicker of endless days and nights. It has the secrets of the ages to share, secrets of life and death. Beings of this sort include Vecna, Lord of the Hand and the Eye; the dread Iuz; the lich-queen Vol; the Undying Court of Aerenal; Vlaakith, lich-queen of the githyanki; and the deathless wizard Fistandantilus.",
+				"In the Realms, Undying patrons include Larloch the Shadow King, legendary master of Warlock's Crypt, and Gilgeam, the God-King of Unther.",
+				{
+					"type": "entries",
+					"name": "Expanded Spell List",
+					"entries": [
+						"The Undying lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+						{
+							"type": "table",
+							"caption": "Undying Expanded Spells",
+							"colLabels": [
+								"Spell Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1st",
+									"{@spell false life}, {@spell ray of sickness}"
+								],
+								[
+									"2nd",
+									"{@spell blindness/deafness}, {@spell silence}"
+								],
+								[
+									"3rd",
+									"{@spell feign death}, {@spell speak with dead}"
+								],
+								[
+									"4th",
+									"{@spell aura of life}, {@spell death ward}"
+								],
+								[
+									"5th",
+									"{@spell contagion}, {@spell legend lore}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Among the Dead|Warlock||Undying|SCAG|1"
+				}
+			]
+		},
+		{
+			"name": "Among the Dead",
+			"source": "SCAG",
+			"page": 139,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Undying",
+			"subclassSource": "SCAG",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Starting at 1st level, you learn the {@spell spare the dying} cantrip, which counts as a warlock cantrip for you. You also have advantage on saving throws against any disease.",
+				"Additionally, undead have difficulty harming you. If an undead targets you directly with an attack or a harmful spell, that creature must make a Wisdom saving throw against your spell save DC (an undead needn't make the save when it includes you in an area effect, such as the explosion of {@spell fireball}). On a failed save, the creature must choose a new target or forfeit targeting someone instead of you, potentially wasting the attack or spell. On a successful save, the creature is immune to this effect for 24 hours. An undead is also immune to this effect for 24 hours if you target it with an attack or a harmful spell."
+			]
+		},
+		{
+			"name": "Defy Death",
+			"source": "SCAG",
+			"page": 139,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Undying",
+			"subclassSource": "SCAG",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can give yourself vitality when you cheat death or when you help someone else cheat it. You can regain hit points equal to {@dice 1d8} + your Constitution modifier (minimum of 1 hit point) when you succeed on a death saving throw or when you stabilize a creature with {@spell spare the dying}.",
+				"Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Undying Nature",
+			"source": "SCAG",
+			"page": 139,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Undying",
+			"subclassSource": "SCAG",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Beginning at 10th level, you can hold your breath indefinitely, and you don't require food, water, or sleep, although you still require rest to reduce {@condition exhaustion} and still benefit from finishing short and long rests.",
+				"In addition, you age at a slower rate. For every 10 years that pass, your body ages only 1 year, and you are immune to being magically aged."
+			]
+		},
+		{
+			"name": "Indestructible Life",
+			"source": "SCAG",
+			"page": 139,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Undying",
+			"subclassSource": "SCAG",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"When you reach 14th level, you partake some of the true secrets of the Undying. On your turn, you can use a bonus action to regain hit points equal to {@dice 1d8} + your warlock level. Additionally, if you put a severed body part of yours back in place when you use this feature, the part reattaches.",
+				"Once you use this feature, you can't use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "The Undying",
+			"source": "SCAG",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Undying",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"_copy": {
+				"name": "The Undying",
+				"source": "SCAG",
+				"className": "Warlock",
+				"classSource": "PHB",
+				"subclassShortName": "Undying",
+				"subclassSource": "SCAG",
+				"level": 1,
+				"_preserve": {
+					"page": true
+				}
+			}
+		},
+		{
+			"name": "Way of the Long Death",
+			"source": "SCAG",
+			"page": 130,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Long Death",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"entries": [
+				"Monks of the Way of the Long Death are obsessed with the meaning and mechanics of dying. They capture creatures and prepare elaborate experiments to capture, record, and understand the moments of their demise. They use this knowledge to guide their understanding of martial arts, yielding a deadly fighting style.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Touch of Death|Monk||Long Death|SCAG|3"
+				}
+			]
+		},
+		{
+			"name": "Touch of Death",
+			"source": "SCAG",
+			"page": 130,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Long Death",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting when you choose this tradition at 3rd level, your study of death allows you to extract vitality from another creature as it nears its demise. When you reduce a creature within 5 feet of you to 0 hit points, you gain temporary hit points equal to your Wisdom modifier + your monk level (minimum of 1 temporary hit point)."
+			]
+		},
+		{
+			"name": "Hour of Reaping",
+			"source": "SCAG",
+			"page": 130,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Long Death",
+			"subclassSource": "SCAG",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you gain the ability to unsettle or terrify those around you as an action, for your soul has been touched by the shadow of death. When you take this action, each creature within 30 feet of you that can see you must succeed on a Wisdom saving throw or be {@condition frightened} of you until the end of your next turn."
+			]
+		},
+		{
+			"name": "Mastery of Death",
+			"source": "SCAG",
+			"page": 130,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Long Death",
+			"subclassSource": "SCAG",
+			"level": 11,
+			"header": 2,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"Beginning at 11th level, you use your familiarity with death to escape its grasp. When you are reduced to 0 hit points, you can expend 1 ki point (no action required) to have 1 hit point instead."
+			]
+		},
+		{
+			"name": "Touch of the Long Death",
+			"source": "SCAG",
+			"page": 130,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Long Death",
+			"subclassSource": "SCAG",
+			"level": 17,
+			"header": 2,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"Starting at 17th level, your touch can channel the energy of death into a creature. As an action, you touch one creature within 5 feet of you, and you expend 1 to 10 ki points. The target must make a Constitution saving throw, and it takes {@damage 2d10} necrotic damage per ki point spent on a failed save, or half as much damage on a successful one."
+			]
+		},
+		{
+			"name": "Purple Dragon Knight (Banneret)",
+			"source": "SCAG",
+			"page": 128,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Purple Dragon Knight (Banneret)",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"entries": [
+				"Purple Dragon Knights are warriors who hail from the kingdom of Cormyr. Pledged to protect the crown, they take the fight against evil beyond the kingdom's borders. They are tasked with wandering the land as knights errant, relying on their judgment, bravery, and fidelity to guide them in defeating evildoers.",
+				"A Purple Dragon Knight inspires greatness in others by committing brave deeds in battle. The mere presence of a knight in a hamlet is enough to cause some orcs and bandits to seek easier prey. A lone knight is a skilled warrior, but a knight leading a band of allies can transform even the most poorly equipped militia into a ferocious war band.",
+				"A knight prefers to lead through deeds, not words. As a knight spearheads an attack, the knight's actions can awaken reserves of courage and conviction in allies that they never suspected they had.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Restriction: Knighthood|Fighter||Purple Dragon Knight (Banneret)|SCAG|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Rallying Cry|Fighter||Purple Dragon Knight (Banneret)|SCAG|3"
+				}
+			]
+		},
+		{
+			"name": "Rallying Cry",
+			"source": "SCAG",
+			"page": 128,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Purple Dragon Knight (Banneret)",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you choose this archetype at 3rd level, you learn how to inspire your allies to fight on past their injuries.",
+				"When you use your Second Wind feature, you can choose up to three creatures within 60 feet of you that are allied with you. Each one regains hit points equal to your fighter level, provided that the creature can see or hear you."
+			]
+		},
+		{
+			"name": "Restriction: Knighthood",
+			"source": "SCAG",
+			"page": 128,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Purple Dragon Knight (Banneret)",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Purple Dragon Knights are tied to a specific order of Cormyrean knighthood.",
+				"Banneret serves as the generic name for this archetype if you use it in other campaign settings or to model warlords other than the Purple Dragon Knights."
+			]
+		},
+		{
+			"name": "Royal Envoy",
+			"source": "SCAG",
+			"page": 128,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Purple Dragon Knight (Banneret)",
+			"subclassSource": "SCAG",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"A Purple Dragon Knight serves as an envoy of the Cormyrean crown. Knights of high standing are expected to conduct themselves with grace.",
+				"At 7th level, you gain proficiency in the {@skill Persuasion} skill. If you are already proficient in it, you gain proficiency in one of the following skills of your choice: {@skill Animal Handling}, {@skill Insight}, {@skill Intimidation}, or {@skill Performance}.",
+				"Your proficiency bonus is doubled for any ability check you make that uses {@skill Persuasion}. You receive this benefit regardless of the skill proficiency you gain from this feature."
+			]
+		},
+		{
+			"name": "Inspiring Surge",
+			"source": "SCAG",
+			"page": 128,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Purple Dragon Knight (Banneret)",
+			"subclassSource": "SCAG",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, when you use your Action Surge feature, you can choose one creature within 60 feet of you that is allied with you. That creature can make one melee or ranged weapon attack with its reaction, provided that it can see or hear you.",
+				"Starting at 18th level, you can choose two allies within 60 feet of you, rather than one."
+			]
+		},
+		{
+			"name": "Bulwark",
+			"source": "SCAG",
+			"page": 128,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Purple Dragon Knight (Banneret)",
+			"subclassSource": "SCAG",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Beginning at 15th level, you can extend the benefit of your Indomitable feature to an ally. When you decide to use Indomitable to reroll an Intelligence, a Wisdom, or a Charisma saving throw and you aren't {@condition incapacitated}, you can choose one ally within 60 feet of you that also failed its saving throw against the same effect. If that creature can see or hear you, it can reroll its saving throw and must use the new roll."
+			]
+		},
+		{
+			"name": "Inspiring Surge",
+			"source": "SCAG",
+			"page": 128,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Purple Dragon Knight (Banneret)",
+			"subclassSource": "SCAG",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Starting at 18th level, you can choose two allies within 60 feet of you, rather than one."
+			]
+		},
+		{
+			"name": "Arcana Domain",
+			"source": "SCAG",
+			"page": 125,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Arcana",
+			"subclassSource": "SCAG",
+			"level": 1,
+			"entries": [
+				"Magic is an energy that suffuses the multiverse and that fuels both destruction and creation. Gods of the Arcana domain know the secrets and potential of magic intimately. For some of these gods, magical knowledge is a great responsibility that comes with a special understanding of the nature of reality. Other gods of Arcana see magic as pure power, to be used as its wielder sees fit.",
+				"The gods of this domain are often associated with knowledge, as learning and arcane power tend to go hand-in-hand. In the Realms, deities of this domain include {@deity Azuth|Faerûnian|SCAG} and {@deity Mystra|Faerûnian|SCAG}, as well as {@deity Corellon Larethian|Elven|SCAG} of the elven pantheon. In other worlds, this domain includes {@deity Hecate|Greek}, {@deity Math Mathonwy|Celtic}, and {@deity Isis|Egyptian}; the triple moon gods of {@deity Solinari|Dragonlance}, {@deity Lunitari|Dragonlance}, and {@deity Nuitari|Dragonlance} of Krynn; and {@deity Boccob|Greyhawk}, {@deity Vecna|Greyhawk}, and {@deity Wee Jas|Greyhawk} of Greyhawk.",
+				"At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.",
+				{
+					"type": "table",
+					"caption": "Arcana Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell detect magic}, {@spell magic missile}"
+						],
+						[
+							"3rd",
+							"{@spell magic weapon}, {@spell Nystul's magic aura}"
+						],
+						[
+							"5th",
+							"{@spell dispel magic}, {@spell magic circle}"
+						],
+						[
+							"7th",
+							"{@spell arcane eye}, {@spell Leomund's secret chest}"
+						],
+						[
+							"9th",
+							"{@spell planar binding}, {@spell teleportation circle}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Initiate|Cleric||Arcana|SCAG|1"
+				}
+			]
+		},
+		{
+			"name": "Arcane Initiate",
+			"source": "SCAG",
+			"page": 125,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Arcana",
+			"subclassSource": "SCAG",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"When you choose this domain at 1st level, you gain proficiency in the {@skill Arcana} skill, and you gain two cantrips of your choice from the {@filter wizard spell list|spells|class=wizard|level=0}. For you, these cantrips count as cleric cantrips."
+			]
+		},
+		{
+			"name": "Channel Divinity: Arcane Abjuration",
+			"source": "SCAG",
+			"page": 125,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Arcana",
+			"subclassSource": "SCAG",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to abjure otherworldly creatures.",
+				"As an action, you present your holy symbol, and one celestial, elemental, fey, or fiend of your choice that is within 30 feet of you must make a Wisdom saving throw, provided that the creature can see or hear you. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.",
+				"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly end its move in a space within 30 feet of you. It also can't take reactions. For its action, it can use only the {@action Dash} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, then the creature can use the {@action Dodge} action.",
+				"After you reach 5th level, when a creature fails its saving throw against your Arcane Abjuration feature, the creature is banished for 1 minute (as in the {@spell banishment} spell, no {@status concentration} required) if it isn't on its plane of origin, and its challenge rating is at or below a certain threshold, as shown below.",
+				{
+					"type": "table",
+					"caption": "Arcane Banishment",
+					"colLabels": [
+						"Cleric level",
+						"Banishes Creatures of CR..."
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"5th",
+							"1/2 or lower"
+						],
+						[
+							"8th",
+							"1 or lower"
+						],
+						[
+							"11th",
+							"2 or lower"
+						],
+						[
+							"14th",
+							"3 or lower"
+						],
+						[
+							"17th",
+							"4 or lower"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Spell Breaker",
+			"source": "SCAG",
+			"page": 125,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Arcana",
+			"subclassSource": "SCAG",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, when you restore hit points to an ally with a spell of 1st level or higher, you can also end one spell of your choice on that creature. The level of the spell you end must be equal to or lower than the level of the spell slot you use to cast the healing spell."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "SCAG",
+			"page": 125,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Arcana",
+			"subclassSource": "SCAG",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+			]
+		},
+		{
+			"name": "Arcane Mastery",
+			"source": "SCAG",
+			"page": 125,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Arcana",
+			"subclassSource": "SCAG",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you choose four spells from the Wizard spell list, one from each of the following levels: 6th, 7th, 8th, and 9th. You add them to your list of domain spells. Like your other domain spells, they are always prepared and count as cleric spells for you."
+			]
+		},
+		{
+			"name": "Arcana Domain",
+			"source": "SCAG",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcana",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"_copy": {
+				"name": "Arcana Domain",
+				"source": "SCAG",
+				"className": "Cleric",
+				"classSource": "PHB",
+				"subclassShortName": "Arcana",
+				"subclassSource": "SCAG",
+				"level": 1,
+				"_preserve": {
+					"page": true
+				}
+			}
+		},
+		{
+			"name": "Channel Divinity: Arcane Abjuration",
+			"source": "SCAG",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcana",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"_copy": {
+				"name": "Channel Divinity: Arcane Abjuration",
+				"source": "SCAG",
+				"className": "Cleric",
+				"classSource": "PHB",
+				"subclassShortName": "Arcana",
+				"subclassSource": "SCAG",
+				"level": 2,
+				"_preserve": {
+					"page": true
+				}
+			}
+		},
+		{
+			"name": "Elk",
+			"source": "SCAG",
+			"page": 122,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 3,
+			"entries": [
+				"While you're raging and aren't wearing heavy armor, your walking speed increases by 15 feet. The spirit of the elk makes you extraordinarily swift."
+			]
+		},
+		{
+			"name": "Tiger",
+			"source": "SCAG",
+			"page": 122,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 3,
+			"entries": [
+				"While raging, you can add 10 feet to your long jump distance and 3 feet to your high jump distance. The spirit of the tiger empowers your leaps."
+			]
+		},
+		{
+			"name": "Elk",
+			"source": "SCAG",
+			"page": 122,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 6,
+			"entries": [
+				"Whether mounted or on foot, your travel pace is doubled, as is the travel pace of up to ten companions while they're within 60 feet of you and you're not {@condition incapacitated}. The elk spirit helps you roam far and fast."
+			]
+		},
+		{
+			"name": "Tiger",
+			"source": "SCAG",
+			"page": 122,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 6,
+			"entries": [
+				"You gain proficiency in two skills from the following list: {@skill Athletics}, {@skill Acrobatics}, {@skill Stealth}, and {@skill Survival}. The cat spirit hones your survival instincts."
+			]
+		},
+		{
+			"name": "Elk",
+			"source": "SCAG",
+			"page": 122,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 14,
+			"entries": [
+				"While raging, you can use a bonus action during your move to pass through the space of a Large or smaller creature. That creature must succeed on a Strength saving throw ({@dc 8} + your Strength bonus + your proficiency bonus) or be knocked {@condition prone} and take bludgeoning damage equal to {@damage 1d12} + your Strength modifier."
+			]
+		},
+		{
+			"name": "Tiger",
+			"source": "SCAG",
+			"page": 122,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 14,
+			"entries": [
+				"While you're raging, if you move at least 20 feet in a straight line toward a Large or smaller target right before making a melee weapon attack against it, you can use a bonus action to make an additional melee weapon attack against it."
+			]
+		},
+		{
+			"name": "Path of the Battlerager",
+			"source": "SCAG",
+			"page": 121,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Battlerager",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"entries": [
+				"Known as Kuldjargh (literally \"axe idiot\") in Dwarvish, battleragers are dwarf followers of the gods of war and take the Path of the Battlerager. They specialize in wearing bulky, {@item spiked armor|scag} and throwing themselves into combat, striking with their body itself and giving themselves over to the fury of battle.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Restriction—Dwarves Only|Barbarian||Battlerager|SCAG|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Battlerager Armor|Barbarian||Battlerager|SCAG|3"
+				}
+			]
+		},
+		{
+			"name": "Battlerager Armor",
+			"source": "SCAG",
+			"page": 121,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Battlerager",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you choose this path at 3rd level, you gain the ability to use {@item spiked armor|scag} as a weapon.",
+				"While you are wearing {@item spiked armor|scag} and are raging, you can use a bonus action to make one melee weapon attack with your armor spikes at a target within 5 feet of you. If the attack hits, the spikes deal {@damage 1d4} piercing damage. You use your Strength modifier for the attack and damage rolls.",
+				"Additionally, when you use the {@action Attack} action to grapple a creature, the target takes 3 piercing damage if your grapple check succeeds."
+			]
+		},
+		{
+			"name": "Restriction—Dwarves Only",
+			"source": "SCAG",
+			"page": 121,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Battlerager",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Only dwarves can follow the Path of the Battlerager. The battlerager fills a particular niche in dwarven society and culture.",
+				"Your DM can lift this restriction to better suit the campaign. The restriction exists for the Forgotten Realms. It might not apply to your DM's setting or your DM's version of the Realms."
+			]
+		},
+		{
+			"name": "Reckless Abandon",
+			"source": "SCAG",
+			"page": 121,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Battlerager",
+			"subclassSource": "SCAG",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Beginning at 6th level, when you use Reckless Attack while raging, you also gain temporary hit points equal to your Constitution modifier (minimum of 1). They vanish if any of them are left when your rage ends."
+			]
+		},
+		{
+			"name": "Battlerager Charge",
+			"source": "SCAG",
+			"page": 121,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Battlerager",
+			"subclassSource": "SCAG",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Beginning at 10th level, you can take the {@action Dash} action as a bonus action while you are raging."
+			]
+		},
+		{
+			"name": "Spiked Retribution",
+			"source": "SCAG",
+			"page": 121,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Battlerager",
+			"subclassSource": "SCAG",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, when a creature within 5 feet of you hits you with a melee attack, the attacker takes 3 piercing damage if you are raging, aren't {@condition incapacitated}, and are wearing {@item spiked armor|scag}."
+			]
+		},
+		{
+			"name": "Oath of the Crown",
+			"source": "SCAG",
+			"page": 132,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Crown",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"entries": [
+				"The Oath of the Crown is sworn to the ideals of civilization, be it the spirit of a nation, fealty to a sovereign, or service to a deity of law and rulership. The paladins who swear this oath dedicate themselves to serving society and, in particular, the laws that hold society together. These paladins are the watchful guardians on the walls, standing against the chaotic tides of barbarism that threaten to tear down all that civilization has built, and are commonly known as guardians, exemplars, or sentinels. Often, paladins who swear this oath are members of an order of knighthood in service to a nation or sovereign, and undergo their oath as part of their admission to the order's ranks.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tenets of the Crown|Paladin||Crown|SCAG|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oath Spells|Paladin||Crown|SCAG|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity|Paladin||Crown|SCAG|3"
+				}
+			]
+		},
+		{
+			"name": "Champion Challenge",
+			"source": "SCAG",
+			"page": 132,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Crown",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"header": 1,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"As a bonus action, you issue a challenge that compels other creatures to do battle with you. Each creature of your choice that you can see within 30 feet of you must make a Wisdom saving throw. On a failed save, a creature can't willingly move more than 30 feet away from you. This effect ends on the creature if you are {@condition incapacitated} or die or if the creature is more than 30 feet away from you."
+			]
+		},
+		{
+			"name": "Channel Divinity",
+			"source": "SCAG",
+			"page": 132,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Crown",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you take this oath at 3rd level, you gain the following two Channel Divinity options.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Champion Challenge|Paladin||Crown|SCAG|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Turn the Tide|Paladin||Crown|SCAG|3"
+				}
+			]
+		},
+		{
+			"name": "Oath Spells",
+			"source": "SCAG",
+			"page": 132,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Crown",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You gain oath spells at the paladin levels listed.",
+				{
+					"type": "table",
+					"caption": "Oath of the Crown Spells",
+					"colLabels": [
+						"Paladin Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell command}, {@spell compelled duel}"
+						],
+						[
+							"5th",
+							"{@spell warding bond}, {@spell zone of truth}"
+						],
+						[
+							"9th",
+							"{@spell aura of vitality}, {@spell spirit guardians}"
+						],
+						[
+							"13th",
+							"{@spell banishment}, {@spell guardian of faith}"
+						],
+						[
+							"17th",
+							"{@spell circle of power}, {@spell geas}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Tenets of the Crown",
+			"source": "SCAG",
+			"page": 132,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Crown",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"The tenets of the Oath of the Crown are often set by the sovereign to which their oath is sworn, but generally emphasize the following tenets.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Law",
+							"entries": [
+								"The law is paramount. It is the mortar that holds the stones of civilization together, and it must be respected."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Loyalty",
+							"entries": [
+								"Your word is your bond. Without loyalty, oaths and laws are meaningless."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Courage",
+							"entries": [
+								"You must be willing to do what needs to be done for the sake of order, even in the face of overwhelming odds. If you don't act, then who will?"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Responsibility",
+							"entries": [
+								"You must deal with the consequences of your actions, and you are responsible for fulfilling your duties and obligations."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Turn the Tide",
+			"source": "SCAG",
+			"page": 132,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Crown",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"header": 1,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"As a bonus action, you can bolster injured creatures with your Channel Divinity. Each creature of your choice that can hear you within 30 feet of you regains hit points equal to {@dice 1d6} + your Charisma modifier (minimum of 1) if it has no more than half of its hit points."
+			]
+		},
+		{
+			"name": "Divine Allegiance",
+			"source": "SCAG",
+			"page": 132,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Crown",
+			"subclassSource": "SCAG",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, when a creature within 5 feet of you takes damage, you can use your reaction to magically substitute your own health for that of the target creature, causing that creature not to take the damage. Instead, you take the damage. This damage to you can't be reduced or prevented in any way."
+			]
+		},
+		{
+			"name": "Unyielding Spirit",
+			"source": "SCAG",
+			"page": 132,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Crown",
+			"subclassSource": "SCAG",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, you have advantage on saving throws to avoid becoming {@condition paralyzed} or {@condition stunned}."
+			]
+		},
+		{
+			"name": "Exalted Champion",
+			"source": "SCAG",
+			"page": 132,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Crown",
+			"subclassSource": "SCAG",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"At 20th level, your presence on the field of battle is an inspiration to those dedicated to your cause. You can use your action to gain the following benefits for 1 hour:",
+				{
+					"type": "list",
+					"items": [
+						"You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.",
+						"Your allies have advantage on death saving throws while within 30 feet of you.",
+						"You have advantage on Wisdom saving throws, as do your allies within 30 feet of you."
+					]
+				},
+				"This effect ends early if you are {@condition incapacitated} or die. Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "The Undying",
+			"source": "SCAG",
+			"page": 139,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Undying",
+			"subclassSource": "SCAG",
+			"level": 1,
+			"entries": [
+				"Death holds no sway over your patron, who has unlocked the secrets of everlasting life, although such a prize—like all power—comes at a price. Once mortal, the Undying has seen mortal lifetimes pass like the seasons, like the flicker of endless days and nights. It has the secrets of the ages to share, secrets of life and death. Beings of this sort include Vecna, Lord of the Hand and the Eye; the dread Iuz; the lich-queen Vol; the Undying Court of Aerenal; Vlaakith, lich-queen of the githyanki; and the deathless wizard Fistandantilus.",
+				"In the Realms, Undying patrons include Larloch the Shadow King, legendary master of Warlock's Crypt, and Gilgeam, the God-King of Unther.",
+				{
+					"type": "entries",
+					"name": "Expanded Spell List",
+					"entries": [
+						"The Undying lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+						{
+							"type": "table",
+							"caption": "Undying Expanded Spells",
+							"colLabels": [
+								"Spell Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1st",
+									"{@spell false life}, {@spell ray of sickness}"
+								],
+								[
+									"2nd",
+									"{@spell blindness/deafness}, {@spell silence}"
+								],
+								[
+									"3rd",
+									"{@spell feign death}, {@spell speak with dead}"
+								],
+								[
+									"4th",
+									"{@spell aura of life}, {@spell death ward}"
+								],
+								[
+									"5th",
+									"{@spell contagion}, {@spell legend lore}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Among the Dead|Warlock||Undying|SCAG|1"
+				}
+			]
+		},
+		{
+			"name": "Among the Dead",
+			"source": "SCAG",
+			"page": 139,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Undying",
+			"subclassSource": "SCAG",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Starting at 1st level, you learn the {@spell spare the dying} cantrip, which counts as a warlock cantrip for you. You also have advantage on saving throws against any disease.",
+				"Additionally, undead have difficulty harming you. If an undead targets you directly with an attack or a harmful spell, that creature must make a Wisdom saving throw against your spell save DC (an undead needn't make the save when it includes you in an area effect, such as the explosion of {@spell fireball}). On a failed save, the creature must choose a new target or forfeit targeting someone instead of you, potentially wasting the attack or spell. On a successful save, the creature is immune to this effect for 24 hours. An undead is also immune to this effect for 24 hours if you target it with an attack or a harmful spell."
+			]
+		},
+		{
+			"name": "Defy Death",
+			"source": "SCAG",
+			"page": 139,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Undying",
+			"subclassSource": "SCAG",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can give yourself vitality when you cheat death or when you help someone else cheat it. You can regain hit points equal to {@dice 1d8} + your Constitution modifier (minimum of 1 hit point) when you succeed on a death saving throw or when you stabilize a creature with {@spell spare the dying}.",
+				"Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Undying Nature",
+			"source": "SCAG",
+			"page": 139,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Undying",
+			"subclassSource": "SCAG",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Beginning at 10th level, you can hold your breath indefinitely, and you don't require food, water, or sleep, although you still require rest to reduce {@condition exhaustion} and still benefit from finishing short and long rests.",
+				"In addition, you age at a slower rate. For every 10 years that pass, your body ages only 1 year, and you are immune to being magically aged."
+			]
+		},
+		{
+			"name": "Indestructible Life",
+			"source": "SCAG",
+			"page": 139,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Undying",
+			"subclassSource": "SCAG",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"When you reach 14th level, you partake some of the true secrets of the Undying. On your turn, you can use a bonus action to regain hit points equal to {@dice 1d8} + your warlock level. Additionally, if you put a severed body part of yours back in place when you use this feature, the part reattaches.",
+				"Once you use this feature, you can't use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "The Undying",
+			"source": "SCAG",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Undying",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"_copy": {
+				"name": "The Undying",
+				"source": "SCAG",
+				"className": "Warlock",
+				"classSource": "PHB",
+				"subclassShortName": "Undying",
+				"subclassSource": "SCAG",
+				"level": 1,
+				"_preserve": {
+					"page": true
+				}
+			}
+		},
 		{
 			"name": "Way of the Long Death",
 			"source": "SCAG",

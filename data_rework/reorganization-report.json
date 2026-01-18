@@ -1,5 +1,5 @@
 {
-	"timestamp": "2026-01-18T12:09:31.221380Z",
+	"timestamp": "2026-01-18T12:48:52.574206Z",
 	"version": "1.0.0",
 	"sources_processed": 60,
 	"statistics": {
@@ -371,38 +371,38 @@
 		"images": {
 			"PHB": {
 				"covers": 1,
-				"items": 8,
-				"classes": 15,
 				"races": 9,
-				"feats": 2,
 				"spells": 12,
 				"book": 44,
 				"languages": 3,
-				"conditionsdiseases": 13
+				"feats": 2,
+				"items": 8,
+				"conditionsdiseases": 13,
+				"classes": 15
 			},
 			"MM": {
 				"covers": 1,
-				"book": 2,
-				"bestiary": 306
+				"bestiary": 306,
+				"book": 2
 			},
 			"DMG": {
 				"covers": 1,
-				"items": 211,
-				"classes": 1,
-				"decks": 23,
+				"bestiary": 1,
 				"book": 16,
-				"bestiary": 1
+				"items": 211,
+				"decks": 23,
+				"classes": 1
 			},
 			"Screen": {
 				"covers": 1
 			},
 			"SCAG": {
 				"covers": 1,
-				"classes": 2,
-				"deities": 39,
 				"races": 1,
 				"book": 105,
-				"languages": 1
+				"languages": 1,
+				"deities": 39,
+				"classes": 2
 			},
 			"PS-Z": {},
 			"PS-I": {},
@@ -412,8 +412,8 @@
 			"VGM": {
 				"covers": 1,
 				"races": 13,
-				"book": 49,
-				"bestiary": 91
+				"bestiary": 91,
+				"book": 49
 			},
 			"PS-K": {},
 			"PS-A": {},
@@ -423,44 +423,44 @@
 			},
 			"XGE": {
 				"covers": 1,
-				"items": 7,
-				"classes": 19,
 				"spells": 10,
-				"book": 24
+				"book": 24,
+				"items": 7,
+				"classes": 19
 			},
 			"PS-X": {},
 			"MTF": {
 				"covers": 1,
-				"items": 1,
 				"races": 1,
+				"bestiary": 112,
 				"book": 46,
-				"bestiary": 112
+				"items": 1
 			},
 			"PS-D": {},
 			"GGR": {
 				"covers": 1,
-				"items": 30,
 				"races": 5,
 				"spells": 1,
+				"bestiary": 62,
 				"book": 142,
-				"bestiary": 62
+				"items": 30
 			},
 			"SAC": {
 				"covers": 1
 			},
 			"AI": {
 				"covers": 1,
-				"vehicles": 2,
-				"items": 12,
 				"races": 1,
-				"book": 49,
 				"bestiary": 19,
+				"vehicles": 2,
+				"book": 49,
+				"items": 12,
 				"backgrounds": 2
 			},
 			"AWM": {
 				"covers": 1,
-				"book": 37,
-				"bestiary": 6
+				"bestiary": 6,
+				"book": 37
 			},
 			"RMR": {
 				"covers": 1,
@@ -468,140 +468,140 @@
 			},
 			"ERLW": {
 				"covers": 1,
-				"items": 1,
-				"deities": 7,
 				"races": 9,
+				"bestiary": 34,
 				"book": 143,
-				"bestiary": 34
+				"items": 1,
+				"deities": 7
 			},
 			"EGW": {
 				"covers": 1,
-				"items": 14,
-				"classes": 3,
-				"deities": 21,
-				"races": 4,
 				"charcreationoptions": 1,
+				"races": 4,
 				"spells": 2,
-				"book": 135,
 				"bestiary": 24,
-				"backgrounds": 2
+				"book": 135,
+				"items": 14,
+				"backgrounds": 2,
+				"deities": 21,
+				"classes": 3
 			},
 			"MOT": {
 				"covers": 1,
-				"items": 7,
-				"adventure": 10,
-				"deities": 30,
-				"races": 10,
 				"charcreationoptions": 3,
-				"book": 124,
+				"races": 10,
 				"bestiary": 40,
-				"backgrounds": 1
+				"book": 124,
+				"items": 7,
+				"backgrounds": 1,
+				"deities": 30,
+				"adventure": 10
 			},
 			"ScreenDungeonKit": {
 				"covers": 1,
-				"decks": 46,
-				"book": 48
+				"book": 48,
+				"decks": 46
 			},
 			"HF": {
 				"covers": 1,
-				"recipes": 50,
-				"book": 38
+				"book": 38,
+				"recipes": 50
 			},
 			"ScreenWildernessKit": {
 				"covers": 1
 			},
 			"TCE": {
 				"covers": 1,
+				"spells": 5,
+				"optionalfeatures": 1,
+				"bestiary": 5,
+				"book": 103,
+				"feats": 2,
 				"items": 16,
 				"classes": 34,
-				"objects": 2,
-				"optionalfeatures": 1,
-				"feats": 2,
-				"spells": 5,
-				"book": 103,
-				"bestiary": 5
+				"objects": 2
 			},
 			"MGELFT": {
 				"covers": 1,
-				"book": 45,
-				"bestiary": 5
+				"bestiary": 5,
+				"book": 45
 			},
 			"VRGR": {
 				"covers": 1,
-				"items": 1,
-				"classes": 2,
-				"races": 3,
-				"variantrules": 2,
 				"charcreationoptions": 1,
-				"book": 120,
+				"races": 3,
 				"bestiary": 30,
-				"backgrounds": 2
+				"book": 120,
+				"items": 1,
+				"backgrounds": 2,
+				"variantrules": 2,
+				"classes": 2
 			},
 			"DoD": {
 				"covers": 1,
-				"book": 10,
-				"bestiary": 1
+				"bestiary": 1,
+				"book": 10
 			},
 			"MaBJoV": {
 				"covers": 1,
-				"book": 35,
-				"bestiary": 49
+				"bestiary": 49,
+				"book": 35
 			},
 			"FTD": {
 				"covers": 1,
-				"items": 1,
-				"classes": 2,
 				"races": 3,
 				"spells": 2,
+				"bestiary": 68,
 				"book": 77,
-				"bestiary": 68
+				"items": 1,
+				"classes": 2
 			},
 			"SCC": {
 				"covers": 1,
 				"races": 1,
-				"book": 165,
 				"bestiary": 32,
+				"book": 165,
 				"backgrounds": 2
 			},
 			"MPMM": {
 				"covers": 1,
 				"races": 30,
-				"book": 8,
-				"bestiary": 234
+				"bestiary": 234,
+				"book": 8
 			},
 			"TD": {
 				"covers": 1,
-				"decks": 79,
-				"book": 2
+				"book": 2,
+				"decks": 79
 			},
 			"ScreenSpelljammer": {
 				"covers": 1
 			},
 			"AAG": {
 				"covers": 1,
-				"vehicles": 48,
-				"items": 3,
 				"races": 6,
 				"spells": 1,
+				"vehicles": 48,
 				"book": 18,
+				"items": 3,
 				"backgrounds": 2
 			},
 			"BAM": {
 				"covers": 1,
-				"book": 5,
-				"bestiary": 62
+				"bestiary": 62,
+				"book": 5
 			},
 			"HAT-TG": {
 				"bestiary": 7
 			},
 			"BGG": {
 				"covers": 1,
-				"items": 5,
-				"classes": 1,
-				"feats": 1,
-				"book": 85,
 				"bestiary": 64,
-				"backgrounds": 2
+				"book": 85,
+				"feats": 1,
+				"items": 5,
+				"backgrounds": 2,
+				"classes": 1
 			},
 			"MCV4EC": {
 				"covers": 1,
@@ -609,63 +609,63 @@
 			},
 			"MPP": {
 				"covers": 1,
-				"book": 13,
-				"bestiary": 55
+				"bestiary": 55,
+				"book": 13
 			},
 			"SatO": {
 				"covers": 1,
-				"items": 2,
-				"feats": 1,
 				"book": 74,
+				"feats": 1,
+				"items": 2,
 				"backgrounds": 2
 			},
 			"AATM": {
 				"covers": 1,
-				"book": 19,
-				"bestiary": 3
+				"bestiary": 3,
+				"book": 19
 			},
 			"HFFotM": {
 				"covers": 1,
-				"recipes": 55,
-				"book": 31
+				"book": 31,
+				"recipes": 55
 			},
 			"BMT": {
 				"covers": 1,
-				"items": 17,
-				"objects": 1,
-				"decks": 45,
-				"book": 109,
 				"bestiary": 34,
-				"backgrounds": 2
+				"book": 109,
+				"items": 17,
+				"backgrounds": 2,
+				"decks": 45,
+				"objects": 1
 			},
 			"DMTCRG": {
 				"covers": 1,
-				"decks": 67,
-				"book": 5
+				"book": 5,
+				"decks": 67
 			},
 			"PaF": {
 				"covers": 1,
-				"recipes": 48,
-				"book": 38
+				"book": 38,
+				"recipes": 48
 			},
 			"XPHB": {
 				"covers": 1,
-				"items": 55,
-				"classes": 74,
 				"races": 13,
-				"feats": 8,
 				"spells": 51,
-				"book": 63,
 				"bestiary": 15,
-				"backgrounds": 16
+				"book": 63,
+				"feats": 8,
+				"items": 55,
+				"backgrounds": 16,
+				"classes": 74
 			},
 			"XDMG": {
 				"covers": 1,
-				"items": 266,
-				"objects": 2,
-				"hazards": 2,
+				"bastions": 4,
 				"book": 161,
-				"bastions": 4
+				"items": 266,
+				"hazards": 2,
+				"objects": 2
 			},
 			"XScreen": {
 				"covers": 1,
@@ -673,57 +673,57 @@
 			},
 			"XMM": {
 				"covers": 1,
-				"book": 322,
-				"bestiary": 389
+				"bestiary": 389,
+				"book": 322
 			},
 			"XSAC": {},
 			"ABH": {
 				"covers": 1,
 				"races": 1,
-				"book": 10,
 				"bestiary": 4,
+				"book": 10,
 				"backgrounds": 1
 			},
 			"FRAiF": {
 				"covers": 1,
-				"items": 6,
-				"adventure": 14,
+				"bestiary": 23,
 				"book": 230,
-				"bestiary": 23
+				"items": 6,
+				"adventure": 14
 			},
 			"FRHoF": {
 				"covers": 1,
-				"items": 14,
-				"classes": 9,
-				"deities": 42,
 				"spells": 4,
-				"book": 88,
 				"bastions": 8,
-				"backgrounds": 18
+				"book": 88,
+				"items": 14,
+				"backgrounds": 18,
+				"deities": 42,
+				"classes": 9
 			},
 			"NF": {
 				"covers": 1,
-				"hazards": 1,
+				"bestiary": 5,
 				"book": 31,
-				"bestiary": 5
+				"hazards": 1
 			},
 			"LFL": {
 				"covers": 1,
 				"races": 7,
-				"book": 12,
 				"bestiary": 6,
+				"book": 12,
 				"backgrounds": 2
 			},
 			"EFA": {
 				"covers": 1,
-				"vehicles": 3,
-				"classes": 6,
 				"races": 5,
-				"feats": 12,
-				"book": 61,
 				"bastions": 1,
 				"bestiary": 25,
-				"backgrounds": 17
+				"vehicles": 3,
+				"book": 61,
+				"feats": 12,
+				"backgrounds": 17,
+				"classes": 6
 			}
 		},
 		"pdfs": {
@@ -923,5 +923,30 @@
 		"Unknown source 'PSD' in cultsboons.json",
 		"Unknown source 'PotA' in cultsboons.json"
 	],
-	"success": true
+	"success": true,
+	"validation": {
+		"timestamp": "2026-01-18T12:48:52.574003Z",
+		"data_dir": "data",
+		"data_rework_dir": "data_rework",
+		"validations": [
+			{
+				"script": "scripts/validation/check_data_integrity.py",
+				"status": "skipped",
+				"message": "Script not found: scripts/validation/check_data_integrity.py"
+			},
+			{
+				"script": "scripts/validation/check_images.py",
+				"status": "skipped",
+				"message": "Script not found: scripts/validation/check_images.py"
+			},
+			{
+				"script": "scripts/validation/check_cross_source.py",
+				"status": "skipped",
+				"message": "Script not found: scripts/validation/check_cross_source.py"
+			}
+		],
+		"overall_status": "passed",
+		"failed_count": 0,
+		"total_count": 3
+	}
 }

@@ -607,9 +607,1015 @@
 					"reprintedAs": true
 				}
 			}
+		},
+		{
+			"name": "Death Domain",
+			"shortName": "Death",
+			"source": "DMG",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 96,
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|school=N",
+									"count": 1
+								}
+							]
+						}
+					},
+					"prepared": {
+						"1": [
+							"false life",
+							"ray of sickness"
+						],
+						"3": [
+							"blindness/deafness",
+							"ray of enfeeblement"
+						],
+						"5": [
+							"animate dead",
+							"vampiric touch"
+						],
+						"7": [
+							"blight",
+							"death ward"
+						],
+						"9": [
+							"antilife shell",
+							"cloudkill"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Death Domain|Cleric||Death|DMG|1",
+				"Channel Divinity: Touch of Death|Cleric||Death|DMG|2",
+				"Inescapable Destruction|Cleric||Death|DMG|6",
+				"Divine Strike|Cleric||Death|DMG|8",
+				"Blessed Strikes|Cleric||Death|DMG|8|TCE",
+				"Improved Reaper|Cleric||Death|DMG|17"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Death Domain",
+			"shortName": "Death",
+			"source": "DMG",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Death Domain",
+				"source": "DMG",
+				"shortName": "Death",
+				"className": "Cleric",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
+			"subclassFeatures": [
+				"Death Domain|Cleric|XPHB|Death|DMG|3",
+				"Channel Divinity: Touch of Death|Cleric|XPHB|Death|DMG|3",
+				"Inescapable Destruction|Cleric||Death|DMG|6",
+				"Improved Reaper|Cleric||Death|DMG|17"
+			],
+			"fluff": {
+				"_subclassFluff": {
+					"name": "Death Domain",
+					"source": "DMG",
+					"shortName": "Death",
+					"className": "Cleric",
+					"classSource": "PHB"
+				}
+			}
+		},
+		{
+			"name": "Oathbreaker",
+			"shortName": "Oathbreaker",
+			"source": "DMG",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"page": 97,
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"hellish rebuke",
+							"inflict wounds"
+						],
+						"5": [
+							"crown of madness",
+							"darkness"
+						],
+						"9": [
+							"animate dead",
+							"bestow curse"
+						],
+						"13": [
+							"blight",
+							"confusion"
+						],
+						"17": [
+							"contagion",
+							"dominate person"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Oathbreaker|Paladin||Oathbreaker|DMG|3",
+				"Aura of Hate|Paladin||Oathbreaker|DMG|7",
+				"Supernatural Resistance|Paladin||Oathbreaker|DMG|15",
+				"Dread Lord|Paladin||Oathbreaker|DMG|20"
+			]
+		},
+		{
+			"name": "Oathbreaker",
+			"shortName": "Oathbreaker",
+			"source": "DMG",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Oathbreaker",
+				"source": "DMG",
+				"shortName": "Oathbreaker",
+				"className": "Paladin",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			}
+		},
+		{
+			"name": "Death Domain",
+			"shortName": "Death",
+			"source": "DMG",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 96,
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|school=N",
+									"count": 1
+								}
+							]
+						}
+					},
+					"prepared": {
+						"1": [
+							"false life",
+							"ray of sickness"
+						],
+						"3": [
+							"blindness/deafness",
+							"ray of enfeeblement"
+						],
+						"5": [
+							"animate dead",
+							"vampiric touch"
+						],
+						"7": [
+							"blight",
+							"death ward"
+						],
+						"9": [
+							"antilife shell",
+							"cloudkill"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Death Domain|Cleric||Death|DMG|1",
+				"Channel Divinity: Touch of Death|Cleric||Death|DMG|2",
+				"Inescapable Destruction|Cleric||Death|DMG|6",
+				"Divine Strike|Cleric||Death|DMG|8",
+				"Blessed Strikes|Cleric||Death|DMG|8|TCE",
+				"Improved Reaper|Cleric||Death|DMG|17"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Death Domain",
+			"shortName": "Death",
+			"source": "DMG",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Death Domain",
+				"source": "DMG",
+				"shortName": "Death",
+				"className": "Cleric",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			},
+			"subclassFeatures": [
+				"Death Domain|Cleric|XPHB|Death|DMG|3",
+				"Channel Divinity: Touch of Death|Cleric|XPHB|Death|DMG|3",
+				"Inescapable Destruction|Cleric||Death|DMG|6",
+				"Improved Reaper|Cleric||Death|DMG|17"
+			],
+			"fluff": {
+				"_subclassFluff": {
+					"name": "Death Domain",
+					"source": "DMG",
+					"shortName": "Death",
+					"className": "Cleric",
+					"classSource": "PHB"
+				}
+			}
+		},
+		{
+			"name": "Oathbreaker",
+			"shortName": "Oathbreaker",
+			"source": "DMG",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"page": 97,
+			"edition": "classic",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"hellish rebuke",
+							"inflict wounds"
+						],
+						"5": [
+							"crown of madness",
+							"darkness"
+						],
+						"9": [
+							"animate dead",
+							"bestow curse"
+						],
+						"13": [
+							"blight",
+							"confusion"
+						],
+						"17": [
+							"contagion",
+							"dominate person"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Oathbreaker|Paladin||Oathbreaker|DMG|3",
+				"Aura of Hate|Paladin||Oathbreaker|DMG|7",
+				"Supernatural Resistance|Paladin||Oathbreaker|DMG|15",
+				"Dread Lord|Paladin||Oathbreaker|DMG|20"
+			]
+		},
+		{
+			"name": "Oathbreaker",
+			"shortName": "Oathbreaker",
+			"source": "DMG",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"_copy": {
+				"name": "Oathbreaker",
+				"source": "DMG",
+				"shortName": "Oathbreaker",
+				"className": "Paladin",
+				"classSource": "PHB",
+				"_preserve": {
+					"page": true,
+					"otherSources": true,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": true
+				}
+			}
 		}
 	],
 	"subclassFeature": [
+		{
+			"name": "Death Domain",
+			"source": "DMG",
+			"page": 96,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death",
+			"subclassSource": "DMG",
+			"level": 1,
+			"entries": [
+				"The Death domain is concerned with the forces that cause death, as well as the negative energy that gives rise to undead creatures. Deities such as {@deity Chemosh|Dragonlance}, {@deity Myrkul}, and {@deity Wee Jas|Greyhawk} are patrons of necromancers, death knights, liches, mummy lords, and vampires. Gods of the Death domain also embody murder ({@deity Anubis|Egyptian}, {@deity Bhaal}, and Pyremius), pain ({@deity Iuz|Greyhawk} or {@deity Loviatar}), disease or poison ({@deity Incabulos|Greyhawk}, {@deity Talona}, or {@deity Morgion|Dragonlance}), and the underworld ({@deity Hades|Greek} and {@deity Hel|Norse}).",
+				"At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.",
+				{
+					"type": "table",
+					"caption": "Death Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell false life}, {@spell ray of sickness}"
+						],
+						[
+							"3rd",
+							"{@spell blindness/deafness}, {@spell ray of enfeeblement}"
+						],
+						[
+							"5th",
+							"{@spell animate dead}, {@spell vampiric touch}"
+						],
+						[
+							"7th",
+							"{@spell blight}, {@spell death ward}"
+						],
+						[
+							"9th",
+							"{@spell antilife shell}, {@spell cloudkill}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiency|Cleric||Death|DMG|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Reaper|Cleric||Death|DMG|1"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiency",
+			"source": "DMG",
+			"page": 96,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death",
+			"subclassSource": "DMG",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"When the cleric chooses this domain at 1st level, he or she gains proficiency with martial weapons."
+			]
+		},
+		{
+			"name": "Reaper",
+			"source": "DMG",
+			"page": 96,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death",
+			"subclassSource": "DMG",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"At 1st level, the cleric learns one {@filter necromancy cantrip|spells|level=0|school=N} of his or her choice from any spell list. When the cleric casts a necromancy cantrip that normally targets only one creature, the spell can instead target two creatures within range and within 5 feet of each other."
+			]
+		},
+		{
+			"name": "Channel Divinity: Touch of Death",
+			"source": "DMG",
+			"page": 96,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death",
+			"subclassSource": "DMG",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"Starting at 2nd level, the cleric can use Channel Divinity to destroy another creature's life force by touch.",
+				"When the cleric hits a creature with a melee attack, the cleric can use Channel Divinity to deal extra necrotic damage to the target. The damage equals 5 + twice his or her cleric level."
+			]
+		},
+		{
+			"name": "Inescapable Destruction",
+			"source": "DMG",
+			"page": 96,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death",
+			"subclassSource": "DMG",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, the cleric's ability to channel negative energy becomes more potent. Necrotic damage dealt by the character's cleric spells and Channel Divinity options ignores resistance to necrotic damage."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "DMG",
+			"page": 96,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death",
+			"subclassSource": "DMG",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, the cleric gains the ability to infuse his or her weapon strikes with necrotic energy. Once on each of the cleric's turns when he or she hits a creature with a weapon attack, the cleric can cause the attack to deal an extra {@damage 1d8} necrotic damage to the target. When the cleric reaches 14th level, the extra damage increases to {@damage 2d8}."
+			]
+		},
+		{
+			"name": "Improved Reaper",
+			"source": "DMG",
+			"page": 96,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death",
+			"subclassSource": "DMG",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Starting at 17th level, when the cleric casts a Necromancy spell of 1st through 5th-level that targets only one creature, the spell can instead target two creatures within range and within 5 feet of each other. If the spell consumes its material components, the cleric must provide them for each target."
+			]
+		},
+		{
+			"name": "Channel Divinity: Touch of Death",
+			"source": "DMG",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Death",
+			"subclassSource": "DMG",
+			"level": 3,
+			"_copy": {
+				"name": "Channel Divinity: Touch of Death",
+				"source": "DMG",
+				"className": "Cleric",
+				"classSource": "PHB",
+				"subclassShortName": "Death",
+				"subclassSource": "DMG",
+				"level": 2,
+				"_preserve": {
+					"page": true
+				}
+			}
+		},
+		{
+			"name": "Death Domain",
+			"source": "DMG",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Death",
+			"subclassSource": "DMG",
+			"level": 3,
+			"_copy": {
+				"name": "Death Domain",
+				"source": "DMG",
+				"className": "Cleric",
+				"classSource": "PHB",
+				"subclassShortName": "Death",
+				"subclassSource": "DMG",
+				"level": 1,
+				"_preserve": {
+					"page": true
+				}
+			}
+		},
+		{
+			"name": "Oathbreaker",
+			"source": "DMG",
+			"page": 97,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "DMG",
+			"level": 3,
+			"entries": [
+				"An Oathbreaker is a paladin who breaks his or her sacred oaths to pursue some dark ambition or serve an evil power. Whatever light burned in the paladin's heart has been extinguished. Only darkness remains.",
+				"A paladin must be evil and at least 3rd level to become an Oathbreaker. The paladin replaces the features specific to his or her Sacred Oath with Oathbreaker features.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oathbreaker Spells|Paladin||Oathbreaker|DMG|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity|Paladin||Oathbreaker|DMG|3"
+				}
+			]
+		},
+		{
+			"name": "Channel Divinity",
+			"source": "DMG",
+			"page": 97,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "DMG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"An Oathbreaker paladin of 3rd level or higher gains the following two Channel Divinity options.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Control Undead|Paladin||Oathbreaker|DMG|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dreadful Aspect|Paladin||Oathbreaker|DMG|3"
+				}
+			]
+		},
+		{
+			"name": "Control Undead",
+			"source": "DMG",
+			"page": 97,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "DMG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"As an action, the paladin targets one undead creature he or she can see within 30 feet of him or her. The target must make a Wisdom saving throw. On a failed save, the target must obey the paladin's commands for the next 24 hours, or until the paladin uses this Channel Divinity option again. An undead whose challenge rating is equal to or greater than the paladin's level is immune to this effect."
+			]
+		},
+		{
+			"name": "Dreadful Aspect",
+			"source": "DMG",
+			"page": 97,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "DMG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"As an action, the paladin channels the darkest emotions and focuses them into a burst of magical menace. Each creature of the paladin's choice within 30 feet of the paladin must make a Wisdom saving throw if it can see the paladin. On a failed save, the target is {@condition frightened} of the paladin for 1 minute. If a creature {@condition frightened} by this effect ends its turn more than 30 feet away from the paladin, it can attempt another Wisdom saving throw to end the effect on it."
+			]
+		},
+		{
+			"name": "Oathbreaker Spells",
+			"source": "DMG",
+			"page": 97,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "DMG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You gain oathbreaker spells at the paladin levels listed.",
+				{
+					"type": "table",
+					"caption": "Oathbreaker Spells",
+					"colLabels": [
+						"Paladin Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell hellish rebuke}, {@spell inflict wounds}"
+						],
+						[
+							"5th",
+							"{@spell crown of madness}, {@spell darkness}"
+						],
+						[
+							"9th",
+							"{@spell animate dead}, {@spell bestow curse}"
+						],
+						[
+							"13th",
+							"{@spell blight}, {@spell confusion}"
+						],
+						[
+							"17th",
+							"{@spell contagion}, {@spell dominate person}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Aura of Hate",
+			"source": "DMG",
+			"page": 97,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "DMG",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, the paladin, as well any fiends and undead within 10 feet of the paladin, gains a bonus to melee weapon damage rolls equal to the paladin's Charisma modifier (minimum of +1). A creature can benefit from this feature from only one paladin at a time.",
+				"At 18th level, the range of this aura increases to 30 feet."
+			]
+		},
+		{
+			"name": "Supernatural Resistance",
+			"source": "DMG",
+			"page": 97,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "DMG",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, the paladin gains resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons."
+			]
+		},
+		{
+			"name": "Dread Lord",
+			"source": "DMG",
+			"page": 97,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "DMG",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"At 20th level, the paladin can, as an action, surround himself or herself with an aura of gloom that lasts for 1 minute. The aura reduces any bright light in a 30-foot radius around the paladin to dim light. Whenever an enemy that is {@condition frightened} by the paladin starts its turn in the aura, it takes {@damage 4d10} psychic damage. Additionally, the paladin and creatures he or she chooses in the aura are draped in deeper shadow. Creatures that rely on sight have disadvantage on attack rolls against creatures draped in this shadow.",
+				"While the aura lasts, the paladin can use a bonus action on his or her turn to cause the shadows in the aura to attack one creature. The paladin makes a melee spell attack against the target. If the attack hits, the target takes necrotic damage equal to {@damage 3d10} + the paladin's Charisma modifier.",
+				"After activating the aura, the paladin can't do so again until he or she finishes a long rest."
+			]
+		},
+		{
+			"name": "Death Domain",
+			"source": "DMG",
+			"page": 96,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death",
+			"subclassSource": "DMG",
+			"level": 1,
+			"entries": [
+				"The Death domain is concerned with the forces that cause death, as well as the negative energy that gives rise to undead creatures. Deities such as {@deity Chemosh|Dragonlance}, {@deity Myrkul}, and {@deity Wee Jas|Greyhawk} are patrons of necromancers, death knights, liches, mummy lords, and vampires. Gods of the Death domain also embody murder ({@deity Anubis|Egyptian}, {@deity Bhaal}, and Pyremius), pain ({@deity Iuz|Greyhawk} or {@deity Loviatar}), disease or poison ({@deity Incabulos|Greyhawk}, {@deity Talona}, or {@deity Morgion|Dragonlance}), and the underworld ({@deity Hades|Greek} and {@deity Hel|Norse}).",
+				"At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.",
+				{
+					"type": "table",
+					"caption": "Death Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell false life}, {@spell ray of sickness}"
+						],
+						[
+							"3rd",
+							"{@spell blindness/deafness}, {@spell ray of enfeeblement}"
+						],
+						[
+							"5th",
+							"{@spell animate dead}, {@spell vampiric touch}"
+						],
+						[
+							"7th",
+							"{@spell blight}, {@spell death ward}"
+						],
+						[
+							"9th",
+							"{@spell antilife shell}, {@spell cloudkill}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiency|Cleric||Death|DMG|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Reaper|Cleric||Death|DMG|1"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiency",
+			"source": "DMG",
+			"page": 96,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death",
+			"subclassSource": "DMG",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"When the cleric chooses this domain at 1st level, he or she gains proficiency with martial weapons."
+			]
+		},
+		{
+			"name": "Reaper",
+			"source": "DMG",
+			"page": 96,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death",
+			"subclassSource": "DMG",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"At 1st level, the cleric learns one {@filter necromancy cantrip|spells|level=0|school=N} of his or her choice from any spell list. When the cleric casts a necromancy cantrip that normally targets only one creature, the spell can instead target two creatures within range and within 5 feet of each other."
+			]
+		},
+		{
+			"name": "Channel Divinity: Touch of Death",
+			"source": "DMG",
+			"page": 96,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death",
+			"subclassSource": "DMG",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"Starting at 2nd level, the cleric can use Channel Divinity to destroy another creature's life force by touch.",
+				"When the cleric hits a creature with a melee attack, the cleric can use Channel Divinity to deal extra necrotic damage to the target. The damage equals 5 + twice his or her cleric level."
+			]
+		},
+		{
+			"name": "Inescapable Destruction",
+			"source": "DMG",
+			"page": 96,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death",
+			"subclassSource": "DMG",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, the cleric's ability to channel negative energy becomes more potent. Necrotic damage dealt by the character's cleric spells and Channel Divinity options ignores resistance to necrotic damage."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "DMG",
+			"page": 96,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death",
+			"subclassSource": "DMG",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, the cleric gains the ability to infuse his or her weapon strikes with necrotic energy. Once on each of the cleric's turns when he or she hits a creature with a weapon attack, the cleric can cause the attack to deal an extra {@damage 1d8} necrotic damage to the target. When the cleric reaches 14th level, the extra damage increases to {@damage 2d8}."
+			]
+		},
+		{
+			"name": "Improved Reaper",
+			"source": "DMG",
+			"page": 96,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death",
+			"subclassSource": "DMG",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Starting at 17th level, when the cleric casts a Necromancy spell of 1st through 5th-level that targets only one creature, the spell can instead target two creatures within range and within 5 feet of each other. If the spell consumes its material components, the cleric must provide them for each target."
+			]
+		},
+		{
+			"name": "Channel Divinity: Touch of Death",
+			"source": "DMG",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Death",
+			"subclassSource": "DMG",
+			"level": 3,
+			"_copy": {
+				"name": "Channel Divinity: Touch of Death",
+				"source": "DMG",
+				"className": "Cleric",
+				"classSource": "PHB",
+				"subclassShortName": "Death",
+				"subclassSource": "DMG",
+				"level": 2,
+				"_preserve": {
+					"page": true
+				}
+			}
+		},
+		{
+			"name": "Death Domain",
+			"source": "DMG",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Death",
+			"subclassSource": "DMG",
+			"level": 3,
+			"_copy": {
+				"name": "Death Domain",
+				"source": "DMG",
+				"className": "Cleric",
+				"classSource": "PHB",
+				"subclassShortName": "Death",
+				"subclassSource": "DMG",
+				"level": 1,
+				"_preserve": {
+					"page": true
+				}
+			}
+		},
+		{
+			"name": "Oathbreaker",
+			"source": "DMG",
+			"page": 97,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "DMG",
+			"level": 3,
+			"entries": [
+				"An Oathbreaker is a paladin who breaks his or her sacred oaths to pursue some dark ambition or serve an evil power. Whatever light burned in the paladin's heart has been extinguished. Only darkness remains.",
+				"A paladin must be evil and at least 3rd level to become an Oathbreaker. The paladin replaces the features specific to his or her Sacred Oath with Oathbreaker features.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oathbreaker Spells|Paladin||Oathbreaker|DMG|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity|Paladin||Oathbreaker|DMG|3"
+				}
+			]
+		},
+		{
+			"name": "Channel Divinity",
+			"source": "DMG",
+			"page": 97,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "DMG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"An Oathbreaker paladin of 3rd level or higher gains the following two Channel Divinity options.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Control Undead|Paladin||Oathbreaker|DMG|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dreadful Aspect|Paladin||Oathbreaker|DMG|3"
+				}
+			]
+		},
+		{
+			"name": "Control Undead",
+			"source": "DMG",
+			"page": 97,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "DMG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"As an action, the paladin targets one undead creature he or she can see within 30 feet of him or her. The target must make a Wisdom saving throw. On a failed save, the target must obey the paladin's commands for the next 24 hours, or until the paladin uses this Channel Divinity option again. An undead whose challenge rating is equal to or greater than the paladin's level is immune to this effect."
+			]
+		},
+		{
+			"name": "Dreadful Aspect",
+			"source": "DMG",
+			"page": 97,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "DMG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"As an action, the paladin channels the darkest emotions and focuses them into a burst of magical menace. Each creature of the paladin's choice within 30 feet of the paladin must make a Wisdom saving throw if it can see the paladin. On a failed save, the target is {@condition frightened} of the paladin for 1 minute. If a creature {@condition frightened} by this effect ends its turn more than 30 feet away from the paladin, it can attempt another Wisdom saving throw to end the effect on it."
+			]
+		},
+		{
+			"name": "Oathbreaker Spells",
+			"source": "DMG",
+			"page": 97,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "DMG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You gain oathbreaker spells at the paladin levels listed.",
+				{
+					"type": "table",
+					"caption": "Oathbreaker Spells",
+					"colLabels": [
+						"Paladin Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell hellish rebuke}, {@spell inflict wounds}"
+						],
+						[
+							"5th",
+							"{@spell crown of madness}, {@spell darkness}"
+						],
+						[
+							"9th",
+							"{@spell animate dead}, {@spell bestow curse}"
+						],
+						[
+							"13th",
+							"{@spell blight}, {@spell confusion}"
+						],
+						[
+							"17th",
+							"{@spell contagion}, {@spell dominate person}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Aura of Hate",
+			"source": "DMG",
+			"page": 97,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "DMG",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, the paladin, as well any fiends and undead within 10 feet of the paladin, gains a bonus to melee weapon damage rolls equal to the paladin's Charisma modifier (minimum of +1). A creature can benefit from this feature from only one paladin at a time.",
+				"At 18th level, the range of this aura increases to 30 feet."
+			]
+		},
+		{
+			"name": "Supernatural Resistance",
+			"source": "DMG",
+			"page": 97,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "DMG",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, the paladin gains resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons."
+			]
+		},
+		{
+			"name": "Dread Lord",
+			"source": "DMG",
+			"page": 97,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "DMG",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"At 20th level, the paladin can, as an action, surround himself or herself with an aura of gloom that lasts for 1 minute. The aura reduces any bright light in a 30-foot radius around the paladin to dim light. Whenever an enemy that is {@condition frightened} by the paladin starts its turn in the aura, it takes {@damage 4d10} psychic damage. Additionally, the paladin and creatures he or she chooses in the aura are draped in deeper shadow. Creatures that rely on sight have disadvantage on attack rolls against creatures draped in this shadow.",
+				"While the aura lasts, the paladin can use a bonus action on his or her turn to cause the shadows in the aura to attack one creature. The paladin makes a melee spell attack against the target. If the attack hits, the target takes necrotic damage equal to {@damage 3d10} + the paladin's Charisma modifier.",
+				"After activating the aura, the paladin can't do so again until he or she finishes a long rest."
+			]
+		},
 		{
 			"name": "Death Domain",
 			"source": "DMG",
