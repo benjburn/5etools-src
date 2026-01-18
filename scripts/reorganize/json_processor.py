@@ -418,6 +418,114 @@ def process_book_files(
     return counts_per_source
 
 
+def process_spells_files(
+    spells_dir: Path,
+    sources: Dict[str, Dict[str, Any]],
+    output_dir: Path,
+    stats: Statistics,
+    logger_instance: Optional[logging.Logger] = None,
+) -> Dict[str, int]:
+    """
+    Process spells JSON files from data/spells/ directory.
+
+    Each spells-{source}.json file contains spells from a single source.
+    Copy them to data_rework/{source}/data/spells.json.
+
+    Args:
+        spells_dir: Path to /data/spells/ directory
+        sources: Dict of sources from books.json
+        output_dir: Path to /data_rework/ directory
+        stats: Statistics object to track results
+        logger_instance: Optional logger instance
+
+    Returns:
+        Dict with spell counts per source
+    """
+    log = logger_instance or logger
+    log.info("Processing spells files...")
+
+    if not spells_dir.exists():
+        log.error(f"Spells directory not found: {spells_dir}")
+        stats.add_error(f"Spells directory not found: {spells_dir}")
+        return {}
+
+    # Find all spells JSON files
+    json_files = list(spells_dir.glob("spells-*.json"))
+
+    if not json_files:
+        log.warning(f"No spells files found in {spells_dir}")
+        return {}
+
+    log.info(f"Found {len(json_files)} spells files")
+
+    counts_per_source = {}
+
+    # Build a mapping from uppercase filename IDs to actual source IDs
+    # Also handle special cases where filename doesn't match source ID exactly
+    filename_to_source = {}
+    for source_id in sources.keys():
+        # Standard uppercase mapping
+        filename_to_source[source_id.upper()] = source_id
+
+    # Add special case mappings
+    filename_to_source.update({
+        "SATO": "SatO",
+        "AITFR-AVT": "AitFR-AVT",
+        "IDROTF": "IDRotF",
+        "LLK": "LLK",
+    })
+
+    for json_file in create_progress_iterator(
+        json_files,
+        desc="Processing spells files",
+    ):
+        # Extract source ID from filename (spells-phb.json -> phb -> PHB)
+        filename_id = json_file.stem.replace("spells-", "").upper()
+
+        # Look up the actual source ID
+        source_id = filename_to_source.get(filename_id)
+
+        if not source_id:
+            log.warning(f"Unknown source '{filename_id}' from {json_file.name}, skipping")
+            stats.add_warning(f"Unknown source '{filename_id}' from {json_file.name}")
+            continue
+
+        log.debug(f"Processing {json_file.name} for source '{source_id}'...")
+
+        # Load spells data
+        data = load_json(json_file, log)
+        if not data:
+            stats.add_error(f"Failed to load {json_file}")
+            continue
+
+        # Create output directory
+        source_output_dir = output_dir / source_id / "data"
+        source_output_dir.mkdir(parents=True, exist_ok=True)
+
+        # Save to spells.json in the source directory
+        output_file = source_output_dir / "spells.json"
+        if save_json(data, output_file, log):
+            # Count spells
+            spell_count = 0
+            if "spell" in data and isinstance(data["spell"], list):
+                spell_count = len(data["spell"])
+
+            counts_per_source[source_id] = spell_count
+            log.debug(
+                f"  Saved {spell_count} spells to "
+                f"{output_file.relative_to(output_dir)}"
+            )
+        else:
+            stats.add_error(f"Failed to save {output_file}")
+
+    log.info(
+        f"Processed spells: {sum(counts_per_source.values())} spells "
+        f"from {len(counts_per_source)} sources"
+    )
+
+    return counts_per_source
+
+
 def process_fluff_files(
     data_dir: Path,
     sources: Dict[str, Dict[str, Any]],

@@ -28,6 +28,7 @@ from scripts.reorganize.json_processor import (
     process_bestiary_files,
     process_book_files,
     process_class_files,
+    process_spells_files,
 )
 from scripts.reorganize.pdf_copier import copy_all_pdfs
 from scripts.reorganize.utils import (
@@ -247,6 +248,15 @@ def main():
             )
             if book_counts:
                 stats.add_json_stats("book", book_counts)
+
+        # Process spells directory
+        spells_dir = args.data_dir / "spells"
+        if spells_dir.exists():
+            spells_counts = process_spells_files(
+                spells_dir, sources, args.output_dir, stats, log
+            )
+            if spells_counts:
+                stats.add_json_stats("spells", spells_counts)
 
         # Step 2: Copy images
         log.info("=" * 60)
