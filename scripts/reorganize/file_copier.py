@@ -13,7 +13,12 @@ from pathlib import Path
 from typing import Any, Dict
 
 from scripts.reorganize import config
-from scripts.reorganize.utils import Statistics, create_progress_iterator
+from scripts.reorganize.utils import (
+    Statistics,
+    create_progress_iterator,
+    get_base_source,
+    get_submodule,
+)
 
 
 # =============================================================================
@@ -209,7 +214,15 @@ class PdfCopier(BaseCopier):
 
     def get_source_dir(self, base_dir: Path, source_id: str) -> Path:
         """Get PDF source directory for a source."""
-        return base_dir / "pdf" / source_id
+        base_source = get_base_source(source_id)
+        submodule = get_submodule(source_id)
+
+        if submodule:
+            # Submodule: pdf/AitFR/DN.pdf
+            return base_dir / "pdf" / base_source / f"{submodule}.pdf"
+        else:
+            # Regular source: pdf/PHB.pdf
+            return base_dir / "pdf" / f"{base_source}.pdf"
 
     def get_file_pattern(self) -> str:
         """Get PDF file pattern."""
@@ -221,7 +234,15 @@ class PdfCopier(BaseCopier):
 
     def get_output_path(self, source_file: Path, output_dir: Path, source_id: str) -> Path:
         """Get output path for PDF file."""
-        return output_dir / source_id / "pdf" / source_file.name
+        base_source = get_base_source(source_id)
+        submodule = get_submodule(source_id)
+
+        if submodule:
+            # Submodule: data_rework/AitFR/DN/pdf/DN.pdf
+            return output_dir / base_source / submodule / "pdf" / source_file.name
+        else:
+            # Regular source: data_rework/PHB/pdf/PHB.pdf
+            return output_dir / base_source / "pdf" / source_file.name
 
     def update_stats(self, stats: Statistics, source_id: str, count: int) -> None:
         """Update statistics with PDF count."""
@@ -244,7 +265,18 @@ class ImageCopier(BaseCopier):
 
         Uses IMAGE_PATH_SPECIAL_MAPPINGS for sources like PS-A -> PSA.
         """
-        path_component = config.IMAGE_PATH_SPECIAL_MAPPINGS.get(source_id, source_id)
+        base_source = get_base_source(source_id)
+        submodule = get_submodule(source_id)
+
+        if submodule:
+            # Submodule: img/AitFR/DN/
+            path_component = config.IMAGE_PATH_SPECIAL_MAPPINGS.get(
+                source_id, f"{base_source}/{submodule}"
+            )
+        else:
+            # Regular source: img/PHB/
+            path_component = config.IMAGE_PATH_SPECIAL_MAPPINGS.get(source_id, base_source)
+
         return base_dir / path_component
 
     def get_file_pattern(self) -> str:
@@ -260,7 +292,16 @@ class ImageCopier(BaseCopier):
         # Get the relative path from the source directory
         source_dir = self.get_source_dir(Path("/img"), source_id)
         rel_path = source_file.relative_to(source_dir)
-        return output_dir / source_id / "img" / rel_path
+
+        base_source = get_base_source(source_id)
+        submodule = get_submodule(source_id)
+
+        if submodule:
+            # Submodule: data_rework/AitFR/DN/img/...
+            return output_dir / base_source / submodule / "img" / rel_path
+        else:
+            # Regular source: data_rework/PHB/img/...
+            return output_dir / base_source / "img" / rel_path
 
     def copy_for_source(
         self,
@@ -330,7 +371,15 @@ class ImageCopier(BaseCopier):
         if not cover_file.exists():
             return 0
 
-        output_file = output_dir / source_id / "img" / "covers" / cover_file.name
+        base_source = get_base_source(source_id)
+        submodule = get_submodule(source_id)
+
+        if submodule:
+            # Submodule: data_rework/AitFR/DN/img/covers/...
+            output_file = output_dir / base_source / submodule / "img" / "covers" / cover_file.name
+        else:
+            # Regular source: data_rework/PHB/img/covers/...
+            output_file = output_dir / base_source / "img" / "covers" / cover_file.name
 
         if self.copy_file(cover_file, output_file, source_id, stats, log):
             return 1
@@ -346,13 +395,30 @@ class ImageCopier(BaseCopier):
         log: logging.Logger,
     ) -> int:
         """Copy images for a specific category."""
-        path_component = config.IMAGE_PATH_SPECIAL_MAPPINGS.get(source_id, source_id)
+        base_source = get_base_source(source_id)
+        submodule = get_submodule(source_id)
+
+        if submodule:
+            # Submodule: img/bestiary/AitFR/DN/
+            path_component = config.IMAGE_PATH_SPECIAL_MAPPINGS.get(
+                source_id, f"{base_source}/{submodule}"
+            )
+        else:
+            # Regular source: img/bestiary/PHB/
+            path_component = config.IMAGE_PATH_SPECIAL_MAPPINGS.get(source_id, base_source)
+
         source_cat_dir = img_dir / category / path_component
 
         if not source_cat_dir.exists():
             return 0
 
-        output_cat_dir = output_dir / source_id / "img" / category / path_component
+        if submodule:
+            # Submodule: data_rework/AitFR/DN/img/category/...
+            output_cat_dir = output_dir / base_source / submodule / "img" / category / path_component
+        else:
+            # Regular source: data_rework/PHB/img/category/...
+            output_cat_dir = output_dir / base_source / "img" / category / path_component
+
         output_cat_dir.mkdir(parents=True, exist_ok=True)
 
         count = 0
@@ -378,13 +444,30 @@ class ImageCopier(BaseCopier):
         log: logging.Logger,
     ) -> int:
         """Copy token images for a source."""
-        path_component = config.IMAGE_PATH_SPECIAL_MAPPINGS.get(source_id, source_id)
+        base_source = get_base_source(source_id)
+        submodule = get_submodule(source_id)
+
+        if submodule:
+            # Submodule: img/bestiary/tokens/AitFR/DN/
+            path_component = config.IMAGE_PATH_SPECIAL_MAPPINGS.get(
+                source_id, f"{base_source}/{submodule}"
+            )
+        else:
+            # Regular source: img/bestiary/tokens/PHB/
+            path_component = config.IMAGE_PATH_SPECIAL_MAPPINGS.get(source_id, base_source)
+
         source_tokens_dir = img_dir / "bestiary" / "tokens" / path_component
 
         if not source_tokens_dir.exists():
             return 0
 
-        output_tokens_dir = output_dir / source_id / "img" / "bestiary" / "tokens" / path_component
+        if submodule:
+            # Submodule: data_rework/AitFR/DN/img/bestiary/tokens/...
+            output_tokens_dir = output_dir / base_source / submodule / "img" / "bestiary" / "tokens" / path_component
+        else:
+            # Regular source: data_rework/PHB/img/bestiary/tokens/...
+            output_tokens_dir = output_dir / base_source / "img" / "bestiary" / "tokens" / path_component
+
         output_tokens_dir.mkdir(parents=True, exist_ok=True)
 
         count = 0

@@ -290,6 +290,112 @@ def get_source_group(source_id: str, logger: Optional[logging.Logger] = None) ->
     return None
 
 
+def parse_source_id(source_id: str) -> Tuple[str, Optional[str]]:
+    """
+    Разбить source_id на базовый источник и submodule.
+
+    Поддерживает два формата:
+    1. С дефисом: "AitFR-DN" -> ("AitFR", "DN")
+    2. MCV паттерн: "MCV1SC" -> ("MCV", "1SC")
+
+    Args:
+        source_id: Source ID для парсинга
+
+    Returns:
+        Кортеж (base_source, submodule) где submodule может быть None
+
+    Examples:
+        >>> parse_source_id("PHB")
+        ("PHB", None)
+        >>> parse_source_id("AitFR-DN")
+        ("AitFR", "DN")
+        >>> parse_source_id("MCV1SC")
+        ("MCV", "1SC")
+        >>> parse_source_id("TftYP-AtG")
+        ("TftYP", "AtG")
+    """
+    # Проверка на дефис (большинство submodule'ов)
+    if "-" in source_id:
+        parts = source_id.split("-", 1)
+        return parts[0], parts[1]
+
+    # Особый случай для MCV (MCV + цифра + 2 буквы)
+    # MCV1SC, MCV2DC, MCV3MC, MCV4EC
+    if source_id.startswith("MCV") and len(source_id) == 5 and source_id[3].isdigit():
+        import re
+        match = re.match(r"(MCV)(\d{1}[A-Z]{2})", source_id)
+        if match:
+            return match.group(1), match.group(2)
+
+    # Обычный источник без submodule
+    return source_id, None
+
+
+def get_base_source(source_id: str) -> str:
+    """
+    Получить базовый источник для source_id.
+
+    Args:
+        source_id: Source ID
+
+    Returns:
+        Базовый источник
+
+    Examples:
+        >>> get_base_source("PHB")
+        "PHB"
+        >>> get_base_source("AitFR-DN")
+        "AitFR"
+        >>> get_base_source("MCV1SC")
+        "MCV"
+    """
+    base, _ = parse_source_id(source_id)
+    return base
+
+
+def get_submodule(source_id: str) -> Optional[str]:
+    """
+    Получить submodule для source_id.
+
+    Args:
+        source_id: Source ID
+
+    Returns:
+        Submodule или None если source не имеет submodule
+
+    Examples:
+        >>> get_submodule("PHB")
+        None
+        >>> get_submodule("AitFR-DN")
+        "DN"
+        >>> get_submodule("MCV1SC")
+        "1SC"
+    """
+    _, submodule = parse_source_id(source_id)
+    return submodule
+
+
+def is_submodule(source_id: str) -> bool:
+    """
+    Проверить, является ли source_id submodule'ом.
+
+    Args:
+        source_id: Source ID
+
+    Returns:
+        True если source имеет submodule
+
+    Examples:
+        >>> is_submodule("PHB")
+        False
+        >>> is_submodule("AitFR-DN")
+        True
+        >>> is_submodule("MCV1SC")
+        True
+    """
+    return get_submodule(source_id) is not None
+
+
 # =============================================================================
 # Entity Utilities
 # =============================================================================

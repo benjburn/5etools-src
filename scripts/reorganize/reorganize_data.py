@@ -34,6 +34,7 @@ from scripts.reorganize.json_processor import (
 from scripts.reorganize.utils import (
     Statistics,
     create_report,
+    get_base_source,
     load_sources,
     save_report,
     setup_logging,
@@ -62,20 +63,30 @@ def create_source_directories(
         output_dir: Path to /data_rework/ directory
         log: Logger instance
 
-    Creates for each source:
-        data_rework/{SOURCE}/data/
-        data_rework/{SOURCE}/img/
-        data_rework/{SOURCE}/pdf/
+    Creates for each base source:
+        - Для обычных источников: data_rework/{SOURCE}/data/, img/, pdf/
+        - Для submodule'ов: data_rework/{BASE}/data/, img/, pdf/
+
+    Examples:
+        PHB -> data_rework/PHB/data/
+        AitFR-DN -> data_rework/AitFR/DN/data/
+        MCV1SC -> data_rework/MCV/1SC/data/
     """
     log.info("Creating directory structure...")
 
+    # Collect all unique base sources
+    base_sources = set()
     for source_id in sources.keys():
-        # Create subdirectories
-        (output_dir / source_id / "data").mkdir(parents=True, exist_ok=True)
-        (output_dir / source_id / "img").mkdir(parents=True, exist_ok=True)
-        (output_dir / source_id / "pdf").mkdir(parents=True, exist_ok=True)
+        base_source = get_base_source(source_id)
+        base_sources.add(base_source)
 
-    log.info(f"Created directories for {len(sources)} sources")
+    # Create directories for base sources
+    for base_source in base_sources:
+        (output_dir / base_source / "data").mkdir(parents=True, exist_ok=True)
+        (output_dir / base_source / "img").mkdir(parents=True, exist_ok=True)
+        (output_dir / base_source / "pdf").mkdir(parents=True, exist_ok=True)
+
+    log.info(f"Created directories for {len(base_sources)} base sources")
 
 
 # =============================================================================

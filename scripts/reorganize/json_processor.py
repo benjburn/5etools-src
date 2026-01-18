@@ -15,7 +15,9 @@ from scripts.reorganize.utils import (
     create_progress_iterator,
     deduplicate_entities,
     extract_entities_from_json,
+    get_base_source,
     get_entity_source,
+    get_submodule,
     group_entities_by_source,
     load_json,
     save_json,
@@ -92,7 +94,16 @@ def process_json_file(
                 continue
 
             # Create output directory
-            source_output_dir = output_dir / source_id / "data"
+            base_source = get_base_source(source_id)
+            submodule = get_submodule(source_id)
+
+            if submodule:
+                # Submodule: data_rework/AitFR/DN/data/
+                source_output_dir = output_dir / base_source / submodule / "data"
+            else:
+                # Regular source: data_rework/PHB/data/
+                source_output_dir = output_dir / base_source / "data"
+
             source_output_dir.mkdir(parents=True, exist_ok=True)
 
             # Build output data (preserve _meta and structure)
@@ -191,7 +202,16 @@ def process_bestiary_files(
             continue
 
         # Create output directory
-        source_output_dir = output_dir / source_id / "data"
+        base_source = get_base_source(source_id)
+        submodule = get_submodule(source_id)
+
+        if submodule:
+            # Submodule: data_rework/AitFR/DN/data/
+            source_output_dir = output_dir / base_source / submodule / "data"
+        else:
+            # Regular source: data_rework/PHB/data/
+            source_output_dir = output_dir / base_source / "data"
+
         source_output_dir.mkdir(parents=True, exist_ok=True)
 
         # Build output data
@@ -343,7 +363,16 @@ def process_class_files(
 			cls["subclasses"] = class_subclasses if class_subclasses else None
 
 		# Save to individual class files in classes/ subdirectory
-		source_output_dir = output_dir / source_id / "data"
+		base_source = get_base_source(source_id)
+		submodule = get_submodule(source_id)
+
+		if submodule:
+			# Submodule: data_rework/AitFR/DN/data/
+			source_output_dir = output_dir / base_source / submodule / "data"
+		else:
+			# Regular source: data_rework/PHB/data/
+			source_output_dir = output_dir / base_source / "data"
+
 		source_output_dir.mkdir(parents=True, exist_ok=True)
 
 		# Create classes subdirectory
@@ -443,7 +472,16 @@ def process_book_files(
             continue
 
         # Create output directory
-        source_output_dir = output_dir / source_id / "data"
+        base_source = get_base_source(source_id)
+        submodule = get_submodule(source_id)
+
+        if submodule:
+            # Submodule: data_rework/AitFR/DN/data/
+            source_output_dir = output_dir / base_source / submodule / "data"
+        else:
+            # Regular source: data_rework/PHB/data/
+            source_output_dir = output_dir / base_source / "data"
+
         source_output_dir.mkdir(parents=True, exist_ok=True)
 
         # Save to book.json in the source directory
@@ -551,7 +589,16 @@ def process_spells_files(
             continue
 
         # Create output directory
-        source_output_dir = output_dir / source_id / "data"
+        base_source = get_base_source(source_id)
+        submodule = get_submodule(source_id)
+
+        if submodule:
+            # Submodule: data_rework/AitFR/DN/data/
+            source_output_dir = output_dir / base_source / submodule / "data"
+        else:
+            # Regular source: data_rework/PHB/data/
+            source_output_dir = output_dir / base_source / "data"
+
         source_output_dir.mkdir(parents=True, exist_ok=True)
 
         # Save to spells.json in the source directory
@@ -648,7 +695,16 @@ def process_fluff_files(
                     continue
 
                 # Create output directory
-                source_output_dir = output_dir / source_id / "data"
+                base_source = get_base_source(source_id)
+                submodule = get_submodule(source_id)
+
+                if submodule:
+                    # Submodule: data_rework/AitFR/DN/data/
+                    source_output_dir = output_dir / base_source / submodule / "data"
+                else:
+                    # Regular source: data_rework/PHB/data/
+                    source_output_dir = output_dir / base_source / "data"
+
                 source_output_dir.mkdir(parents=True, exist_ok=True)
 
                 # Build output data

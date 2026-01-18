@@ -95,6 +95,41 @@ IMAGE_PATH_SPECIAL_MAPPINGS = {
 
     # HAT-TG uses TG in image paths (historical naming convention)
     "HAT-TG": "TG",
+
+    # Submodule sources use base/submodule path structure
+    # AitFR series
+    "AitFR-AVT": "AitFR/AVT",
+    "AitFR-DN": "AitFR/DN",
+    "AitFR-FCD": "AitFR/FCD",
+    "AitFR-ISF": "AitFR/ISF",
+    "AitFR-THP": "AitFR/THP",
+
+    # MCV series
+    "MCV1SC": "MCV/1SC",
+    "MCV2DC": "MCV/2DC",
+    "MCV3MC": "MCV/3MC",
+    "MCV4EC": "MCV/4EC",
+
+    # TftYP series
+    "TftYP-AtG": "TftYP/AtG",
+    "TftYP-DiT": "TftYP/DiT",
+    "TftYP-TFoF": "TftYP/TFoF",
+    "TftYP-THSoT": "TftYP/THSoT",
+    "TftYP-TSC": "TftYP/TSC",
+    "TftYP-ToH": "TftYP/ToH",
+    "TftYP-WPM": "TftYP/WPM",
+
+    # NRH series
+    "NRH-ASS": "NRH/ASS",
+    "NRH-AT": "NRH/AT",
+    "NRH-AVitW": "NRH/AVitW",
+    "NRH-AWoL": "NRH/AWoL",
+    "NRH-CoI": "NRH/CoI",
+    "NRH-TCMC": "NRH/TCMC",
+    "NRH-TLT": "NRH/TLT",
+
+    # HAT series
+    "HAT-LMI": "HAT/LMI",
 }
 
 # Sources that are known to use cross-source image references
