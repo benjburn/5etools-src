@@ -265,6 +265,24 @@ LOG_DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
 LOG_FILE = "reorganization.log"
 
 # =============================================================================
+# Submodule Settings
+# =============================================================================
+
+# Sources with hyphens that are NOT submodules (they are independent sources)
+# These sources should be treated as regular sources, not split into base/submodule
+NOT_SUBMODULE_SOURCES = {
+    # Plane Shift sources (independent sources, not submodules)
+    "PS-A",
+    "PS-D",
+    "PS-I",
+    "PS-K",
+    "PS-X",
+    "PS-Z",
+    # HAT-TG is an independent source (not a submodule of HAT)
+    "HAT-TG",
+}
+
+# =============================================================================
 # Performance Settings
 # =============================================================================
 

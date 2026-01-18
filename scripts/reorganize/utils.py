@@ -329,6 +329,10 @@ def parse_source_id(source_id: str) -> Tuple[str, Optional[str]]:
     1. С дефисом: "AitFR-DN" -> ("AitFR", "DN")
     2. MCV паттерн: "MCV1SC" -> ("MCV", "1SC")
 
+    Исключения (NOT_SUBMODULE_SOURCES):
+    - PS-A, PS-D, PS-I, PS-K, PS-X, PS-Z (независимые источники)
+    - HAT-TG (независимый источник)
+
     Args:
         source_id: Source ID для парсинга
 
@@ -344,7 +348,13 @@ def parse_source_id(source_id: str) -> Tuple[str, Optional[str]]:
         ("MCV", "1SC")
         >>> parse_source_id("TftYP-AtG")
         ("TftYP", "AtG")
+        >>> parse_source_id("PS-A")
+        ("PS-A", None)  # Исключение: не submodule
     """
+    # Проверка на исключения (источники с дефисом, но не submodule'ы)
+    if source_id in config.NOT_SUBMODULE_SOURCES:
+        return source_id, None
+
     # Проверка на дефис (большинство submodule'ов)
     if "-" in source_id:
         parts = source_id.split("-", 1)
