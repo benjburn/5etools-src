@@ -1,0 +1,87 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Axe Beak",
+			"source": "IDRotF",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/IDRotF/Axe Beak.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Icewind Dale Trinket",
+			"source": "IDRotF",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/IDRotF/Icewind Dale Trinket.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Psi Crystal",
+			"source": "IDRotF",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/IDRotF/Psi Crystal.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Shield Guardian Amulet",
+			"source": "IDRotF",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/IDRotF/Shield Guardian Amulet.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "The Codicil of White",
+			"source": "IDRotF",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/IDRotF/The Codicil of White.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "The Incantations of Iriolarthas",
+			"source": "IDRotF",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/IDRotF/The Incantations of Iriolarthas.webp"
+					}
+				}
+			]
+		}
+	]
+}

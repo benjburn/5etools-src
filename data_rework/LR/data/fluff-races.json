@@ -1,0 +1,37 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"raceFluff"
+		]
+	},
+	"raceFluff": [
+		{
+			"name": "Locathah",
+			"source": "LR",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Featured in {@adventure Ghosts of Saltmarsh|GoS}, these resilient and proud fish-folk have endured war, slavery, and mistreatment at the hands of other aquatic creatures. They dwell in submerged tribal communities along seacoasts, and hunt both above and below the water."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/LR/Locathah.webp"
+					},
+					"width": 1000,
+					"height": 1000
+				}
+			]
+		}
+	]
+}

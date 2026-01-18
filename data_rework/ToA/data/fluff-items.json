@@ -1,0 +1,48 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Ghost Lantern",
+			"source": "ToA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/ToA/Ghost Lantern.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Mask of the Beast",
+			"source": "ToA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/ToA/Mask of the Beast.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Ring of Winter",
+			"source": "ToA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/ToA/Ring of Winter.webp"
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"subclass"
+		]
+	},
+	"class": [
+		{
+			"name": "Expert Sidekick",
+			"source": "TCE",
+			"page": 142,
+			"edition": "classic",
+			"isSidekick": true,
+			"classFeatures": [
+				"Sidekick Class|Expert Sidekick|TCE|1",
+				"Bonus Proficiencies|Expert Sidekick|TCE|1",
+				"Helpful|Expert Sidekick|TCE|1",
+				"Cunning Action|Expert Sidekick|TCE|2",
+				"Expertise|Expert Sidekick|TCE|3",
+				"Ability Score Improvement|Expert Sidekick|TCE|4",
+				"Coordinated Strike|Expert Sidekick|TCE|6",
+				"Evasion|Expert Sidekick|TCE|7",
+				"Ability Score Improvement|Expert Sidekick|TCE|8",
+				"Ability Score Improvement|Expert Sidekick|TCE|10",
+				"Inspiring Help|Expert Sidekick|TCE|11",
+				"Ability Score Improvement|Expert Sidekick|TCE|12",
+				"Reliable Talent|Expert Sidekick|TCE|14",
+				"Expertise|Expert Sidekick|TCE|15",
+				"Ability Score Improvement|Expert Sidekick|TCE|16",
+				"Sharp Mind|Expert Sidekick|TCE|18",
+				"Ability Score Improvement|Expert Sidekick|TCE|19",
+				"Inspiring Help Improvement|Expert Sidekick|TCE|20"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"subclasses": null
+		}
+	]
+}

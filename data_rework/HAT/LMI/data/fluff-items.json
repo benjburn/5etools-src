@@ -1,0 +1,74 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Helm of Disjunction",
+			"source": "HAT-LMI",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/HAT-LMI/Helm of Disjunction.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Hither-Thither Staff",
+			"source": "HAT-LMI",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/HAT-LMI/Hither-Thither Staff.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Horn of Beckoning Death",
+			"source": "HAT-LMI",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/HAT-LMI/Horn of Beckoning Death.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Red Wizard Blade",
+			"source": "HAT-LMI",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/HAT-LMI/Red Wizard Blade.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Tablet of Reawakening",
+			"source": "HAT-LMI",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/HAT-LMI/Tablet of Reawakening.webp"
+					}
+				}
+			]
+		}
+	]
+}

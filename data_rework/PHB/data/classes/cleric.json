@@ -1,0 +1,1778 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"subclass"
+		]
+	},
+	"class": [
+		{
+			"name": "Cleric",
+			"source": "PHB",
+			"page": 56,
+			"srd": true,
+			"basicRules": true,
+			"reprintedAs": [
+				"Cleric|XPHB"
+			],
+			"edition": "classic",
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"wis",
+				"cha"
+			],
+			"spellcastingAbility": "wis",
+			"casterProgression": "full",
+			"preparedSpells": "<$level$> + <$wis_mod$>",
+			"preparedSpellsChange": "restLong",
+			"cantripProgression": [
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"shield"
+				],
+				"weapons": [
+					"simple"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"history",
+								"insight",
+								"medicine",
+								"persuasion",
+								"religion"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item mace|phb} or (b) a {@item warhammer|phb} (if proficient)",
+					"(a) {@item scale mail|phb}, (b) {@item leather armor|phb}, or (c) {@item chain mail|phb} (if proficient)",
+					"(a) a {@item light crossbow|phb} and {@item Crossbow Bolts (20)|phb|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item priest's pack|phb} or (b) an {@item explorer's pack|phb}",
+					"A {@item shield|phb} and a {@item holy symbol|phb}"
+				],
+				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
+				"defaultData": [
+					{
+						"a": [
+							"mace|phb"
+						],
+						"b": [
+							"warhammer|phb"
+						]
+					},
+					{
+						"a": [
+							"scale mail|phb"
+						],
+						"b": [
+							"leather armor|phb"
+						],
+						"c": [
+							"chain mail|phb"
+						]
+					},
+					{
+						"a": [
+							"light crossbow|phb",
+							"crossbow bolts (20)|phb"
+						],
+						"b": [
+							{
+								"equipmentType": "weaponSimple"
+							}
+						]
+					},
+					{
+						"a": [
+							"priest's pack|phb"
+						],
+						"b": [
+							"explorer's pack|phb"
+						]
+					},
+					{
+						"_": [
+							"shield|phb",
+							{
+								"equipmentType": "focusSpellcastingHoly"
+							}
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"wis": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light",
+						"medium",
+						"shield"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|class=Cleric}"
+					],
+					"rows": [
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=Cleric}",
+						"{@filter 2nd|spells|level=2|class=Cleric}",
+						"{@filter 3rd|spells|level=3|class=Cleric}",
+						"{@filter 4th|spells|level=4|class=Cleric}",
+						"{@filter 5th|spells|level=5|class=Cleric}",
+						"{@filter 6th|spells|level=6|class=Cleric}",
+						"{@filter 7th|spells|level=7|class=Cleric}",
+						"{@filter 8th|spells|level=8|class=Cleric}",
+						"{@filter 9th|spells|level=9|class=Cleric}"
+					],
+					"rowsSpellProgression": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							2,
+							1,
+							1
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Spellcasting|Cleric||1",
+				{
+					"classFeature": "Divine Domain|Cleric||1",
+					"gainSubclassFeature": true
+				},
+				{
+					"classFeature": "Channel Divinity|Cleric||2",
+					"tableDisplayName": "Channel Divinity (1/rest)"
+				},
+				"Channel Divinity: Harness Divine Power|Cleric||2|TCE",
+				{
+					"classFeature": "Divine Domain feature|Cleric||2",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Cleric||4",
+				"Cantrip Versatility|Cleric||4|TCE",
+				"Destroy Undead (CR 1/2)|Cleric||5",
+				{
+					"classFeature": "Channel Divinity|Cleric||6",
+					"tableDisplayName": "Channel Divinity (2/rest)"
+				},
+				{
+					"classFeature": "Divine Domain feature|Cleric||6",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Cleric||8",
+				"Destroy Undead (CR 1)|Cleric||8",
+				{
+					"classFeature": "Divine Domain feature|Cleric||8",
+					"gainSubclassFeature": true
+				},
+				"Divine Intervention|Cleric||10",
+				"Destroy Undead (CR 2)|Cleric||11",
+				"Ability Score Improvement|Cleric||12",
+				"Destroy Undead (CR 3)|Cleric||14",
+				"Ability Score Improvement|Cleric||16",
+				"Destroy Undead (CR 4)|Cleric||17",
+				{
+					"classFeature": "Divine Domain feature|Cleric||17",
+					"gainSubclassFeature": true
+				},
+				{
+					"classFeature": "Channel Divinity|Cleric||18",
+					"tableDisplayName": "Channel Divinity (3/rest)"
+				},
+				"Ability Score Improvement|Cleric||19",
+				"Divine Intervention Improvement|Cleric||20"
+			],
+			"subclassTitle": "Divine Domain",
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"subclasses": [
+				{
+					"name": "Knowledge Domain",
+					"shortName": "Knowledge",
+					"source": "PHB",
+					"className": "Cleric",
+					"classSource": "PHB",
+					"page": 59,
+					"reprintedAs": [
+						"Knowledge|Cleric|XPHB|FRHoF"
+					],
+					"edition": "classic",
+					"additionalSpells": [
+						{
+							"prepared": {
+								"1": [
+									"command",
+									"identify"
+								],
+								"3": [
+									"augury",
+									"suggestion"
+								],
+								"5": [
+									"nondetection",
+									"speak with dead"
+								],
+								"7": [
+									"arcane eye",
+									"confusion"
+								],
+								"9": [
+									"legend lore",
+									"scrying"
+								]
+							}
+						}
+					],
+					"subclassFeatures": [
+						"Knowledge Domain|Cleric||Knowledge||1",
+						"Channel Divinity: Knowledge of the Ages|Cleric||Knowledge||2",
+						"Channel Divinity: Read Thoughts|Cleric||Knowledge||6",
+						"Potent Spellcasting|Cleric||Knowledge||8",
+						"Blessed Strikes|Cleric||Knowledge||8|TCE",
+						"Visions of the Past|Cleric||Knowledge||17"
+					],
+					"features": [
+						{
+							"name": "Knowledge Domain",
+							"source": "PHB",
+							"page": 59,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Knowledge",
+							"subclassSource": "PHB",
+							"level": 1,
+							"entries": [
+								"The gods of knowledge—including {@deity Oghma}, {@deity Boccob|Greyhawk}, {@deity Gilean|Dragonlance}, {@deity Aureon|Eberron}, and {@deity Thoth|Egyptian}—value learning and understanding above all. Some teach that knowledge is to be gathered and shared in libraries and universities, or promote the practical knowledge of craft and invention. Some deities hoard knowledge and keep its secrets to themselves. And some promise their followers that they will gain tremendous power if they unlock the secrets of the multiverse. Followers of these gods study esoteric lore, collect old tomes, delve into the secret places of the earth, and learn all they can. Some gods of knowledge promote the practical knowledge of craft and invention, including smith deities like {@deity Gond}, {@deity Reorx|Dragonlance}, {@deity Onatar|Eberron}, {@deity Moradin|Nonhuman}, {@deity Hephaestus|Greek}, and {@deity Goibhniu|Celtic}.",
+								"At each indicated cleric level, you add the listed spells to your spells prepared.",
+								{
+									"type": "table",
+									"caption": "Knowledge Domain Spells",
+									"colLabels": [
+										"Cleric Level",
+										"Spells"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1st",
+											"{@spell command}, {@spell identify}"
+										],
+										[
+											"3rd",
+											"{@spell augury}, {@spell suggestion}"
+										],
+										[
+											"5th",
+											"{@spell nondetection}, {@spell speak with dead}"
+										],
+										[
+											"7th",
+											"{@spell arcane eye}, {@spell confusion}"
+										],
+										[
+											"9th",
+											"{@spell legend lore}, {@spell scrying}"
+										]
+									]
+								},
+								{
+									"type": "refSubclassFeature",
+									"subclassFeature": "Blessings of Knowledge|Cleric||Knowledge||1"
+								}
+							]
+						},
+						{
+							"name": "Blessings of Knowledge",
+							"source": "PHB",
+							"page": 59,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Knowledge",
+							"subclassSource": "PHB",
+							"level": 1,
+							"header": 1,
+							"entries": [
+								"At 1st level, you learn two languages of your choice. You also become proficient in your choice of two of the following skills: {@skill Arcana}, {@skill History}, {@skill Nature}, or {@skill Religion}.",
+								"Your proficiency bonus is doubled for any ability check you make that uses either of those skills."
+							]
+						},
+						{
+							"name": "Channel Divinity: Knowledge of the Ages",
+							"source": "PHB",
+							"page": 59,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Knowledge",
+							"subclassSource": "PHB",
+							"level": 2,
+							"header": 2,
+							"consumes": {
+								"name": "Channel Divinity"
+							},
+							"entries": [
+								"Starting at 2nd level, you can use your Channel Divinity to tap into a divine well of knowledge. As an action, you choose one skill or tool. For 10 minutes, you have proficiency with the chosen skill or tool."
+							]
+						},
+						{
+							"name": "Channel Divinity: Read Thoughts",
+							"source": "PHB",
+							"page": 59,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Knowledge",
+							"subclassSource": "PHB",
+							"level": 6,
+							"header": 2,
+							"consumes": {
+								"name": "Channel Divinity"
+							},
+							"entries": [
+								"At 6th level, you can use your Channel Divinity to read a creature's thoughts. You can then use your access to the creature's mind to command it.",
+								"As an action, choose one creature that you can see within 60 feet of you. That creature must make a Wisdom saving throw. If the creature succeeds on the saving throw, you can't use this feature on it again until you finish a long rest.",
+								"If the creature fails its save, you can read its surface thoughts (those foremost in its mind, reflecting its current emotions and what it is actively thinking about) when it is within 60 feet of you. This effect lasts for 1 minute.",
+								"During that time, you can use your action to end this effect and cast the {@spell suggestion} spell on the creature without expending a spell slot. The target automatically fails its saving throw against the spell."
+							]
+						},
+						{
+							"name": "Visions of the Past",
+							"source": "PHB",
+							"page": 59,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Knowledge",
+							"subclassSource": "PHB",
+							"level": 17,
+							"header": 2,
+							"entries": [
+								"Starting at 17th level, you can call up visions of the past that relate to an object you hold or your immediate surroundings. You spend at least 1 minute in meditation and prayer, then receive dreamlike, shadowy glimpses of recent events. You can meditate in this way for a number of minutes equal to your Wisdom score and must maintain {@status concentration} during that time, as if you were casting a spell.",
+								"Once you use this feature, you can't use it again until you finish a short or long rest.",
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Object Reading",
+											"entries": [
+												"Holding an object as you meditate, you can see visions of the object's previous owner. After meditating for 1 minute, you learn how the owner acquired and lost the object, as well as the most recent significant event involving the object and that owner. If the object was owned by another creature in the recent past (within a number of days equal to your Wisdom score), you can spend 1 additional minute for each owner to learn the same information about that creature."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Area Reading",
+											"entries": [
+												"As you meditate, you see visions of recent events in your immediate vicinity (a room, street, tunnel, clearing, or the like, up to a 50-foot cube), going back a number of days equal to your Wisdom score. For each minute you meditate, you learn about one significant event, beginning with the most recent. Significant events typically involve powerful emotions, such as battles and betrayals, marriages and murders, births and funerals. However, they might also include more mundane events that are nevertheless important in your current situation."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Life Domain",
+					"shortName": "Life",
+					"source": "PHB",
+					"className": "Cleric",
+					"classSource": "PHB",
+					"page": 60,
+					"srd": true,
+					"basicRules": true,
+					"reprintedAs": [
+						"Life|Cleric|XPHB|XPHB"
+					],
+					"edition": "classic",
+					"additionalSpells": [
+						{
+							"prepared": {
+								"1": [
+									"bless",
+									"cure wounds"
+								],
+								"3": [
+									"lesser restoration",
+									"spiritual weapon"
+								],
+								"5": [
+									"beacon of hope",
+									"revivify"
+								],
+								"7": [
+									"death ward",
+									"guardian of faith"
+								],
+								"9": [
+									"mass cure wounds",
+									"raise dead"
+								]
+							}
+						}
+					],
+					"subclassFeatures": [
+						"Life Domain|Cleric||Life||1",
+						"Channel Divinity: Preserve Life|Cleric||Life||2",
+						"Blessed Healer|Cleric||Life||6",
+						"Divine Strike|Cleric||Life||8",
+						"Blessed Strikes|Cleric||Life||8|TCE",
+						"Supreme Healing|Cleric||Life||17"
+					],
+					"features": [
+						{
+							"name": "Life Domain",
+							"source": "PHB",
+							"page": 60,
+							"srd": true,
+							"basicRules": true,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Life",
+							"subclassSource": "PHB",
+							"level": 1,
+							"entries": [
+								"The Life domain focuses on the vibrant positive energy—one of the fundamental forces of the universe—that sustains all life. The gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities (such as {@deity Chauntea}, {@deity Arawai|Eberron}, and {@deity Demeter|Greek}), sun gods (such as {@deity Lathander}, {@deity Pelor|Greyhawk}, and {@deity Re-Horakhty|Egyptian}), gods of healing or endurance (such as {@deity Ilmater}, {@deity Mishakal|Dragonlance}, {@deity Apollo|Greek}, and {@deity Diancecht|Celtic}), and gods of home and community (such as {@deity Hestia|Greek}, {@deity Hathor|Egyptian}, and {@deity Boldrei|Eberron}).",
+								"At each indicated cleric level, you add the listed spells to your spells prepared.",
+								{
+									"type": "table",
+									"caption": "Life Domain Spells",
+									"colLabels": [
+										"Cleric Level",
+										"Spells"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1st",
+											"{@spell bless}, {@spell cure wounds}"
+										],
+										[
+											"3rd",
+											"{@spell lesser restoration}, {@spell spiritual weapon}"
+										],
+										[
+											"5th",
+											"{@spell beacon of hope}, {@spell revivify}"
+										],
+										[
+											"7th",
+											"{@spell death ward}, {@spell guardian of faith}"
+										],
+										[
+											"9th",
+											"{@spell mass cure wounds}, {@spell raise dead}"
+										]
+									]
+								},
+								{
+									"type": "refSubclassFeature",
+									"subclassFeature": "Bonus Proficiency|Cleric||Life||1"
+								},
+								{
+									"type": "refSubclassFeature",
+									"subclassFeature": "Disciple of Life|Cleric||Life||1"
+								}
+							]
+						},
+						{
+							"name": "Disciple of Life",
+							"source": "PHB",
+							"page": 60,
+							"srd": true,
+							"basicRules": true,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Life",
+							"subclassSource": "PHB",
+							"level": 1,
+							"header": 1,
+							"entries": [
+								"Also starting at 1st level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level."
+							]
+						},
+						{
+							"name": "Channel Divinity: Preserve Life",
+							"source": "PHB",
+							"page": 60,
+							"srd": true,
+							"basicRules": true,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Life",
+							"subclassSource": "PHB",
+							"level": 2,
+							"header": 2,
+							"consumes": {
+								"name": "Channel Divinity"
+							},
+							"entries": [
+								"Starting at 2nd level, you can use your Channel Divinity to heal the badly injured.",
+								"As an action, you present your holy symbol and evoke healing energy that can restore a number of hit points equal to five times your cleric level. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can't use this feature on an undead or a construct."
+							]
+						},
+						{
+							"name": "Blessed Healer",
+							"source": "PHB",
+							"page": 60,
+							"srd": true,
+							"basicRules": true,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Life",
+							"subclassSource": "PHB",
+							"level": 6,
+							"header": 2,
+							"entries": [
+								"Beginning at 6th level, the healing spells you cast on others heal you as well. When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spell's level."
+							]
+						},
+						{
+							"name": "Supreme Healing",
+							"source": "PHB",
+							"page": 60,
+							"srd": true,
+							"basicRules": true,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Life",
+							"subclassSource": "PHB",
+							"level": 17,
+							"header": 2,
+							"entries": [
+								"Starting at 17th level, when you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die. For example, instead of restoring {@dice 2d6} hit points to a creature, you restore 12."
+							]
+						}
+					]
+				},
+				{
+					"name": "Light Domain",
+					"shortName": "Light",
+					"source": "PHB",
+					"className": "Cleric",
+					"classSource": "PHB",
+					"page": 60,
+					"reprintedAs": [
+						"Light|Cleric|XPHB|XPHB"
+					],
+					"edition": "classic",
+					"additionalSpells": [
+						{
+							"prepared": {
+								"1": [
+									"burning hands",
+									"faerie fire"
+								],
+								"3": [
+									"flaming sphere",
+									"scorching ray"
+								],
+								"5": [
+									"daylight",
+									"fireball"
+								],
+								"7": [
+									"guardian of faith",
+									"wall of fire"
+								],
+								"9": [
+									"flame strike",
+									"scrying"
+								]
+							},
+							"known": {
+								"1": [
+									"light#c"
+								]
+							}
+						}
+					],
+					"subclassFeatures": [
+						"Light Domain|Cleric||Light||1",
+						"Channel Divinity: Radiance of the Dawn|Cleric||Light||2",
+						"Improved Flare|Cleric||Light||6",
+						"Potent Spellcasting|Cleric||Light||8",
+						"Blessed Strikes|Cleric||Light||8|TCE",
+						"Corona of Light|Cleric||Light||17"
+					],
+					"features": [
+						{
+							"name": "Bonus Cantrip",
+							"source": "PHB",
+							"page": 60,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Light",
+							"subclassSource": "PHB",
+							"level": 1,
+							"header": 1,
+							"entries": [
+								"When you choose this domain at 1st level, you gain the {@spell light} cantrip if you don't already know it. This cantrip doesn't count against the number of cleric cantrips you know."
+							]
+						},
+						{
+							"name": "Potent Spellcasting",
+							"source": "PHB",
+							"page": 60,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Light",
+							"subclassSource": "PHB",
+							"level": 8,
+							"header": 2,
+							"entries": [
+								"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+							]
+						},
+						{
+							"name": "Light Domain",
+							"source": "PHB",
+							"page": 60,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Light",
+							"subclassSource": "PHB",
+							"level": 1,
+							"entries": [
+								"Gods of light—including {@deity Helm}, {@deity Lathander}, {@deity Pholtus|Greyhawk}, {@deity Branchala|Dragonlance}, {@deity the Silver Flame|Eberron}, {@deity Belenus|Celtic}, {@deity Apollo|Greek}, and {@deity Re-Horakhty|Egyptian}—promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun. Some of these gods are portrayed as the sun itself or as a charioteer who guides the sun across the sky. Others are tireless sentinels whose eyes pierce every shadow and see through every deception. Some are deities of beauty and artistry, who teach that art is a vehicle for the soul's improvement. Clerics of a god of light are enlightened souls infused with radiance and the power of their gods' discerning vision, charged with chasing away lies and burning away darkness.",
+								"At each indicated cleric level, you add the listed spells to your spells prepared.",
+								{
+									"type": "table",
+									"caption": "Light Domain Spells",
+									"colLabels": [
+										"Cleric Level",
+										"Spells"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1st",
+											"{@spell burning hands}, {@spell faerie fire}"
+										],
+										[
+											"3rd",
+											"{@spell flaming sphere}, {@spell scorching ray}"
+										],
+										[
+											"5th",
+											"{@spell daylight}, {@spell fireball}"
+										],
+										[
+											"7th",
+											"{@spell guardian of faith}, {@spell wall of fire}"
+										],
+										[
+											"9th",
+											"{@spell flame strike}, {@spell scrying}"
+										]
+									]
+								},
+								{
+									"type": "refSubclassFeature",
+									"subclassFeature": "Bonus Cantrip|Cleric||Light||1"
+								},
+								{
+									"type": "refSubclassFeature",
+									"subclassFeature": "Warding Flare|Cleric||Light||1"
+								}
+							]
+						},
+						{
+							"name": "Warding Flare",
+							"source": "PHB",
+							"page": 60,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Light",
+							"subclassSource": "PHB",
+							"level": 1,
+							"header": 1,
+							"entries": [
+								"Also at 1st level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can't be {@condition blinded} is immune to this feature.",
+								"You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest."
+							]
+						},
+						{
+							"name": "Channel Divinity: Radiance of the Dawn",
+							"source": "PHB",
+							"page": 60,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Light",
+							"subclassSource": "PHB",
+							"level": 2,
+							"header": 2,
+							"consumes": {
+								"name": "Channel Divinity"
+							},
+							"entries": [
+								"Starting at 2nd level, you can use your Channel Divinity to harness sunlight, banishing darkness and dealing radiant damage to your foes.",
+								"As an action, you present your holy symbol, and any magical darkness within 30 feet of you is dispelled. Additionally, each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes radiant damage equal to {@damage 2d10} + your cleric level on a failed saving throw, and half as much damage on a successful one. A creature that has {@quickref Cover||3||total cover} from you is not affected."
+							]
+						},
+						{
+							"name": "Improved Flare",
+							"source": "PHB",
+							"page": 60,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Light",
+							"subclassSource": "PHB",
+							"level": 6,
+							"header": 2,
+							"entries": [
+								"Starting at 6th level, you can also use your Warding Flare feature when a creature that you can see within 30 feet of you attacks a creature other than you."
+							]
+						},
+						{
+							"name": "Corona of Light",
+							"source": "PHB",
+							"page": 60,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Light",
+							"subclassSource": "PHB",
+							"level": 17,
+							"header": 2,
+							"entries": [
+								"Starting at 17th level, you can use your action to activate an aura of sunlight that lasts for 1 minute or until you dismiss it using another action. You emit bright light in a 60-foot radius and dim light 30 feet beyond that. Your enemies in the bright light have disadvantage on saving throws against any spell that deals fire or radiant damage."
+							]
+						}
+					]
+				},
+				{
+					"name": "Nature Domain",
+					"shortName": "Nature",
+					"source": "PHB",
+					"className": "Cleric",
+					"classSource": "PHB",
+					"page": 61,
+					"edition": "classic",
+					"additionalSpells": [
+						{
+							"known": {
+								"1": {
+									"_": [
+										{
+											"choose": "level=0|class=Druid"
+										}
+									]
+								}
+							},
+							"prepared": {
+								"1": [
+									"animal friendship",
+									"speak with animals"
+								],
+								"3": [
+									"barkskin",
+									"spike growth"
+								],
+								"5": [
+									"plant growth",
+									"wind wall"
+								],
+								"7": [
+									"dominate beast",
+									"grasping vine"
+								],
+								"9": [
+									"insect plague",
+									"tree stride"
+								]
+							}
+						}
+					],
+					"subclassFeatures": [
+						"Nature Domain|Cleric||Nature||1",
+						"Channel Divinity: Charm Animals and Plants|Cleric||Nature||2",
+						"Dampen Elements|Cleric||Nature||6",
+						"Divine Strike|Cleric||Nature||8",
+						"Blessed Strikes|Cleric||Nature||8|TCE",
+						"Master of Nature|Cleric||Nature||17"
+					],
+					"features": [
+						{
+							"name": "Bonus Proficiency",
+							"source": "PHB",
+							"page": 61,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Nature",
+							"subclassSource": "PHB",
+							"level": 1,
+							"header": 1,
+							"entries": [
+								"Also at 1st level, you gain proficiency with heavy armor."
+							]
+						},
+						{
+							"name": "Nature Domain",
+							"source": "PHB",
+							"page": 61,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Nature",
+							"subclassSource": "PHB",
+							"level": 1,
+							"entries": [
+								"Gods of nature are as varied as the natural world itself, from inscrutable gods of the deep forests (such as {@deity Silvanus}, {@deity Obad-Hai|Greyhawk}, {@deity Chislev|Dragonlance}, {@deity Balinor|Eberron}, and {@deity Pan|Greek}) to friendly deities associated with particular springs and groves (such as {@deity Eldath}). Druids revere nature as a whole and might serve one of these deities, practicing mysterious rites and reciting all-but-forgotten prayers in their own secret tongue. But many of these gods have clerics as well, champions who take a more active role in advancing the interests of a particular nature god. These clerics might hunt the evil monstrosities that despoil the woodlands, bless the harvest of the faithful, or wither the crops of those who anger their gods.",
+								"At each indicated cleric level, you add the listed spells to your spells prepared.",
+								{
+									"type": "table",
+									"caption": "Nature Domain Spells",
+									"colLabels": [
+										"Cleric Level",
+										"Spells"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1st",
+											"{@spell animal friendship}, {@spell speak with animals}"
+										],
+										[
+											"3rd",
+											"{@spell barkskin}, {@spell spike growth}"
+										],
+										[
+											"5th",
+											"{@spell plant growth}, {@spell wind wall}"
+										],
+										[
+											"7th",
+											"{@spell dominate beast}, {@spell grasping vine}"
+										],
+										[
+											"9th",
+											"{@spell insect plague}, {@spell tree stride}"
+										]
+									]
+								},
+								{
+									"type": "refSubclassFeature",
+									"subclassFeature": "Acolyte of Nature|Cleric||Nature||1"
+								},
+								{
+									"type": "refSubclassFeature",
+									"subclassFeature": "Bonus Proficiency|Cleric||Nature||1"
+								}
+							]
+						},
+						{
+							"name": "Acolyte of Nature",
+							"source": "PHB",
+							"page": 61,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Nature",
+							"subclassSource": "PHB",
+							"level": 1,
+							"header": 1,
+							"entries": [
+								"At 1st level, you learn one druid cantrip of your choice. This cantrip doesn't count against the number of cleric cantrips you know. You also gain proficiency in one of the following skills of your choice: {@skill Animal Handling}, {@skill Nature}, or {@skill Survival}."
+							]
+						},
+						{
+							"name": "Channel Divinity: Charm Animals and Plants",
+							"source": "PHB",
+							"page": 61,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Nature",
+							"subclassSource": "PHB",
+							"level": 2,
+							"header": 2,
+							"consumes": {
+								"name": "Channel Divinity"
+							},
+							"entries": [
+								"Starting at 2nd level, you can use your Channel Divinity to charm animals and plants.",
+								"As an action, you present your holy symbol and invoke the name of your deity. Each beast or plant creature that can see you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is {@condition charmed} by you for 1 minute or until it takes damage. While it is {@condition charmed} by you, it is friendly to you and other creatures you designate."
+							]
+						},
+						{
+							"name": "Dampen Elements",
+							"source": "PHB",
+							"page": 61,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Nature",
+							"subclassSource": "PHB",
+							"level": 6,
+							"header": 2,
+							"entries": [
+								"Starting at 6th level, when you or a creature within 30 feet of you takes acid, cold, fire, lightning, or thunder damage, you can use your reaction to grant resistance to the creature against that instance of the damage."
+							]
+						},
+						{
+							"name": "Master of Nature",
+							"source": "PHB",
+							"page": 61,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Nature",
+							"subclassSource": "PHB",
+							"level": 17,
+							"header": 2,
+							"entries": [
+								"At 17th level, you gain the ability to command animals and plant creatures. While creatures are {@condition charmed} by your Charm Animals and Plants feature, you can take a bonus action on your turn to verbally command what each of those creatures will do on its next turn."
+							]
+						}
+					]
+				},
+				{
+					"name": "Tempest Domain",
+					"shortName": "Tempest",
+					"source": "PHB",
+					"className": "Cleric",
+					"classSource": "PHB",
+					"page": 62,
+					"edition": "classic",
+					"additionalSpells": [
+						{
+							"prepared": {
+								"1": [
+									"fog cloud",
+									"thunderwave"
+								],
+								"3": [
+									"gust of wind",
+									"shatter"
+								],
+								"5": [
+									"call lightning",
+									"sleet storm"
+								],
+								"7": [
+									"control water",
+									"ice storm"
+								],
+								"9": [
+									"destructive wave",
+									"insect plague"
+								]
+							}
+						}
+					],
+					"subclassFeatures": [
+						"Tempest Domain|Cleric||Tempest||1",
+						"Channel Divinity: Destructive Wrath|Cleric||Tempest||2",
+						"Thunderbolt Strike|Cleric||Tempest||6",
+						"Divine Strike|Cleric||Tempest||8",
+						"Blessed Strikes|Cleric||Tempest||8|TCE",
+						"Stormborn|Cleric||Tempest||17"
+					],
+					"features": [
+						{
+							"name": "Tempest Domain",
+							"source": "PHB",
+							"page": 62,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Tempest",
+							"subclassSource": "PHB",
+							"level": 1,
+							"entries": [
+								"Gods whose portfolios include the Tempest domain—including {@deity Talos}, {@deity Umberlee}, {@deity Kord|Greyhawk}, {@deity Zeboim|Dragonlance}, {@deity the Devourer|Eberron}, {@deity Zeus|Greek}, and {@deity Thor|Norse}—govern storms, sea, and sky. They include gods of lightning and thunder, gods of earthquakes, some fire gods, and certain gods of violence, physical strength, and courage. In some pantheons, a god of this domain rules over other deities and is known for swift justice delivered by thunderbolts. In the pantheons of seafaring people, gods of this domain are ocean deities and the patrons of sailors. Tempest gods send their clerics to inspire fear in the common folk, either to keep those folk on the path of righteousness or to encourage them to offer sacrifices of propitiation to ward off divine wrath.",
+								"At each indicated cleric level, you add the listed spells to your spells prepared.",
+								{
+									"type": "table",
+									"caption": "Tempest Domain Spells",
+									"colLabels": [
+										"Cleric Level",
+										"Spells"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1st",
+											"{@spell fog cloud}, {@spell thunderwave}"
+										],
+										[
+											"3rd",
+											"{@spell gust of wind}, {@spell shatter}"
+										],
+										[
+											"5th",
+											"{@spell call lightning}, {@spell sleet storm}"
+										],
+										[
+											"7th",
+											"{@spell control water}, {@spell ice storm}"
+										],
+										[
+											"9th",
+											"{@spell destructive wave}, {@spell insect plague}"
+										]
+									]
+								},
+								{
+									"type": "refSubclassFeature",
+									"subclassFeature": "Bonus Proficiencies|Cleric||Tempest||1"
+								},
+								{
+									"type": "refSubclassFeature",
+									"subclassFeature": "Wrath of the Storm|Cleric||Tempest||1"
+								}
+							]
+						},
+						{
+							"name": "Wrath of the Storm",
+							"source": "PHB",
+							"page": 62,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Tempest",
+							"subclassSource": "PHB",
+							"level": 1,
+							"header": 1,
+							"entries": [
+								"Also at 1st level, you can thunderously rebuke attackers. When a creature within 5 feet of you that you can see hits you with an attack, you can use your reaction to cause the creature to make a Dexterity saving throw. The creature takes {@damage 2d8} lightning or thunder damage (your choice) on a failed saving throw, and half as much damage on a successful one.",
+								"You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest."
+							]
+						},
+						{
+							"name": "Channel Divinity: Destructive Wrath",
+							"source": "PHB",
+							"page": 62,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Tempest",
+							"subclassSource": "PHB",
+							"level": 2,
+							"header": 2,
+							"consumes": {
+								"name": "Channel Divinity"
+							},
+							"entries": [
+								"Starting at 2nd level, you can use your Channel Divinity to wield the power of the storm with unchecked ferocity.",
+								"When you roll lightning or thunder damage, you can use your Channel Divinity to deal maximum damage, instead of rolling."
+							]
+						},
+						{
+							"name": "Thunderbolt Strike",
+							"source": "PHB",
+							"page": 62,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Tempest",
+							"subclassSource": "PHB",
+							"level": 6,
+							"header": 2,
+							"entries": [
+								"At 6th level, when you deal lightning damage to a Large or smaller creature, you can also push it up to 10 feet away from you."
+							]
+						},
+						{
+							"name": "Stormborn",
+							"source": "PHB",
+							"page": 62,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Tempest",
+							"subclassSource": "PHB",
+							"level": 17,
+							"header": 2,
+							"entries": [
+								"At 17th level, you have a flying speed equal to your current walking speed whenever you are not underground or indoors."
+							]
+						}
+					]
+				},
+				{
+					"name": "Trickery Domain",
+					"shortName": "Trickery",
+					"source": "PHB",
+					"className": "Cleric",
+					"classSource": "PHB",
+					"page": 62,
+					"reprintedAs": [
+						"Trickery|Cleric|XPHB|XPHB"
+					],
+					"edition": "classic",
+					"additionalSpells": [
+						{
+							"prepared": {
+								"1": [
+									"charm person",
+									"disguise self"
+								],
+								"3": [
+									"mirror image",
+									"pass without trace"
+								],
+								"5": [
+									"blink",
+									"dispel magic"
+								],
+								"7": [
+									"dimension door",
+									"polymorph"
+								],
+								"9": [
+									"dominate person",
+									"modify memory"
+								]
+							}
+						}
+					],
+					"subclassFeatures": [
+						"Trickery Domain|Cleric||Trickery||1",
+						"Channel Divinity: Invoke Duplicity|Cleric||Trickery||2",
+						"Channel Divinity: Cloak of Shadows|Cleric||Trickery||6",
+						"Divine Strike|Cleric||Trickery||8",
+						"Blessed Strikes|Cleric||Trickery||8|TCE",
+						"Improved Duplicity|Cleric||Trickery||17"
+					],
+					"features": [
+						{
+							"name": "Trickery Domain",
+							"source": "PHB",
+							"page": 62,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Trickery",
+							"subclassSource": "PHB",
+							"level": 1,
+							"entries": [
+								"Gods of trickery—such as {@deity Tymora}, {@deity Beshaba}, {@deity Olidammara|Greyhawk}, {@deity the Traveler|Eberron}, {@deity Garl Glittergold|Nonhuman}, and {@deity Loki|Norse}—are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They're patrons of thieves, scoundrels, gamblers, rebels, and liberators. Their clerics are a disruptive force in the world, puncturing pride, mocking tyrants, stealing from the rich, freeing captives, and flouting hollow traditions. They prefer subterfuge, pranks, deception, and theft rather than direct confrontation.",
+								"At each indicated cleric level, you add the listed spells to your spells prepared.",
+								{
+									"type": "table",
+									"caption": "Trickery Domain Spells",
+									"colLabels": [
+										"Cleric Level",
+										"Spells"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1st",
+											"{@spell charm person}, {@spell disguise self}"
+										],
+										[
+											"3rd",
+											"{@spell mirror image}, {@spell pass without trace}"
+										],
+										[
+											"5th",
+											"{@spell blink}, {@spell dispel magic}"
+										],
+										[
+											"7th",
+											"{@spell dimension door}, {@spell polymorph}"
+										],
+										[
+											"9th",
+											"{@spell dominate person}, {@spell modify memory}"
+										]
+									]
+								},
+								{
+									"type": "refSubclassFeature",
+									"subclassFeature": "Blessing of the Trickster|Cleric||Trickery||1"
+								}
+							]
+						},
+						{
+							"name": "Blessing of the Trickster",
+							"source": "PHB",
+							"page": 62,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Trickery",
+							"subclassSource": "PHB",
+							"level": 1,
+							"header": 1,
+							"entries": [
+								"Starting when you choose this domain at 1st level, you can use your action to touch a willing creature other than yourself to give it advantage on Dexterity ({@skill Stealth}) checks. This blessing lasts for 1 hour or until you use this feature again."
+							]
+						},
+						{
+							"name": "Channel Divinity: Invoke Duplicity",
+							"source": "PHB",
+							"page": 62,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Trickery",
+							"subclassSource": "PHB",
+							"level": 2,
+							"header": 2,
+							"consumes": {
+								"name": "Channel Divinity"
+							},
+							"entries": [
+								"Starting at 2nd level, you can use your Channel Divinity to create an illusory duplicate of yourself.",
+								"As an action, you create a perfect illusion of yourself that lasts for 1 minute, or until you lose your {@status concentration} (as if you were {@status concentration||concentrating} on a spell). The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you.",
+								"For the duration, you can cast spells as though you were in the illusion's space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target."
+							]
+						},
+						{
+							"name": "Channel Divinity: Cloak of Shadows",
+							"source": "PHB",
+							"page": 62,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Trickery",
+							"subclassSource": "PHB",
+							"level": 6,
+							"header": 2,
+							"consumes": {
+								"name": "Channel Divinity"
+							},
+							"entries": [
+								"Starting at 6th level, you can use your Channel Divinity to vanish.",
+								"As an action, you become {@condition invisible} until the end of your next turn. You become visible if you attack or cast a spell."
+							]
+						},
+						{
+							"name": "Improved Duplicity",
+							"source": "PHB",
+							"page": 62,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "Trickery",
+							"subclassSource": "PHB",
+							"level": 17,
+							"header": 2,
+							"entries": [
+								"At 17th level, you can create up to four duplicates of yourself, instead of one, when you use Invoke Duplicity. As a bonus action on your turn, you can move any number of them up to 30 feet, to a maximum range of 120 feet."
+							]
+						}
+					]
+				},
+				{
+					"name": "War Domain",
+					"shortName": "War",
+					"source": "PHB",
+					"className": "Cleric",
+					"classSource": "PHB",
+					"page": 63,
+					"reprintedAs": [
+						"War|Cleric|XPHB|XPHB"
+					],
+					"edition": "classic",
+					"additionalSpells": [
+						{
+							"prepared": {
+								"1": [
+									"divine favor",
+									"shield of faith"
+								],
+								"3": [
+									"magic weapon",
+									"spiritual weapon"
+								],
+								"5": [
+									"crusader's mantle",
+									"spirit guardians"
+								],
+								"7": [
+									"freedom of movement",
+									"stoneskin"
+								],
+								"9": [
+									"flame strike",
+									"hold monster"
+								]
+							}
+						}
+					],
+					"subclassFeatures": [
+						"War Domain|Cleric||War||1",
+						"Channel Divinity: Guided Strike|Cleric||War||2",
+						"Channel Divinity: War God's Blessing|Cleric||War||6",
+						"Divine Strike|Cleric||War||8",
+						"Blessed Strikes|Cleric||War||8|TCE",
+						"Avatar of Battle|Cleric||War||17"
+					],
+					"features": [
+						{
+							"name": "Bonus Proficiencies",
+							"source": "PHB",
+							"page": 63,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "War",
+							"subclassSource": "PHB",
+							"level": 1,
+							"header": 1,
+							"entries": [
+								"At 1st level, you gain proficiency with martial weapons and heavy armor."
+							]
+						},
+						{
+							"name": "Divine Strike",
+							"source": "PHB",
+							"page": 63,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "War",
+							"subclassSource": "PHB",
+							"level": 8,
+							"header": 2,
+							"entries": [
+								"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra {@damage 1d8} damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to {@damage 2d8}."
+							]
+						},
+						{
+							"name": "War Domain",
+							"source": "PHB",
+							"page": 63,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "War",
+							"subclassSource": "PHB",
+							"level": 1,
+							"entries": [
+								"War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. In either case, the gods of war watch over warriors and reward them for their great deeds. The clerics of such gods excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers. Gods of war include champions of honor and chivalry (such as {@deity Torm}, {@deity Heironeous|Greyhawk}, and {@deity Kiri-Jolith|Dragonlance}) as well as gods of destruction and pillage (such as {@deity Erythnul|Greyhawk}, {@deity the Fury|Eberron}, {@deity Gruumsh|Nonhuman}, and {@deity Ares|Greek}) and gods of conquest and domination (such as {@deity Bane}, {@deity Hextor|Greyhawk}, and {@deity Maglubiyet|Nonhuman}). Other war gods (such as {@deity Tempus}, {@deity Nike|Greek}, and {@deity Nuada|Celtic}) take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance.",
+								"At each indicated cleric level, add the listed spells to your spells prepared.",
+								{
+									"type": "table",
+									"caption": "War Domain Spells",
+									"colLabels": [
+										"Cleric Level",
+										"Spells"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1st",
+											"{@spell divine favor}, {@spell shield of faith}"
+										],
+										[
+											"3rd",
+											"{@spell magic weapon}, {@spell spiritual weapon}"
+										],
+										[
+											"5th",
+											"{@spell crusader's mantle}, {@spell spirit guardians}"
+										],
+										[
+											"7th",
+											"{@spell freedom of movement}, {@spell stoneskin}"
+										],
+										[
+											"9th",
+											"{@spell flame strike}, {@spell hold monster}"
+										]
+									]
+								},
+								{
+									"type": "refSubclassFeature",
+									"subclassFeature": "Bonus Proficiencies|Cleric||War||1"
+								},
+								{
+									"type": "refSubclassFeature",
+									"subclassFeature": "War Priest|Cleric||War||1"
+								}
+							]
+						},
+						{
+							"name": "War Priest",
+							"source": "PHB",
+							"page": 63,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "War",
+							"subclassSource": "PHB",
+							"level": 1,
+							"header": 1,
+							"entries": [
+								"From 1st level, your god delivers bolts of inspiration to you while you are engaged in battle. When you use the {@action Attack} action, you can make one weapon attack as a bonus action. You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest."
+							]
+						},
+						{
+							"name": "Channel Divinity: Guided Strike",
+							"source": "PHB",
+							"page": 63,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "War",
+							"subclassSource": "PHB",
+							"level": 2,
+							"header": 2,
+							"consumes": {
+								"name": "Channel Divinity"
+							},
+							"entries": [
+								"Starting at 2nd level, you can use your Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses."
+							]
+						},
+						{
+							"name": "Channel Divinity: War God's Blessing",
+							"source": "PHB",
+							"page": 63,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "War",
+							"subclassSource": "PHB",
+							"level": 6,
+							"header": 2,
+							"consumes": {
+								"name": "Channel Divinity"
+							},
+							"entries": [
+								"At 6th level, when a creature within 30 feet of you makes an attack roll, you can use your reaction to grant that creature a +10 bonus to the roll, using your Channel Divinity. You make this choice after you see the roll, but before the DM says whether the attack hits or misses."
+							]
+						},
+						{
+							"name": "Avatar of Battle",
+							"source": "PHB",
+							"page": 63,
+							"className": "Cleric",
+							"classSource": "PHB",
+							"subclassShortName": "War",
+							"subclassSource": "PHB",
+							"level": 17,
+							"header": 2,
+							"entries": [
+								"At 17th level, you gain resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks."
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

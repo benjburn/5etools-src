@@ -1,0 +1,1723 @@
+{
+	"timestamp": "2026-01-18T18:57:48.661732Z",
+	"version": "1.0.0",
+	"sources_processed": 160,
+	"statistics": {
+		"json_files": {
+			"vehicles.json": {
+				"DMG": 1,
+				"XDMG": 1,
+				"MTF": 3,
+				"AI": 2,
+				"AAG": 16,
+				"BGDIA": 4,
+				"GoS": 6,
+				"EFA": 3,
+				"DitLCoT": 1,
+				"VEoR": 1
+			},
+			"actions.json": {
+				"DMG": 8,
+				"PHB": 20,
+				"XPHB": 18,
+				"XGE": 2
+			},
+			"backgrounds.json": {
+				"EFA": 17,
+				"PHB": 20,
+				"XPHB": 16,
+				"ToA": 2,
+				"AAG": 2,
+				"MOT": 1,
+				"EGW": 7,
+				"GGR": 10,
+				"BGDIA": 14,
+				"ABH": 3,
+				"AI": 5,
+				"FRHoF": 18,
+				"SCAG": 13,
+				"WBtW": 2,
+				"GoS": 4,
+				"SatO": 2,
+				"BGG": 2,
+				"VRGR": 2,
+				"ERLW": 1,
+				"PSA": 4,
+				"PSI": 1,
+				"DSotDQ": 2,
+				"SCC": 5,
+				"LFL": 2,
+				"BMT": 2
+			},
+			"senses.json": {
+				"PHB": 3,
+				"XPHB": 4,
+				"MM": 1
+			},
+			"rewards.json": {
+				"VRGR": 4,
+				"XDMG": 19,
+				"MOT": 60,
+				"GGR": 10,
+				"BMT": 26,
+				"PaBTSO": 2,
+				"DMG": 40,
+				"IDRotF": 17,
+				"DrDe": 2,
+				"BGDIA": 7,
+				"BAM": 2,
+				"EFA": 16,
+				"ToA": 19,
+				"VNotEE": 2,
+				"CM": 3,
+				"DIP": 1,
+				"HFStCM": 1,
+				"CoS": 17,
+				"FTD": 8,
+				"DSotDQ": 3,
+				"ToFW": 2,
+				"CRCotN": 9,
+				"MTF": 1
+			},
+			"items.json": {
+				"TCE": 84,
+				"FTD": 24,
+				"BMT": 73,
+				"DMG": 500,
+				"XDMG": 584,
+				"PHB": 185,
+				"IDRotF": 22,
+				"CoA": 25,
+				"XPHB": 140,
+				"WDH": 28,
+				"FRHoF": 24,
+				"BGG": 31,
+				"ERLW": 30,
+				"MOT": 12,
+				"SCC": 18,
+				"CM": 12,
+				"NRH-TLT": 1,
+				"PSX": 50,
+				"NRH-AT": 2,
+				"TftYP": 22,
+				"ToA": 26,
+				"EGW": 85,
+				"QftIS": 11,
+				"NF": 8,
+				"GGR": 41,
+				"PotA": 20,
+				"SKT": 20,
+				"LLK": 13,
+				"AAG": 20,
+				"BGDIA": 13,
+				"XGE": 43,
+				"JttRC": 5,
+				"WBtW": 19,
+				"WDMM": 26,
+				"HotDQ": 6,
+				"IMR": 11,
+				"CoS": 14,
+				"SDW": 1,
+				"KftGV": 8,
+				"EFA": 6,
+				"HotB": 2,
+				"PaBTSO": 23,
+				"FRAiF": 18,
+				"WttHC": 8,
+				"AI": 23,
+				"GoS": 6,
+				"VEoR": 3,
+				"AitFR-AVT": 3,
+				"XMM": 1,
+				"RMBRE": 1,
+				"TTP": 1,
+				"OotA": 16,
+				"XMtS": 6,
+				"RoT": 3,
+				"LMoP": 5,
+				"CRCotN": 14,
+				"MTF": 4,
+				"DSotDQ": 5,
+				"VGM": 7,
+				"SatO": 5,
+				"DC": 2,
+				"MM": 4,
+				"VRGR": 5,
+				"HAT-LMI": 5,
+				"DitLCoT": 3,
+				"LoX": 1,
+				"MCV2DC": 1,
+				"UtHftLH": 1,
+				"AitFR-THP": 1,
+				"LFL": 2,
+				"BAM": 1,
+				"AZfyT": 1,
+				"OGA": 1,
+				"HftT": 1
+			},
+			"skills.json": {
+				"PHB": 18,
+				"XPHB": 18
+			},
+			"objects.json": {
+				"HBTD": 6,
+				"DMG": 8,
+				"XDMG": 10,
+				"DSotDQ": 2,
+				"RMBRE": 2,
+				"EFA": 1,
+				"TCE": 3,
+				"TftYP": 1,
+				"IDRotF": 1,
+				"JttRC": 1,
+				"BMT": 1
+			},
+			"languages.json": {
+				"MM": 21,
+				"DSotDQ": 19,
+				"GGR": 16,
+				"PHB": 18,
+				"XPHB": 19,
+				"FRHoF": 17,
+				"SCAG": 20,
+				"PSD": 3,
+				"SKT": 2,
+				"ERLW": 16,
+				"MOT": 9,
+				"PSX": 6,
+				"PSI": 4,
+				"AI": 1,
+				"VGM": 4,
+				"RoT": 1,
+				"OotA": 1,
+				"PSA": 2,
+				"MTF": 1,
+				"IDRotF": 1,
+				"EGW": 3,
+				"HotDQ": 1,
+				"TftYP": 1
+			},
+			"races.json": {
+				"DMG": 17,
+				"EEPC": 2,
+				"MPMM": 30,
+				"VGM": 13,
+				"XPHB": 10,
+				"PSK": 5,
+				"AAG": 6,
+				"PSA": 5,
+				"PSD": 1,
+				"LFL": 7,
+				"ERLW": 8,
+				"GGR": 6,
+				"MOT": 5,
+				"EFA": 5,
+				"TCE": 1,
+				"ABH": 1,
+				"VRGR": 3,
+				"PHB": 9,
+				"FTD": 3,
+				"PSZ": 6,
+				"WBtW": 2,
+				"MTF": 1,
+				"AWM": 1,
+				"OGA": 1,
+				"PSI": 1,
+				"PSX": 3,
+				"DSotDQ": 1,
+				"LR": 1,
+				"EGW": 1,
+				"SCC": 1,
+				"TTP": 1,
+				"AI": 1
+			},
+			"optionalfeatures.json": {
+				"PHB": 82,
+				"XPHB": 58,
+				"TCE": 47,
+				"XGE": 22,
+				"EFA": 4
+			},
+			"recipes.json": {
+				"HF": 79,
+				"PaF": 76,
+				"HFFotM": 76,
+				"HFDoMM": 10
+			},
+			"deities.json": {
+				"MTF": 80,
+				"SCAG": 99,
+				"PHB": 195,
+				"FRHoF": 42,
+				"ERLW": 21,
+				"EGW": 32,
+				"DMG": 20,
+				"MOT": 15,
+				"VGM": 9,
+				"XDMG": 27,
+				"DSotDQ": 21,
+				"VRGR": 1,
+				"GoS": 1
+			},
+			"feats.json": {
+				"EFA": 28,
+				"ERLW": 2,
+				"XPHB": 77,
+				"PHB": 42,
+				"DSotDQ": 9,
+				"SatO": 7,
+				"TCE": 15,
+				"ABH": 16,
+				"FRHoF": 34,
+				"XGE": 15,
+				"BMT": 1,
+				"LFL": 2,
+				"BGG": 8,
+				"FTD": 3,
+				"PSK": 2,
+				"SCC": 2,
+				"MTF": 1,
+				"PSX": 1
+			},
+			"trapshazards.json": {
+				"BMT": 3,
+				"XGE": 12,
+				"DMG": 24,
+				"XDMG": 33,
+				"VRGR": 4,
+				"RtG": 1,
+				"AZfyT": 1,
+				"NF": 5,
+				"IDRotF": 2,
+				"TCE": 7,
+				"FRAiF": 10,
+				"XPHB": 5,
+				"BGDIA": 1,
+				"VGM": 2
+			},
+			"conditionsdiseases.json": {
+				"PHB": 21,
+				"XPHB": 15,
+				"IDRotF": 1,
+				"ToA": 3,
+				"GoS": 2,
+				"DMG": 3,
+				"XDMG": 3,
+				"EGW": 1,
+				"OoW": 1,
+				"OotA": 1,
+				"FRAiF": 2,
+				"CM": 1,
+				"WDMM": 1,
+				"TftYP": 1,
+				"VRGR": 1
+			},
+			"cultsboons.json": {
+				"MTF": 27,
+				"MPMM": 10,
+				"PSD": 1,
+				"PotA": 4
+			},
+			"bestiary": {
+				"XMM": 503,
+				"JttRC": 71,
+				"GotSF": 1,
+				"LRDT": 2,
+				"CoA": 61,
+				"VD": 1,
+				"GoS": 57,
+				"MisMV1": 6,
+				"FRAiF": 42,
+				"ERLW": 41,
+				"XDMG": 2,
+				"ESK": 3,
+				"DSotDQ": 58,
+				"DoSI": 10,
+				"AATM": 3,
+				"MPMM": 261,
+				"ABH": 5,
+				"PSX": 47,
+				"PaBTSO": 56,
+				"WDH": 95,
+				"DitLCoT": 1,
+				"ToA": 89,
+				"MCV4EC": 25,
+				"AWM": 11,
+				"PSA": 24,
+				"XGE": 2,
+				"LoX": 15,
+				"MFF": 18,
+				"BAM": 72,
+				"MCV2DC": 11,
+				"HAT-TG": 7,
+				"ToFW": 19,
+				"LR": 6,
+				"NF": 6,
+				"PSZ": 43,
+				"LMoP": 9,
+				"MOT": 51,
+				"PotA": 59,
+				"PSD": 7,
+				"VGM": 143,
+				"VEoR": 69,
+				"BGG": 72,
+				"MGELFT": 6,
+				"NRH-AT": 3,
+				"DC": 5,
+				"DMG": 3,
+				"AitFR-ISF": 2,
+				"KftGV": 57,
+				"OotA": 101,
+				"AI": 22,
+				"NRH-CoI": 3,
+				"NRH-AVitW": 2,
+				"MaBJoV": 56,
+				"NRH-AWoL": 1,
+				"TftYP": 133,
+				"XPHB": 15,
+				"WDMM": 103,
+				"PSK": 27,
+				"DoD": 1,
+				"KKW": 3,
+				"EGW": 48,
+				"TTP": 5,
+				"IDRotF": 82,
+				"BGDIA": 53,
+				"CoS": 95,
+				"BMT": 41,
+				"QftIS": 49,
+				"AitFR-THP": 3,
+				"SLW": 7,
+				"NRH-ASS": 1,
+				"HotB": 11,
+				"SCC": 47,
+				"PSI": 20,
+				"TCE": 20,
+				"PHB": 5,
+				"MCV3MC": 5,
+				"NRH-TCMC": 2,
+				"EFA": 27,
+				"RMBRE": 9,
+				"MPP": 54,
+				"CM": 41,
+				"RtG": 2,
+				"FTD": 85,
+				"VRGR": 35,
+				"GGR": 79,
+				"WBtW": 52,
+				"MCV1SC": 10,
+				"AitFR-FCD": 2,
+				"LFL": 8,
+				"LLK": 13,
+				"WttHC": 31,
+				"AitFR-DN": 4,
+				"MTF": 140,
+				"SDW": 6,
+				"RoT": 25,
+				"HotDQ": 23,
+				"IMR": 26,
+				"CRCotN": 67,
+				"HftT": 3,
+				"OoW": 17,
+				"SKT": 105,
+				"MM": 450,
+				"DIP": 6
+			},
+			"class": {
+				"BGG": 0,
+				"DMG": 0,
+				"DSotDQ": 0,
+				"EFA": 1,
+				"EGW": 0,
+				"FRHoF": 0,
+				"FTD": 0,
+				"PHB": 12,
+				"PSA": 0,
+				"PSK": 0,
+				"SCAG": 0,
+				"TCE": 4,
+				"VRGR": 0,
+				"XGE": 0,
+				"XPHB": 12
+			},
+			"fluff": {
+				"BMT": 48,
+				"VRGR": 8,
+				"XDMG": 333,
+				"NF": 1,
+				"EEPC": 6,
+				"MPMM": 35,
+				"VGM": 16,
+				"XPHB": 88,
+				"PSK": 8,
+				"AAG": 26,
+				"PSA": 11,
+				"PSD": 2,
+				"LFL": 9,
+				"ERLW": 14,
+				"GGR": 46,
+				"MOT": 16,
+				"EFA": 36,
+				"ABH": 4,
+				"PHB": 75,
+				"FTD": 4,
+				"EGW": 50,
+				"MTF": 20,
+				"PSZ": 16,
+				"WBtW": 10,
+				"SCAG": 36,
+				"AWM": 1,
+				"PSX": 8,
+				"PSI": 6,
+				"DSotDQ": 13,
+				"LR": 1,
+				"SCC": 6,
+				"TTP": 1,
+				"AI": 18,
+				"FRHoF": 45,
+				"BGG": 12,
+				"DMG": 214,
+				"CoA": 5,
+				"QftIS": 9,
+				"TCE": 23,
+				"IDRotF": 6,
+				"WDH": 5,
+				"BGDIA": 25,
+				"CoS": 7,
+				"KftGV": 9,
+				"FRAiF": 10,
+				"WttHC": 8,
+				"VEoR": 3,
+				"XGE": 7,
+				"SKT": 2,
+				"OotA": 3,
+				"DitLCoT": 4,
+				"RoT": 3,
+				"PotA": 5,
+				"CRCotN": 9,
+				"ToA": 5,
+				"JttRC": 3,
+				"HAT-LMI": 5,
+				"PaBTSO": 12,
+				"SatO": 5,
+				"CM": 1,
+				"HotDQ": 1,
+				"GoS": 10,
+				"HF": 79,
+				"PaF": 76,
+				"HFFotM": 76,
+				"HFDoMM": 10,
+				"RMBRE": 1
+			},
+			"book": {
+				"HFFotM": 10,
+				"EGW": 12,
+				"VGM": 6,
+				"MaBJoV": 8,
+				"PaF": 14,
+				"EFA": 11,
+				"XMM": 5,
+				"MPMM": 5,
+				"LFL": 6,
+				"PS-A": 7,
+				"FTD": 9,
+				"AWM": 3,
+				"AAG": 7,
+				"ScreenWildernessKit": 2,
+				"XScreen": 1,
+				"OGA": 2,
+				"BGG": 10,
+				"PS-I": 7,
+				"DMTCRG": 5,
+				"DMG": 15,
+				"Screen": 1,
+				"NF": 8,
+				"MOT": 8,
+				"FRAiF": 12,
+				"ABH": 5,
+				"PHB": 16,
+				"SAC": 1,
+				"HF": 9,
+				"DoD": 6,
+				"ScreenDungeonKit": 2,
+				"HAT-TG": 2,
+				"AL": 2,
+				"SatO": 6,
+				"MM": 4,
+				"PS-Z": 4,
+				"AATM": 2,
+				"BAM": 2,
+				"XGE": 7,
+				"FRHoF": 9,
+				"AI": 10,
+				"ScreenSpelljammer": 1,
+				"XPHB": 12,
+				"BMT": 23,
+				"VRGR": 8,
+				"SCAG": 7,
+				"PS-X": 7,
+				"ERLW": 15,
+				"TCE": 6,
+				"RMR": 7,
+				"GGR": 9,
+				"PS-K": 5,
+				"MCV4EC": 2,
+				"MTF": 7,
+				"SCC": 11,
+				"PS-D": 10,
+				"TD": 3,
+				"MPP": 3,
+				"XDMG": 12,
+				"MGELFT": 3,
+				"XSAC": 1
+			},
+			"spells": {
+				"TCE": 21,
+				"PHB": 361,
+				"XPHB": 391,
+				"AAG": 2,
+				"FTD": 7,
+				"GGR": 1,
+				"EFA": 1,
+				"EGW": 15,
+				"BMT": 3,
+				"IDRotF": 2,
+				"AI": 7,
+				"SatO": 2,
+				"LLK": 3,
+				"XGE": 95,
+				"SCC": 5,
+				"FRHoF": 19,
+				"AitFR-AVT": 1
+			}
+		},
+		"images": {
+			"AAG": {
+				"covers": 1,
+				"vehicles": 48,
+				"spells": 1,
+				"races": 6,
+				"backgrounds": 2,
+				"book": 18,
+				"items": 3
+			},
+			"AATM": {
+				"covers": 1,
+				"bestiary": 3,
+				"book": 19,
+				"tokens": 3
+			},
+			"ABH": {
+				"covers": 1,
+				"races": 1,
+				"backgrounds": 1,
+				"bestiary": 4,
+				"book": 10,
+				"tokens": 5
+			},
+			"AI": {
+				"covers": 1,
+				"vehicles": 2,
+				"races": 1,
+				"backgrounds": 2,
+				"bestiary": 19,
+				"book": 49,
+				"items": 12,
+				"tokens": 22
+			},
+			"AL": {
+				"covers": 1
+			},
+			"AWM": {
+				"covers": 1,
+				"bestiary": 6,
+				"book": 37,
+				"tokens": 11
+			},
+			"AZfyT": {
+				"covers": 1,
+				"adventure": 6
+			},
+			"AitFR-AVT": {
+				"covers": 1
+			},
+			"AitFR-DN": {
+				"covers": 1
+			},
+			"AitFR-FCD": {
+				"covers": 1
+			},
+			"AitFR-ISF": {
+				"covers": 1
+			},
+			"AitFR-THP": {
+				"covers": 1
+			},
+			"BAM": {
+				"covers": 1,
+				"bestiary": 62,
+				"book": 5,
+				"tokens": 72
+			},
+			"BGDIA": {
+				"covers": 1,
+				"vehicles": 4,
+				"backgrounds": 1,
+				"adventure": 173,
+				"bestiary": 35,
+				"items": 7,
+				"tokens": 54
+			},
+			"BGG": {
+				"covers": 1,
+				"classes": 1,
+				"backgrounds": 2,
+				"feats": 1,
+				"bestiary": 64,
+				"book": 85,
+				"items": 5,
+				"tokens": 72
+			},
+			"BMT": {
+				"covers": 1,
+				"decks": 45,
+				"backgrounds": 2,
+				"traps": 3,
+				"bestiary": 34,
+				"book": 109,
+				"items": 17,
+				"objects": 1,
+				"tokens": 41
+			},
+			"BQGT": {
+				"covers": 1,
+				"adventure": 6
+			},
+			"CM": {
+				"covers": 1,
+				"adventure": 160,
+				"bestiary": 27,
+				"items": 1,
+				"tokens": 41
+			},
+			"CRCotN": {
+				"covers": 1,
+				"decks": 17,
+				"adventure": 126,
+				"bestiary": 45,
+				"items": 6,
+				"tokens": 67
+			},
+			"CoA": {
+				"covers": 1,
+				"adventure": 164,
+				"bestiary": 43,
+				"items": 4,
+				"tokens": 61
+			},
+			"CoS": {
+				"covers": 1,
+				"decks": 55,
+				"adventure": 223,
+				"bestiary": 54,
+				"items": 7,
+				"tokens": 95
+			},
+			"DC": {
+				"covers": 1,
+				"adventure": 32,
+				"tokens": 5
+			},
+			"DIP": {
+				"covers": 1,
+				"decks": 61,
+				"adventure": 94,
+				"bestiary": 6,
+				"tokens": 10
+			},
+			"DMG": {
+				"covers": 1,
+				"classes": 1,
+				"decks": 23,
+				"bestiary": 1,
+				"book": 16,
+				"items": 211,
+				"tokens": 3
+			},
+			"DMTCRG": {
+				"covers": 1,
+				"decks": 67,
+				"book": 5
+			},
+			"DSotDQ": {
+				"covers": 1,
+				"classes": 1,
+				"deities": 9,
+				"races": 1,
+				"backgrounds": 2,
+				"adventure": 165,
+				"feats": 1,
+				"bestiary": 56,
+				"items": 4,
+				"objects": 2,
+				"tokens": 58
+			},
+			"DitLCoT": {
+				"covers": 1,
+				"adventure": 15,
+				"bestiary": 1,
+				"items": 4,
+				"tokens": 1
+			},
+			"DoD": {
+				"covers": 1,
+				"bestiary": 1,
+				"book": 10,
+				"tokens": 1
+			},
+			"DoSI": {
+				"covers": 1,
+				"adventure": 25,
+				"bestiary": 3,
+				"tokens": 12
+			},
+			"DrDe": {
+				"covers": 1,
+				"adventure": 219
+			},
+			"EEPC": {
+				"races": 2
+			},
+			"EFA": {
+				"covers": 1,
+				"classes": 6,
+				"vehicles": 3,
+				"races": 5,
+				"backgrounds": 17,
+				"feats": 12,
+				"bestiary": 25,
+				"book": 61,
+				"bastions": 1,
+				"tokens": 27
+			},
+			"EFR": {
+				"adventure": 5
+			},
+			"EGW": {
+				"covers": 1,
+				"classes": 3,
+				"deities": 21,
+				"spells": 2,
+				"charcreationoptions": 1,
+				"races": 4,
+				"backgrounds": 2,
+				"bestiary": 24,
+				"book": 135,
+				"items": 14,
+				"tokens": 50
+			},
+			"ERLW": {
+				"covers": 1,
+				"deities": 7,
+				"races": 9,
+				"bestiary": 34,
+				"book": 143,
+				"items": 1,
+				"tokens": 41
+			},
+			"ESK": {
+				"covers": 1,
+				"decks": 40,
+				"tokens": 5
+			},
+			"FFotR": {
+				"adventure": 6
+			},
+			"FRAiF": {
+				"covers": 1,
+				"adventure": 14,
+				"bestiary": 23,
+				"book": 230,
+				"items": 6,
+				"tokens": 42
+			},
+			"FRHoF": {
+				"covers": 1,
+				"classes": 9,
+				"deities": 42,
+				"spells": 4,
+				"backgrounds": 18,
+				"book": 88,
+				"items": 14,
+				"bastions": 8
+			},
+			"FTD": {
+				"covers": 1,
+				"classes": 2,
+				"spells": 2,
+				"races": 3,
+				"bestiary": 68,
+				"book": 77,
+				"items": 1,
+				"tokens": 85
+			},
+			"GGR": {
+				"covers": 1,
+				"spells": 1,
+				"races": 5,
+				"bestiary": 62,
+				"book": 142,
+				"items": 30,
+				"tokens": 79
+			},
+			"GHLoE": {
+				"adventure": 1
+			},
+			"GoS": {
+				"covers": 1,
+				"vehicles": 4,
+				"variantrules": 4,
+				"adventure": 142,
+				"bestiary": 15,
+				"tokens": 58
+			},
+			"GotSF": {
+				"covers": 1,
+				"adventure": 3,
+				"tokens": 1
+			},
+			"HAT-LMI": {},
+			"HAT-TG": {
+				"book": 2
+			},
+			"HBTD": {
+				"covers": 1,
+				"adventure": 21
+			},
+			"HF": {
+				"covers": 1,
+				"recipes": 50,
+				"book": 38
+			},
+			"HFDoMM": {
+				"decks": 104
+			},
+			"HFFotM": {
+				"covers": 1,
+				"recipes": 55,
+				"book": 31
+			},
+			"HFStCM": {
+				"covers": 1,
+				"adventure": 8
+			},
+			"HftT": {
+				"covers": 1,
+				"adventure": 12,
+				"bestiary": 2,
+				"tokens": 4
+			},
+			"HotB": {
+				"covers": 1,
+				"adventure": 174,
+				"bestiary": 11,
+				"tokens": 11
+			},
+			"HotDQ": {
+				"covers": 1,
+				"adventure": 120,
+				"bestiary": 17,
+				"items": 1,
+				"tokens": 23
+			},
+			"IDRotF": {
+				"covers": 1,
+				"adventure": 254,
+				"bestiary": 57,
+				"items": 6,
+				"tokens": 82
+			},
+			"IMR": {
+				"covers": 1,
+				"adventure": 21,
+				"bestiary": 8,
+				"tokens": 26
+			},
+			"JttRC": {
+				"covers": 1,
+				"adventure": 182,
+				"bestiary": 59,
+				"items": 1,
+				"objects": 1,
+				"tokens": 71
+			},
+			"KKW": {
+				"adventure": 7,
+				"bestiary": 2,
+				"tokens": 3
+			},
+			"KftGV": {
+				"covers": 1,
+				"adventure": 118,
+				"bestiary": 17,
+				"items": 3,
+				"tokens": 57
+			},
+			"LFL": {
+				"covers": 1,
+				"races": 7,
+				"backgrounds": 2,
+				"bestiary": 6,
+				"book": 12,
+				"tokens": 8
+			},
+			"LK": {
+				"covers": 1,
+				"adventure": 3
+			},
+			"LLK": {
+				"covers": 1,
+				"adventure": 26,
+				"bestiary": 6,
+				"tokens": 13
+			},
+			"LMoP": {
+				"covers": 1,
+				"adventure": 20,
+				"bestiary": 3,
+				"tokens": 9
+			},
+			"LR": {
+				"covers": 1,
+				"races": 1,
+				"adventure": 11,
+				"bestiary": 2,
+				"tokens": 6
+			},
+			"LRDT": {
+				"covers": 1,
+				"adventure": 25,
+				"bestiary": 2,
+				"tokens": 2
+			},
+			"LoX": {
+				"covers": 1,
+				"adventure": 61,
+				"bestiary": 15,
+				"tokens": 15
+			},
+			"MCV1SC": {},
+			"MCV2DC": {},
+			"MCV3MC": {},
+			"MCV4EC": {
+				"covers": 1
+			},
+			"MFF": {
+				"bestiary": 16,
+				"tokens": 18
+			},
+			"MGELFT": {
+				"covers": 1,
+				"bestiary": 5,
+				"book": 45,
+				"tokens": 6
+			},
+			"MM": {
+				"covers": 1,
+				"bestiary": 306,
+				"book": 2,
+				"tokens": 451
+			},
+			"MOT": {
+				"covers": 1,
+				"deities": 30,
+				"charcreationoptions": 3,
+				"races": 10,
+				"backgrounds": 1,
+				"adventure": 10,
+				"bestiary": 40,
+				"book": 124,
+				"items": 7,
+				"tokens": 52
+			},
+			"MPMM": {
+				"covers": 1,
+				"races": 30,
+				"bestiary": 234,
+				"book": 8,
+				"tokens": 261
+			},
+			"MPP": {
+				"covers": 1,
+				"bestiary": 55,
+				"book": 13,
+				"tokens": 54
+			},
+			"MTF": {
+				"covers": 1,
+				"races": 1,
+				"bestiary": 112,
+				"book": 46,
+				"items": 1,
+				"tokens": 148
+			},
+			"MaBJoV": {
+				"covers": 1,
+				"bestiary": 49,
+				"book": 35,
+				"tokens": 56
+			},
+			"MisMV1": {
+				"bestiary": 12,
+				"tokens": 6
+			},
+			"NF": {
+				"covers": 1,
+				"hazards": 1,
+				"bestiary": 5,
+				"book": 31,
+				"tokens": 6
+			},
+			"NRH-ASS": {
+				"covers": 1
+			},
+			"NRH-AT": {
+				"covers": 1
+			},
+			"NRH-AVitW": {
+				"covers": 1
+			},
+			"NRH-AWoL": {
+				"covers": 1
+			},
+			"NRH-CoI": {
+				"covers": 1
+			},
+			"NRH-TCMC": {
+				"covers": 1
+			},
+			"NRH-TLT": {
+				"covers": 1
+			},
+			"OGA": {
+				"covers": 1,
+				"book": 5
+			},
+			"OoW": {
+				"adventure": 69,
+				"bestiary": 3,
+				"tokens": 17
+			},
+			"OotA": {
+				"covers": 1,
+				"adventure": 147,
+				"bestiary": 43,
+				"items": 3,
+				"tokens": 100
+			},
+			"PHB": {
+				"covers": 1,
+				"classes": 15,
+				"conditionsdiseases": 13,
+				"spells": 12,
+				"races": 9,
+				"languages": 3,
+				"feats": 2,
+				"book": 44,
+				"items": 8,
+				"tokens": 5
+			},
+			"PS-A": {
+				"classes": 5,
+				"races": 11,
+				"backgrounds": 4,
+				"bestiary": 14,
+				"book": 25,
+				"tokens": 24
+			},
+			"PS-D": {
+				"races": 3,
+				"bestiary": 4,
+				"book": 21,
+				"tokens": 7
+			},
+			"PS-I": {
+				"races": 3,
+				"backgrounds": 1,
+				"bestiary": 12,
+				"book": 31,
+				"tokens": 20
+			},
+			"PS-K": {
+				"races": 9,
+				"feats": 1,
+				"bestiary": 15,
+				"book": 16,
+				"tokens": 27
+			},
+			"PS-X": {
+				"races": 12,
+				"bestiary": 30,
+				"book": 33,
+				"tokens": 47
+			},
+			"PS-Z": {
+				"races": 15,
+				"bestiary": 29,
+				"book": 9,
+				"tokens": 43
+			},
+			"PSA": {
+				"covers": 1,
+				"classes": 5,
+				"races": 11,
+				"backgrounds": 4,
+				"bestiary": 14,
+				"book": 25,
+				"tokens": 24
+			},
+			"PSD": {
+				"covers": 1,
+				"races": 3,
+				"bestiary": 4,
+				"book": 21,
+				"tokens": 7
+			},
+			"PSI": {
+				"covers": 1,
+				"races": 3,
+				"backgrounds": 1,
+				"bestiary": 12,
+				"book": 31,
+				"tokens": 20
+			},
+			"PSK": {
+				"covers": 1,
+				"races": 9,
+				"feats": 1,
+				"bestiary": 15,
+				"book": 16,
+				"tokens": 27
+			},
+			"PSX": {
+				"covers": 1,
+				"races": 12,
+				"bestiary": 30,
+				"book": 33,
+				"tokens": 47
+			},
+			"PSZ": {
+				"covers": 1,
+				"races": 15,
+				"bestiary": 29,
+				"book": 9,
+				"tokens": 43
+			},
+			"PaBTSO": {
+				"covers": 1,
+				"adventure": 196,
+				"bestiary": 48,
+				"items": 5,
+				"tokens": 59
+			},
+			"PaF": {
+				"covers": 1,
+				"recipes": 48,
+				"book": 38
+			},
+			"PiP": {
+				"covers": 1,
+				"adventure": 10
+			},
+			"PotA": {
+				"covers": 1,
+				"adventure": 133,
+				"bestiary": 32,
+				"items": 5,
+				"tokens": 60
+			},
+			"QftIS": {
+				"covers": 1,
+				"adventure": 166,
+				"bestiary": 29,
+				"items": 3,
+				"tokens": 55
+			},
+			"RMBRE": {
+				"adventure": 25,
+				"bestiary": 4,
+				"objects": 1,
+				"tokens": 17
+			},
+			"RMR": {
+				"covers": 1,
+				"book": 154
+			},
+			"RoT": {
+				"covers": 1,
+				"adventure": 91,
+				"bestiary": 4,
+				"items": 3,
+				"tokens": 25
+			},
+			"RtG": {
+				"covers": 1,
+				"adventure": 30,
+				"tokens": 2
+			},
+			"SAC": {
+				"covers": 1
+			},
+			"SCAG": {
+				"covers": 1,
+				"classes": 2,
+				"deities": 39,
+				"races": 1,
+				"languages": 1,
+				"book": 105
+			},
+			"SCC": {
+				"covers": 1,
+				"races": 1,
+				"backgrounds": 2,
+				"bestiary": 32,
+				"book": 165,
+				"tokens": 47
+			},
+			"SDW": {
+				"covers": 1,
+				"adventure": 22,
+				"tokens": 6
+			},
+			"SKT": {
+				"covers": 1,
+				"adventure": 148,
+				"bestiary": 34,
+				"items": 2,
+				"tokens": 105
+			},
+			"SLW": {
+				"covers": 1,
+				"adventure": 20,
+				"tokens": 8
+			},
+			"SatO": {
+				"covers": 1,
+				"backgrounds": 2,
+				"feats": 1,
+				"book": 74,
+				"items": 2
+			},
+			"ScoEE": {
+				"covers": 1,
+				"adventure": 13
+			},
+			"Screen": {
+				"covers": 1
+			},
+			"ScreenDungeonKit": {
+				"covers": 1,
+				"decks": 46,
+				"book": 48
+			},
+			"ScreenSpelljammer": {
+				"covers": 1
+			},
+			"ScreenWildernessKit": {
+				"covers": 1
+			},
+			"SjA": {
+				"covers": 1,
+				"adventure": 49
+			},
+			"TCE": {
+				"covers": 1,
+				"classes": 34,
+				"spells": 5,
+				"optionalfeatures": 1,
+				"feats": 2,
+				"bestiary": 5,
+				"book": 103,
+				"items": 16,
+				"objects": 2,
+				"tokens": 20
+			},
+			"TD": {
+				"covers": 1,
+				"decks": 79,
+				"book": 2
+			},
+			"TDCSR": {
+				"book": 1
+			},
+			"TG": {
+				"covers": 1,
+				"book": 2
+			},
+			"TLK": {
+				"covers": 1,
+				"adventure": 10
+			},
+			"TTP": {
+				"covers": 1,
+				"races": 1,
+				"adventure": 13,
+				"bestiary": 3,
+				"tokens": 5
+			},
+			"TftYP": {
+				"covers": 1,
+				"adventure": 3,
+				"bestiary": 10,
+				"tokens": 136
+			},
+			"TftYP-AtG": {},
+			"TftYP-DiT": {},
+			"TftYP-TFoF": {},
+			"TftYP-THSoT": {},
+			"TftYP-TSC": {},
+			"TftYP-ToH": {},
+			"TftYP-WPM": {},
+			"ToA": {
+				"covers": 1,
+				"decks": 9,
+				"adventure": 141,
+				"bestiary": 56,
+				"items": 3,
+				"tokens": 89
+			},
+			"ToFW": {
+				"covers": 1,
+				"adventure": 65,
+				"bestiary": 11,
+				"tokens": 19
+			},
+			"UtHftLH": {
+				"covers": 1,
+				"adventure": 16
+			},
+			"VD": {
+				"bestiary": 4,
+				"tokens": 2
+			},
+			"VEoR": {
+				"covers": 1,
+				"adventure": 202,
+				"bestiary": 35,
+				"items": 4,
+				"tokens": 70
+			},
+			"VGM": {
+				"covers": 1,
+				"races": 13,
+				"bestiary": 91,
+				"book": 49,
+				"tokens": 143
+			},
+			"VNotEE": {
+				"covers": 1,
+				"adventure": 4
+			},
+			"VRGR": {
+				"covers": 1,
+				"classes": 2,
+				"charcreationoptions": 1,
+				"races": 3,
+				"variantrules": 2,
+				"backgrounds": 2,
+				"traps": 1,
+				"bestiary": 30,
+				"book": 120,
+				"items": 1,
+				"tokens": 35
+			},
+			"WBtW": {
+				"covers": 1,
+				"decks": 32,
+				"races": 2,
+				"backgrounds": 2,
+				"adventure": 135,
+				"bestiary": 40,
+				"items": 7,
+				"tokens": 52
+			},
+			"WDH": {
+				"covers": 1,
+				"adventure": 192,
+				"bestiary": 47,
+				"items": 5,
+				"tokens": 95
+			},
+			"WDMM": {
+				"covers": 1,
+				"decks": 27,
+				"adventure": 125,
+				"bestiary": 14,
+				"tokens": 104
+			},
+			"WttHC": {
+				"covers": 1,
+				"adventure": 130,
+				"bestiary": 31,
+				"items": 8,
+				"tokens": 31
+			},
+			"XDMG": {
+				"covers": 1,
+				"hazards": 2,
+				"traps": 1,
+				"book": 161,
+				"items": 266,
+				"bastions": 4,
+				"objects": 2,
+				"tokens": 2
+			},
+			"XGE": {
+				"covers": 1,
+				"classes": 19,
+				"spells": 10,
+				"book": 24,
+				"items": 7,
+				"tokens": 2
+			},
+			"XMM": {
+				"covers": 1,
+				"bestiary": 389,
+				"book": 322,
+				"tokens": 505
+			},
+			"XMtS": {
+				"covers": 1,
+				"adventure": 27
+			},
+			"XPHB": {
+				"covers": 1,
+				"classes": 74,
+				"spells": 51,
+				"races": 13,
+				"backgrounds": 16,
+				"feats": 8,
+				"bestiary": 15,
+				"book": 63,
+				"items": 55,
+				"tokens": 15
+			},
+			"XSAC": {},
+			"XScreen": {
+				"covers": 1,
+				"book": 1
+			},
+			"generic": {
+				"decks": 2
+			},
+			"page": {
+				"decks": 2
+			}
+		},
+		"pdfs": {
+			"AAG": 0,
+			"AATM": 0,
+			"ABH": 0,
+			"AI": 0,
+			"AL": 0,
+			"AWM": 0,
+			"AZfyT": 0,
+			"AitFR-AVT": 0,
+			"AitFR-DN": 0,
+			"AitFR-FCD": 0,
+			"AitFR-ISF": 0,
+			"AitFR-THP": 0,
+			"BAM": 0,
+			"BGDIA": 0,
+			"BGG": 0,
+			"BMT": 0,
+			"BQGT": 0,
+			"CM": 0,
+			"CRCotN": 0,
+			"CoA": 0,
+			"CoS": 0,
+			"DC": 0,
+			"DIP": 0,
+			"DMG": 0,
+			"DMTCRG": 0,
+			"DSotDQ": 0,
+			"DitLCoT": 0,
+			"DoD": 0,
+			"DoSI": 0,
+			"DrDe": 0,
+			"EEPC": 0,
+			"EFA": 0,
+			"EFR": 0,
+			"EGW": 0,
+			"ERLW": 0,
+			"ESK": 0,
+			"FFotR": 0,
+			"FRAiF": 0,
+			"FRHoF": 0,
+			"FTD": 0,
+			"GGR": 0,
+			"GHLoE": 0,
+			"GoS": 0,
+			"GotSF": 0,
+			"HAT-LMI": 0,
+			"HAT-TG": 0,
+			"HBTD": 0,
+			"HF": 0,
+			"HFDoMM": 0,
+			"HFFotM": 0,
+			"HFStCM": 0,
+			"HftT": 0,
+			"HotB": 0,
+			"HotDQ": 0,
+			"IDRotF": 0,
+			"IMR": 0,
+			"JttRC": 0,
+			"KKW": 0,
+			"KftGV": 0,
+			"LFL": 0,
+			"LK": 0,
+			"LLK": 0,
+			"LMoP": 0,
+			"LR": 0,
+			"LRDT": 0,
+			"LoX": 0,
+			"MCV1SC": 0,
+			"MCV2DC": 0,
+			"MCV3MC": 0,
+			"MCV4EC": 0,
+			"MFF": 0,
+			"MGELFT": 0,
+			"MM": 0,
+			"MOT": 0,
+			"MPMM": 0,
+			"MPP": 0,
+			"MTF": 0,
+			"MaBJoV": 0,
+			"MisMV1": 0,
+			"NF": 0,
+			"NRH-ASS": 0,
+			"NRH-AT": 0,
+			"NRH-AVitW": 0,
+			"NRH-AWoL": 0,
+			"NRH-CoI": 0,
+			"NRH-TCMC": 0,
+			"NRH-TLT": 0,
+			"OGA": 0,
+			"OoW": 0,
+			"OotA": 0,
+			"PHB": 0,
+			"PS-A": 0,
+			"PS-D": 0,
+			"PS-I": 0,
+			"PS-K": 0,
+			"PS-X": 0,
+			"PS-Z": 0,
+			"PSA": 0,
+			"PSD": 0,
+			"PSI": 0,
+			"PSK": 0,
+			"PSX": 0,
+			"PSZ": 0,
+			"PaBTSO": 0,
+			"PaF": 0,
+			"PiP": 0,
+			"PotA": 0,
+			"QftIS": 0,
+			"RMBRE": 0,
+			"RMR": 0,
+			"RoT": 0,
+			"RtG": 0,
+			"SAC": 0,
+			"SCAG": 0,
+			"SCC": 0,
+			"SDW": 0,
+			"SKT": 0,
+			"SLW": 0,
+			"SatO": 0,
+			"ScoEE": 0,
+			"Screen": 0,
+			"ScreenDungeonKit": 0,
+			"ScreenSpelljammer": 0,
+			"ScreenWildernessKit": 0,
+			"SjA": 0,
+			"TCE": 0,
+			"TD": 0,
+			"TDCSR": 0,
+			"TG": 0,
+			"TLK": 0,
+			"TTP": 0,
+			"TftYP": 0,
+			"TftYP-AtG": 0,
+			"TftYP-DiT": 0,
+			"TftYP-TFoF": 0,
+			"TftYP-THSoT": 0,
+			"TftYP-TSC": 0,
+			"TftYP-ToH": 0,
+			"TftYP-WPM": 0,
+			"ToA": 0,
+			"ToFW": 0,
+			"UtHftLH": 0,
+			"VD": 0,
+			"VEoR": 0,
+			"VGM": 0,
+			"VNotEE": 0,
+			"VRGR": 0,
+			"WBtW": 0,
+			"WDH": 0,
+			"WDMM": 0,
+			"WttHC": 0,
+			"XDMG": 0,
+			"XGE": 0,
+			"XMM": 0,
+			"XMtS": 0,
+			"XPHB": 0,
+			"XSAC": 0,
+			"XScreen": 0,
+			"generic": 0,
+			"page": 0
+		},
+		"cross_source_references": {
+			"total": 0,
+			"examples": []
+		},
+		"total_errors": 0,
+		"total_warnings": 8
+	},
+	"errors": [],
+	"warnings": [
+		"Unknown source 'DD' in vehicles.json",
+		"Unknown source 'ALCurseOfStrahd' in backgrounds.json",
+		"Unknown source 'ALElementalEvil' in backgrounds.json",
+		"Unknown source 'ALRageOfDemons' in backgrounds.json",
+		"Unknown source 'ToR' in rewards.json",
+		"Unknown source 'RoTOS' in items.json",
+		"Unknown source 'EET' in items.json",
+		"Unknown source 'UATheMysticClass' in psionics.json"
+	],
+	"success": true,
+	"validation": {
+		"timestamp": "2026-01-18T18:57:48.661513Z",
+		"data_dir": "data",
+		"data_rework_dir": "data_rework",
+		"validations": [
+			{
+				"script": "scripts/validation/check_data_integrity.py",
+				"status": "skipped",
+				"message": "Script not found: scripts/validation/check_data_integrity.py"
+			},
+			{
+				"script": "scripts/validation/check_images.py",
+				"status": "skipped",
+				"message": "Script not found: scripts/validation/check_images.py"
+			},
+			{
+				"script": "scripts/validation/check_cross_source.py",
+				"status": "skipped",
+				"message": "Script not found: scripts/validation/check_cross_source.py"
+			}
+		],
+		"overall_status": "passed",
+		"failed_count": 0,
+		"total_count": 3
+	}
+}

@@ -1,0 +1,165 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Cartographer's Map Case",
+			"source": "AI",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/AI/cartographers-map-case.webp"
+					},
+					"credit": "Chris Walton"
+				}
+			]
+		},
+		{
+			"name": "Coin of Decisionry",
+			"source": "AI",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/AI/coin-of-decisionry.webp"
+					},
+					"credit": "Chris Walton"
+				}
+			]
+		},
+		{
+			"name": "Documancy Satchel",
+			"source": "AI",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/AI/documancy-satchel.webp"
+					},
+					"credit": "Chris Walton"
+				}
+			]
+		},
+		{
+			"name": "Living Loot Satchel",
+			"source": "AI",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/AI/living-loot-satchel.webp"
+					},
+					"credit": "Chris Walton"
+				}
+			]
+		},
+		{
+			"name": "Occultant Abacus",
+			"source": "AI",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/AI/occultant-abacus.webp"
+					},
+					"credit": "Chris Walton"
+				}
+			]
+		},
+		{
+			"name": "Orrery of the Wanderer",
+			"source": "AI",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/AI/Orrery of the Wanderer.webp"
+					},
+					"credit": "Nicholas Kay"
+				}
+			]
+		},
+		{
+			"name": "Sending Stone",
+			"source": "AI",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/AI/sending-stone.webp"
+					},
+					"credit": "Chris Walton"
+				}
+			]
+		},
+		{
+			"name": "Travel Alchemical Kit",
+			"source": "AI",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/AI/travel-alchemical-kit.webp"
+					},
+					"credit": "Chris Walton"
+				}
+			]
+		},
+		{
+			"name": "Trinket",
+			"source": "AI",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/AI/Trinket.webp"
+					},
+					"credit": "Kris Straub"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/AI/Trinket-2.webp"
+					},
+					"credit": "Kris Straub"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/AI/Trinket-3.webp"
+					},
+					"credit": "Kris Straub"
+				}
+			]
+		},
+		{
+			"name": "Whisper Jar",
+			"source": "AI",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/AI/whisper-jar.webp"
+					},
+					"credit": "Chris Walton"
+				}
+			]
+		}
+	]
+}

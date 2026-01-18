@@ -1,0 +1,17 @@
+{
+	"language": [
+		{
+			"name": "Ice Toad",
+			"source": "RoT",
+			"page": 90,
+			"otherSources": [
+				{
+					"source": "ToD"
+				}
+			],
+			"typicalSpeakers": [
+				"{@creature Ice Toad|RoT|ice toads}"
+			]
+		}
+	]
+}

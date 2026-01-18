@@ -1,0 +1,117 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Earring of Message",
+			"source": "CRCotN",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/CRCotN/Earring of Message.webp"
+					},
+					"credit": "CoupleOfKooks"
+				}
+			]
+		},
+		{
+			"name": "Jewel of Three Prayers",
+			"source": "CRCotN",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/CRCotN/Jewel of Three Prayers.webp"
+					},
+					"credit": "CoupleOfKooks"
+				}
+			]
+		},
+		{
+			"name": "Jewel of Three Prayers (Awakened)",
+			"source": "CRCotN",
+			"_copy": {
+				"name": "Jewel of Three Prayers",
+				"source": "CRCotN"
+			}
+		},
+		{
+			"name": "Jewel of Three Prayers (Dormant)",
+			"source": "CRCotN",
+			"_copy": {
+				"name": "Jewel of Three Prayers",
+				"source": "CRCotN"
+			}
+		},
+		{
+			"name": "Jewel of Three Prayers (Exalted)",
+			"source": "CRCotN",
+			"_copy": {
+				"name": "Jewel of Three Prayers",
+				"source": "CRCotN"
+			}
+		},
+		{
+			"name": "Medal of the Maze",
+			"source": "CRCotN",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/CRCotN/Medal of the Maze.webp"
+					},
+					"credit": "CoupleOfKooks"
+				}
+			]
+		},
+		{
+			"name": "Ring of Red Fury",
+			"source": "CRCotN",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/CRCotN/Ring of Red Fury.webp"
+					},
+					"credit": "CoupleOfKooks"
+				}
+			]
+		},
+		{
+			"name": "Ruidium Shield",
+			"source": "CRCotN",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/CRCotN/Ruidium Shield.webp"
+					},
+					"credit": "CoupleOfKooks"
+				}
+			]
+		},
+		{
+			"name": "Ruidium Weapon",
+			"source": "CRCotN",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/CRCotN/Ruidium Weapon.webp"
+					},
+					"credit": "CoupleOfKooks"
+				}
+			]
+		}
+	]
+}

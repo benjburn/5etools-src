@@ -1,0 +1,199 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"recipeFluff"
+		]
+	},
+	"recipeFluff": [
+		{
+			"name": "Exploding Cheese Puffs",
+			"source": "HFDoMM",
+			"entries": [
+				"Strixhaven University is one of the multiverse's most esteemed magical institutions, welcoming would-be wizards from planes beyond. Students, eager to let off steam after a long day of training, head to {@adventure Bow's End Tavern|SCC-CK|0|Bow's End Tavern}, a lively campus eatery that offers an array of magically infused snacks and drinks. Noshes like the pickled {@recipe Black Lotus Root|HFFotM} and the Fire Beetle Paste are sure to please—but nothing ensorcells taste buds quite like the Exploding Cheese Puffs. A medley of corn and sorghum are flash-popped in a light oil, then tossed in a secret mix of spices, offering hints of pepper and Parmesan, and served by the bowlful. Whether you're out gallivanting on an adventure or just procrastinating from your arcane studies, Exploding Cheese Puffs are the go-to campus indulgence."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/HFDoMM/Deck of Many Morsels/Exploding Cheese Puffs.webp"
+					},
+					"credit": "Ray Kachatorian",
+					"width": 1500,
+					"height": 2102
+				}
+			]
+		},
+		{
+			"name": "Halfling Finger Sandwiches",
+			"source": "HFDoMM",
+			"entries": [
+				"If there is indeed anything sacred in halfling society, teatime would be it. And no proper halfling afternoon tea can commence without a healthy helping of nosh to hold one over till first eveningfeast. Shortbreads, strawberries, and creams are all fair and good, but any respectable halfling knows that the true stars of the afternoon delectables are the finger sandwiches. Stacked three-halfling fingers high with garden-fresh cucumbers, sweet onions, and a chive-infused cream cheese, these tasty little darlings are all the rage in shires, holes, and burrows everywhere—and you'd do best to hide them from unexpected guests."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/HFDoMM/Deck of Many Morsels/Halfling Finger Sandwiches.webp"
+					},
+					"credit": "Ray Kachatorian",
+					"width": 1500,
+					"height": 2102
+				}
+			]
+		},
+		{
+			"name": "Moonwood Artichoke Spread",
+			"source": "HFDoMM",
+			"entries": [
+				"The Silver Marches forest known as the Moonwood is a place of magic, wonder, and secrets. And perhaps no secret is better protected than the recipe for the dish called Moonwood Artichoke Spread. Crafted by the moon elves of the wooded village of Moonvines, this creamy spread is made from the freshest Moonwood artichoke hearts and enough garlic to scare off even the fiercest lycanthropes of Claw Hollow. A generous helping of locally harvested herbs, cream cheese, and a handful of Mithral Hall shallots makes this a can't-miss dip for not just elves of the moon but for everyone under the sun."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/HFDoMM/Deck of Many Morsels/Moonwood Artichoke Spread.webp"
+					},
+					"credit": "Ray Kachatorian",
+					"width": 1500,
+					"height": 2102
+				}
+			]
+		},
+		{
+			"name": "Neverwinter Cheese Board",
+			"source": "HFDoMM",
+			"entries": [
+				"Neverwinter harbor is remarkable for two reasons. First, it never freezes due to the warm waters that flow out from the volcanic Mount Hotenow via the Neverwinter River into the harbor and second, for the {@book Moonstone Mask tavern|PaF|10}, which towers over the harbor on its own moored island. Known for its mysterious moonstone-mask-adorned servers, the five-story eatery serves some of the rarest and most exceptional cuisine in all Faerûn. While its patrons rave about its meat pies and rare {@recipe Feywine Punch|PaF|feywine}, it's the cheese that wins the day. Sourced from seemingly every corner of the Realms (and beyond), its cheese board is without equal, featuring the rarest Arabellan Cheddar, pocked Waterdhavian Cheese, soft red-rinded Death Cheese, the heavily veined Elturian Grey sheep's cheese, and even the port wine-infused Turmish Brick—all served with fresh-baked bread from Siril's Bakery. Local cornichons and Memnon almonds add some crunch to the mix, while the sweet is provided by Neverwinter honey and dates and figs from Calimshan. Cleanse each bite with a refreshing nibble of Dalelands rose apple, locally sourced grapes, or even fennel."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/HFDoMM/Deck of Many Morsels/Neverwinter Cheese Board.webp"
+					},
+					"credit": "Ray Kachatorian",
+					"width": 1500,
+					"height": 2102
+				}
+			]
+		},
+		{
+			"name": "Night Hag's Delight",
+			"source": "HFDoMM",
+			"entries": [
+				"{@creature Night hag|XMM|Night hags} live to spoil and corrupt, so it should come as no surprise that their signature dessert known as Night Hag's Delight both spoils the taste buds and corrupts one's ability to stop eating them. While night hags are known to bewitch with visions and nightmares, this blackberry butter-filled tartlet is far closer to a dream. Made with fresh Feywild blackberries, Sembian honey, and a touch of Prismeer vanilla, these tasty tarts can be found from Hither and Thither to Yon and everywhere in between. But remember, the hospitality of a night hag always comes with a catch—their baking prowess is nothing but a lure for sweet-toothed souls, and there's always room in a night hag's soul bag for one more."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/HFDoMM/Deck of Many Morsels/Night Hag's Delight.webp"
+					},
+					"credit": "Ray Kachatorian",
+					"width": 1500,
+					"height": 2102
+				}
+			]
+		},
+		{
+			"name": "Spicy Brothers Honey-Glazed Hot Chips",
+			"source": "HFDoMM",
+			"entries": [
+				"Deep in the Ethereal Plane resides a mysterious city called the Radiant Citadel, which exists as a magical gateway back to the great ancient civilizations that founded it. One such destination is the lush, jungled land known as Siabsungkoh, home to the famed Dyn Singh Night Market. Here, amid its ever-shifting labyrinth of stalls, vendors such as the Trusty Leek or Vada's Otherworldly Goods offer culinary experiences of the rarest variety. But Kasem and Vi Arron, or the Spicy Brothers as they are professionally known, peddle some of the market's zestiest treats. Their unassuming kiosk serves up spices, peppers, and piquant dishes like Cucumber Fire Smoothies and Skull-Faced Peppers for a mere five silver each. However, the true not-to-be-missed munch is their Honey-Glazed Hot Chips. While these thin, crispy fried potatoes are undeniably sweet, they pack a sizable kick, thanks to the seasoning medley of chili powder, cayenne pepper, and a dash of \"sweet-heat\" or \"burning waves pepper,\" depending on which brother is doing the cooking."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/HFDoMM/Deck of Many Morsels/Spicy Brothers Honey-Glazed Hot Chips.webp"
+					},
+					"credit": "Ray Kachatorian",
+					"width": 1500,
+					"height": 2102
+				}
+			]
+		},
+		{
+			"name": "Spicy Shredded Stirge Sliders",
+			"source": "HFDoMM",
+			"entries": [
+				"Those who dare visit the famed {@adventure Afterlife Casino|KFtGV|2|The Afterlife Casino} are bound to leave a little lighter in the purse—assuming they ever leave at all. The best bet for wise patrons would be to avoid the game tables entirely and descend to a cavern below the casino floor to the Nessus Restaurant and order up a plate of locally sourced Spicy Shredded Stirge Sliders. Just like a pesky pack of stirges, these juicy, sauce-slathered sliders will swarm your taste buds with unrelenting flavor. And if for whatever reason you don't make it out of the casino, these bundles of flavor will serve as a fitting last meal for those soon bound for the afterlife."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/HFDoMM/Deck of Many Morsels/Spicy Shredded Stirge Sliders.webp"
+					},
+					"credit": "Ray Kachatorian",
+					"width": 1500,
+					"height": 2102
+				}
+			]
+		},
+		{
+			"name": "Trail Mash'ums",
+			"source": "HFDoMM",
+			"entries": [
+				"Travel among the storied hamlets, villages, and cities of the Sword Coast requires a great deal of time...and food. So aside from a homestead or tavern, campfire cooking is one of the most common ways to enjoy a repast in the Realms. Mash'ums are a popular trailside treat that are sure to satisfy a sweet tooth. Originated by the people of Farsea Marshes west of Cormyr, fresh marshmallows are roasted over an open flame until they are golden and gooey, sprinkled with a touch of cinnamon and cayenne, then stuffed between two thick shortbread cookies and a chunk of chocolate to create a warm, stomach-pleasing dessert sandwich. On those long, cold nights when the embers are dying and party spirits are, too, a fresh round of Mash'ums is sure to bring companions together."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/HFDoMM/Deck of Many Morsels/Trail Mash'ums.webp"
+					},
+					"credit": "Ray Kachatorian",
+					"width": 1500,
+					"height": 2102
+				}
+			]
+		},
+		{
+			"name": "Underdark Forage Board",
+			"source": "HFDoMM",
+			"entries": [
+				"Faerûn's Underdark is scarce of food, and much of what's available is deadly to human palates, but those who know what to forage for can unearth some of the most delectable flavors that exist above- or below-ground. The noble families of the Underdark city of Menzoberranzan are known for serving an appetizer of raw sliced bluecap fungus. dished alongside ripple-bark mushrooms and baby trillimac stalks with a creamy, seasoned rothé milk cream cheese. These, alongside a generous helping of udadrow red potatoes, make for an inspired snack or start to any meal."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/HFDoMM/Deck of Many Morsels/Underdark Forage Board.webp"
+					},
+					"credit": "Ray Kachatorian",
+					"width": 1500,
+					"height": 2102
+				}
+			]
+		},
+		{
+			"name": "Waterdeep Charcuterie",
+			"source": "HFDoMM",
+			"entries": [
+				"In the city of Waterdeep, the Yawning Portal tavern garners all the fanfare, but when it comes to charcuterie, nothing can match the delectable spread on offer at the Gentle Mermaid tavern of the North Ward. A variety of premium salted meats sourced from nearby Oglyntyr Farm in Amphail are complemented by the freshest breads from Goldenfields granary. Spicy Delzoun mustard from Gauntlgrym and Shaarite green olives add a briny zip to the mix, while hothouse cherry tomatoes, cucumbers, and Peppadew peppers picked fresh from Snobeedle's Orchard and Meadery—a halfling-run marketplace situated in the Undercliff district—abound to cleanse your palate between every delicious bite."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/HFDoMM/Deck of Many Morsels/Waterdeep Charcuterie.webp"
+					},
+					"credit": "Ray Kachatorian",
+					"width": 1500,
+					"height": 2102
+				}
+			]
+		}
+	]
+}

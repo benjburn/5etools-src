@@ -1,0 +1,100 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Blood Spear",
+			"source": "CoS",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/CoS/Blood Spear.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Gulthias Staff",
+			"source": "CoS",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/CoS/Gulthias Staff.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Holy Symbol of Ravenkind",
+			"source": "CoS",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/CoS/Holy Symbol of Ravenkind.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Icon of Ravenloft",
+			"source": "CoS",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/CoS/Icon of Ravenloft.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Saint Markovia's Thighbone",
+			"source": "CoS",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/CoS/Saint Markovia's Thighbone.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Sunsword",
+			"source": "CoS",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/CoS/Sunsword.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Tome of Strahd",
+			"source": "CoS",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/CoS/Tome of Strahd.webp"
+					}
+				}
+			]
+		}
+	]
+}

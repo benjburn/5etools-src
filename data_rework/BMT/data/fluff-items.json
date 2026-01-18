@@ -1,0 +1,562 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "+1 Fate Dealer's Deck",
+			"source": "BMT",
+			"_copy": {
+				"name": "Fate Dealer's Deck",
+				"source": "BMT"
+			}
+		},
+		{
+			"name": "+2 Fate Dealer's Deck",
+			"source": "BMT",
+			"_copy": {
+				"name": "Fate Dealer's Deck",
+				"source": "BMT"
+			}
+		},
+		{
+			"name": "+3 Fate Dealer's Deck",
+			"source": "BMT",
+			"_copy": {
+				"name": "Fate Dealer's Deck",
+				"source": "BMT"
+			}
+		},
+		{
+			"name": "Armor of Fungal Spores",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/BMT/Armor of Fungal Spores.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Armor of the Fallen",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/BMT/Armor of the Fallen.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Balance Card",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/BMT/Deck of Many Things/03-balance.webp"
+					},
+					"credit": "Francesca Resta"
+				}
+			]
+		},
+		{
+			"name": "Bow of Melodies",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/BMT/Bow of Melodies.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Comet Card",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/BMT/Deck of Many Things/12-comet.webp"
+					},
+					"credit": "Vallez Gax"
+				}
+			]
+		},
+		{
+			"name": "Crown of Whirling Comets",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/BMT/Crown of Whirling Comets.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Deck of Dimensions",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/BMT/Deck of Dimensions.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Deck of Many More Things",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/BMT/Deck of Many More Things.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Deck of Wonder",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/BMT/Deck of Wonder.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Donjon Card",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/BMT/Deck of Many Things/17-donjon.webp"
+					},
+					"credit": "Jim Zaccaria"
+				}
+			]
+		},
+		{
+			"name": "Euryale Card",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/BMT/Deck of Many Things/22-euryale.webp"
+					},
+					"credit": "Tinnel Lovitt"
+				}
+			]
+		},
+		{
+			"name": "Euryale's Aegis",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/BMT/Euryales Aegis.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Fate Dealer's Deck",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/BMT/Fate Dealers Deck.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Fates Card",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/BMT/Deck of Many Things/08-fates.webp"
+					},
+					"credit": "Tinnel Lovitt"
+				}
+			]
+		},
+		{
+			"name": "Flames Card",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/BMT/Deck of Many Things/20-flames.webp"
+					},
+					"credit": "Harry Conway"
+				}
+			]
+		},
+		{
+			"name": "Fool Card",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/BMT/Deck of Many Things/01-fool.webp"
+					},
+					"credit": "Harry Conway"
+				}
+			]
+		},
+		{
+			"name": "Gem Card",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/BMT/Deck of Many Things/05-gem.webp"
+					},
+					"credit": "Tinnel Lovitt"
+				}
+			]
+		},
+		{
+			"name": "Hammer of Runic Focus",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/BMT/Hammer of Runic Focus.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Jester Card",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/BMT/Deck of Many Things/14-jester.webp"
+					},
+					"credit": "Harry Conway"
+				}
+			]
+		},
+		{
+			"name": "Jester's Mask",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/BMT/Jesters Mask.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Key Card",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/BMT/Deck of Many Things/02-key.webp"
+					},
+					"credit": "Tinnel Lovitt"
+				}
+			]
+		},
+		{
+			"name": "Knight Card",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/BMT/Deck of Many Things/09-knight.webp"
+					},
+					"credit": "Vallez Gax"
+				}
+			]
+		},
+		{
+			"name": "Moon Card",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/BMT/Deck of Many Things/11-moon.webp"
+					},
+					"credit": "Vallez Gax"
+				}
+			]
+		},
+		{
+			"name": "Puzzle Card",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/BMT/Deck of Many Things/04-puzzle.webp"
+					},
+					"credit": "Tinnel Lovitt"
+				}
+			]
+		},
+		{
+			"name": "Rogue Card",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/BMT/Deck of Many Things/06-rogue.webp"
+					},
+					"credit": "Harry Conway"
+				}
+			]
+		},
+		{
+			"name": "Ruin Card",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/BMT/Deck of Many Things/16-ruin.webp"
+					},
+					"credit": "Andrea Sipl"
+				}
+			]
+		},
+		{
+			"name": "Sage Card",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/BMT/Deck of Many Things/07-sage.webp"
+					},
+					"credit": "Joanna Barnum"
+				}
+			]
+		},
+		{
+			"name": "Shield of the Tortoise",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/BMT/Shield of the Tortoise.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Shrieking Greaves",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/BMT/Shrieking Greaves.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Skull Card",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/BMT/Deck of Many Things/19-skull.webp"
+					},
+					"credit": "Alex Dos Diaz"
+				}
+			]
+		},
+		{
+			"name": "Spindle of Fate",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/BMT/Spindle of Fate.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Star Card",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/BMT/Deck of Many Things/13-star.webp"
+					},
+					"credit": "Vallez Gax"
+				}
+			]
+		},
+		{
+			"name": "Sun Card",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/BMT/Deck of Many Things/10-sun.webp"
+					},
+					"credit": "Vallez Gax"
+				}
+			]
+		},
+		{
+			"name": "Sword of the Planes",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/BMT/Sword of the Planes.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Talons Card",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/BMT/Deck of Many Things/21-talons.webp"
+					},
+					"credit": "Abigail Larson"
+				}
+			]
+		},
+		{
+			"name": "Telescopic Transporter",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/BMT/Telescopic Transporter.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Throne Card",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/BMT/Deck of Many Things/15-throne.webp"
+					},
+					"credit": "Andrea Sipl"
+				}
+			]
+		},
+		{
+			"name": "Void Card",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "decks/BMT/Deck of Many Things/18-void.webp"
+					},
+					"credit": "Alex Dos Diaz"
+				}
+			]
+		},
+		{
+			"name": "Warrior's Passkey",
+			"source": "BMT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/BMT/Warriors Passkey.webp"
+					}
+				}
+			]
+		}
+	]
+}

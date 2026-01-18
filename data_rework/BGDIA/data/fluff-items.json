@@ -1,0 +1,100 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Battle Standard of Infernal Power",
+			"source": "BGDIA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/BGDIA/Battle Standard of Infernal Power.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Hellfire Weapon",
+			"source": "BGDIA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/BGDIA/Hellfire Weapon.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Helm of Devil Command",
+			"source": "BGDIA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/BGDIA/Helm of Devil Command.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Matalotok",
+			"source": "BGDIA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/BGDIA/Matalotok.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Shield of the Hidden Lord",
+			"source": "BGDIA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/BGDIA/Shield of the Hidden Lord.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Soul Coin",
+			"source": "BGDIA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/BGDIA/Soul Coin.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Sword of Zariel",
+			"source": "BGDIA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/BGDIA/Sword of Zariel.webp"
+					}
+				}
+			]
+		}
+	]
+}

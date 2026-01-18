@@ -1,0 +1,48 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Draakhorn",
+			"source": "RoT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/RoT/Draakhorn.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Dragontooth Dagger",
+			"source": "RoT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/RoT/Dragontooth Dagger.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Mask of the Dragon Queen",
+			"source": "RoT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/RoT/Mask of the Dragon Queen.webp"
+					}
+				}
+			]
+		}
+	]
+}

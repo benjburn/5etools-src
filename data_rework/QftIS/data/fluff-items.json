@@ -1,0 +1,98 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Antigravity Belt",
+			"source": "QftIS",
+			"_copy": {
+				"name": "Technology",
+				"source": "QftIS"
+			}
+		},
+		{
+			"name": "Concussion Grenade",
+			"source": "QftIS",
+			"_copy": {
+				"name": "Technology",
+				"source": "QftIS"
+			}
+		},
+		{
+			"name": "Daoud's Wondrous Lanthorn",
+			"source": "QftIS",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/QftIS/Daouds Wondrous Lanthorn.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Needler Pistol",
+			"source": "QftIS",
+			"_copy": {
+				"name": "Technology",
+				"source": "QftIS"
+			}
+		},
+		{
+			"name": "Paralysis Pistol",
+			"source": "QftIS",
+			"_copy": {
+				"name": "Technology",
+				"source": "QftIS"
+			}
+		},
+		{
+			"name": "Robot Controller",
+			"source": "QftIS",
+			"_copy": {
+				"name": "Technology",
+				"source": "QftIS"
+			}
+		},
+		{
+			"name": "Sleep Grenade",
+			"source": "QftIS",
+			"_copy": {
+				"name": "Technology",
+				"source": "QftIS"
+			}
+		},
+		{
+			"name": "Staff of Ruling",
+			"source": "QftIS",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/QftIS/Staff of Ruling.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Technology",
+			"source": "QftIS",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/QftIS/Technology.webp"
+					},
+					"title": "Left (Top to Bottom): Needler Pistol, Paralysis Pistol, Bandolier of Grenades. Middle: Antigravity Belt. Right (Top to Bottom): Laser Pistol, Robot Controller, Laser Rifle",
+					"credit": "Dave Melvin"
+				}
+			]
+		}
+	]
+}

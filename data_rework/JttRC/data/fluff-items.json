@@ -1,0 +1,31 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Hammock of Worlds",
+			"source": "JttRC",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/JttRC/Hammock of Worlds.webp"
+					},
+					"credit": "Olga Drebas"
+				}
+			]
+		},
+		{
+			"name": "Lesser Hammock of Worlds",
+			"source": "JttRC",
+			"_copy": {
+				"name": "Hammock of Worlds",
+				"source": "JttRC"
+			}
+		}
+	]
+}

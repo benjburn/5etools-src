@@ -1,0 +1,365 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"subclass"
+		]
+	},
+	"class": [
+		{
+			"name": "Spellcaster Sidekick",
+			"source": "TCE",
+			"page": 144,
+			"edition": "classic",
+			"isSidekick": true,
+			"casterProgression": "artificer",
+			"cantripProgression": [
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4
+			],
+			"spellsKnownProgression": [
+				1,
+				2,
+				3,
+				3,
+				4,
+				4,
+				5,
+				5,
+				6,
+				6,
+				7,
+				7,
+				8,
+				8,
+				9,
+				9,
+				10,
+				10,
+				11,
+				11
+			],
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0}"
+					],
+					"rows": [
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						]
+					]
+				},
+				{
+					"colLabels": [
+						"{@filter Spells Known|spells|level=!0}"
+					],
+					"rows": [
+						[
+							1
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							6
+						],
+						[
+							7
+						],
+						[
+							7
+						],
+						[
+							8
+						],
+						[
+							8
+						],
+						[
+							9
+						],
+						[
+							9
+						],
+						[
+							10
+						],
+						[
+							10
+						],
+						[
+							11
+						],
+						[
+							11
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1}",
+						"{@filter 2nd|spells|level=2}",
+						"{@filter 3rd|spells|level=3}",
+						"{@filter 4th|spells|level=4}",
+						"{@filter 5th|spells|level=5}"
+					],
+					"rows": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Sidekick Class|Spellcaster Sidekick|TCE|1",
+				"Bonus Proficiencies|Spellcaster Sidekick|TCE|1",
+				"Spellcasting|Spellcaster Sidekick|TCE|1",
+				"Ability Score Improvement|Spellcaster Sidekick|TCE|4",
+				"Potent Cantrips|Spellcaster Sidekick|TCE|6",
+				"Ability Score Improvement|Spellcaster Sidekick|TCE|8",
+				"Ability Score Improvement|Spellcaster Sidekick|TCE|12",
+				"Empowered Spells|Spellcaster Sidekick|TCE|14",
+				"Ability Score Improvement|Spellcaster Sidekick|TCE|16",
+				"Ability Score Improvement|Spellcaster Sidekick|TCE|18",
+				"Focused Casting|Spellcaster Sidekick|TCE|20"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"subclasses": null
+		}
+	]
+}

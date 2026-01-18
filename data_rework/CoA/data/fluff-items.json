@@ -1,0 +1,81 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Amulet of the Inferno",
+			"source": "CoA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/CoA/Amulet of the Inferno.webp"
+					},
+					"credit": "Aaron Sims"
+				}
+			]
+		},
+		{
+			"name": "Ranseur of Torture",
+			"source": "CoA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/CoA/Ranseur of Torture.webp"
+					},
+					"credit": "Aaron Sims"
+				}
+			]
+		},
+		{
+			"name": "Ruby Rod of Asmodeus",
+			"source": "CoA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/CoA/Ruby Rod of Asmodeus and Scourge of Shadow.webp"
+					},
+					"title": "Scourge of Shadow (left) and Ruby Rod of Asmodeus (right)",
+					"credit": "Aaron Sims"
+				}
+			]
+		},
+		{
+			"name": "Scourge of Shadow",
+			"source": "CoA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/CoA/Ruby Rod of Asmodeus and Scourge of Shadow.webp"
+					},
+					"title": "Scourge of Shadow (left) and Ruby Rod of Asmodeus (right)",
+					"credit": "Aaron Sims"
+				}
+			]
+		},
+		{
+			"name": "Wrought-Iron Tower",
+			"source": "CoA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/CoA/Wrought-Iron Tower.webp"
+					},
+					"credit": "Aaron Sims"
+				}
+			]
+		}
+	]
+}

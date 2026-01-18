@@ -1,0 +1,20 @@
+{
+	"language": [
+		{
+			"name": "Khenra",
+			"source": "PSA",
+			"page": 18,
+			"typicalSpeakers": [
+				"{@race Khenra|PSA}"
+			]
+		},
+		{
+			"name": "Naga",
+			"source": "PSA",
+			"page": 18,
+			"typicalSpeakers": [
+				"{@race Naga|PSA|}"
+			]
+		}
+	]
+}

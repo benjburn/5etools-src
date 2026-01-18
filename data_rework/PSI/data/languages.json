@@ -1,0 +1,41 @@
+{
+	"language": [
+		{
+			"name": "Common",
+			"source": "PSI",
+			"page": 9,
+			"typicalSpeakers": [
+				"{@race Human (Innistrad)|PSI|Humans}",
+				"Members of the Church",
+				"{@creature Vampire Neonate|PSI|Vampires}",
+				"{@creature Werewolf (Krallenhorde)|PSI|Werewolves}",
+				"{@creature Geist|PSI|Geists}"
+			]
+		},
+		{
+			"name": "Demonic",
+			"source": "PSI",
+			"page": 9,
+			"typicalSpeakers": [
+				"{@filter Demons|bestiary|source=|tag=demon}",
+				"{@filter Devils|bestiary|source=|tag=devil}"
+			]
+		},
+		{
+			"name": "Draconic",
+			"source": "PSI",
+			"page": 9,
+			"typicalSpeakers": [
+				"{@filter Dragons|bestiary|source=PSI|type=dragon}"
+			]
+		},
+		{
+			"name": "Primordial",
+			"source": "PSI",
+			"page": 9,
+			"typicalSpeakers": [
+				"Elementals"
+			]
+		}
+	]
+}

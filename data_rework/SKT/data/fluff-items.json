@@ -1,0 +1,35 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Conch of Teleportation",
+			"source": "SKT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/SKT/Conch of Teleportation.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Wyrmskull Throne",
+			"source": "SKT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/SKT/Wyrmskull Throne.webp"
+					}
+				}
+			]
+		}
+	]
+}

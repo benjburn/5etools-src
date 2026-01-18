@@ -1,0 +1,15 @@
+{
+	"language": [
+		{
+			"name": "Netherese",
+			"source": "HotDQ",
+			"page": 93,
+			"otherSources": [
+				{
+					"source": "ToD"
+				}
+			],
+			"script": "Draconic"
+		}
+	]
+}

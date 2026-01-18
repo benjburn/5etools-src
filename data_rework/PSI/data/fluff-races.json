@@ -1,0 +1,147 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"raceFluff"
+		]
+	},
+	"raceFluff": [
+		{
+			"name": "Human (Innistrad)",
+			"source": "PSI",
+			"entries": [
+				"Innistrad's population is mostly human, and player characters in an Innistrad campaign should be human in most circumstances. However, the humans of Kessig are different in many respects from those of Gavony, and Nephalia's urban culture is very distinct from the shadow-draped land of Stensia. Diversity among player characters comes not from race, but from each character's home province."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/PSI/Innistrad.webp"
+					},
+					"title": "Diregraf Escort",
+					"credit": "Ryan Pancoast",
+					"width": 617,
+					"height": 673
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/PSI/Innistrad2.webp"
+					},
+					"title": "Silverblade Paladin",
+					"credit": "Jason Chan",
+					"width": 865,
+					"height": 624
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/PSI/Innistrad3.webp"
+					},
+					"title": "Lunar Mystic",
+					"credit": "Wesley Burt",
+					"width": 807,
+					"height": 575
+				}
+			]
+		},
+		{
+			"name": "Human (Innistrad; Gavony)",
+			"source": "PSI",
+			"_copy": {
+				"name": "Human (Innistrad)",
+				"source": "PSI",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"Whether safe behind the walls of the High City of Thraben or out in the moors with little more than shuttered windows, barred doors, and grim determination to stand against the horrors of the night, the humans of Gavony are the most well-rounded people of Innistrad."
+									]
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Human (Innistrad; Kessig)",
+			"source": "PSI",
+			"_copy": {
+				"name": "Human (Innistrad)",
+				"source": "PSI",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"For the Kessiger, life is work. Kessigers are farmers, millers, weavers, and stonemasons, living close to the land and working hard for every meal. This makes them self-reliant, pragmatic, and plainspoken."
+									]
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Human (Innistrad; Nephalia)",
+			"source": "PSI",
+			"_copy": {
+				"name": "Human (Innistrad)",
+				"source": "PSI",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"Beneath an ever-present shroud of fog billowing in from the sea, the people of Nephalia maintain a semblance of normalcy, buying and selling goods from across Innistrad in their bustling markets, setting out to sea in tiny fishing boats, or tilling the soggy earth in waterlogged fields."
+									]
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Human (Innistrad; Stensia)",
+			"source": "PSI",
+			"_copy": {
+				"name": "Human (Innistrad)",
+				"source": "PSI",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"Countless generations of hardship and proximity to the vampire strongholds—leading to lost children and neighbors—have taught Stensians to guard their hearts. They are proud and fervent in their beliefs but seem brusque or even cold to the people of other provinces."
+									]
+								}
+							]
+						}
+					}
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"objectFluff"
+		]
+	},
+	"objectFluff": [
+		{
+			"name": "Captain A-Hole",
+			"source": "RMBRE",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "objects/RMBRE/Captain A-Hole.webp"
+					},
+					"credit": "Troy Little"
+				}
+			]
+		}
+	]
+}

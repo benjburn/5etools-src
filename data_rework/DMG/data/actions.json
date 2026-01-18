@@ -1,0 +1,175 @@
+{
+	"action": [
+		{
+			"name": "Activate an Item",
+			"source": "DMG",
+			"page": 141,
+			"srd": true,
+			"basicRules": true,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"Activating some magic items requires a user to do something in particular, such as holding the item and uttering a command word, reading the item if it is a scroll, or drinking it if it is a potion. The description of each item category or individual item details how an item is activated. Certain items use one or more of the following rules related to their activation.",
+				"If an item requires an action to activate, that action isn't a function of the {@action Use an Object} action, so a feature such as the rogue's {@subclassFeature Fast Hands|Rogue||Thief||3} can't be used to activate the item.",
+				{
+					"type": "entries",
+					"name": "Command Word",
+					"entries": [
+						"A command word is a word or phrase that must be spoken audibly for the item to operate. A magic item that requires the user to speak a command word can't be activated in the area of any effect that prevents sound, such as the area created by the silence spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Consumables",
+					"entries": [
+						"Some items are used up when they are activated. A potion or elixir must be swallowed, or an oil applied to the body. The writing vanishes from a scroll when it is read. Once used, a consumable item loses its magic and no longer functions."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells",
+					"entries": [
+						"Some magic items allow the user to cast a spell from the item, often by expending charges from it. The spell is cast at the lowest possible spell and caster level, doesn't expend any of the user's spell slots, and requires no components unless the item's description says otherwise. The spell uses its normal casting time, range, and duration, and the user of the item must concentrate if the spell requires {@status concentration}. Certain items make exceptions to these rules, changing the casting time, duration, or other parts of a spell.",
+						"Many items, such as potions, bypass the casting of the spell and confer the spell's effects. Such an item still uses the spell's duration unless the item's description says otherwise.",
+						"A magic item, such as certain staffs, may require you to use your own spellcasting ability when you cast a spell from the item. If you have more than one spellcasting ability, you choose which one to use with the item. If you don't have a spellcasting ability—perhaps you're a rogue with the Use Magic Device feature—your spellcasting ability modifier is +0 for the item, and your proficiency bonus does apply."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Charges",
+					"entries": [
+						"Some magic items have charges that you expend to activate its properties. The number of charges an item has remaining is revealed when an identify spell is cast on the item, or when a creature attunes to the item. Additionally, when an item regains charges, the creature attuned to that item learns how many charges it regained."
+					]
+				}
+			]
+		},
+		{
+			"name": "Climb onto a Bigger Creature",
+			"source": "DMG",
+			"page": 271,
+			"fromVariant": "Action Options",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"If one creature wants to jump onto another creature, it can do so by {@action grapple||grappling}. A small or Medium creature has little chance of making a successful grapple against a Huge or Gargantuan creature, however, unless magic has granted the grappler supernatural might.",
+				"As an alternative, a suitably large opponent can be treated as terrain for the purpose of jumping onto its back or clinging to a limb. After making any ability checks necessary to get into position and onto the larger creature, the smaller creature uses its action to make a Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check contested by the target's Dexterity ({@skill Acrobatics}) check. If it wins the contest, the smaller creature successfully moves into the target creature's space, the smaller creature moves with the target and has advantage on attack rolls against it.",
+				"The smaller creature can move around within the larger creature's space, treating the space as {@quickref difficult terrain||3}. The larger creature's ability to attack the smaller creature depends on the smaller creature's location, and is left to your discretion. The larger creature can dislodge the smaller creature as an action—knocking it off, scraping it against a wall, or grabbing and throwing it—by making a Strength ({@skill Athletics}) check contested by the smaller creature's Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check. The smaller creature chooses which ability to use."
+			]
+		},
+		{
+			"name": "Disarm",
+			"source": "DMG",
+			"page": 271,
+			"fromVariant": "Action Options",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"A creature can use a weapon attack to knock a weapon or another item from a target's grasp. The attacker makes an attack roll contested by the target's Strength ({@skill Athletics}) check or Dexterity ({@skill Acrobatics}) check. If the attacker wins the contest, the attack causes no damage or other ill effect, but the defender drops the item.",
+				"The attacker has disadvantage on its attack roll if the target is holding the item with two or more hands. The target has advantage on its ability check if it is larger than the attacking creature, or disadvantage if it is smaller."
+			],
+			"seeAlsoAction": [
+				"Attack"
+			]
+		},
+		{
+			"name": "Healing Surge",
+			"source": "DMG",
+			"page": 266,
+			"fromVariant": "Healing",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"As an action, a character can use a healing surge and spend up to half his or her Hit Dice. For each Hit Die spent in this way, the player rolls the die and adds the character's Constitution modifier. The character regains hit points equal to the total. The player can decide to spend an additional Hit Die after each roll.",
+				"A character who uses a healing surge can't do so again until he or she finishes a short or long rest. Under this optional rule, a character regains all spent Hit Dice at the end of a long rest. With a short rest, a character regains Hit Dice equal to his or her level divided by four (minimum of one dice)."
+			]
+		},
+		{
+			"name": "Mark",
+			"source": "DMG",
+			"page": 271,
+			"fromVariant": "Action Options",
+			"entries": [
+				"This option makes it easier for melee combatants to harry each other with opportunity attacks.",
+				"When a creature makes a melee attack, it can also mark its target. Until the end of the attacker's next turn, any opportunity attack it makes against the marked target has advantage. The opportunity attack doesn't expend the attacker's reaction, but the attacker can't make the attack if anything, such as the {@condition incapacitated} condition or the {@spell shocking grasp} spell, is preventing it from taking reactions. The attacker is limited to one opportunity attack per turn."
+			],
+			"seeAlsoAction": [
+				"Attack"
+			]
+		},
+		{
+			"name": "Overrun",
+			"source": "DMG",
+			"page": 272,
+			"fromVariant": "Action Options",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				},
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"entries": [
+				"When a creature tries to move through a hostile creature's space, the mover can try to force its way through by overrunning the hostile creature. As an action or a bonus action, the mover makes a Strength ({@skill Athletics}) check contested by the hostile creature's Strength ({@skill Athletics}) check. The creature attempting the overrun has advantage on this check if it is larger than the hostile creature, or disadvantage if it is smaller. If the mover wins the contest, it can move through the hostile creature's space once this turn."
+			],
+			"seeAlsoAction": [
+				"Tumble|DMG"
+			]
+		},
+		{
+			"name": "Shove Aside",
+			"source": "DMG",
+			"page": 272,
+			"fromVariant": "Action Options",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"With this option, a creature uses the special {@action shove} attack from the {@book Player's Handbook|PHB|9|Shoving a Creature} to force a target to the side, rather than away. The attacker has disadvantage on its Strength ({@skill Athletics}) check when it does so. If that check is successful, the attacker moves the target 5 feet to a different space within its reach."
+			]
+		},
+		{
+			"name": "Tumble",
+			"source": "DMG",
+			"page": 272,
+			"fromVariant": "Action Options",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				},
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"entries": [
+				"A creature can try to tumble through a hostile creature's space, ducking and weaving past the opponent. As an action or a bonus action, the tumbler makes a Dexterity ({@skill Acrobatics}) check contested by the hostile creature's Dexterity ({@skill Acrobatics}) check. If the tumbler wins the contest, it can move through the hostile creature's space once this turn."
+			],
+			"seeAlsoAction": [
+				"Overrun|DMG"
+			]
+		}
+	]
+}

@@ -1,0 +1,101 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Feywild Trinket",
+			"source": "WBtW",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/WBtW/Feywild Trinket.webp"
+					},
+					"credit": "Claudio Pozas"
+				}
+			]
+		},
+		{
+			"name": "Iggwilv's Cauldron",
+			"source": "WBtW",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/WBtW/Iggwilvs Cauldron.webp"
+					},
+					"credit": "Olga Drebas"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/WBtW/Iggwilvs Cauldron (Iron).webp"
+					},
+					"credit": "Olga Drebas"
+				}
+			]
+		},
+		{
+			"name": "Ornithopter of Flying",
+			"source": "WBtW",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/WBtW/Ornithopter of Flying.webp"
+					},
+					"credit": "Matt Stewart"
+				}
+			]
+		},
+		{
+			"name": "Snicker-Snack",
+			"source": "WBtW",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/WBtW/Snicker-Snack.webp"
+					},
+					"credit": "Filip Burburan"
+				}
+			]
+		},
+		{
+			"name": "Steel",
+			"source": "WBtW",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/WBtW/Steel.webp"
+					},
+					"credit": "Daarken"
+				}
+			]
+		},
+		{
+			"name": "Witchlight Vane",
+			"source": "WBtW",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/WBtW/Witchlight Vane.webp"
+					},
+					"credit": "Nikki Dawes"
+				}
+			]
+		}
+	]
+}

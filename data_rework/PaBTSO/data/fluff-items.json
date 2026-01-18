@@ -1,0 +1,130 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Luminous War Pick",
+			"source": "PaBTSO",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/PaBTSO/Luminous War Pick.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Mind Crystal",
+			"source": "PaBTSO",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/PaBTSO/Mind Crystal.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Mind Crystal (Careful)",
+			"source": "PaBTSO",
+			"_copy": {
+				"name": "Mind Crystal",
+				"source": "PaBTSO"
+			}
+		},
+		{
+			"name": "Mind Crystal (Distant)",
+			"source": "PaBTSO",
+			"_copy": {
+				"name": "Mind Crystal",
+				"source": "PaBTSO"
+			}
+		},
+		{
+			"name": "Mind Crystal (Empowered)",
+			"source": "PaBTSO",
+			"_copy": {
+				"name": "Mind Crystal",
+				"source": "PaBTSO"
+			}
+		},
+		{
+			"name": "Mind Crystal (Extended)",
+			"source": "PaBTSO",
+			"_copy": {
+				"name": "Mind Crystal",
+				"source": "PaBTSO"
+			}
+		},
+		{
+			"name": "Mind Crystal (Heightened)",
+			"source": "PaBTSO",
+			"_copy": {
+				"name": "Mind Crystal",
+				"source": "PaBTSO"
+			}
+		},
+		{
+			"name": "Mind Crystal (Quickened)",
+			"source": "PaBTSO",
+			"_copy": {
+				"name": "Mind Crystal",
+				"source": "PaBTSO"
+			}
+		},
+		{
+			"name": "Mind Crystal (Subtle)",
+			"source": "PaBTSO",
+			"_copy": {
+				"name": "Mind Crystal",
+				"source": "PaBTSO"
+			}
+		},
+		{
+			"name": "Mindguard Crown",
+			"source": "PaBTSO",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/PaBTSO/Mindguard Crown.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Mudslick Tower",
+			"source": "PaBTSO",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/PaBTSO/Mudslick Tower.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Ring of the Orator",
+			"source": "PaBTSO",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/PaBTSO/Ring of the Orator.webp"
+					}
+				}
+			]
+		}
+	]
+}

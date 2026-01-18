@@ -1,0 +1,113 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Copper (cp)",
+			"source": "PHB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/PHB/Copper (cp).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Electrum (ep)",
+			"source": "PHB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/PHB/Electrum (ep).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Gold (gp)",
+			"source": "PHB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/PHB/Gold (gp).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Healer's Kit",
+			"source": "PHB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/PHB/Healer's Kit.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Platinum (pp)",
+			"source": "PHB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/PHB/Platinum (pp).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Silver (sp)",
+			"source": "PHB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/PHB/Silver (sp).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Thieves' Tools",
+			"source": "PHB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/PHB/Thieves' Tools.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Trinket",
+			"source": "PHB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/PHB/Trinket (PHB).webp"
+					}
+				}
+			]
+		}
+	]
+}

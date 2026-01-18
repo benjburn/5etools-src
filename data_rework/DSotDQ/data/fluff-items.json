@@ -1,0 +1,65 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Fargab",
+			"source": "DSotDQ",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/DSotDQ/Fargab.webp"
+					},
+					"credit": "Kent Davis"
+				}
+			]
+		},
+		{
+			"name": "Hoopak",
+			"source": "DSotDQ",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/DSotDQ/Hoopak.webp"
+					},
+					"credit": "Crystal Sully"
+				}
+			]
+		},
+		{
+			"name": "Kagonesti Forest Shroud",
+			"source": "DSotDQ",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/DSotDQ/Kagonesti Forest Shroud.webp"
+					},
+					"credit": "Caio E Santos"
+				}
+			]
+		},
+		{
+			"name": "Narycrash",
+			"source": "DSotDQ",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/DSotDQ/Narycrash.webp"
+					},
+					"credit": "Kent Davis"
+				}
+			]
+		}
+	]
+}

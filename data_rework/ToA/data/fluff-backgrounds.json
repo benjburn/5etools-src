@@ -1,0 +1,43 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"backgroundFluff"
+		]
+	},
+	"backgroundFluff": [
+		{
+			"name": "Anthropologist",
+			"source": "ToA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"You have always been fascinated by other cultures, from the most ancient and primeval lost lands to the most modern civilizations. By studying other cultures' customs, philosophies, laws, rituals, religious beliefs, languages, and art, you have learned how tribes, empires, and all forms of society in between craft their own destinies and doom. This knowledge came to you not only through books and scrolls, but also through firsthand observation—by visiting far-flung settlements and exploring local histories and customs."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Archaeologist",
+			"source": "ToA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"An archaeologist learns about the long-lost and fallen cultures of the past by studying their remains-their bones, their ruins, their surviving masterworks, and their tombs. Those who practice archaeology travel to the far corners of the world to root through crumbled cities and lost dungeons, digging in search of artifacts that might tell the stories of monarchs and high priests, wars and cataclysms."
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

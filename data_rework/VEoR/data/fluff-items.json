@@ -1,0 +1,60 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Chime of Exile",
+			"source": "VEoR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/VEoR/Chime of Exile.webp"
+					},
+					"credit": "Irina Nordsol"
+				}
+			]
+		},
+		{
+			"name": "Crown of Lies",
+			"source": "VEoR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/VEoR/Crown of Lies.webp"
+					},
+					"credit": "Lauren Walsh"
+				}
+			]
+		},
+		{
+			"name": "Rod of Seven Parts",
+			"source": "VEoR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/VEoR/Rod of Seven Parts.webp"
+					},
+					"credit": "CoupleofKooks"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/VEoR/Rod of Seven Parts Piece.webp"
+					},
+					"title": "A piece of the Rod of Seven Parts",
+					"credit": "CoupleofKooks"
+				}
+			]
+		}
+	]
+}

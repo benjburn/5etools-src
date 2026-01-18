@@ -1,0 +1,1289 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"subclass"
+		]
+	},
+	"class": [
+		{
+			"name": "Druid",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"reprintedAs": [
+				"Druid|XPHB"
+			],
+			"edition": "classic",
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"int",
+				"wis"
+			],
+			"spellcastingAbility": "wis",
+			"casterProgression": "full",
+			"preparedSpells": "<$level$> + <$wis_mod$>",
+			"preparedSpellsChange": "restLong",
+			"cantripProgression": [
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					{
+						"proficiency": "shield",
+						"full": "shields (druids will not wear armor or use shields made of metal)"
+					}
+				],
+				"weapons": [
+					"{@item club|phb|clubs}",
+					"{@item dagger|phb|daggers}",
+					"{@item dart|phb|darts}",
+					"{@item javelin|phb|javelins}",
+					"{@item mace|phb|maces}",
+					"{@item quarterstaff|phb|quarterstaffs}",
+					"{@item scimitar|phb|scimitars}",
+					"{@item sickle|phb|sickles}",
+					"{@item sling|phb|slings}",
+					"{@item spear|phb|spears}"
+				],
+				"tools": [
+					"{@item Herbalism kit|PHB}"
+				],
+				"toolProficiencies": [
+					{
+						"herbalism kit": true
+					}
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"animal handling",
+								"insight",
+								"medicine",
+								"nature",
+								"perception",
+								"religion",
+								"survival"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a wooden {@item shield|phb} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item scimitar|phb} or (b) any {@filter simple melee weapon|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
+					"{@item Leather armor|phb}, an {@item explorer's pack|phb}, and a {@item druidic focus|phb}"
+				],
+				"goldAlternative": "{@dice 2d4 × 10|2d4 × 10|Starting Gold}",
+				"defaultData": [
+					{
+						"a": [
+							"shield|phb"
+						],
+						"b": [
+							{
+								"equipmentType": "weaponSimple"
+							}
+						]
+					},
+					{
+						"a": [
+							"scimitar|phb"
+						],
+						"b": [
+							{
+								"equipmentType": "weaponSimpleMelee"
+							}
+						]
+					},
+					{
+						"_": [
+							"Leather armor|phb",
+							"explorer's pack|phb",
+							{
+								"equipmentType": "focusSpellcastingDruidic"
+							}
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"wis": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light",
+						"medium",
+						{
+							"proficiency": "shield",
+							"full": "shields (druids will not wear armor or use shields made of metal)"
+						}
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|class=Druid}"
+					],
+					"rows": [
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=Druid}",
+						"{@filter 2nd|spells|level=2|class=Druid}",
+						"{@filter 3rd|spells|level=3|class=Druid}",
+						"{@filter 4th|spells|level=4|class=Druid}",
+						"{@filter 5th|spells|level=5|class=Druid}",
+						"{@filter 6th|spells|level=6|class=Druid}",
+						"{@filter 7th|spells|level=7|class=Druid}",
+						"{@filter 8th|spells|level=8|class=Druid}",
+						"{@filter 9th|spells|level=9|class=Druid}"
+					],
+					"rowsSpellProgression": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							2,
+							1,
+							1
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Druidic|Druid||1",
+				"Spellcasting|Druid||1",
+				"Wild Shape|Druid||2",
+				"Wild Companion|Druid||2|TCE",
+				{
+					"classFeature": "Druid Circle|Druid||2",
+					"gainSubclassFeature": true
+				},
+				"Wild Shape Improvement|Druid||4",
+				"Ability Score Improvement|Druid||4",
+				"Cantrip Versatility|Druid||4|TCE",
+				{
+					"classFeature": "Druid Circle feature|Druid||6",
+					"gainSubclassFeature": true
+				},
+				"Wild Shape Improvement|Druid||8",
+				"Ability Score Improvement|Druid||8",
+				{
+					"classFeature": "Druid Circle feature|Druid||10",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Druid||12",
+				{
+					"classFeature": "Druid Circle feature|Druid||14",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Druid||16",
+				"Timeless Body|Druid||18",
+				"Beast Spells|Druid||18",
+				"Ability Score Improvement|Druid||19",
+				"Archdruid|Druid||20"
+			],
+			"subclassTitle": "Druid Circle",
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"subclasses": [
+				{
+					"name": "Circle of the Land",
+					"shortName": "Land",
+					"source": "PHB",
+					"className": "Druid",
+					"classSource": "PHB",
+					"page": 68,
+					"srd": true,
+					"reprintedAs": [
+						"Land|Druid|XPHB|XPHB"
+					],
+					"edition": "classic",
+					"additionalSpells": [
+						{
+							"name": "Arctic",
+							"known": {
+								"1": {
+									"_": [
+										{
+											"choose": "level=0|class=Druid"
+										}
+									]
+								}
+							},
+							"prepared": {
+								"3": [
+									"hold person",
+									"spike growth"
+								],
+								"5": [
+									"sleet storm",
+									"slow"
+								],
+								"7": [
+									"freedom of movement",
+									"ice storm"
+								],
+								"9": [
+									"commune with nature",
+									"cone of cold"
+								]
+							}
+						},
+						{
+							"name": "Coast",
+							"known": {
+								"1": {
+									"_": [
+										{
+											"choose": "level=0|class=Druid"
+										}
+									]
+								}
+							},
+							"prepared": {
+								"3": [
+									"mirror image",
+									"misty step"
+								],
+								"5": [
+									"water breathing",
+									"water walk"
+								],
+								"7": [
+									"control water",
+									"freedom of movement"
+								],
+								"9": [
+									"conjure elemental",
+									"scrying"
+								]
+							}
+						},
+						{
+							"name": "Desert",
+							"known": {
+								"1": {
+									"_": [
+										{
+											"choose": "level=0|class=Druid"
+										}
+									]
+								}
+							},
+							"prepared": {
+								"3": [
+									"blur",
+									"silence"
+								],
+								"5": [
+									"create food and water",
+									"protection from energy"
+								],
+								"7": [
+									"blight",
+									"hallucinatory terrain"
+								],
+								"9": [
+									"insect plague",
+									"wall of stone"
+								]
+							}
+						},
+						{
+							"name": "Forest",
+							"known": {
+								"1": {
+									"_": [
+										{
+											"choose": "level=0|class=Druid"
+										}
+									]
+								}
+							},
+							"prepared": {
+								"3": [
+									"barkskin",
+									"spider climb"
+								],
+								"5": [
+									"call lightning",
+									"plant growth"
+								],
+								"7": [
+									"divination",
+									"freedom of movement"
+								],
+								"9": [
+									"commune with nature",
+									"tree stride"
+								]
+							}
+						},
+						{
+							"name": "Grassland",
+							"known": {
+								"1": {
+									"_": [
+										{
+											"choose": "level=0|class=Druid"
+										}
+									]
+								}
+							},
+							"prepared": {
+								"3": [
+									"invisibility",
+									"pass without trace"
+								],
+								"5": [
+									"daylight",
+									"haste"
+								],
+								"7": [
+									"divination",
+									"freedom of movement"
+								],
+								"9": [
+									"dream",
+									"insect plague"
+								]
+							}
+						},
+						{
+							"name": "Mountain",
+							"known": {
+								"1": {
+									"_": [
+										{
+											"choose": "level=0|class=Druid"
+										}
+									]
+								}
+							},
+							"prepared": {
+								"3": [
+									"spider climb",
+									"spike growth"
+								],
+								"5": [
+									"lightning bolt",
+									"meld into stone"
+								],
+								"7": [
+									"stone shape",
+									"stoneskin"
+								],
+								"9": [
+									"passwall",
+									"wall of stone"
+								]
+							}
+						},
+						{
+							"name": "Swamp",
+							"known": {
+								"1": {
+									"_": [
+										{
+											"choose": "level=0|class=Druid"
+										}
+									]
+								}
+							},
+							"prepared": {
+								"3": [
+									"darkness",
+									"Melf's acid arrow"
+								],
+								"5": [
+									"water walk",
+									"stinking cloud"
+								],
+								"7": [
+									"freedom of movement",
+									"locate creature"
+								],
+								"9": [
+									"insect plague",
+									"scrying"
+								]
+							}
+						},
+						{
+							"name": "Underdark",
+							"known": {
+								"1": {
+									"_": [
+										{
+											"choose": "level=0|class=Druid"
+										}
+									]
+								}
+							},
+							"prepared": {
+								"3": [
+									"spider climb",
+									"web"
+								],
+								"5": [
+									"gaseous form",
+									"stinking cloud"
+								],
+								"7": [
+									"greater invisibility",
+									"stone shape"
+								],
+								"9": [
+									"cloudkill",
+									"insect plague"
+								]
+							}
+						}
+					],
+					"subclassFeatures": [
+						"Circle of the Land|Druid||Land||2",
+						"Land's Stride|Druid||Land||6",
+						"Nature's Ward|Druid||Land||10",
+						"Nature's Sanctuary|Druid||Land||14"
+					],
+					"features": [
+						{
+							"name": "Circle of the Land",
+							"source": "PHB",
+							"page": 68,
+							"srd": true,
+							"className": "Druid",
+							"classSource": "PHB",
+							"subclassShortName": "Land",
+							"subclassSource": "PHB",
+							"level": 2,
+							"entries": [
+								"The Circle of the Land is made up of mystics and sages who safeguard ancient knowledge and rites through a vast oral tradition. These druids meet within sacred circles of trees or standing stones to whisper primal secrets in {@language Druidic}. The circle's wisest members preside as the chief priests of communities that hold to the Old Faith and serve as advisors to the rulers of those folk. As a member of this circle, your magic is influenced by the land where you were initiated into the circle's mysterious rites.",
+								{
+									"type": "refSubclassFeature",
+									"subclassFeature": "Bonus Cantrip|Druid||Land||2"
+								},
+								{
+									"type": "refSubclassFeature",
+									"subclassFeature": "Natural Recovery|Druid||Land||2"
+								},
+								{
+									"type": "refSubclassFeature",
+									"subclassFeature": "Circle Spells|Druid||Land||2"
+								}
+							]
+						},
+						{
+							"name": "Circle Spells",
+							"source": "PHB",
+							"page": 68,
+							"srd": true,
+							"className": "Druid",
+							"classSource": "PHB",
+							"subclassShortName": "Land",
+							"subclassSource": "PHB",
+							"level": 2,
+							"header": 1,
+							"entries": [
+								"Your mystical connection to the land infuses you with the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid. Choose that land—arctic, coast, desert, forest, grassland, mountain, swamp, or Underdark—and consult the associated list of spells.",
+								"Once you gain access to a circle spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+								{
+									"type": "table",
+									"caption": "Arctic",
+									"colLabels": [
+										"Druid Level",
+										"Circle Spells"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"3rd",
+											"{@spell hold person}, {@spell spike growth}"
+										],
+										[
+											"5th",
+											"{@spell sleet storm}, {@spell slow}"
+										],
+										[
+											"7th",
+											"{@spell freedom of movement}, {@spell ice storm}"
+										],
+										[
+											"9th",
+											"{@spell commune with nature}, {@spell cone of cold}"
+										]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Coast",
+									"colLabels": [
+										"Druid Level",
+										"Circle Spells"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"3rd",
+											"{@spell mirror image}, {@spell misty step}"
+										],
+										[
+											"5th",
+											"{@spell water breathing}, {@spell water walk}"
+										],
+										[
+											"7th",
+											"{@spell control water}, {@spell freedom of movement}"
+										],
+										[
+											"9th",
+											"{@spell conjure elemental}, {@spell scrying}"
+										]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Desert",
+									"colLabels": [
+										"Druid Level",
+										"Circle Spells"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"3rd",
+											"{@spell blur}, {@spell silence}"
+										],
+										[
+											"5th",
+											"{@spell create food and water}, {@spell protection from energy}"
+										],
+										[
+											"7th",
+											"{@spell blight}, {@spell hallucinatory terrain}"
+										],
+										[
+											"9th",
+											"{@spell insect plague}, {@spell wall of stone}"
+										]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Forest",
+									"colLabels": [
+										"Druid Level",
+										"Circle Spells"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"3rd",
+											"{@spell barkskin}, {@spell spider climb}"
+										],
+										[
+											"5th",
+											"{@spell call lightning}, {@spell plant growth}"
+										],
+										[
+											"7th",
+											"{@spell divination}, {@spell freedom of movement}"
+										],
+										[
+											"9th",
+											"{@spell commune with nature}, {@spell tree stride}"
+										]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Grassland",
+									"colLabels": [
+										"Druid Level",
+										"Circle Spells"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"3rd",
+											"{@spell invisibility}, {@spell pass without trace}"
+										],
+										[
+											"5th",
+											"{@spell daylight}, {@spell haste}"
+										],
+										[
+											"7th",
+											"{@spell divination}, {@spell freedom of movement}"
+										],
+										[
+											"9th",
+											"{@spell dream}, {@spell insect plague}"
+										]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Mountain",
+									"colLabels": [
+										"Druid Level",
+										"Circle Spells"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"3rd",
+											"{@spell spider climb}, {@spell spike growth}"
+										],
+										[
+											"5th",
+											"{@spell lightning bolt}, {@spell meld into stone}"
+										],
+										[
+											"7th",
+											"{@spell stone shape}, {@spell stoneskin}"
+										],
+										[
+											"9th",
+											"{@spell passwall}, {@spell wall of stone}"
+										]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Swamp",
+									"colLabels": [
+										"Druid Level",
+										"Circle Spells"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"3rd",
+											"{@spell darkness}, {@spell Melf's acid arrow}"
+										],
+										[
+											"5th",
+											"{@spell water walk}, {@spell stinking cloud}"
+										],
+										[
+											"7th",
+											"{@spell freedom of movement}, {@spell locate creature}"
+										],
+										[
+											"9th",
+											"{@spell insect plague}, {@spell scrying}"
+										]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Underdark",
+									"colLabels": [
+										"Druid Level",
+										"Circle Spells"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"3rd",
+											"{@spell spider climb}, {@spell web}"
+										],
+										[
+											"5th",
+											"{@spell gaseous form}, {@spell stinking cloud}"
+										],
+										[
+											"7th",
+											"{@spell greater invisibility}, {@spell stone shape}"
+										],
+										[
+											"9th",
+											"{@spell cloudkill}, {@spell insect plague}"
+										]
+									]
+								}
+							]
+						},
+						{
+							"name": "Natural Recovery",
+							"source": "PHB",
+							"page": 68,
+							"srd": true,
+							"className": "Druid",
+							"classSource": "PHB",
+							"subclassShortName": "Land",
+							"subclassSource": "PHB",
+							"level": 2,
+							"header": 1,
+							"entries": [
+								"Starting at 2nd level, you can regain some of your magical energy by sitting in meditation and communing with nature. During a short rest, you choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your druid level (rounded up), and none of the slots can be 6th level or higher. You can't use this feature again until you finish a long rest.",
+								"For example, when you are a 4th-level druid, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level slot or two 1st-level slots."
+							]
+						},
+						{
+							"name": "Land's Stride",
+							"source": "PHB",
+							"page": 68,
+							"srd": true,
+							"className": "Druid",
+							"classSource": "PHB",
+							"subclassShortName": "Land",
+							"subclassSource": "PHB",
+							"level": 6,
+							"header": 2,
+							"entries": [
+								"Starting at 6th level, moving through nonmagical {@quickref difficult terrain||3} costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.",
+								"In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such as those created by the {@spell entangle} spell."
+							]
+						},
+						{
+							"name": "Nature's Ward",
+							"source": "PHB",
+							"page": 68,
+							"srd": true,
+							"className": "Druid",
+							"classSource": "PHB",
+							"subclassShortName": "Land",
+							"subclassSource": "PHB",
+							"level": 10,
+							"header": 2,
+							"entries": [
+								"When you reach 10th level, you can't be {@condition charmed} or {@condition frightened} by elementals or fey, and you are immune to poison and disease."
+							]
+						},
+						{
+							"name": "Nature's Sanctuary",
+							"source": "PHB",
+							"page": 68,
+							"srd": true,
+							"className": "Druid",
+							"classSource": "PHB",
+							"subclassShortName": "Land",
+							"subclassSource": "PHB",
+							"level": 14,
+							"header": 2,
+							"entries": [
+								"When you reach 14th level, creatures of the natural world sense your connection to nature and become hesitant to attack you. When a beast or plant creature attacks you, that creature must make a Wisdom saving throw against your druid spell save DC. On a failed save, the creature must choose a different target, or the attack automatically misses. On a successful save, the creature is immune to this effect for 24 hours.",
+								"The creature is aware of this effect before it makes its attack against you."
+							]
+						}
+					]
+				},
+				{
+					"name": "Circle of the Moon",
+					"shortName": "Moon",
+					"source": "PHB",
+					"className": "Druid",
+					"classSource": "PHB",
+					"page": 69,
+					"reprintedAs": [
+						"Moon|Druid|XPHB|XPHB"
+					],
+					"edition": "classic",
+					"additionalSpells": [
+						{
+							"known": {
+								"14": [
+									"alter self"
+								]
+							}
+						}
+					],
+					"subclassFeatures": [
+						"Circle of the Moon|Druid||Moon||2",
+						"Primal Strike|Druid||Moon||6",
+						"Elemental Wild Shape|Druid||Moon||10",
+						"Thousand Forms|Druid||Moon||14"
+					],
+					"features": [
+						{
+							"name": "Circle of the Moon",
+							"source": "PHB",
+							"page": 69,
+							"className": "Druid",
+							"classSource": "PHB",
+							"subclassShortName": "Moon",
+							"subclassSource": "PHB",
+							"level": 2,
+							"entries": [
+								"Druids of the Circle of the Moon are fierce guardians of the wilds. Their order gathers under the full moon to share news and trade warnings. They haunt the deepest parts of the wilderness, where they might go for weeks on end before crossing paths with another humanoid creature, let alone another druid.",
+								"Changeable as the moon, a druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth in bear form to drive off a trespassing monster. The wild is in the druid's blood.",
+								{
+									"type": "refSubclassFeature",
+									"subclassFeature": "Combat Wild Shape|Druid||Moon||2"
+								},
+								{
+									"type": "refSubclassFeature",
+									"subclassFeature": "Circle Forms|Druid||Moon||2"
+								}
+							]
+						},
+						{
+							"name": "Circle Forms",
+							"source": "PHB",
+							"page": 69,
+							"className": "Druid",
+							"classSource": "PHB",
+							"subclassShortName": "Moon",
+							"subclassSource": "PHB",
+							"level": 2,
+							"header": 1,
+							"entries": [
+								"The rites of your circle grant you the ability to transform into more dangerous animal forms. Starting at 2nd level, you can use your Wild Shape to transform into a {@filter beast with a challenge rating as high as 1|bestiary|challenge rating=[&0;&1]|type=beast|speed type=!fly;!swim|miscellaneous=!swarm} (you ignore the Max. CR column of the Beast Shapes table, but must abide by the other limitations there).",
+								"Starting at 6th level, you can transform into a beast with a challenge rating as high as your druid level divided by 3, rounded down.",
+								{
+									"type": "table",
+									"caption": "Circle of the Moon Beast Shapes",
+									"colLabels": [
+										"Level",
+										"Max. CR",
+										"Limitations"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-2 text-center",
+										"col-8"
+									],
+									"rows": [
+										[
+											"2nd",
+											"{@filter 1|bestiary|challenge rating=[&0;&1]|type=beast|speed type=!fly;!swim|miscellaneous=!swarm}",
+											"No flying or swimming speed"
+										],
+										[
+											"4th",
+											"{@filter 1|bestiary|challenge rating=[&0;&1]|type=beast|speed type=!fly|miscellaneous=!swarm}",
+											"No flying speed"
+										],
+										[
+											"6th",
+											"{@filter 2|bestiary|challenge rating=[&0;&2]|type=beast|speed type=!fly|miscellaneous=!swarm}",
+											"No flying speed"
+										],
+										[
+											"8th",
+											"{@filter 2|bestiary|challenge rating=[&0;&2]|type=beast|miscellaneous=!swarm}",
+											"—"
+										],
+										[
+											"9th",
+											"{@filter 3|bestiary|challenge rating=[&0;&3]|type=beast|miscellaneous=!swarm}",
+											"—"
+										],
+										[
+											"12th",
+											"{@filter 4|bestiary|challenge rating=[&0;&4]|type=beast|miscellaneous=!swarm}",
+											"—"
+										],
+										[
+											"15th",
+											"{@filter 5|bestiary|challenge rating=[&0;&5]|type=beast|miscellaneous=!swarm}",
+											"—"
+										],
+										[
+											"18th",
+											"{@filter 6|bestiary|challenge rating=[&0;&6]|type=beast|miscellaneous=!swarm}",
+											"—"
+										]
+									]
+								}
+							]
+						},
+						{
+							"name": "Combat Wild Shape",
+							"source": "PHB",
+							"page": 69,
+							"className": "Druid",
+							"classSource": "PHB",
+							"subclassShortName": "Moon",
+							"subclassSource": "PHB",
+							"level": 2,
+							"header": 1,
+							"entries": [
+								"You gain the ability to use Wild Shape on your turn as a bonus action, rather than as an action.",
+								"Additionally, while you are transformed by Wild Shape, you can use a bonus action to expend one spell slot to regain {@dice 1d8} hit points per level of the spell slot expended."
+							]
+						},
+						{
+							"name": "Primal Strike",
+							"source": "PHB",
+							"page": 69,
+							"className": "Druid",
+							"classSource": "PHB",
+							"subclassShortName": "Moon",
+							"subclassSource": "PHB",
+							"level": 6,
+							"header": 2,
+							"entries": [
+								"Starting at 6th level, your attacks in beast form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+							]
+						},
+						{
+							"name": "Elemental Wild Shape",
+							"source": "PHB",
+							"page": 69,
+							"className": "Druid",
+							"classSource": "PHB",
+							"subclassShortName": "Moon",
+							"subclassSource": "PHB",
+							"level": 10,
+							"header": 2,
+							"consumes": {
+								"name": "Wild Shape",
+								"amount": 2
+							},
+							"entries": [
+								"At 10th level, you can expend two uses of Wild Shape at the same time to transform into an {@creature air elemental}, an {@creature earth elemental}, a {@creature fire elemental}, or a {@creature water elemental}."
+							]
+						},
+						{
+							"name": "Thousand Forms",
+							"source": "PHB",
+							"page": 69,
+							"className": "Druid",
+							"classSource": "PHB",
+							"subclassShortName": "Moon",
+							"subclassSource": "PHB",
+							"level": 14,
+							"header": 2,
+							"entries": [
+								"By 14th level, you have learned to use magic to alter your physical form in more subtle ways. You can cast the {@spell alter self} spell at will."
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

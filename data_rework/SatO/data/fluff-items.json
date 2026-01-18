@@ -1,0 +1,37 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Mimir",
+			"source": "SatO",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/SatO/Mimir.webp"
+					},
+					"credit": "CoupleOfKooks"
+				}
+			]
+		},
+		{
+			"name": "Portal Compass",
+			"source": "SatO",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/SatO/Portal Compass.webp"
+					},
+					"credit": "CoupleOfKooks"
+				}
+			]
+		}
+	]
+}

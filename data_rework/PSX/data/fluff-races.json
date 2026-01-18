@@ -1,0 +1,249 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"raceFluff"
+		]
+	},
+	"raceFluff": [
+		{
+			"name": "Goblin (Ixalan)",
+			"source": "PSX",
+			"entries": [
+				"Goblins are native to Ixalan, and their eager curiosity drew them to the ships of the Brazen Coalition when the pirates first made landfall on the Sun Empire's shores. Though they still thrive in remote jungle colonies, goblins are most commonly seen swinging on the ropes of sleek pirate ships.",
+				"Goblins stand about three feet tall, though they rarely stand upright. They prefer a crouched posture that lets them scramble quickly on all fours, aided by their long prehensile tails. Their hearing and eyesight make them excellent lookouts, and their agility serves them well as crew members on pirate ships. They climb, swing, and jump easily among a ship's ropes, and can get into tight spaces that humans can't. For better or worse, many goblins are also incorrigible pranksters, and they often have a hard time determining when a prank is inappropriate, is poorly timed, or has gone too far."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/PSX/Goblin.webp"
+					},
+					"title": "Firecannon Blast",
+					"credit": "Svetlin Velinov",
+					"width": 1280,
+					"height": 863
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/PSX/Goblin2.webp"
+					},
+					"title": "Goblin Trailblazer",
+					"credit": "Josh Hass",
+					"width": 643,
+					"height": 515
+				}
+			]
+		},
+		{
+			"name": "Human (Ixalan)",
+			"source": "PSX",
+			"entries": [
+				"Humans are found throughout the plane of Ixalan, both in the lands of Torrezon (now controlled by the Legion of Dusk) and in the Sun Empire. The vampires of the Legion of Dusk were once human, and the peasant and servant populations they rule still are. As the Legion of Dusk conquered Torrezon, its forces drove many human populations before them, including those who first formed the Free Cities and later fled across the ocean to form the core of the Brazen Coalition."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/PSX/Human.webp"
+					},
+					"title": "Ixalli's Keeper",
+					"credit": "Lake Hurwitz",
+					"width": 630,
+					"height": 1026
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/PSX/Human2.webp"
+					},
+					"title": "Navigator's Ruin",
+					"credit": "Zoltan Boros",
+					"width": 625,
+					"height": 497
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/PSX/Human3.webp"
+					},
+					"title": "Seeker's Squire",
+					"credit": "Anthony Palumbo",
+					"width": 625,
+					"height": 514
+				}
+			]
+		},
+		{
+			"name": "Merfolk (Ixalan)",
+			"source": "PSX",
+			"entries": [
+				"The River Heralds are merfolk—a race of amphibious humanoids at home throughout the oceans, rivers, and rain forests of Ixalan. They stand between seven and eight feet tall, with skin that ranges from deep burgundy through many shades of violet and blue, to green, bright orange, and yellow. They are humanlike in shape, but have long fins extending from their shoulders, forearms, middle backs, and calves. Frills of fins also protrude from the backs of their heads. All merfolk can breathe air or filter oxygen from the water, and they can walk on land or swim with equal ease."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/PSX/Merfolk.webp"
+					},
+					"title": "Vineshaper Mystic",
+					"credit": "Kieran Yanner",
+					"width": 634,
+					"height": 826
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/PSX/Merfolk2.webp"
+					},
+					"title": "Coralhelm Commander",
+					"credit": "Jaime Jones",
+					"width": 638,
+					"height": 368
+				}
+			]
+		},
+		{
+			"name": "Merfolk (Ixalan; Blue)",
+			"source": "PSX",
+			"_copy": {
+				"name": "Merfolk (Ixalan)",
+				"source": "PSX",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"Blue merfolk often have burgundy or magenta on their faces and chests, with lighter shades of blue and purple elsewhere. Their eyes are red, orange, or blue, and their long, thin, and elegant fins resemble scarves or veils of fine fabric. They swim easily, even upstream, and clamber over rocks and through rapids with ease. They prefer to dwell in shallow waters, but spend a fair amount of time on land as well."
+									]
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Merfolk (Ixalan; Green)",
+			"source": "PSX",
+			"_copy": {
+				"name": "Merfolk (Ixalan)",
+				"source": "PSX",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"Green merfolk generally have yellow chests and pale green faces, shading to dark blues and purples on their backs and limbs. The patterns on their skin suggest the colors of the tree frogs common in the rain forest, as do their eyes of orange, lime green, or sky blue. Their fins are relatively short and thick. They climb trees with ease, move through undergrowth unhindered, and often wield magic to shape vines and branches to their will."
+									]
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Orc (Ixalan)",
+			"source": "PSX",
+			"entries": [
+				"Orcs originally came from the same mountainous region where the kingdom of Torrezon was born, and they have been enemies of the Legion of Dusk since it was originally formed. The entire race has been declared anathema by the Church of Torrezon, and after centuries of fighting the Legion, the orcs have dwindled to only a few hundred in number. Some still live on remote islands near Torrezon, but many have joined the Brazen Coalition to serve on pirate ships—taking on any role that calls for an abundance of sheer muscle.",
+				"Orcs are tall, standing head and shoulders above most humans, and are generally twice as broad. They often accentuate their bulging muscles by wearing tight-fitting bands and accessories around the thickest parts of their arms and necks. Their skin color ranges from light brown through gray to almost jet-black."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/PSX/Orc.webp"
+					},
+					"title": "Dire Fleet Ravager",
+					"credit": "Bram Sels",
+					"width": 1276,
+					"height": 785
+				}
+			]
+		},
+		{
+			"name": "Siren",
+			"source": "PSX",
+			"entries": [
+				"Sirens are at home along the waters of the Stormwreck Sea. They settle on rocky coasts and remote islands, and even on floating piles of kelp. Sirens are mercurial creatures who can turn in an instant from lonely to repulsed, from desirous to hateful, from welcoming to irritated, from loving to murderous—and then back again. They are fascinated with ships, and enjoy toying with them. One siren might call out to a passing crew for company, only to capriciously draw the ship into an entangling mass of kelp. Another might lure a vessel onto jagged rocks so as to study the wreckage and learn more about the strange contraption. But as the number of Brazen Coalition ships passing through siren-controlled waters has increased over the years, a growing number of sirens have decided to satisfy their curiosity by taking positions on ship crews—including, in at least one case, the position of captain.",
+				"Sirens are humanoid creatures with birdlike features. Their long, slender arms extend into powerful wings that easily carry their light frames into the air. Their fingers bear sharp claws but are nimble enough to wield weapons and perform fine manipulation. Crests of feathery plumage start between their eyes and cover the backs of their heads."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/PSX/Siren.webp"
+					},
+					"title": "Dreamcaller Siren",
+					"credit": "Eric Deschamps",
+					"width": 1276,
+					"height": 846
+				}
+			]
+		},
+		{
+			"name": "Vampire (Ixalan)",
+			"source": "PSX",
+			"entries": [
+				"The Legion of Dusk is dominated by an aristocratic class made up of vampires. They are faster and stronger than most humans, and gifted with supernatural abilities that made them the most formidable force in their homeland. Now, as they push into the depths of Ixalan in search of the Immortal Sun, they bring this strength to bear against all who would resist their advance.",
+				"For many vampires, the Rite of Redemption that transforms a human into a vampire is an act of personal sacrifice, paving the way for a promised glorious age. These vampires embody Torrezon's noble tradition in Ixalan. They are often guided by their dual loyalties to church and crown, believing that the monarch acts with righteous purpose. As such, these vampires carry themselves with a self-assurance that is both imposing and imperial. Other societies seem inferior and unclean compared to their own, leading them to feel that they have a right to claim new lands despite the presence of people already inhabiting those lands.",
+				"Other vampires view vampirism merely as a means to attain a powerful advantage over others. These vampires are fierce, ruthless, and often cruel, relishing conflict—be it political or armed—as a means of demonstrating their superiority. Many are politically ambitious, invoking Torrezon's hierarchy when it serves their interests, but ignoring all the rules of church, state, and morality when those rules become a burden. When these vampires come to Ixalan, they are conquerors, motivated by the prospect of personal glory and the accumulation of riches. Those who achieve wealth and power display it ostentatiously.",
+				"The core of every vampire's nature is the Feast of Blood. Though it is forbidden to feed on human citizens of Torrezon, including the human sailors and servants who accompany the vampire conquistadors to Ixalan, vampires are encouraged to feed on outsiders and heretics. The Feast of Blood sends new life essence flowing through the vampire who partakes of it, manifesting as even greater strength and speed."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/PSX/Vampire.webp"
+					},
+					"title": "Vicious Conquistador",
+					"credit": "Kieran Yanner",
+					"width": 1280,
+					"height": 943
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/PSX/Vampire2.webp"
+					},
+					"title": "Glorifier of Dusk",
+					"credit": "Viktor Titov",
+					"width": 1280,
+					"height": 1653
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/PSX/Vampire3.webp"
+					},
+					"title": "Arterial Flow",
+					"credit": "Josh Hass",
+					"width": 640,
+					"height": 513
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"reward": [
+		{
+			"name": "Charm of the Heroes' Feast",
+			"source": "CM",
+			"page": 128,
+			"type": "Charm",
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"limited": {
+								"1": [
+									"heroes' feast"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"This charm allows you to cast the {@spell heroes' feast} spell as an action, no components required. Once used, this charm goes away."
+			]
+		},
+		{
+			"name": "Charm of the Mirage",
+			"source": "CM",
+			"page": 212,
+			"type": "Charm",
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"limited": {
+								"1": [
+									"hallucinatory terrain"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"{@note This charm can be bestowed by a {@creature chwinga|CM} living a desert by using their Magical Gift action.}",
+				"This charm allows you to cast the {@spell hallucinatory terrain} spell (save {@dc 15}) as an action. Once used, this charm vanishes from you."
+			]
+		},
+		{
+			"name": "Charm of the Water Bearer",
+			"source": "CM",
+			"page": 212,
+			"type": "Charm",
+			"entries": [
+				"{@note This charm can be bestowed by a {@creature chwinga|CM} living a desert by using their Magical Gift action.}",
+				"This charm allows you to create up to 1 gallon of fresh water, which fills one or more empty containers in your possession. You can do this up to thrice per day for 10 days, after which this charm vanishes from you."
+			]
+		}
+	]
+}

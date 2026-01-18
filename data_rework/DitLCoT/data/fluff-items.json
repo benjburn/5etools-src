@@ -1,0 +1,61 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Demon Skin",
+			"source": "DitLCoT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/DitLCoT/Demon Skin.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Iggwilv's Horn",
+			"source": "DitLCoT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/DitLCoT/Iggwilvs Horn.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Potion of Polychromy",
+			"source": "DitLCoT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/DitLCoT/Potion of Polychromy.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Tasha's Creeping Keelboat",
+			"source": "DitLCoT",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/DitLCoT/Tashas Creeping Keelboat.webp"
+					}
+				}
+			]
+		}
+	]
+}

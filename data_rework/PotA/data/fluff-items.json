@@ -1,0 +1,74 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Drown",
+			"source": "PotA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/PotA/Drown.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Ironfang",
+			"source": "PotA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/PotA/Ironfang.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Tinderstrike",
+			"source": "PotA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/PotA/Tinderstrike.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Weird Tank",
+			"source": "PotA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/PotA/Weird Tank.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Windvane",
+			"source": "PotA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/PotA/Windvane.webp"
+					}
+				}
+			]
+		}
+	]
+}

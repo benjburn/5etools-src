@@ -1,0 +1,28 @@
+{
+	"language": [
+		{
+			"name": "Aven",
+			"source": "PSD",
+			"page": 6,
+			"typicalSpeakers": [
+				"{@race Aven|PSD}"
+			]
+		},
+		{
+			"name": "Homarid",
+			"source": "PSD",
+			"page": 15,
+			"typicalSpeakers": [
+				"{@creature Homarid|PSD|homarids}"
+			]
+		},
+		{
+			"name": "Keldon",
+			"source": "PSD",
+			"page": 19,
+			"typicalSpeakers": [
+				"{@race Human (Keldon)|PSD|Keldons}"
+			]
+		}
+	]
+}

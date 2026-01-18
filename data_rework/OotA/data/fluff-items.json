@@ -1,0 +1,48 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Dawnbringer",
+			"source": "OotA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/OotA/Dawnbringer.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Piwafwi (Cloak of Elvenkind)",
+			"source": "OotA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/OotA/Piwafwi (Cloak of Elvenkind).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Stonespeaker Crystal",
+			"source": "OotA",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/OotA/Stonespeaker Crystal.webp"
+					}
+				}
+			]
+		}
+	]
+}

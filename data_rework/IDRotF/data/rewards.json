@@ -1,0 +1,291 @@
+{
+	"reward": [
+		{
+			"name": "Blessing of the Frostmaiden",
+			"source": "IDRotF",
+			"page": 213,
+			"type": "Blessing",
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"cone of cold"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"Your eyes become as cold as ice. You gain immunity to cold damage. In addition, you can cast the {@spell cone of cold} spell (save {@dc 15}) once. You regain the ability to cast this spell when you finish a long rest."
+			]
+		},
+		{
+			"name": "Blessing of the Morninglord",
+			"source": "IDRotF",
+			"page": 119,
+			"type": "Blessing",
+			"entries": [
+				"You gain 10 temporary hit points each day at dawn."
+			]
+		},
+		{
+			"name": "Charm of Biting Cold",
+			"source": "IDRotF",
+			"page": 283,
+			"type": "Charm",
+			"entries": [
+				"{@note This charm can be bestowed by a {@creature chwinga|ToA} living in Icewind Dale or other cold regions by using their Magical Gift action.}",
+				"This charm has 3 charges. As a bonus action, you can expend 1 of the charm's charges to wreathe your weapon attacks with biting cold for 1 minute. Until this effect ends, you deal an extra {@damage 1d6} cold damage when you hit with a melee or ranged weapon attack. Once all its charges have been expended, this charm vanishes from you."
+			]
+		},
+		{
+			"name": "Charm of Bounty",
+			"source": "IDRotF",
+			"page": 283,
+			"type": "Charm",
+			"entries": [
+				"{@note This charm can be bestowed by a {@creature chwinga|ToA} living in Icewind Dale or other cold regions by using their Magical Gift action.}",
+				"This charm has 3 charges. As an action, you can expend 1 of the charm's charges to cast the {@spell create food and water} spell, requiring no components. Once all its charges have been expended, this charm vanishes from you."
+			]
+		},
+		{
+			"name": "Charm of Cold Resistance",
+			"source": "IDRotF",
+			"page": 283,
+			"type": "Charm",
+			"entries": [
+				"{@note This charm can be bestowed by a {@creature chwinga|ToA} living in Icewind Dale or other cold regions by using their Magical Gift action.}",
+				"This charm allows you to give yourself resistance to cold damage as an action. This benefit lasts for 24 hours, after which the charm vanishes from you."
+			]
+		},
+		{
+			"name": "Charm of Cure Wounds",
+			"source": "IDRotF",
+			"page": 228,
+			"type": "Charm",
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"limited": {
+								"1": [
+									"cure wounds#3"
+								]
+							}
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"entries": [
+				"This charm allows you to cast the {@spell cure wounds} spell (3rd-level version) as an action, no components required. Your spellcasting ability for this charm is Wisdom. Once used, this charm vanishes from you."
+			]
+		},
+		{
+			"name": "Charm of Druidcraft",
+			"source": "IDRotF",
+			"page": 228,
+			"type": "Charm",
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"limited": {
+								"3": [
+									"druidcraft"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"This charm allows you to cast the {@spell druidcraft} cantrip as an action, no components required. Once used three times, this charm vanishes from you."
+			]
+		},
+		{
+			"name": "Charm of Invisibility",
+			"source": "IDRotF",
+			"page": 228,
+			"type": "Charm",
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"limited": {
+								"3": [
+									"invisibility"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"This charm allows you to cast the {@spell invisibility} spell as an action, no components required. Once used three times, this charm vanishes from you."
+			]
+		},
+		{
+			"name": "Charm of Lightning Bolt",
+			"source": "IDRotF",
+			"page": 228,
+			"type": "Charm",
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"limited": {
+								"1": [
+									"lightning bolt"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"This charm allows you to cast the {@spell lightning bolt} spell (save {@dc 15}) as an action, no components required. Once used, this charm vanishes from you."
+			]
+		},
+		{
+			"name": "Charm of Purplemancy",
+			"source": "IDRotF",
+			"page": 228,
+			"type": "Charm",
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"limited": {
+								"3": [
+									"faerie fire"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"This charm allows you to cast the {@spell faerie fire} spell (violet light only; save {@dc 15}) as a bonus action instead of an action, no components required. Once used three times, this charm vanishes from you."
+			]
+		},
+		{
+			"name": "Charm of Sending",
+			"source": "IDRotF",
+			"page": 228,
+			"type": "Charm",
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"limited": {
+								"1": [
+									"sending"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"This charm allows you to cast the {@spell sending} spell as an action, no components required. Once used, this charm vanishes from you."
+			]
+		},
+		{
+			"name": "Charm of Snowball Strike",
+			"source": "IDRotF",
+			"page": 283,
+			"type": "Charm",
+			"entries": [
+				"{@note This charm can be bestowed by a {@creature chwinga|ToA} living in Icewind Dale or other cold regions by using their Magical Gift action.}",
+				"This charm has 5 charges. As a bonus action, you can expend 1 of the charm's charges to create a magical snowball in your hand and throw it. You must have a hand free to hold the snowball, or the charge is wasted. The snowball is a magic ranged weapon with which you are proficient. It has a normal range of 20 feet and a long range of 60 feet, it deals {@damage 1d4} cold damage on a hit, and it scores a critical hit on a roll of 19 or 20. If you score a critical hit with the snowball, the target is {@condition blinded} until the end of its next turn. The snowball vanishes immediately after you hit or miss with it, or at the end of your turn if you don't throw it. Once all its charges have been expended, this charm vanishes from you."
+			]
+		},
+		{
+			"name": "Charm of the Ice Troll",
+			"source": "IDRotF",
+			"page": 283,
+			"type": "Charm",
+			"entries": [
+				"{@note This charm can be bestowed by a {@creature chwinga|ToA} living in Icewind Dale or other cold regions by using their Magical Gift action.}",
+				"This charm allows you to use your reaction when you take cold damage to reduce the damage to 0. You regain a number of hit points equal to half the cold damage you would have taken. Once you do so, the charm vanishes from you."
+			]
+		},
+		{
+			"name": "Charm of the Snow Walker",
+			"source": "IDRotF",
+			"page": 283,
+			"type": "Charm",
+			"entries": [
+				"{@note This charm can be bestowed by a {@creature chwinga|ToA} living in Icewind Dale or other cold regions by using their Magical Gift action.}",
+				"This charm has 3 charges. As an action, you can expend 1 of the charm's charges to gain the following benefits for 24 hours:",
+				{
+					"type": "list",
+					"items": [
+						"You and your allies within 15 feet of you ignore {@quickref difficult terrain||3} caused by snow or ice.",
+						"You can see through areas heavily obscured by snow to a distance of 60 feet.",
+						"You are immune to the effects of extreme cold, as described in the {@book Dungeon Master's Guide|DMG} (though you gain no protection from cold damage)."
+					]
+				},
+				"Once all its charges have been expended, this charm vanishes from you."
+			]
+		},
+		{
+			"name": "Charm of the Traveler's Haven",
+			"source": "IDRotF",
+			"page": 283,
+			"type": "Charm",
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"limited": {
+								"3e": [
+									"leomund's tiny hut"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"{@note This charm can be bestowed by a {@creature chwinga|ToA} living in Icewind Dale or other cold regions by using their Magical Gift action.}",
+				"This charm has 3 charges. As an action, you can expend 1 of the charm's charges to cast the {@spell Leomund's tiny hut} spell, no components required. Once all its charges have been expended, this charm vanishes from you."
+			]
+		},
+		{
+			"name": "Charm of Vicious Mockery",
+			"source": "IDRotF",
+			"page": 228,
+			"type": "Charm",
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"limited": {
+								"3": [
+									"vicious mockery"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"This charm allows you to cast the {@spell vicious mockery} cantrip (5th-level version; save {@dc 15}) as an action. Once used three times, this charm vanishes from you."
+			]
+		},
+		{
+			"name": "Vlagomir's Spark",
+			"source": "IDRotF",
+			"page": 227,
+			"type": "Charm",
+			"entries": [
+				"You gain 1 foot of height every hour and become proportionately heavier until you stand 21 feet tall and weigh 7,700 pounds. When you are 9 feet tall, your Strength becomes 19 unless it is already higher. For every 3 additional feet of height you gain, your Strength increases by 1, to a maximum of 23. Armor and clothing you are wearing and weapons you are carrying magically increase in size to match your growth. If you are the recipient of a {@spell greater restoration} spell or similar magic, this charm vanishes from you, and you immediately shrink back to normal size, along with any armor, clothing, and weapons in your possession."
+			]
+		}
+	]
+}

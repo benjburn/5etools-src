@@ -1,0 +1,233 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Atlas of Endless Horizons",
+			"source": "TCE",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/TCE/Atlas of Endless Horizons.webp"
+					},
+					"credit": "Andrew Mar"
+				}
+			]
+		},
+		{
+			"name": "Baba Yaga's Mortar and Pestle",
+			"source": "TCE",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/TCE/Baba Yaga's Mortar and Pestle.webp"
+					},
+					"credit": "Irina Nordsol"
+				}
+			]
+		},
+		{
+			"name": "Cauldron of Rebirth",
+			"source": "TCE",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/TCE/Cauldron of Rebirth.webp"
+					},
+					"credit": "Zuzanna Wužyk"
+				}
+			]
+		},
+		{
+			"name": "Crook of Rao",
+			"source": "TCE",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/TCE/Crook of Rao.webp"
+					},
+					"credit": "Robson Michel"
+				}
+			]
+		},
+		{
+			"name": "Crystalline Chronicle",
+			"source": "TCE",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/TCE/Crystalline Chronicle.webp"
+					},
+					"credit": "Irina Nordsol"
+				}
+			]
+		},
+		{
+			"name": "Demonomicon of Iggwilv",
+			"source": "TCE",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/TCE/Demonomicon of Iggwilv.webp"
+					},
+					"credit": "David Sladek"
+				}
+			]
+		},
+		{
+			"name": "Devotee's Censer",
+			"source": "TCE",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/TCE/Devotee's Censer.webp"
+					},
+					"credit": "Irina Nordsol"
+				}
+			]
+		},
+		{
+			"name": "Far Realm Shard",
+			"source": "TCE",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/TCE/Far Realm Shard.webp"
+					},
+					"credit": "Christopher Burdett"
+				}
+			]
+		},
+		{
+			"name": "Feywild Shard",
+			"source": "TCE",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/TCE/Feywild Shard.webp"
+					},
+					"credit": "Christopher Burdett"
+				}
+			]
+		},
+		{
+			"name": "Fulminating Treatise",
+			"source": "TCE",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/TCE/Fulminating Treatise.webp"
+					},
+					"credit": "Kieran Yanner"
+				}
+			]
+		},
+		{
+			"name": "Luba's Tarokka of Souls",
+			"source": "TCE",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/TCE/Luba's Tarokka of Souls.webp"
+					},
+					"credit": "Claudio Pozas"
+				}
+			]
+		},
+		{
+			"name": "Mighty Servant of Leuk-o",
+			"source": "TCE",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/TCE/Mighty Servant of Leuk-o.webp"
+					},
+					"credit": "David Sladek"
+				}
+			]
+		},
+		{
+			"name": "Nature's Mantle",
+			"source": "TCE",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/TCE/Nature's Mantle.webp"
+					},
+					"credit": "Brian Valeza"
+				}
+			]
+		},
+		{
+			"name": "Prosthetic Limb",
+			"source": "TCE",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/TCE/Prosthetic Limb.webp"
+					},
+					"credit": "Ben Wootten"
+				}
+			]
+		},
+		{
+			"name": "Shadowfell Shard",
+			"source": "TCE",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/TCE/Shadowfell Shard.webp"
+					},
+					"credit": "Christopher Burdett"
+				}
+			]
+		},
+		{
+			"name": "Teeth of Dahlver-Nar",
+			"source": "TCE",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/TCE/Teeth of Dahlver-Nar.webp"
+					},
+					"credit": "Crystal Sully"
+				}
+			]
+		}
+	]
+}

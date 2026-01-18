@@ -1,0 +1,652 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"subclass"
+		]
+	},
+	"class": [
+		{
+			"name": "Barbarian",
+			"source": "PHB",
+			"page": 46,
+			"srd": true,
+			"reprintedAs": [
+				"Barbarian|XPHB"
+			],
+			"edition": "classic",
+			"hd": {
+				"number": 1,
+				"faces": 12
+			},
+			"proficiency": [
+				"str",
+				"con"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"shield"
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"animal handling",
+								"athletics",
+								"intimidation",
+								"nature",
+								"perception",
+								"survival"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item greataxe|phb} or (b) any {@filter martial melee weapon|items|source=phb|category=basic|type=martial weapon;melee weapon=sand}",
+					"(a) two {@item handaxe|phb|handaxes} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"An {@item explorer's pack|phb}, and four {@item javelin|phb|javelins}"
+				],
+				"goldAlternative": "{@dice 2d4 × 10|2d4 × 10|Starting Gold}",
+				"defaultData": [
+					{
+						"a": [
+							"greataxe|phb"
+						],
+						"b": [
+							{
+								"equipmentType": "weaponMartialMelee"
+							}
+						]
+					},
+					{
+						"a": [
+							{
+								"item": "handaxe|phb",
+								"quantity": 2
+							}
+						],
+						"b": [
+							{
+								"equipmentType": "weaponSimple"
+							}
+						]
+					},
+					{
+						"_": [
+							"explorer's pack|phb",
+							{
+								"item": "javelin|phb",
+								"quantity": 4
+							}
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"str": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"shield"
+					],
+					"weapons": [
+						"simple",
+						"martial"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Rages",
+						"Rage Damage"
+					],
+					"rows": [
+						[
+							"2",
+							{
+								"type": "bonus",
+								"value": 2
+							}
+						],
+						[
+							"2",
+							{
+								"type": "bonus",
+								"value": 2
+							}
+						],
+						[
+							"3",
+							{
+								"type": "bonus",
+								"value": 2
+							}
+						],
+						[
+							"3",
+							{
+								"type": "bonus",
+								"value": 2
+							}
+						],
+						[
+							"3",
+							{
+								"type": "bonus",
+								"value": 2
+							}
+						],
+						[
+							"4",
+							{
+								"type": "bonus",
+								"value": 2
+							}
+						],
+						[
+							"4",
+							{
+								"type": "bonus",
+								"value": 2
+							}
+						],
+						[
+							"4",
+							{
+								"type": "bonus",
+								"value": 2
+							}
+						],
+						[
+							"4",
+							{
+								"type": "bonus",
+								"value": 3
+							}
+						],
+						[
+							"4",
+							{
+								"type": "bonus",
+								"value": 3
+							}
+						],
+						[
+							"4",
+							{
+								"type": "bonus",
+								"value": 3
+							}
+						],
+						[
+							"5",
+							{
+								"type": "bonus",
+								"value": 3
+							}
+						],
+						[
+							"5",
+							{
+								"type": "bonus",
+								"value": 3
+							}
+						],
+						[
+							"5",
+							{
+								"type": "bonus",
+								"value": 3
+							}
+						],
+						[
+							"5",
+							{
+								"type": "bonus",
+								"value": 3
+							}
+						],
+						[
+							"5",
+							{
+								"type": "bonus",
+								"value": 4
+							}
+						],
+						[
+							"6",
+							{
+								"type": "bonus",
+								"value": 4
+							}
+						],
+						[
+							"6",
+							{
+								"type": "bonus",
+								"value": 4
+							}
+						],
+						[
+							"6",
+							{
+								"type": "bonus",
+								"value": 4
+							}
+						],
+						[
+							"Unlimited",
+							{
+								"type": "bonus",
+								"value": 4
+							}
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Rage|Barbarian||1",
+				"Unarmored Defense|Barbarian||1",
+				"Danger Sense|Barbarian||2",
+				"Reckless Attack|Barbarian||2",
+				{
+					"classFeature": "Primal Path|Barbarian||3",
+					"gainSubclassFeature": true
+				},
+				"Primal Knowledge|Barbarian||3|TCE",
+				"Ability Score Improvement|Barbarian||4",
+				"Extra Attack|Barbarian||5",
+				"Fast Movement|Barbarian||5",
+				{
+					"classFeature": "Path Feature|Barbarian||6",
+					"gainSubclassFeature": true
+				},
+				"Feral Instinct|Barbarian||7",
+				"Instinctive Pounce|Barbarian||7|TCE",
+				"Ability Score Improvement|Barbarian||8",
+				"Brutal Critical (1 die)|Barbarian||9",
+				{
+					"classFeature": "Path feature|Barbarian||10",
+					"gainSubclassFeature": true
+				},
+				"Relentless Rage|Barbarian||11",
+				"Ability Score Improvement|Barbarian||12",
+				"Brutal Critical (2 dice)|Barbarian||13",
+				{
+					"classFeature": "Path feature|Barbarian||14",
+					"gainSubclassFeature": true
+				},
+				"Persistent Rage|Barbarian||15",
+				"Ability Score Improvement|Barbarian||16",
+				"Brutal Critical (3 dice)|Barbarian||17",
+				"Indomitable Might|Barbarian||18",
+				"Ability Score Improvement|Barbarian||19",
+				"Primal Champion|Barbarian||20"
+			],
+			"subclassTitle": "Primal Path",
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"subclasses": [
+				{
+					"name": "Path of the Berserker",
+					"shortName": "Berserker",
+					"source": "PHB",
+					"className": "Barbarian",
+					"classSource": "PHB",
+					"page": 49,
+					"srd": true,
+					"reprintedAs": [
+						"Berserker|Barbarian|XPHB|XPHB"
+					],
+					"edition": "classic",
+					"subclassFeatures": [
+						"Path of the Berserker|Barbarian||Berserker||3",
+						"Mindless Rage|Barbarian||Berserker||6",
+						"Intimidating Presence|Barbarian||Berserker||10",
+						"Retaliation|Barbarian||Berserker||14"
+					],
+					"features": [
+						{
+							"name": "Path of the Berserker",
+							"source": "PHB",
+							"page": 49,
+							"srd": true,
+							"className": "Barbarian",
+							"classSource": "PHB",
+							"subclassShortName": "Berserker",
+							"subclassSource": "PHB",
+							"level": 3,
+							"entries": [
+								"For some barbarians, rage is a means to an end—that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.",
+								{
+									"type": "refSubclassFeature",
+									"subclassFeature": "Frenzy|Barbarian||Berserker||3"
+								}
+							]
+						},
+						{
+							"name": "Frenzy",
+							"source": "PHB",
+							"page": 49,
+							"srd": true,
+							"className": "Barbarian",
+							"classSource": "PHB",
+							"subclassShortName": "Berserker",
+							"subclassSource": "PHB",
+							"level": 3,
+							"header": 1,
+							"entries": [
+								"Starting when you choose this path at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of {@condition exhaustion}."
+							]
+						},
+						{
+							"name": "Mindless Rage",
+							"source": "PHB",
+							"page": 49,
+							"srd": true,
+							"className": "Barbarian",
+							"classSource": "PHB",
+							"subclassShortName": "Berserker",
+							"subclassSource": "PHB",
+							"level": 6,
+							"header": 2,
+							"entries": [
+								"Beginning at 6th level, you can't be {@condition charmed} or {@condition frightened} while raging. If you are {@condition charmed} or {@condition frightened} when you enter your rage, the effect is suspended for the duration of the rage."
+							]
+						},
+						{
+							"name": "Intimidating Presence",
+							"source": "PHB",
+							"page": 49,
+							"srd": true,
+							"className": "Barbarian",
+							"classSource": "PHB",
+							"subclassShortName": "Berserker",
+							"subclassSource": "PHB",
+							"level": 10,
+							"header": 2,
+							"entries": [
+								"Beginning at 10th level, you can use your action to frighten someone with your menacing presence. When you do so, choose one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) or be {@condition frightened} of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the {@condition frightened} creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.",
+								"If the creature succeeds on its saving throw, you can't use this feature on that creature again for 24 hours."
+							]
+						},
+						{
+							"name": "Retaliation",
+							"source": "PHB",
+							"page": 49,
+							"srd": true,
+							"className": "Barbarian",
+							"classSource": "PHB",
+							"subclassShortName": "Berserker",
+							"subclassSource": "PHB",
+							"level": 14,
+							"header": 2,
+							"entries": [
+								"Starting at 14th level, when you take damage from a creature that is within 5 feet of you, you can use your reaction to make a melee weapon attack against that creature."
+							]
+						}
+					]
+				},
+				{
+					"name": "Path of the Totem Warrior",
+					"shortName": "Totem Warrior",
+					"source": "PHB",
+					"className": "Barbarian",
+					"classSource": "PHB",
+					"page": 50,
+					"reprintedAs": [
+						"Wild Heart|Barbarian|XPHB|XPHB"
+					],
+					"edition": "classic",
+					"additionalSpells": [
+						{
+							"innate": {
+								"3": {
+									"ritual": [
+										"beast sense",
+										"speak with animals"
+									]
+								},
+								"10": {
+									"ritual": [
+										"commune with nature"
+									]
+								}
+							}
+						}
+					],
+					"subclassFeatures": [
+						"Path of the Totem Warrior|Barbarian||Totem Warrior||3",
+						"Aspect of the Beast|Barbarian||Totem Warrior||6",
+						"Spirit Walker|Barbarian||Totem Warrior||10",
+						"Totemic Attunement|Barbarian||Totem Warrior||14"
+					],
+					"hasFluffImages": true,
+					"features": [
+						{
+							"name": "Bear",
+							"source": "PHB",
+							"page": 50,
+							"className": "Barbarian",
+							"classSource": "PHB",
+							"subclassShortName": "Totem Warrior",
+							"subclassSource": "PHB",
+							"level": 14,
+							"entries": [
+								"While you're raging, any creature within 5 feet of you that's hostile to you has disadvantage on attack rolls against targets other than you or another character with this feature. An enemy is immune to this effect if it can't see or hear you or if it can't be {@condition frightened}."
+							]
+						},
+						{
+							"name": "Eagle",
+							"source": "PHB",
+							"page": 50,
+							"className": "Barbarian",
+							"classSource": "PHB",
+							"subclassShortName": "Totem Warrior",
+							"subclassSource": "PHB",
+							"level": 14,
+							"entries": [
+								"While raging, you have a flying speed equal to your current walking speed. This benefit works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft."
+							]
+						},
+						{
+							"name": "Path of the Totem Warrior",
+							"source": "PHB",
+							"page": 50,
+							"className": "Barbarian",
+							"classSource": "PHB",
+							"subclassShortName": "Totem Warrior",
+							"subclassSource": "PHB",
+							"level": 3,
+							"entries": [
+								"The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage.",
+								"Most barbarian tribes consider a totem animal to be kin to a particular clan. In such cases, it is unusual for an individual to have more than one totem animal spirit, though exceptions exist.",
+								{
+									"type": "refSubclassFeature",
+									"subclassFeature": "Spirit Seeker|Barbarian||Totem Warrior||3"
+								},
+								{
+									"type": "refSubclassFeature",
+									"subclassFeature": "Totem Spirit|Barbarian||Totem Warrior||3"
+								}
+							]
+						},
+						{
+							"name": "Wolf",
+							"source": "PHB",
+							"page": 50,
+							"className": "Barbarian",
+							"classSource": "PHB",
+							"subclassShortName": "Totem Warrior",
+							"subclassSource": "PHB",
+							"level": 14,
+							"entries": [
+								"While you're raging, you can use a bonus action on your turn to knock a Large or smaller creature {@condition prone} when you hit it with melee weapon attack."
+							]
+						},
+						{
+							"name": "Spirit Seeker",
+							"source": "PHB",
+							"page": 50,
+							"className": "Barbarian",
+							"classSource": "PHB",
+							"subclassShortName": "Totem Warrior",
+							"subclassSource": "PHB",
+							"level": 3,
+							"header": 1,
+							"entries": [
+								"Yours is a path that seeks attunement with the natural world, giving you a kinship with beasts. At 3rd level when you adopt this path, you gain the ability to cast the {@spell beast sense} and {@spell speak with animals} spells, but only as rituals, as described in {@book chapter 10|PHB|10|rituals}."
+							]
+						},
+						{
+							"name": "Totem Spirit",
+							"source": "PHB",
+							"page": 50,
+							"className": "Barbarian",
+							"classSource": "PHB",
+							"subclassShortName": "Totem Warrior",
+							"subclassSource": "PHB",
+							"level": 3,
+							"header": 1,
+							"entries": [
+								"At 3rd level, when you adopt this path, you choose a totem spirit and gain its feature. You must make or acquire a physical totem object—an amulet or similar adornment—that incorporates fur or feathers, claws, teeth, or bones of the totem animal. At your option, you also gain minor physical attributes that are reminiscent of your totem spirit. For example, if you have a bear totem spirit, you might be unusually hairy and thick-skinned, or if your totem is the eagle, your eyes turn bright yellow.",
+								"Your totem animal might be an animal related to those listed here but more appropriate to your homeland. For example, you could choose a hawk or vulture in place of an eagle.",
+								{
+									"type": "options",
+									"count": 1,
+									"entries": [
+										{
+											"type": "refSubclassFeature",
+											"subclassFeature": "Bear|Barbarian||Totem Warrior||3"
+										},
+										{
+											"type": "refSubclassFeature",
+											"subclassFeature": "Eagle|Barbarian||Totem Warrior||3"
+										},
+										{
+											"type": "refSubclassFeature",
+											"subclassFeature": "Elk|Barbarian|PHB|Totem Warrior||3|SCAG"
+										},
+										{
+											"type": "refSubclassFeature",
+											"subclassFeature": "Tiger|Barbarian|PHB|Totem Warrior||3|SCAG"
+										},
+										{
+											"type": "refSubclassFeature",
+											"subclassFeature": "Wolf|Barbarian||Totem Warrior||3"
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Aspect of the Beast",
+							"source": "PHB",
+							"page": 50,
+							"className": "Barbarian",
+							"classSource": "PHB",
+							"subclassShortName": "Totem Warrior",
+							"subclassSource": "PHB",
+							"level": 6,
+							"header": 2,
+							"entries": [
+								"At 6th level, you gain a magical benefit based on the totem animal of your choice. You can choose the same animal you selected at 3rd level or a different one.",
+								{
+									"type": "options",
+									"count": 1,
+									"entries": [
+										{
+											"type": "refSubclassFeature",
+											"subclassFeature": "Bear|Barbarian||Totem Warrior||6"
+										},
+										{
+											"type": "refSubclassFeature",
+											"subclassFeature": "Eagle|Barbarian||Totem Warrior||6"
+										},
+										{
+											"type": "refSubclassFeature",
+											"subclassFeature": "Elk|Barbarian|PHB|Totem Warrior||6|SCAG"
+										},
+										{
+											"type": "refSubclassFeature",
+											"subclassFeature": "Tiger|Barbarian|PHB|Totem Warrior||6|SCAG"
+										},
+										{
+											"type": "refSubclassFeature",
+											"subclassFeature": "Wolf|Barbarian||Totem Warrior||6"
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Spirit Walker",
+							"source": "PHB",
+							"page": 50,
+							"className": "Barbarian",
+							"classSource": "PHB",
+							"subclassShortName": "Totem Warrior",
+							"subclassSource": "PHB",
+							"level": 10,
+							"header": 2,
+							"entries": [
+								"At 10th level, you can cast the {@spell commune with nature} spell, but only as a ritual. When you do so, a spiritual version of one of the animals you chose for Totem Spirit or Aspect of the Beast appears to you to convey the information you seek."
+							]
+						},
+						{
+							"name": "Totemic Attunement",
+							"source": "PHB",
+							"page": 50,
+							"className": "Barbarian",
+							"classSource": "PHB",
+							"subclassShortName": "Totem Warrior",
+							"subclassSource": "PHB",
+							"level": 14,
+							"header": 2,
+							"entries": [
+								"At 14th level, you gain a magical benefit based on a totem animal of your choice. You can choose the same animal you selected previously or a different one.",
+								{
+									"type": "options",
+									"count": 1,
+									"entries": [
+										{
+											"type": "refSubclassFeature",
+											"subclassFeature": "Bear|Barbarian||Totem Warrior||14"
+										},
+										{
+											"type": "refSubclassFeature",
+											"subclassFeature": "Eagle|Barbarian||Totem Warrior||14"
+										},
+										{
+											"type": "refSubclassFeature",
+											"subclassFeature": "Elk|Barbarian|PHB|Totem Warrior||14|SCAG"
+										},
+										{
+											"type": "refSubclassFeature",
+											"subclassFeature": "Tiger|Barbarian|PHB|Totem Warrior||14|SCAG"
+										},
+										{
+											"type": "refSubclassFeature",
+											"subclassFeature": "Wolf|Barbarian||Totem Warrior||14"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

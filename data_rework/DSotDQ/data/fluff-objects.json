@@ -1,0 +1,37 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"objectFluff"
+		]
+	},
+	"objectFluff": [
+		{
+			"name": "Boilerdrak",
+			"source": "DSotDQ",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "objects/DSotDQ/Boilerdrak.webp"
+					},
+					"credit": "Kent Davis"
+				}
+			]
+		},
+		{
+			"name": "Gnomeflinger",
+			"source": "DSotDQ",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "objects/DSotDQ/Gnomeflinger.webp"
+					},
+					"credit": "Bruce Brenneise"
+				}
+			]
+		}
+	]
+}

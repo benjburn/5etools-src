@@ -1,0 +1,74 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Badge of the Watch",
+			"source": "WDH",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/WDH/Badge of the Watch.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Dragonstaff of Ahghairon",
+			"source": "WDH",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/WDH/Dragonstaff of Ahghairon.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Lord's Ensemble",
+			"source": "WDH",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/WDH/Lord's Ensemble.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Paper Bird",
+			"source": "WDH",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/WDH/Paper Bird.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Stone of Golorr",
+			"source": "WDH",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/WDH/Stone of Golorr.webp"
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,987 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"subclass"
+		]
+	},
+	"class": [
+		{
+			"name": "Monk",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"reprintedAs": [
+				"Monk|XPHB"
+			],
+			"edition": "classic",
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"str",
+				"dex"
+			],
+			"startingProficiencies": {
+				"weapons": [
+					"simple",
+					"{@item shortsword|phb|shortswords}"
+				],
+				"tools": [
+					"any one type of {@item artisan's tools|PHB} or any one {@item musical instrument|PHB} of your choice"
+				],
+				"toolProficiencies": [
+					{
+						"anyArtisansTool": 1
+					},
+					{
+						"anyMusicalInstrument": 1
+					}
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"acrobatics",
+								"athletics",
+								"history",
+								"insight",
+								"religion",
+								"stealth"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item shortsword|phb} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
+					"10 {@item dart|phb|darts}"
+				],
+				"goldAlternative": "{@dice 5d4|5d4|Starting Gold}",
+				"defaultData": [
+					{
+						"a": [
+							"shortsword|phb"
+						],
+						"b": [
+							{
+								"equipmentType": "weaponSimple"
+							}
+						]
+					},
+					{
+						"a": [
+							"dungeoneer's pack|phb"
+						],
+						"b": [
+							"explorer's pack|phb"
+						]
+					},
+					{
+						"_": [
+							{
+								"item": "dart|phb",
+								"quantity": 10
+							}
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"dex": 13,
+					"wis": 13
+				},
+				"proficienciesGained": {
+					"weapons": [
+						"simple",
+						"{@item shortsword|phb|shortswords}"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Martial Arts",
+						"Ki Points",
+						"Unarmored Movement"
+					],
+					"rows": [
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								],
+								"rollable": true
+							},
+							0,
+							{
+								"type": "bonusSpeed",
+								"value": 0
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								],
+								"rollable": true
+							},
+							2,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								],
+								"rollable": true
+							},
+							3,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								],
+								"rollable": true
+							},
+							4,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							5,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							6,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							7,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							8,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							9,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							10,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							11,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							12,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							13,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							14,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							15,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							16,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							},
+							17,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							},
+							18,
+							{
+								"type": "bonusSpeed",
+								"value": 30
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							},
+							19,
+							{
+								"type": "bonusSpeed",
+								"value": 30
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							},
+							20,
+							{
+								"type": "bonusSpeed",
+								"value": 30
+							}
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Unarmored Defense|Monk||1",
+				"Martial Arts|Monk||1",
+				"Ki|Monk||2",
+				"Dedicated Weapon|Monk||2|TCE",
+				"Unarmored Movement|Monk||2",
+				"Deflect Missiles|Monk||3",
+				{
+					"classFeature": "Monastic Tradition|Monk||3",
+					"gainSubclassFeature": true
+				},
+				"Ki-Fueled Attack|Monk||3|TCE",
+				"Ability Score Improvement|Monk||4",
+				"Slow Fall|Monk||4",
+				"Quickened Healing|Monk||4|TCE",
+				"Extra Attack|Monk||5",
+				"Stunning Strike|Monk||5",
+				"Focused Aim|Monk||5|TCE",
+				"Ki-Empowered Strikes|Monk||6",
+				{
+					"classFeature": "Monastic Tradition feature|Monk||6",
+					"gainSubclassFeature": true
+				},
+				"Evasion|Monk||7",
+				"Stillness of Mind|Monk||7",
+				"Ability Score Improvement|Monk||8",
+				"Unarmored Movement improvement|Monk||9",
+				"Purity of Body|Monk||10",
+				{
+					"classFeature": "Monastic Tradition feature|Monk||11",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Monk||12",
+				"Tongue of the Sun and Moon|Monk||13",
+				"Diamond Soul|Monk||14",
+				"Timeless Body|Monk||15",
+				"Ability Score Improvement|Monk||16",
+				{
+					"classFeature": "Monastic Tradition feature|Monk||17",
+					"gainSubclassFeature": true
+				},
+				"Empty Body|Monk||18",
+				"Ability Score Improvement|Monk||19",
+				"Perfect Self|Monk||20"
+			],
+			"subclassTitle": "Monastic Tradition",
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"subclasses": [
+				{
+					"name": "Way of Shadow",
+					"shortName": "Shadow",
+					"source": "PHB",
+					"className": "Monk",
+					"classSource": "PHB",
+					"page": 80,
+					"reprintedAs": [
+						"Shadow|Monk|XPHB|XPHB"
+					],
+					"edition": "classic",
+					"additionalSpells": [
+						{
+							"known": {
+								"3": [
+									"minor illusion#c"
+								]
+							},
+							"innate": {
+								"3": {
+									"resource": {
+										"2": [
+											"darkness",
+											"darkvision",
+											"pass without trace",
+											"silence"
+										]
+									}
+								}
+							},
+							"resourceName": "Ki",
+							"ability": "wis"
+						}
+					],
+					"subclassFeatures": [
+						"Way of Shadow|Monk||Shadow||3",
+						"Shadow Step|Monk||Shadow||6",
+						"Cloak of Shadows|Monk||Shadow||11",
+						"Opportunist|Monk||Shadow||17"
+					],
+					"features": [
+						{
+							"name": "Way of Shadow",
+							"source": "PHB",
+							"page": 80,
+							"className": "Monk",
+							"classSource": "PHB",
+							"subclassShortName": "Shadow",
+							"subclassSource": "PHB",
+							"level": 3,
+							"entries": [
+								"Monks of the Way of Shadow follow a tradition that values stealth and subterfuge. These monks might be called ninjas or shadow dancers, and they serve as spies and assassins. Sometimes the members of a ninja monastery are family members, forming a clan sworn to secrecy about their arts and missions. Other monasteries are more like thieves' guilds, hiring out their services to nobles, rich merchants, or anyone else who can pay their fees. Regardless of their methods, the heads of these monasteries expect the unquestioning obedience of their students.",
+								{
+									"type": "refSubclassFeature",
+									"subclassFeature": "Shadow Arts|Monk||Shadow||3"
+								}
+							]
+						},
+						{
+							"name": "Shadow Arts",
+							"source": "PHB",
+							"page": 80,
+							"className": "Monk",
+							"classSource": "PHB",
+							"subclassShortName": "Shadow",
+							"subclassSource": "PHB",
+							"level": 3,
+							"header": 1,
+							"consumes": {
+								"name": "Ki",
+								"amount": 2
+							},
+							"entries": [
+								"You can use your ki to duplicate the effects of certain spells. As an action, you can spend 2 ki points to cast {@spell darkness}, {@spell darkvision}, {@spell pass without trace}, or {@spell silence}, without providing material components. Additionally, you gain the {@spell minor illusion} cantrip if you don't already know it."
+							]
+						},
+						{
+							"name": "Shadow Step",
+							"source": "PHB",
+							"page": 80,
+							"className": "Monk",
+							"classSource": "PHB",
+							"subclassShortName": "Shadow",
+							"subclassSource": "PHB",
+							"level": 6,
+							"header": 2,
+							"entries": [
+								"You gain the ability to step from one shadow into another. When you are in dim light or darkness, as a bonus action you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. You then have advantage on the first melee attack you make before the end of the turn."
+							]
+						},
+						{
+							"name": "Cloak of Shadows",
+							"source": "PHB",
+							"page": 80,
+							"className": "Monk",
+							"classSource": "PHB",
+							"subclassShortName": "Shadow",
+							"subclassSource": "PHB",
+							"level": 11,
+							"header": 2,
+							"entries": [
+								"By 11th level, you have learned to become one with the shadows. When you are in an area of dim light or darkness, you can use your action to become {@condition invisible}. You remain {@condition invisible} until you make an attack, cast a spell, or are in an area of bright light."
+							]
+						},
+						{
+							"name": "Opportunist",
+							"source": "PHB",
+							"page": 80,
+							"className": "Monk",
+							"classSource": "PHB",
+							"subclassShortName": "Shadow",
+							"subclassSource": "PHB",
+							"level": 17,
+							"header": 2,
+							"entries": [
+								"At 17th level, you can exploit a creature's momentary distraction when it is hit by an attack. Whenever a creature within 5 feet of you is hit by an attack made by a creature other than you, you can use your reaction to make a melee attack against that creature."
+							]
+						}
+					]
+				},
+				{
+					"name": "Way of the Four Elements",
+					"shortName": "Four Elements",
+					"source": "PHB",
+					"className": "Monk",
+					"classSource": "PHB",
+					"page": 80,
+					"reprintedAs": [
+						"Elements|Monk|XPHB|XPHB"
+					],
+					"edition": "classic",
+					"spellcastingAbility": "wis",
+					"optionalfeatureProgression": [
+						{
+							"name": "Elemental Disciplines",
+							"featureType": [
+								"ED"
+							],
+							"progression": {
+								"3": 2,
+								"6": 3,
+								"11": 4,
+								"17": 5
+							},
+							"required": {
+								"3": [
+									"Elemental Attunement|PHB"
+								]
+							}
+						}
+					],
+					"subclassFeatures": [
+						"Way of the Four Elements|Monk||Four Elements||3",
+						"Extra Elemental Discipline|Monk||Four Elements||6",
+						"Extra Elemental Discipline|Monk||Four Elements||11",
+						"Extra Elemental Discipline|Monk||Four Elements||17"
+					],
+					"features": [
+						{
+							"name": "Way of the Four Elements",
+							"source": "PHB",
+							"page": 80,
+							"className": "Monk",
+							"classSource": "PHB",
+							"subclassShortName": "Four Elements",
+							"subclassSource": "PHB",
+							"level": 3,
+							"entries": [
+								"You follow a monastic tradition that teaches you to harness the elements. When you focus your ki, you can align yourself with the forces of creation and bend the four elements to your will, using them as an extension of your body. Some members of this tradition dedicate themselves to a single element, but others weave the elements together.",
+								"Many monks of this tradition tattoo their bodies with representations of their ki powers, commonly imagined as coiling dragons, but also as phoenixes, fish, plants, mountains, and cresting waves.",
+								{
+									"type": "refSubclassFeature",
+									"subclassFeature": "Disciple of the Elements|Monk||Four Elements||3"
+								},
+								{
+									"type": "refSubclassFeature",
+									"subclassFeature": "Elemental Disciplines|Monk||Four Elements||3"
+								}
+							]
+						},
+						{
+							"name": "Disciple of the Elements",
+							"source": "PHB",
+							"page": 80,
+							"className": "Monk",
+							"classSource": "PHB",
+							"subclassShortName": "Four Elements",
+							"subclassSource": "PHB",
+							"level": 3,
+							"header": 1,
+							"entries": [
+								"You learn magical disciplines that harness the power of the four elements. A discipline requires you to spend ki points each time you use it.",
+								"You know the Elemental Attunement discipline and one other elemental discipline of your choice. You learn one additional elemental discipline of your choice at 6th, 11th, and 17th level.",
+								"Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline.",
+								{
+									"type": "entries",
+									"name": "Casting Elemental Spells",
+									"entries": [
+										"Some elemental disciplines allow you to cast spells. See {@book chapter 10|PHB|10} of the Player's Handbook for the general rules of spellcasting. To cast one of these spells, you use its casting time and other rules, but you don't need to provide material components for it.",
+										"Once you reach 5th level in this class, you can spend additional ki points to increase the level of an elemental discipline spell that you cast, provided that the spell has an enhanced effect at a higher level, as {@spell burning hands} does. The spell's level increases by 1 for each additional ki point you spend. For example, if you are a 5th-level monk and use Sweeping Cinder Strike to cast {@spell burning hands}, you can spend 3 ki points to cast it as a 2nd-level spell (the discipline's base cost of 2 ki points plus 1).",
+										"The maximum number of ki points you can spend to cast a spell in this way (including its base ki point cost and any additional ki points you spend to increase its level) is determined by your monk level, as shown in the Spells and Ki Points table. At 5th level, you may spend up to 3 ki points; this increases to 4 ki points at 9th level, 5 at 13th level, and 6 at 17th level.",
+										{
+											"type": "table",
+											"caption": "Spells and Ki Points",
+											"colLabels": [
+												"Monk Levels",
+												"Maximum Ki Points for a Spell"
+											],
+											"colStyles": [
+												"col-5 text-center",
+												"col-7 text-center"
+											],
+											"rows": [
+												[
+													"5th-8th",
+													3
+												],
+												[
+													"9th-12th",
+													4
+												],
+												[
+													"13th-16th",
+													5
+												],
+												[
+													"17th-20th",
+													6
+												]
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Elemental Disciplines",
+							"source": "PHB",
+							"page": 80,
+							"className": "Monk",
+							"classSource": "PHB",
+							"subclassShortName": "Four Elements",
+							"subclassSource": "PHB",
+							"level": 3,
+							"header": 1,
+							"entries": [
+								"The elemental disciplines are presented in alphabetical order. If a discipline requires a level, you must be the level in this class to learn the discipline.",
+								{
+									"type": "options",
+									"count": 2,
+									"entries": [
+										{
+											"type": "refOptionalfeature",
+											"optionalfeature": "Breath of Winter",
+											"name": "Breath of Winter (17th Level Required)"
+										},
+										{
+											"type": "refOptionalfeature",
+											"optionalfeature": "Clench of the North Wind",
+											"name": "Clench of the North Wind (6th Level Required)"
+										},
+										{
+											"type": "refOptionalfeature",
+											"optionalfeature": "Elemental Attunement",
+											"data": {
+												"isRequiredOption": true
+											}
+										},
+										{
+											"type": "refOptionalfeature",
+											"optionalfeature": "Eternal Mountain Defense",
+											"name": "Eternal Mountain Defense (17th Level Required)"
+										},
+										{
+											"type": "refOptionalfeature",
+											"optionalfeature": "Fangs of the Fire Snake"
+										},
+										{
+											"type": "refOptionalfeature",
+											"optionalfeature": "Fist of Four Thunders"
+										},
+										{
+											"type": "refOptionalfeature",
+											"optionalfeature": "Unbroken Air"
+										},
+										{
+											"type": "refOptionalfeature",
+											"optionalfeature": "Flames of the Phoenix",
+											"name": "Flames of the Phoenix (11th Level Required)"
+										},
+										{
+											"type": "refOptionalfeature",
+											"optionalfeature": "Gong of the Summit",
+											"name": "Gong of the Summit (6th Level Required)"
+										},
+										{
+											"type": "refOptionalfeature",
+											"optionalfeature": "Mist Stance",
+											"name": "Mist Stance (11th Level Required)"
+										},
+										{
+											"type": "refOptionalfeature",
+											"optionalfeature": "Ride the Wind",
+											"name": "Ride the Wind (11th Level Required)"
+										},
+										{
+											"type": "refOptionalfeature",
+											"optionalfeature": "River of Hungry Flame",
+											"name": "River of Hungry Flame (17th Level Required)"
+										},
+										{
+											"type": "refOptionalfeature",
+											"optionalfeature": "Rush of the Gale Spirits"
+										},
+										{
+											"type": "refOptionalfeature",
+											"optionalfeature": "Shape the Flowing River"
+										},
+										{
+											"type": "refOptionalfeature",
+											"optionalfeature": "Sweeping Cinder Strike"
+										},
+										{
+											"type": "refOptionalfeature",
+											"optionalfeature": "Water Whip"
+										},
+										{
+											"type": "refOptionalfeature",
+											"optionalfeature": "Wave of Rolling Earth",
+											"name": "Wave of Rolling Earth (17th Level Required)"
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Extra Elemental Discipline",
+							"source": "PHB",
+							"page": 80,
+							"className": "Monk",
+							"classSource": "PHB",
+							"subclassShortName": "Four Elements",
+							"subclassSource": "PHB",
+							"level": 17,
+							"header": 2,
+							"entries": [
+								"You learn one additional elemental discipline of your choice. You should know 4 elemental disciplines, as well as Elemental Attunement.",
+								"Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline."
+							]
+						}
+					]
+				},
+				{
+					"name": "Way of the Open Hand",
+					"shortName": "Open Hand",
+					"source": "PHB",
+					"className": "Monk",
+					"classSource": "PHB",
+					"page": 79,
+					"srd": true,
+					"reprintedAs": [
+						"Open Hand|Monk|XPHB|XPHB"
+					],
+					"edition": "classic",
+					"additionalSpells": [
+						{
+							"innate": {
+								"11": {
+									"daily": {
+										"1": [
+											"sanctuary"
+										]
+									}
+								}
+							},
+							"ability": "wis"
+						}
+					],
+					"subclassFeatures": [
+						"Way of the Open Hand|Monk||Open Hand||3",
+						"Wholeness of Body|Monk||Open Hand||6",
+						"Tranquility|Monk||Open Hand||11",
+						"Quivering Palm|Monk||Open Hand||17"
+					],
+					"features": [
+						{
+							"name": "Way of the Open Hand",
+							"source": "PHB",
+							"page": 79,
+							"srd": true,
+							"className": "Monk",
+							"classSource": "PHB",
+							"subclassShortName": "Open Hand",
+							"subclassSource": "PHB",
+							"level": 3,
+							"entries": [
+								"Monks of the Way of the Open Hand are the ultimate masters of martial arts combat, whether armed or unarmed. They learn techniques to push and trip their opponents, manipulate ki to heal damage to their bodies, and practice advanced meditation that can protect them from harm.",
+								{
+									"type": "refSubclassFeature",
+									"subclassFeature": "Open Hand Technique|Monk||Open Hand||3"
+								}
+							]
+						},
+						{
+							"name": "Open Hand Technique",
+							"source": "PHB",
+							"page": 79,
+							"srd": true,
+							"className": "Monk",
+							"classSource": "PHB",
+							"subclassShortName": "Open Hand",
+							"subclassSource": "PHB",
+							"level": 3,
+							"header": 1,
+							"entries": [
+								"You can manipulate your enemy's ki when you harness your own. Whenever you hit a creature with one of the attacks granted by your Flurry of Blows, you can impose one of the following effects on that target.",
+								{
+									"type": "list",
+									"items": [
+										"It must succeed on a Dexterity saving throw or be knocked {@condition prone}.",
+										"It must make a Strength saving throw. If it fails, you can push it up to 15 feet away from you.",
+										"It can't take reactions until the end of your next turn."
+									]
+								}
+							]
+						},
+						{
+							"name": "Wholeness of Body",
+							"source": "PHB",
+							"page": 79,
+							"srd": true,
+							"className": "Monk",
+							"classSource": "PHB",
+							"subclassShortName": "Open Hand",
+							"subclassSource": "PHB",
+							"level": 6,
+							"header": 2,
+							"entries": [
+								"You gain the ability to heal yourself. As an action, you can regain hit points equal to three times your monk level. You must finish a long rest before you can use this feature again."
+							]
+						},
+						{
+							"name": "Tranquility",
+							"source": "PHB",
+							"page": 79,
+							"srd": true,
+							"className": "Monk",
+							"classSource": "PHB",
+							"subclassShortName": "Open Hand",
+							"subclassSource": "PHB",
+							"level": 11,
+							"header": 2,
+							"entries": [
+								"Beginning at 11th level, you can enter a special meditation that surrounds you with an aura of peace. At the end of a long rest, you gain the effect of a {@spell sanctuary} spell that lasts until the start of your next long rest (the spell can end early as normal). The saving throw DC for the spell equals 8 + your Wisdom modifier + your proficiency bonus."
+							]
+						},
+						{
+							"name": "Quivering Palm",
+							"source": "PHB",
+							"page": 79,
+							"srd": true,
+							"className": "Monk",
+							"classSource": "PHB",
+							"subclassShortName": "Open Hand",
+							"subclassSource": "PHB",
+							"level": 17,
+							"header": 2,
+							"consumes": {
+								"name": "Ki",
+								"amount": 3
+							},
+							"entries": [
+								"You gain the ability to set up lethal vibrations in someone's body. When you hit a creature with an unarmed strike, you can spend 3 ki points to start these imperceptible vibrations, which last for a number of days equal to your monk level. The vibrations are harmless unless you use your action to end them. To do so, you and the target must be on the same plane of existence. When you use this action, the creature must make a Constitution saving throw. If it fails, it is reduced to 0 hit points. If it succeeds, it takes {@damage 10d10} necrotic damage.",
+								"You can have only one creature under the effect of this feature at a time. You can choose to end the vibrations harmlessly without using an action."
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

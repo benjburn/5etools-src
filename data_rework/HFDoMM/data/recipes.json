@@ -1,0 +1,666 @@
+{
+	"recipe": [
+		{
+			"name": "Exploding Cheese Puffs",
+			"source": "HFDoMM",
+			"dishTypes": [
+				"snack"
+			],
+			"diet": "C",
+			"allergenGroups": [
+				"milk"
+			],
+			"makes": "about 2 quarts",
+			"ingredients": [
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} cup popcorn kernels",
+					"amount1": 0.33
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} tablespoons extra-virgin olive oil or melted butter",
+					"amount1": 2
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} cup finely grated Parmesan cheese (see Tip)",
+					"amount1": 0.25
+				},
+				"Kosher salt and freshly and finely ground black pepper",
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} tablespoons whole-grain sorghum",
+					"amount1": 3
+				}
+			],
+			"instructions": [
+				"Add the popcorn kernels to a medium-size paper bag, fold the top several times to seal it, and microwave on high until the popping has almost stopped, 3 to 4 minutes, taking care not to burn it near the end.",
+				"Pour the popcorn into a very large bowl (reserve the bag). Add the oil and stir or toss to coat the popcorn thoroughly. Add the Parmesan cheese, ½ teaspoon salt, and 1 teaspoon black pepper and toss to combine. Adjust the seasoning as needed.",
+				"Add the sorghum to the paper bag and microwave on high until the popping has almost stopped, 1 to 2 minutes, taking care not to burn it near the end. Sprinkle the popped sorghum over the popcorn and serve."
+			],
+			"noteCook": [
+				"Use a rasp-style grater to grate the Parmesan cheese super fine and feathery."
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Halfling Finger Sandwiches",
+			"source": "HFDoMM",
+			"dishTypes": [
+				"snack"
+			],
+			"diet": "C",
+			"allergenGroups": [
+				"gluten",
+				"milk"
+			],
+			"makes": "16 tea sandwiches",
+			"ingredients": [
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} cup whipped cream cheese (see Tips)",
+					"amount1": 0.75
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} tablespoons minced fresh chives",
+					"amount1": 3
+				},
+				"Kosher salt and freshly ground black pepper",
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} slices hearty Pullman or high-quality white sandwich bread (see Tips)",
+					"amount1": 8
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} to {=amount2/v} thin slices English cucumber, peeled if desired",
+					"amount1": 16,
+					"amount2": 20
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} very thin slices sweet onion (such as Maui or Walla Walla)",
+					"amount1": 4
+				}
+			],
+			"instructions": [
+				"In a small bowl, mix the cream cheese, chives, and pinches of both salt and pepper until blended.",
+				"Lightly toast the bread, if desired, and cool briefly. Spread about 1½ tablespoons of the cream cheese mixture on each slice of bread. On four of the slices, shingle four or five slices of cucumber; sprinkle very lightly with salt and pepper; add a slice of onion, breaking apart and slightly spreading the rings; and top each with another slice of bread, cream cheese side down.",
+				"With a serrated knife, cut off the crusts, slice each sandwich into four triangles or squares, and serve."
+			],
+			"noteCook": [
+				"You can buy cream cheese with the chives already in it, but adding your own results in a fresher flavor.",
+				"You can substitute multigrain, oatmeal, wheat, or potato bread for the standard white bread.",
+				"The sandwiches' texture is best when fresh, so don't make them much more than 45 minutes in advance."
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Moonwood Artichoke Spread",
+			"source": "HFDoMM",
+			"dishTypes": [
+				"snack"
+			],
+			"diet": "C",
+			"allergenGroups": [
+				"eggs",
+				"gluten",
+				"milk",
+				"sulphites"
+			],
+			"serves": {
+				"exact": 8
+			},
+			"ingredients": [
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} large whole heads garlic, outermost papery skin removed and top third of heads sliced off",
+					"amount1": 2
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} cup extra-virgin olive oil",
+					"amount1": 0.33
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/xt} 9- to 12-ounce {@unit {=amount1}|package|packages} frozen artichoke hearts, thawed and pat dried",
+					"amount1": 2
+				},
+				"Kosher salt and freshly ground black pepper",
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} medium shallots, minced",
+					"amount1": 3
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/xt} 8-ounce {@unit {=amount1}|container|containers} whipped cream cheese, at room temperature",
+					"amount1": 1
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} cup mayonnaise",
+					"amount1": 0.5
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} cup finely grated Parmesan cheese",
+					"amount1": 0.5
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} teaspoons chopped fresh thyme",
+					"amount1": 2
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} tablespoons fresh lemon juice, plus more as needed",
+					"amount1": 1.5
+				},
+				"pinch cayenne pepper",
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} cup minced chives",
+					"amount1": 0.5
+				},
+				"Pita chips, chips, breadsticks, or sliced kohlrabi for dipping"
+			],
+			"instructions": [
+				"Preheat the oven to 400°F. Line a baking sheet with aluminum foil.",
+				"On the baking sheet drizzle each garlic head with 1 tablespoon of the olive oil, and tightly wrap them in foil. Roast for 20 minutes.",
+				"In a large bowl, toss the artichokes with 1½ tablespoons of the olive oil, ½ teaspoon salt, and pepper to taste. Add them to the baking sheet with the garlic and roast until browned at the edges, about 25 minutes, stirring once. Let cool, chop them finely, and set aside. When the garlic is cool, remove the foil and squeeze out the cloves into a small bowl.",
+				"In a skillet over medium heat, warm the remaining oil. Add the shallots and ½ teaspoon salt and cook, stirring, until softened, about 4 minutes. Scrape into a large bowl and let cool. Fold in the artichokes, garlic, cream cheese, mayonnaise, Parmesan, thyme, lemon juice, cayenne, 1¼ teaspoons salt. and ¾ teaspoon black pepper. Refrigerate for 1 hour. Stir in the chives, then serve with pita chips."
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Neverwinter Cheese Board",
+			"source": "HFDoMM",
+			"dishTypes": [
+				"snack"
+			],
+			"diet": "C",
+			"allergenGroups": [
+				"milk",
+				"gluten",
+				"mustard",
+				"nuts",
+				"sulphites"
+			],
+			"serves": {
+				"min": 4,
+				"max": 6
+			},
+			"ingredients": [
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} cup cornichons, caper berries, or small pickled or agrodolce onions",
+					"amount1": 1
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} cup assorted dried fruit, such as apricots or halved figs and pitted dates",
+					"amount1": 1
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} cup roasted and salted or raw almonds",
+					"amount1": 1
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} cup best-quality honey or mango chutney",
+					"amount1": 0.5
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} pounds assorted cheeses, 3 to 5 types of varying textures, strengths, and flavors",
+					"amount1": 1.5
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} to {=amount2/v} medium-small bunches of grapes, assorted colors",
+					"amount1": 2,
+					"amount2": 3
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} large apple, variety of choice, cored, and thinly sliced",
+					"amount1": 1
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} large fennel bulb, cored and thinly sliced",
+					"amount1": 1
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} baguette, sliced",
+					"amount1": 0.5
+				},
+				{
+					"type": "ingredient",
+					"entry": "About {=amount1/v} ounces grissini (breadsticks) or crackers of choice",
+					"amount1": 4
+				}
+			],
+			"instructions": [
+				"Place the cornichons, dried fruit, almonds, and honey in separate small bowls and set them on a large platter or board with some space among them. Arrange the cheeses, grapes, apple (with the slices slightly fanned out), fennel, and baguette slices attractively around them. If space allows, set the grissini in a glass container or arrange the crackers on the board (you can also place them within easy reach) and serve."
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Night Hag's Delight",
+			"source": "HFDoMM",
+			"dishTypes": [
+				"sweet"
+			],
+			"diet": "C",
+			"allergenGroups": [
+				"eggs",
+				"lupin",
+				"milk",
+				"sulphites",
+				"gluten"
+			],
+			"makes": "fifteen 1½-inch tartlets",
+			"ingredients": [
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} {@unit {=amount1}|package|packages} (15 count) frozen mini phyllo pastry shells",
+					"amount1": 1
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} tablespoons unsalted butter, at room temperature",
+					"amount1": 2
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} tablespoons seedless blackberry jam",
+					"amount1": 3
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} tablespoons light brown sugar",
+					"amount1": 2
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/c} large {@unit {=amount1}|egg|eggs}",
+					"amount1": 1
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} teaspoon pure vanilla extract",
+					"amount1": 0.5
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} pinch kosher salt",
+					"amount1": 1
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} blackberries",
+					"amount1": 15
+				}
+			],
+			"instructions": [
+				"Preheat the oven to 375°F. Line a large baking sheet with parchment paper. Arrange the pastry shells on the baking sheet.",
+				"In a microwave-safe measuring cup, combine the butter and jam, cover, and microwave at partial power until the butter melts and the jam is warm, about 40 seconds. Whisk the melted butter and jam until uniform (the jam will not be perfectly smooth, which is fine), and set aside to cool until barely warm. Add the brown sugar, egg, vanilla, and a pinch of salt and beat until uniform.",
+				"Pour the mixture into each pastry shell, until each is about two-thirds full, and add a blackberry to each.",
+				"Bake until the filling is bubbly, about 11 minutes, rotating the sheet halfway through. Cool for at least 90 minutes, until the filling slightly firms up, then serve."
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Spicy Brothers Honey-Glazed Hot Chips",
+			"source": "HFDoMM",
+			"dishTypes": [
+				"snack"
+			],
+			"diet": "C",
+			"allergenGroups": [
+				"milk",
+				"sulphites"
+			],
+			"makes": "about 8 cups",
+			"ingredients": [
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/xt} 7.5- to 8-ounce bag wavy potato chips (about {=amount2/v} cups, loosely packed)",
+					"amount1": 1,
+					"amount2": 8
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} cup butter (see Tips)",
+					"amount1": 0.25
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} cup honey",
+					"amount1": 0.25
+				},
+				"Blended or pure chili powder",
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} pinch cayenne pepper (optional)",
+					"amount1": 1
+				},
+				"Kosher salt and freshly ground black pepper"
+			],
+			"instructions": [
+				"Place the chips in a large bowl and set aside.",
+				"In a small saucepan over medium heat, melt the butter and honey, stirring constantly to combine. Add 1 teaspoon chili powder or to taste, cayenne pepper (if using), and ½ teaspoon each salt and pepper and stir to combine. Pour the mixture over the chips and stir and/or toss gently to coat well. If desired, adjust the seasoning as needed and serve immediately (see Tips)."
+			],
+			"noteCook": [
+				"Either salted or unsalted butter is fine here.",
+				"Serve the chips as soon as they're ready; after 30 minutes or so, they begin to get a touch soggy."
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Spicy Shredded Stirge Sliders",
+			"source": "HFDoMM",
+			"dishTypes": [
+				"snack"
+			],
+			"diet": "X",
+			"allergenGroups": [
+				"celery",
+				"fish",
+				"gluten",
+				"milk",
+				"mustard",
+				"soya"
+			],
+			"makes": "eight 3- to 4-inch sliders",
+			"ingredients": [
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} tablespoons unsalted butter",
+					"amount1": 5
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} cup hot sauce (such as Frank's RedHot)",
+					"amount1": 0.75
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} tablespoon light brown sugar",
+					"amount1": 1
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} teaspoons Worcestershire sauce",
+					"amount1": 0.5
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} teaspoon garlic powder",
+					"amount1": 1
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} teaspoon freshly ground black pepper",
+					"amount1": 0.5
+				},
+				"Cayenne pepper (optional)",
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} cups shredded skinned cooked chicken (about a scant {=amount2/v} pound), at room temperature",
+					"amount1": 3,
+					"amount2": 1
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/xt} 3- to 4-inch slider or finger buns",
+					"amount1": 8
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} cup crumbled mild blue cheese (such as Cashel Blue cheese or Gorgonzola dolce), at room temperature",
+					"amount1": 0.75
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} medium scallions (white and green parts), thinly sliced",
+					"amount1": 2
+				}
+			],
+			"instructions": [
+				"In a medium saucepan over medium heat, warm the butter and hot sauce, stirring constantly to melt the butter and combine. Add the brown sugar, Worcestershire sauce, garlic powder, and black pepper and bring to a simmer, stirring to combine, about 6 minutes. Adjust the heat to medium-low and simmer to blend flavors, about 2 minutes. Add the cayenne to taste (if using).",
+				"Add the chicken and heat to warm it slightly, stirring to coat it with the sauce, about 3 minutes.",
+				"Meanwhile, arrange the bottom of the buns on a work surface. Top each with about cup of the chicken mixture, about 1 ½ tablespoons blue cheese crumbles, and a portion of the scallions. Place a bun top on each and serve immediately."
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Trail Mash'ums",
+			"source": "HFDoMM",
+			"dishTypes": [
+				"snack"
+			],
+			"diet": "X",
+			"allergenGroups": [
+				"eggs",
+				"gluten",
+				"milk",
+				"nuts"
+			],
+			"serves": {
+				"exact": 8
+			},
+			"ingredients": [
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} shortbread cookies, at least 21/2 inches in diameter (see Tips)",
+					"amount1": 16
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} large marshmallows",
+					"amount1": 8
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/xt} 4-ounce bittersweet or dark chocolate {@unit {=amount1}|bar|bars}, broken into eight pieces",
+					"amount1": 1
+				},
+				"Ground cinnamon",
+				"Cayenne pepper"
+			],
+			"instructions": [
+				"With the rack about 6 inches below the heating element, heat the broiler.",
+				"Place 8 cookies on a broiler-safe baking sheet and place a marshmallow on each. Broil until the marshmallows are browned and soft, about 45 seconds (they can burn quickly, so watch them closely).",
+				"Remove the baking sheet from the oven and top each marshmallow with a piece of the chocolate and light sprinkles of cinnamon and cayenne. Broil until the chocolate is softened and appears slightly melty, about 15 seconds longer.",
+				"Remove the baking sheet from the oven, top each with another cookie, and serve immediately."
+			],
+			"noteCook": [
+				"In selecting which cookies to use, try to approximate the size (at least 2½ inches in diameter, to help support the squishy marshmallow) and relative thickness (thinner cookies make for a more manageable mouthful) of the graham cracker squares used in standard s'mores.",
+				"If you want to strike out into other cookie varieties like butter crunch or butter pecan—both Tate's Bake Shop brand and Pepperidge Farm Farmhouse Thin & Crispy cookies—work well, as does Trader Joe's Belgian Butter Waffle Cookies."
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Underdark Forage Board",
+			"source": "HFDoMM",
+			"dishTypes": [
+				"snack"
+			],
+			"diet": "C",
+			"allergenGroups": [
+				"milk"
+			],
+			"serves": {
+				"min": 4,
+				"max": 6
+			},
+			"ingredients": [
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} small red-skinned or Yukon gold potatoes, halved",
+					"amount1": 12
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} tablespoons extra-virgin olive oil",
+					"amount1": 6
+				},
+				"Kosher salt and freshly ground black pepper",
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} medium portobello mushrooms, stemmed, cleaned, gills removed, and quartered",
+					"amount1": 6
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} pound cremini mushrooms, stemmed, cleaned, gills removed, and quartered",
+					"amount1": 1
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/xt} 8-ounce {@unit {=amount1}|container|containers} whipped cream cheese, at room temperature",
+					"amount1": 2
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} shallots, minced",
+					"amount1": 2
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} garlic cloves, pressed",
+					"amount1": 2
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} teaspoons fresh lemon juice",
+					"amount1": 2
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} cup minced fresh chives, plus more for garnish",
+					"amount1": 0.5
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} asparagus spears, trimmed and blanched",
+					"amount1": 18
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} medium radishes with greens, halved",
+					"amount1": 18
+				}
+			],
+			"instructions": [
+				"Preheat the oven to 42°F. Line a large baking sheet with aluminum foil.",
+				"On the baking sheet, toss the potatoes with 1 tablespoon of the olive oil, ½ teaspoon salt, and black pepper to taste. Roast until browned, about 25 minutes. Let cool and transfer to a clean bowl. Line the baking sheet with aluminum foil and toss the portobello and cremini mushrooms with the remaining 5 tablespoons of olive oil, 1 teaspoon salt, and black pepper to taste.",
+				"Roast the mushrooms on the baking sheet about 25 minutes, Stir and continue roasting until deeply browned, about 8 to 10 minutes. Let cool and scrape into a bowl.",
+				"In a medium bowl, mix the cream cheese, shallots, garlic, lemon juice, chives, ½ teaspoon salt, and pepper to taste. Set the bowl of dip on a large board and arrange the potatoes, mushrooms, asparagus, and radishes. Sprinkle chives over the platter and serve."
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Waterdeep Charcuterie",
+			"source": "HFDoMM",
+			"dishTypes": [
+				"snack"
+			],
+			"diet": "X",
+			"allergenGroups": [
+				"gluten",
+				"mustard",
+				"nuts",
+				"sulphites"
+			],
+			"serves": {
+				"min": 4,
+				"max": 6
+			},
+			"ingredients": [
+				{
+					"type": "ingredient",
+					"entry": "About {=amount1/v} ounces grissini (breadsticks)",
+					"amount1": 4
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} ripe cantaloupe, skinned, seeded, and thinly sliced",
+					"amount1": 0.5
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} pound prosciutto, thinly sliced",
+					"amount1": 0.5
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} cup green olives (such as Castelvetrano; see Tip)",
+					"amount1": 1
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} cup sweet or spicy Peppadew peppers",
+					"amount1": 1
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} cups cherry or grape tomatoes, assorted colors",
+					"amount1": 1.5
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} cup salted mixed nuts",
+					"amount1": 1
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} cup grainy mustard",
+					"amount1": 0.5
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} pound assorted sliced meats (such as bresaola, capicola, coppa, salami, soppressata, mortadella, and summer sausage)",
+					"amount1": 1
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} to {=amount2/v} mini (Persian) cucumbers, quartered lengthwise",
+					"amount1": 4,
+					"amount2": 6
+				},
+				{
+					"type": "ingredient",
+					"entry": "{=amount1/v} baguette, sliced",
+					"amount1": 0.5
+				}
+			],
+			"instructions": [
+				"Wrap a few grissini and cantaloupe slices with pieces of prosciutto, if desired. Place the wrapped and unwrapped grissini in a glass so they stand up. Roll or fold the remaining pieces of prosciutto attractively.",
+				"Place the olives, Peppadews, tomatoes, nuts, and mustard in separate small bowls and add the bowls and grissini to a large platter or board with some space among them. Arrange the folded meats (keeping the types separate), prosciutto-wrapped melon slices (if using), cucumber spears, remaining melon, and baguette slices attractively around them, and serve."
+			],
+			"noteCook": [
+				"Check out your supermarket olive bar for good olives, as well as for any extra goodies, like cheese-stuffed Peppadews that might catch your fancy."
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		}
+	]
+}

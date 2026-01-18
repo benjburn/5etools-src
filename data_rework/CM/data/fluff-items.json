@@ -1,0 +1,23 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Orcus Figurine",
+			"source": "CM",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/CM/Orcus Figurine.webp"
+					},
+					"credit": "Christopher Burdett"
+				}
+			]
+		}
+	]
+}

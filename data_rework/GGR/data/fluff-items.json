@@ -1,0 +1,429 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"itemFluff"
+		]
+	},
+	"itemFluff": [
+		{
+			"name": "Azorius Guild Signet",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Azorius Guild Signet.webp"
+					},
+					"credit": "Raoul Vitale"
+				}
+			]
+		},
+		{
+			"name": "Azorius Keyrune",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Azorius Keyrune.webp"
+					},
+					"credit": "Daniel Ljunggren"
+				}
+			]
+		},
+		{
+			"name": "Boros Guild Signet",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Boros Guild Signet.webp"
+					},
+					"credit": "Mike Sass"
+				}
+			]
+		},
+		{
+			"name": "Boros Keyrune",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Boros Keyrune.webp"
+					},
+					"credit": "Daniel Ljunggren"
+				}
+			]
+		},
+		{
+			"name": "Dimir Guild Signet",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Dimir Guild Signet.webp"
+					},
+					"credit": "Raoul Vitale"
+				}
+			]
+		},
+		{
+			"name": "Dimir Keyrune",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Dimir Keyrune.webp"
+					},
+					"credit": "Daniel Ljunggren"
+				}
+			]
+		},
+		{
+			"name": "Golgari Guild Signet",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Golgari Guild Signet.webp"
+					},
+					"credit": "Greg Hildebrandt"
+				}
+			]
+		},
+		{
+			"name": "Golgari Keyrune",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Golgari Keyrune.webp"
+					},
+					"credit": "Daniel Ljunggren"
+				}
+			]
+		},
+		{
+			"name": "Gruul Guild Signet",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Gruul Guild Signet.webp"
+					},
+					"credit": "Efrem Palacios"
+				}
+			]
+		},
+		{
+			"name": "Gruul Keyrune",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Gruul Keyrune.webp"
+					},
+					"credit": "Daniel Ljunggren"
+				}
+			]
+		},
+		{
+			"name": "Illusionist's Bracers",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Illusionist's Bracers.webp"
+					},
+					"credit": "Svetlin Velinov"
+				}
+			]
+		},
+		{
+			"name": "Izzet Guild Signet",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Izzet Guild Signet.webp"
+					},
+					"credit": "Raoul Vitale"
+				}
+			]
+		},
+		{
+			"name": "Izzet Keyrune",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Izzet Keyrune.webp"
+					},
+					"credit": "Daniel Ljunggren"
+				}
+			]
+		},
+		{
+			"name": "Mizzium Apparatus",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Mizzium Apparatus.webp"
+					},
+					"credit": "Terese Nielsen"
+				}
+			]
+		},
+		{
+			"name": "Moodmark Paint",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Moodmark Paint.webp"
+					},
+					"credit": "Scott Murphy"
+				}
+			]
+		},
+		{
+			"name": "Orzhov Guild Signet",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Orzhov Guild Signet.webp"
+					},
+					"credit": "Martina Pilcerova"
+				}
+			]
+		},
+		{
+			"name": "Orzhov Keyrune",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Orzhov Keyrune.webp"
+					},
+					"credit": "Daniel Ljunggren"
+				}
+			]
+		},
+		{
+			"name": "Pariah's Shield",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Pariah's Shield.webp"
+					},
+					"credit": "Doug Chaffee"
+				}
+			]
+		},
+		{
+			"name": "Peregrine Mask",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Peregrine Mask.webp"
+					},
+					"credit": "Edward P. Beard, Jr."
+				}
+			]
+		},
+		{
+			"name": "Pyroconverger",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Pyroconverger.webp"
+					},
+					"credit": "Jack Wang"
+				}
+			]
+		},
+		{
+			"name": "Rakdos Guild Signet",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Rakdos Guild Signet.webp"
+					},
+					"credit": "Martina Pilcerova"
+				}
+			]
+		},
+		{
+			"name": "Rakdos Keyrune",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Rakdos Keyrune.webp"
+					},
+					"credit": "Daniel Ljunggren"
+				}
+			]
+		},
+		{
+			"name": "Rakdos Riteknife",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Rakdos Riteknife.webp"
+					},
+					"credit": "Jim Nelson"
+				}
+			]
+		},
+		{
+			"name": "Selesnya Guild Signet",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Selesnya Guild Signet.webp"
+					},
+					"credit": "Raoul Vitale"
+				}
+			]
+		},
+		{
+			"name": "Selesnya Keyrune",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Selesnya Keyrune.webp"
+					},
+					"credit": "Daniel Ljunggren"
+				}
+			]
+		},
+		{
+			"name": "Simic Guild Signet",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Simic Guild Signet.webp"
+					},
+					"credit": "Mike Sass"
+				}
+			]
+		},
+		{
+			"name": "Simic Keyrune",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Simic Keyrune.webp"
+					},
+					"credit": "Daniel Ljunggren"
+				}
+			]
+		},
+		{
+			"name": "Skyblinder Staff",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Skyblinder Staff.webp"
+					},
+					"credit": "Mark Winters"
+				}
+			]
+		},
+		{
+			"name": "Sunforger",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Sunforger.webp"
+					},
+					"credit": "Darrell Riche"
+				}
+			]
+		},
+		{
+			"name": "Sword of the Paruns",
+			"source": "GGR",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "items/GGR/Sword of the Paruns.webp"
+					},
+					"credit": "Greg Hildebrandt"
+				}
+			]
+		}
+	]
+}
