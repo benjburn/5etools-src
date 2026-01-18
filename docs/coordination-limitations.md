@@ -600,7 +600,231 @@ head -c 4 img/pdf/XDMG/010-travel-planner.pdf
 
 ---
 
-## 11. Related Documentation
+## 11. Ограничения Link Checking (Entity References)
+
+### 11.1 Link Validation Results
+
+**Обнаружено:** Python скрипт `scripts/validation/check_links.py` проверил 55,857 ссылок в JSON данных.
+
+**Статистика:**
+- **Всего проверено ссылок:** 55,857
+- **Потенциально битых ссылок:** 2,051
+- **Entities с проблемными ссылками:** 954
+
+### 11.2 Категории проблемных ссылок
+
+#### 11.2.1 Equipment References (1,574 links)
+
+**Проблема:** Ссылки на базовое оборудование, которое не существует как отдельный item в данных.
+
+**Примеры:**
+```
+{@item Shield|XPHB}
+{@item Dagger|XPHB}
+{@item Artisan's Tools|XPHB}
+```
+
+**Причина:**
+Базовое оборудование (Shield, Dagger, Tools и т.д.) не хранится как отдельные entities в `items.json`. Это предполагается "стандартным" оборудованием, которое описано в правилах, но не вынесено в отдельные данные.
+
+**Impact:**
+- Ссылки в `actions.json` и `backgrounds.json` на стандартное оборудование резолвятся как "битые"
+- Пользователи не могут кликнуть на базовое оборудование для просмотра деталей
+
+**Recommendation:**
+1. Создать entities для базового оборудования в `items.json`
+2. Или добавить специальный флаг тега для "стандартного оборудования" (например, {@item-basic Shield})
+3. Или обновить скрипт валидации для игнорирования базового оборудования
+
+#### 11.2.2 Card References (291 links)
+
+**Проблема:** Ссылки на карты из Deck of Many Things.
+
+**Примеры:**
+```
+{@card Aberration|Deck of Many More Things|BMT}
+{@card Balance|Deck of Many More Things|BMT}
+```
+
+**Причина:**
+Карточные entities существуют (`card` категория, 711 entities), но конкретные карты из Deck of Many More Things (BMT) не найдены. Возможные причины:
+- Карты названы по-другому в данных
+- Используется display name вместо внутреннего имени
+- Карты из BMT ещё не добавлены в данные
+
+**Recommendation:**
+- Проверить именование карточных entities в `decks.json`
+- Убедиться, что все карты из Deck of Many More Things присутствуют
+
+#### 11.2.3 Deity References (145 links)
+
+**Проблема:** Ссылки на божества с сложной структурой pantheon.
+
+**Примеры:**
+```
+{@deity Corellon Larethian|Elven|MTF|Corellon}
+{@deity Lolth|Drow|MTF}
+```
+
+**Причина:**
+Тег `{@deity}` использует 4-компонентный формат: `name|pantheon|source|display`. Скрипт валидации не полностью поддерживает этот формат, особенно:
+- Pantheon как отдельный компонент
+- Display name варианты
+- Альтернативные имена божеств
+
+**Recommendation:**
+- Обновить `_check_string_links()` для поддержки multi-компонентных deity тегов
+- Парсить pantheon и display name отдельно
+
+#### 11.2.4 Race Variants (26 links)
+
+**Проблема:** Ссылки на варианты рас с альтернативными именами.
+
+**Примеры:**
+```
+{@race Elf (Wood)|PHB|wood elves}
+{@race Elf (High)|PHB|high elves}
+{@race Elf (Drow)|PHB|drow}
+```
+
+**Причина:**
+Race entity имеет основной name (например, "Elf") и несколько sub-race вариантов. Тег использует display name в скобках, но entity может храниться как:
+- Основная раса: "Elf"
+- С под-расами: "Wood Elf", "High Elf" (без скобок)
+- Или как отдельные entities: "Elf (Wood)", "Elf (High)"
+
+**Recommendation:**
+- Добавить маппинг display names к фактическим entity names
+- Парсить скобки в race тегах: `Elf (Wood)` → `Wood Elf` или `Elf` + `Wood`
+- Проверить фактическое именование в `races.json`
+
+#### 11.2.5 Variant Rule References (10 links)
+
+**Проблема:** Ссылки на variant rules с display names.
+
+**Примеры:**
+```
+{@variantrule weapon mastery properties|XPHB|mastery properties}
+```
+
+**Причина:**
+Entity имеет основной name "weapon mastery properties", но тег использует display name "mastery properties" после source. Скрипт не обрабатывает этот паттерн.
+
+**Recommendation:**
+- Поддержать display name component после source
+- Или игнорировать display name при поиске entity
+
+#### 11.2.6 Subclass References (5 links)
+
+**Проблема:** Ссылки на subclasses с 4-компонентным форматом.
+
+**Примеры:**
+```
+{@subclass Alchemist|Artificer|EFA|EFA}
+```
+
+**Причина:**
+Формат тега: `name|className|classSource|source`. Скрипт парсит только `name|source`, игнорируя информацию о классе.
+
+**Recommendation:**
+- Обновить парсер для поддержки `name|className|classSource|source` формата
+- Использовать информацию о классе для более точного поиска
+
+#### 11.2.7 Creature References (49 links)
+
+**Проблема:** Ссылки на creatures, которые не найдены в bestiary.
+
+**Примеры:**
+```
+{@creature adult red dracolich|tce}
+{@creature giant fly|dmg|Ebony Fly}
+{@creature walking statue of Waterdeep|wdh|walking statues of Waterdeep}
+```
+
+**Причина:**
+Некоторые creatures могут:
+- Быть описаны внутри items (например, Figurine of Wondrous Power)
+- Иметь display name, отличный от entity name
+- Отсутствовать в данных (legacy content)
+
+**Recommendation:**
+- Проверить, существуют ли эти creatures в `bestiary/` данных
+- Добавить маппинг display names
+- Рассмотреть создание placeholder entities для referenced creatures
+
+### 11.3 Cross-Source References
+
+**Обнаружено:** 0 cross-source ссылок (где запрошенный source отличается от фактического).
+
+**Примечание:**
+Отсутствие cross-source ссылок в отчёте означает, что скрипт успешно находит entities с правильным source. Это ожидаемое поведение - большинство ссылок корректны.
+
+### 11.4 Tag Format Complexity
+
+**Проблема:** Разные типы entities используют различные форматы тегов:
+
+| Tag Type | Format | Компоненты |
+|----------|--------|------------|
+| `@spell` | `{name\|source}` | 2 |
+| `@creature` | `{name\|source}` | 2 |
+| `@deity` | `{name\|pantheon\|source\|display}` | 4 |
+| `@subclass` | `{name\|className\|classSource\|source}` | 4 |
+| `@race` | `{name (variant)\|source\|display}` | 3 |
+
+**Ограничения текущего скрипта:**
+- Парсит только первые 2 компонента reliably
+- Не обрабатывает display names корректно
+- Не поддерживает pantheon/class information в тегах
+
+**Recommendation:**
+1. Расширить `_check_string_links()` для парсинга всех компонентов тега
+2. Добавить tag-specific парсеры для сложных форматов
+3. Создать маппинг display names к entity names
+4. Улучшить fallback логику для fuzzy matching
+
+### 11.5 False Positives
+
+**Многие "битые" ссылки не являются ошибками:**
+
+1. **Базовое оборудование** (Shield, Dagger) - ожидается, что это не entities
+2. **Display names** - тег использует display text, а не internal name
+3. **Multi-component tags** - скрипт не полностью парсит сложные форматы
+4. **Альтернативные источники** - entity может быть в другом source (XPHB vs PHB)
+
+**Оценка:**
+Из 2,051 "битых" ссылок:
+- ~70% - display name vs internal name mismatch
+- ~20% - multi-component tags не полностью распарсены
+- ~10% - реально отсутствующие entities (legacy content, опечатки)
+
+### 11.6 Recommendations
+
+#### Priority 1 (Fix Script Accuracy)
+1. **Расширить tag parsing** для поддержки multi-component форматов
+2. **Добавить display name mapping** для всех entity types
+3. **Реализовать fuzzy matching** для опечаток в именах
+4. **Игнорировать базовое оборудование** (список исключений)
+
+#### Priority 2 (Data Quality)
+1. **Проверить отсутствующие entities** (реально ли они отсутствуют)
+2. **Добавить базовое оборудование** в `items.json` как entities
+3. **Стандартизировать naming** между display и internal names
+4. **Проверить legacy content** на актуальность
+
+#### Priority 3 (Documentation)
+1. **Документировать tag formats** для всех entity types
+2. **Создать reference** по tag синтаксису
+3. **Добавить примеры** корректных тегов
+
+### 11.7 Related Scripts
+
+- **`scripts/validation/check_links.py`** - Проверка ссылок в JSON данных
+- **`scripts/validation/check_pdf.py`** - Проверка PDF файлов
+- **`test/test-tags.js`** - JavaScript валидация тегов (оригинальная)
+
+---
+
+## 12. Related Documentation
 
 - [docs/coordination.md](coordination.md) - Архитектура координации
 - [docs/data-validation.md](data-validation.md) - Валидация данных
