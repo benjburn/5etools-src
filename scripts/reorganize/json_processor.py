@@ -342,16 +342,29 @@ def process_class_files(
 
 			cls["subclasses"] = class_subclasses if class_subclasses else None
 
-		# Save to file
+		# Save to individual class files in classes/ subdirectory
 		source_output_dir = output_dir / source_id / "data"
 		source_output_dir.mkdir(parents=True, exist_ok=True)
 
-		output_file = source_output_dir / "classes.json"
-		output_data = {"class": classes}
+		# Create classes subdirectory
+		classes_output_dir = source_output_dir / "classes"
+		classes_output_dir.mkdir(parents=True, exist_ok=True)
 
-		if save_json(output_data, output_file, log):
-			# Count classes
-			counts_per_source[source_id] = len(classes)
+		# Save each class to its own file
+		saved_count = 0
+		for cls in classes:
+			class_name = cls.get("name", "unknown").lower().replace(" ", "-")
+			class_file = classes_output_dir / f"{class_name}.json"
+			class_data = {
+				"_meta": {"internalCopies": ["subclass"]},
+				"class": [cls]
+			}
+
+			if save_json(class_data, class_file, log):
+				saved_count += 1
+
+		# Count classes
+		counts_per_source[source_id] = saved_count
 
 	log.info(
 		f"Processed classes: {sum(counts_per_source.values())} classes "
