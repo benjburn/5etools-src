@@ -271,7 +271,7 @@ LOG_FILE = "reorganization.log"
 # Sources with hyphens that are NOT submodules (they are independent sources)
 # These sources should be treated as regular sources, not split into base/submodule
 NOT_SUBMODULE_SOURCES = {
-    # Plane Shift sources (independent sources, not submodules)
+    # Plane Shift aliases (PS-A is an alias for PSA, but won't be loaded)
     "PS-A",
     "PS-D",
     "PS-I",

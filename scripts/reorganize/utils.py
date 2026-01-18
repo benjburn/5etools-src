@@ -289,13 +289,28 @@ def load_sources(data_dir: Path, logger: Optional[logging.Logger] = None) -> Dic
         return {}
 
     sources = {}
+    duplicate_aliases = set()
+
     for book in data["book"]:
-        source_id = book.get("id") or book.get("source")
-        if source_id:
-            sources[source_id] = book
+        # Use "source" as primary key (not "id") to avoid duplicates
+        # e.g., id="PS-A", source="PSA" → use "PSA"
+        # id="PSA", source="PSA" → use "PSA" (same source)
+        source_id = book.get("source") or book.get("id")
+
+        if not source_id:
+            continue
+
+        # Track duplicate aliases (e.g., PS-A and PSA point to same source)
+        book_id = book.get("id")
+        if book_id and book_id != source_id:
+            duplicate_aliases.add(f"{book_id} → {source_id}")
+
+        sources[source_id] = book
 
     if logger:
         logger.info(f"Loaded {len(sources)} sources from books.json")
+        if duplicate_aliases:
+            logger.debug(f"Source aliases (using source field): {', '.join(sorted(duplicate_aliases))}")
         logger.debug(f"Sources: {', '.join(sorted(sources.keys()))}")
 
     return sources
