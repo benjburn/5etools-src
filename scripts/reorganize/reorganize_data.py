@@ -173,8 +173,16 @@ def main():
 
     args = parser.parse_args()
 
-    # Setup logging
-    log = setup_logging(verbose=args.verbose, quiet=args.quiet)
+    # Create output directory early (needed for log file)
+    args.output_dir.mkdir(parents=True, exist_ok=True)
+
+    # Setup logging with file output
+    log_file_path = args.output_dir / config.LOG_FILE
+    log = setup_logging(
+        verbose=args.verbose,
+        quiet=args.quiet,
+        log_file_path=log_file_path,
+    )
 
     # Check if output directory exists
     if args.output_dir.exists():

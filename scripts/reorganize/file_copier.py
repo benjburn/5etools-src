@@ -132,6 +132,7 @@ class BaseCopier(ABC):
         source_dir = self.get_source_dir(base_dir, source_id)
 
         if not source_dir.exists():
+            log.debug(f"    Source directory not found: {source_dir}")
             return 0
 
         count = 0
@@ -141,9 +142,10 @@ class BaseCopier(ABC):
             files = list(source_dir.rglob(file_pattern))
 
             if not files:
+                log.debug(f"    No {self.file_type} files found in {source_dir}")
                 return 0
 
-            log.debug(f"  Copying {len(files)} {self.file_type} files for {source_id}...")
+            log.debug(f"  📁 Copying {len(files)} {self.file_type} files for {source_id}...")
 
             for source_file in files:
                 if not self.should_copy_file(source_file, source_id):
@@ -155,7 +157,7 @@ class BaseCopier(ABC):
                     count += 1
 
             if count > 0:
-                log.debug(f"    Copied {count} {self.file_type} files for {source_id}")
+                log.debug(f"    ✓ Copied {count} {self.file_type} files for {source_id}")
 
         except Exception as e:
             error_msg = f"Failed to copy {self.file_type}s for {source_id}: {e}"

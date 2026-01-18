@@ -58,6 +58,7 @@ def process_json_file(
     log.info(f"Processing {json_path.name}...")
 
     # Load JSON file
+    log.debug(f"📄 Processing JSON file: {json_path}")
     data = load_json(json_path, log)
     if not data:
         stats.add_error(f"Failed to load {json_path}")
@@ -89,9 +90,12 @@ def process_json_file(
         # Save each source's entities
         for source_id, source_entities in grouped.items():
             if source_id not in sources:
-                log.warning(f"Unknown source '{source_id}' in {json_path.name}, skipping")
+                log.warning(f"❌ Unknown source '{source_id}' in {json_path.name}, skipping")
+                log.warning(f"   Available sources: {', '.join(list(sources.keys())[:10])}...")
                 stats.add_warning(f"Unknown source '{source_id}' in {json_path.name}")
                 continue
+
+            log.debug(f"✓ Found {len(source_entities)} entities for source '{source_id}'")
 
             # Create output directory
             base_source = get_base_source(source_id)

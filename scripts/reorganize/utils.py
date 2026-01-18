@@ -20,17 +20,23 @@ from scripts.reorganize import config
 # Logging Setup
 # =============================================================================
 
-def setup_logging(verbose: bool = False, quiet: bool = False) -> logging.Logger:
+def setup_logging(
+    verbose: bool = False,
+    quiet: bool = False,
+    log_file_path: Optional[Path] = None,
+) -> logging.Logger:
     """
     Set up logging for the reorganization script.
 
     Args:
         verbose: Enable DEBUG level logging
         quiet: Suppress INFO level logging (only show warnings and errors)
+        log_file_path: Path to log file (if None, only console logging)
 
     Returns:
         Configured logger instance
     """
+    # Determine log level
     if quiet:
         log_level = logging.WARNING
     elif verbose:
@@ -38,14 +44,38 @@ def setup_logging(verbose: bool = False, quiet: bool = False) -> logging.Logger:
     else:
         log_level = getattr(logging, config.DEFAULT_LOG_LEVEL, logging.INFO)
 
-    logging.basicConfig(
-        level=log_level,
-        format=config.LOG_FORMAT,
+    # Create logger
+    logger_instance = logging.getLogger("reorganize")
+    logger_instance.setLevel(log_level)
+
+    # Clear any existing handlers
+    logger_instance.handlers.clear()
+
+    # Create formatter
+    formatter = logging.Formatter(
+        config.LOG_FORMAT,
         datefmt=config.LOG_DATE_FORMAT,
-        stream=sys.stdout,
     )
 
-    logger_instance = logging.getLogger("reorganize")
+    # Console handler (always present)
+    console_handler = logging.StreamHandler(sys.stdout)
+    console_handler.setLevel(log_level)
+    console_handler.setFormatter(formatter)
+    logger_instance.addHandler(console_handler)
+
+    # File handler (if log_file_path provided)
+    if log_file_path:
+        # Create parent directory if it doesn't exist
+        log_file_path.parent.mkdir(parents=True, exist_ok=True)
+
+        file_handler = logging.FileHandler(log_file_path, encoding="utf-8")
+        file_handler.setLevel(logging.DEBUG)  # Always log DEBUG to file
+        file_handler.setFormatter(formatter)
+        logger_instance.addHandler(file_handler)
+
+        # Log file location at INFO level
+        logger_instance.info(f"📝 Log file: {log_file_path}")
+
     return logger_instance
 
 
@@ -266,6 +296,7 @@ def load_sources(data_dir: Path, logger: Optional[logging.Logger] = None) -> Dic
 
     if logger:
         logger.info(f"Loaded {len(sources)} sources from books.json")
+        logger.debug(f"Sources: {', '.join(sorted(sources.keys()))}")
 
     return sources
 

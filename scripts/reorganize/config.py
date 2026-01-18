@@ -261,6 +261,9 @@ LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
 # Date format for logs
 LOG_DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
 
+# Log file name (will be created in output directory)
+LOG_FILE = "reorganization.log"
+
 # =============================================================================
 # Performance Settings
 # =============================================================================
