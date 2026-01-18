@@ -320,8 +320,8 @@ def parse_source_id(source_id: str) -> Tuple[str, Optional[str]]:
         return parts[0], parts[1]
 
     # Особый случай для MCV (MCV + цифра + 2 буквы)
-    # MCV1SC, MCV2DC, MCV3MC, MCV4EC
-    if source_id.startswith("MCV") and len(source_id) == 5 and source_id[3].isdigit():
+    # MCV1SC, MCV2DC, MCV3MC, MCV4EC (длина = 6)
+    if source_id.startswith("MCV") and len(source_id) == 6 and source_id[3].isdigit():
         import re
         match = re.match(r"(MCV)(\d{1}[A-Z]{2})", source_id)
         if match:
